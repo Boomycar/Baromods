@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Welding Fuel Generator" path="Mods/Welding Fuel Generator/filelist.xml" corepackage="false" gameversion="0.10.5.1" steamworkshopid="2255427810" installtime="1602657641">
+  <Item file="Mods/Welding Fuel Generator/Items/weldinggenerator.xml" />
+  <Item file="Mods/Welding Fuel Generator/Items/materials.xml" />
+  <None file="Mods/Welding Fuel Generator/Items/weldinggenerator.png" />
+  <Text file="Mods/Welding Fuel Generator/Items/English.xml" />
+</contentpackage>

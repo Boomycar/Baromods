@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Welding Fuel Generator" identifier="weldgenerator" tags="weldinggenerator" category="Machine" linkable="false" damagedbyexplosions="true" explosiondamagemultiplier="0.2" scale="0.45">
+    <Upgrade gameversion="0.10.0.0" scale="*0.45" />
+    <Sprite texture="weldinggenerator.png" depth="0.8" origin="0.5,0.5" sourcerect="2,0,403,386" />
+    <BrokenSprite texture="weldinggenerator.png" sourcerect="412,1,403,388" origin="0.5,0.5" depth="0.8" maxcondition="80" fadein="true" />
+    <BrokenSprite texture="weldinggenerator.png" sourcerect="2,398,403,389" origin="0.5,0.5" depth="0.8" maxcondition="0" />
+    <Powered powerconsumption="500.0" minvoltage="0.5" isactive="true" canbeselected="true" msg="ItemMsgInteractSelect">
+      <poweronsound file="Content/Items/PowerOnLight2.ogg" range="1500" loop="false" />
+      <sound file="Content/Items/OxygenGenerator/OxygenGenerator.ogg" type="OnActive" range="1000.0" volumeproperty="CurrFlow" volume="0.001" loop="true" />
+      <StatusEffect type="OnFire" target="This" Condition="-0.5" />
+      <!-- <StatusEffect type="OnActive" targettype="Contained" targets="weldingfueltank,incendiumfueltank" Condition="2.0" /> Uncomment this to allow refill without Calcium carbide -->
+      <StatusEffect type="OnBroken" targettype="This" disabledeltatime="true">
+        <sound file="Content/Items/Weapons/ExplosionMedium3.ogg" range="8000" selectionmode="All" />
+        <sound file="Content/Items/Weapons/ExplosionDebris3.ogg" range="8000" />
+        <Explosion range="50" stun="0" force="3.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+      </StatusEffect>
+    </Powered>
+    <trigger />
+    <ItemContainer capacity="5" canbeselected="true" msg="itemmsgweldingrefill">
+      <GuiFrame relativesize="0.25,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="weldingfueltank,calciumcarbide,incendiumfueltank">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="calciumcarbide" Condition="-0.5">
+          <RequiredItems items="weldingfueltank" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="calciumcarbide" Condition="-0.75">
+          <RequiredItems items="incendiumfueltank" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="weldingfueltank" Condition="2.5">
+          <RequiredItems items="calciumcarbide" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="incendiumfueltank" Condition="1.5">
+          <RequiredItems items="calciumcarbide" type="Contained" />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel>
+    <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="0.125" mindeteriorationdelay="120" maxdeteriorationdelay="750" mindeteriorationcondition="0" RepairThreshold="80" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairWrench" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,216" anchor="Center" relativeoffset="0.0,0.27" style="ItemUI" />
+      <RequiredSkill identifier="mechanical" level="55" />
+      <RequiredItem items="wrench" type="equipped" />
+      <ParticleEmitter particle="damagebubbles" particleburstamount="2" particleburstinterval="2.0" particlespersecond="2" scalemin="0.5" scalemax="1.5" anglemin="0" anglemax="359" velocitymin="-10" velocitymax="10" mincondition="0.0" maxcondition="50.0" />
+      <ParticleEmitter particle="smoke" particleburstamount="3" particleburstinterval="0.5" particlespersecond="2" scalemin="1" scalemax="2.5" anglemin="0" anglemax="359" velocitymin="-50" velocitymax="50" mincondition="15.0" maxcondition="50.0" />
+      <ParticleEmitter particle="heavysmoke" particleburstinterval="0.25" particlespersecond="2" scalemin="2.5" scalemax="5.0" mincondition="0.0" maxcondition="15.0" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/MechanicalRepairFail.ogg" range="1000" />
+        <Affliction identifier="lacerations" strength="15" />
+        <Affliction identifier="stun" strength="5" />
+      </StatusEffect>
+    </Repairable>
+  </Item>
+  <Item name="Small Welding Fuel Generator" identifier="smallweldgenerator" tags="weldinggenerator" category="Machine" linkable="false" scale="0.5">
+    <Upgrade gameversion="0.10.0.0" scale="*0.5" />
+    <Sprite texture="weldinggenerator.png" depth="0.8" sourcerect="28,792,304,233" origin="0.5038611,0.49737138" />
+    <BrokenSprite texture="weldinggenerator.png" sourcerect="360,792,304,233" depth="0.8" maxcondition="40" fadein="true" origin="0.5,0.5" />
+    <BrokenSprite texture="weldinggenerator.png" sourcerect="696,792,303,233" depth="0.8" maxcondition="0" origin="0.5,0.5" />
+    <Powered powerconsumption="200.0" minvoltage="0.5" isactive="true" canbeselected="true" msg="ItemMsgInteractSelect">
+      <poweronsound file="Content/Items/PowerOnLight1.ogg" range="1000" loop="false" />
+      <sound file="Content/Items/OxygenGenerator/OxygenGenerator.ogg" type="OnActive" range="1000.0" volumeproperty="CurrFlow" volume="0.001" loop="true" />
+      <StatusEffect type="OnFire" target="This" Condition="-0.5" />
+      <StatusEffect type="OnBroken" targettype="This" disabledeltatime="true">
+        <sound file="Content/Items/Weapons/ExplosionMedium3.ogg" range="8000" selectionmode="All" />
+        <sound file="Content/Items/Weapons/ExplosionDebris3.ogg" range="8000" />
+        <Explosion range="50" stun="0" force="3.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+      </StatusEffect>
+    </Powered>
+    <trigger />
+    <ItemContainer capacity="5" canbeselected="true" msg="itemmsgweldingrefill">
+      <GuiFrame relativesize="0.25,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="weldingfueltank,calciumcarbide">
+        <StatusEffect type="OnContaining" targettype="Contained" targets="calciumcarbide" Condition="-0.5">
+          <RequiredItems items="weldingfueltank" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnContaining" targettype="Contained" targets="weldingfueltank" Condition="2.0">
+          <RequiredItems items="calciumcarbide" type="Contained" />
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="70" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/Weapons/ElectricalDischarger.ogg" range="1000" />
+        <Explosion range="100.0" stun="0" force="5.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="5" />
+        <Affliction identifier="burn" strength="5" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel>
+    <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="0.125" mindeteriorationdelay="120" maxdeteriorationdelay="750" mindeteriorationcondition="0" RepairThreshold="80" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairWrench" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,216" anchor="Center" relativeoffset="0.0,0.27" style="ItemUI" />
+      <RequiredSkill identifier="mechanical" level="55" />
+      <RequiredItem items="wrench" type="equipped" />
+      <ParticleEmitter particle="spark" particleamount="10" emitinterval="5" anglemax="360" velocitymin="5.0" velocitymax="250.0" scalemin="0.5" scalemax="1" mincondition="0.0" maxcondition="25.0" />
+      <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="3" mincondition="0.0" maxcondition="0.0" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/MechanicalRepairFail.ogg" range="1000" />
+        <Explosion range="150.0" force="5" shockwave="false" smoke="false" flames="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="stun" strength="5" />
+      </StatusEffect>
+    </Repairable>
+  </Item>
+  
+  <Override>
+    <Item name="" identifier="weldingfueltank" category="Equipment" Tags="smallitem,weldingfuel" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="weldingtool,flamer" spawnprobability="1"/>
+    <PreferredContainer primary="engcab" minamount="3" maxamount="6" spawnprobability="1"/>
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.125"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="3" spawnprobability="0.5"/>
+    <Price baseprice="120" >
+      <Price locationtype="outpost" multiplier="1" minavailable="6" />
+      <Price locationtype="city" multiplier="0.9" minavailable="7" />
+      <Price locationtype="research" multiplier="1.25" minavailable="3" />
+      <Price locationtype="military" multiplier="1.25" minavailable="3" />
+      <Price locationtype="mine" multiplier="0.9" minavailable="15" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="ethanol" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5" outcondition="0.0" displayname="weldingfueltankempty" >
+      <RequiredSkill identifier="mechanical" level="15" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Tools/tools.png" sourcerect="436,71,22,66" depth="0.55" />
+    <Body width="20" height="65" density="5" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnFire" targettype="This" Condition="-100.0" disabledeltatime="true">
+        <sound file="Content/Items/Weapons/ExplosionSmall3.ogg" range="5000" selectionmode="All" />
+        <sound file="Content/Items/Weapons/ExplosionDebris3.ogg" range="5000" />
+        <Explosion range="250.0" structuredamage="15" force="3.0">
+          <Affliction identifier="burn" strength="25" />
+          <Affliction identifier="stun" strength="5" />
+        </Explosion>
+      </StatusEffect>
+    </Holdable>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  </Override>
+</Items>

@@ -1,0 +1,61 @@
+Languages: EN,CN,PTBR
+
+[b] The NEW update is here! Added 24 more gene splicers! Have fun! (will lock crafting later) [/b]
+[b] Feedback much appreciated! [/b]
+[hr]
+[h1] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2644653435] Original mod [/url] [/h1]
+If Original mod author does not want to have this mod up, gonna delete it
+[h1] Description! [/h1]
+[h2]Current Features[/h2]
+IF THE NEW CONTENT IS NOT LOADING then you haven't enabled the mod dummy ^^
+
+[b] All genetic material is removable without destroying it, and you dont lose your genes on death (except when admin revives you, then you need to take off your genes and put then back on again. Also when you lose your duffel bag, and your items with it, you lose your genes ^^) [/b]
+
+[h3]Items[/h3]
+Adds 24 new gene splicers with far more capacity than the vanilla ones, up to 26 capacity:
+Alfa requires advanced gene splicer, so your medic isn't useless, like in previous version of the mod!
+Every 6 genes cost goes up, but the final effect is worth it!
+List of all of them in order:
+[list]
+[*] Gene Splicer Alpha
+[*] Gene Splicer Beta
+[*] Gene Splicer Gamma
+[*] Gene Splicer Delta
+[*] Gene Splicer Epsilon
+[*] Gene Splicer Zeta
+[*] Gene Splicer Eta
+[*] Gene Splicer Theta
+[*] Gene Splicer Iota
+[*] Gene Splicer Kappa
+[*] Gene Splicer Lambda
+[*] Gene Splicer Mu
+[*] Gene Splicer Nu
+[*] Gene Splicer Xi
+[*] Gene Splicer Omicron
+[*] Gene Splicer Pi
+[*] Gene Splicer Rho
+[*] Gene Splicer Sigma
+[*] Gene Splicer Tau
+[*] Gene Splicer Upsilon
+[*] Gene Splicer Phi
+[*] Gene Splicer Chi
+[*] Gene Splicer Psi
+[*] Gene Splicer Omega (final)
+[/list]
+(custom textures in progress!)
+Also you have small chance of getting them from wrecks! Good luck! (they are rare!)
+
+[h3]Added Genes[/h3]
+[list]
+[*] (NEW!) Watcher Genes allows harness an abilities of a watcher, and provides a boost in damage resistance.
+[*] Psilotoad Genes which act as antibiotics and are a natural defense against husk infections, however they only slowly reduce the infection so if you receive several injections or bite wounds from a husk, you may still become fully infected.
+[*] Fractal Guardian Genes, these dormant genes stemming from the fractal guardian enhances your repair speed greatly and also provides minor damage resistance.
+[*] Golden Hammerhead Genes, increases movement speed greatly on land and massively in the water, also provides minor damage resistances.
+[/list]
+
+[hr]
+[h1] Other stuff [/h1]
+Be sure to check out [url=https://discord.gg/EATEhZWmkY] Barotraumatic Discord! [/url] I hang out there very often.
+[hr]
+Have a nice day splicing your genes o7
+~M

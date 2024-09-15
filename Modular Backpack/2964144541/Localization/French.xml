@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="French" nowhitespace="false" translatedname="English">
+  <!--entityname.></entityname.>
+<entitydescription.></entitydescription.-->
+  <!-- MB -->
+  <entityname.modularbackpack>Sac Modulaire</entityname.modularbackpack>
+  <entitydescription.modularbackpack>A water and fireproof backpack highly customizable used by many europan submariners.</entitydescription.modularbackpack>
+  <entityname.MBAmmo>Sac Modulaire + Munitions</entityname.MBAmmo>
+  <entitydescription.MBAmmo>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'une sacoche à munition, permettant un transport plus aisé de munitions d'infantrie et de grenades.</entitydescription.MBAmmo>
+  <entityname.MBMedical>Sac Modulaire + Médical</entityname.MBMedical>
+  <entitydescription.MBMedical>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'une sacoche médicale, permettant un transport plus aisé d'équipement de nature médicale.</entitydescription.MBMedical>
+  <entityname.MBMining>Sac Modulaire + Minage</entityname.MBMining>
+  <entitydescription.MBMining>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'une sacoche de minage, permettant un transport plus aisé de minerais et de plantes.</entitydescription.MBMining>
+  <entityname.MBTools>Sac Modulaire + Outils</entityname.MBTools>
+  <entitydescription.MBTools>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'une sacoche à outils, permettant un transport plus aisé d'outils et de matériel de réparation.</entitydescription.MBTools>
+  <entityname.MBSmallFirearmHolster>Sac Modulaire + Holster d'Arme de Poing</entityname.MBSmallFirearmHolster>
+  <entitydescription.MBSmallFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'un holster pour arme de poing, permettant un transport plus aisé d'arme de poing.</entitydescription.MBSmallFirearmHolster>
+  <entityname.MBLargeFirearmHolster>Sac Modulaire + Holster d'Arme d'Épaule</entityname.MBLargeFirearmHolster>
+  <entitydescription.MBLargeFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'un holster pour arme d'épaule, permettant un transport plus aisé d'arme d'épaule.</entitydescription.MBLargeFirearmHolster>
+  <entityname.MBLargeFirearmHolsterSmallFirearmHolster>Sac Modulaire + Holster d'Arme d'Épaule + Holster d'Arme de Poing</entityname.MBLargeFirearmHolsterSmallFirearmHolster>
+  <entitydescription.MBLargeFirearmHolsterSmallFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé des deux types de holster, permettant un transport plus aisé d'armements variés.</entitydescription.MBLargeFirearmHolsterSmallFirearmHolster>
+  <entityname.MBAmmoSmallFirearmHolster>Sac Modulaire + Moniteur + Munitions + Holster d'Arme de Poing</entityname.MBAmmoSmallFirearmHolster>
+  <entitydescription.MBMonitorAmmoSmallFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'un sacoche à munition and a pistol type holster, permettant un transport plus aisé de munitions d'infantrie, grenades et d'armes de poing.</entitydescription.MBMonitorAmmoSmallFirearmHolster>
+  <entityname.MBMedicalSmallFirearmHolster>Sac Modulaire + Médical + Holster d'Arme de Poing</entityname.MBMedicalSmallFirearmHolster>
+  <entitydescription.MBMedicalSmallFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'un sacoche médicale and a pistol type holster, permettant un transport plus aisé d'équipement de nature médicale et d'armes de poing.</entitydescription.MBMedicalSmallFirearmHolster>
+  <entityname.MBMiningSmallFirearmHolster>Sac Modulaire + Minage + Holster d'Arme de Poing</entityname.MBMiningSmallFirearmHolster>
+  <entitydescription.MBMiningSmallFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'un sacoche de minage and a pistol type holster, permettant un transport plus aisé de minerais, de plantes et d'armes de poing.</entitydescription.MBMiningSmallFirearmHolster>
+  <entityname.MBToolsSmallFirearmHolster>Sac Modulaire + Outils + Holster d'Arme de Poing</entityname.MBToolsSmallFirearmHolster>
+  <entitydescription.MBToolsSmallFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est équipé d'une sacoche à outils and a pistol type holster, permettant un transport plus aisé of tools, repair equipements et d'armes de poing.</entitydescription.MBToolsSmallFirearmHolster>
+  <!-- Ammocrates and Rack à Torpilles -->
+  <entityname.MBAmmocrate>Sac Modulaire + Caisse à Munitions</entityname.MBAmmocrate>
+  <entitydescription.MBAmmocrate>Une modification lourde du sac à dos modulaire. Celui-ci permet un tranport plus aisé des boîtes à munitions, mais restraint en partie les mouvements de l'utilisateur.</entitydescription.MBAmmocrate>
+  <entityname.MBShellRack>Sac Modulaire + Rack à Torpilles</entityname.MBShellRack>
+  <entitydescription.MBShellRack>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est equipé d'un rack à torpille, permettant un transport plus aisé des torpilles.</entitydescription.MBShellRack>
+  <entityname.MBAmmocrateShellRack>Sac Modulaire + Caisse à Munitions + Rack à Torpilles</entityname.MBAmmocrateShellRack>
+  <entitydescription.MBAmmocrateShellRack>Une modification lourde du sac à dos modulaire. Celui-ci permet un tranport plus aisé des boîtes à munitions et des torpilles, mais restraint en partie les mouvements de l'utilisateur.</entitydescription.MBAmmocrateShellRack>
+  <entityname.MBAmmocrateSmallFirearmHolster>Sac Modulaire + Caisse à Munitions + Holster d'Arme de Poing</entityname.MBAmmocrateSmallFirearmHolster>
+  <entitydescription.MBAmmocrateSmallFirearmHolster>Une modification lourde du sac à dos modulaire. Celui-ci permet un tranport plus aisé des boîtes à munitions, mais restraint en partie les mouvements de l'utilisateur. Il est aussi équipé d'un holster d'arme de poing, permettant un transport plus aisé d'arme de poing.</entitydescription.MBAmmocrateSmallFirearmHolster>
+  <entityname.MBShellRackSmallFirearmHolster>Sac Modulaire + Rack à Torpilles + Holster d'Arme de Poing</entityname.MBShellRackSmallFirearmHolster>
+  <entitydescription.MBShellRackSmallFirearmHolster>Un sac à dos hautement customisable entièrement étanche et résistant au feu, utilisé par un grand nombre de sous-mariniers européens. Celui-ci est equipé d'un rack à torpille, permettant un transport plus aisé railgun ammunitions. Il est aussi équipé d'un holster d'arme de poing, permettant un transport plus aisé d'arme de poing.</entitydescription.MBShellRackSmallFirearmHolster>
+  <entityname.MBAmmocrateShellRackSmallFirearmHolster>Sac Modulaire + Caisse à Munitions + Rack à Torpilles + Holster d'Arme de Poing</entityname.MBAmmocrateShellRackSmallFirearmHolster>
+  <entitydescription.MBAmmocrateShellRackSmallFirearmHolster>Une modification lourde du sac à dos modulaire. Celui-ci permet un tranport plus aisé des boîtes à munitions et des torpilles, mais restraint en partie les mouvements de l'utilisateur. Il est aussi équipé d'un holster d'arme de poing, permettant un transport plus aisé d'arme de poing.</entitydescription.MBAmmocrateShellRackSmallFirearmHolster>
+  <!-- MB + Projecteur -->
+  <entityname.MBLight>Sac Modulaire + Projecteur</entityname.MBLight>
+  <entitydescription.MBLight>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables.</entitydescription.MBLight>
+  <entityname.MBLightSmallFirearmHolster>Sac Modulaire + Projecteur + Holster d'Arme de Poing</entityname.MBLightSmallFirearmHolster>
+  <entitydescription.MBLightSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il est aussi équipé d'un holster d'arme de poing, permettant un transport plus aisé d'arme de poing.</entitydescription.MBLightSmallFirearmHolster>
+  <entityname.MBLightAmmo>Sac Modulaire + Projecteur + Munitions</entityname.MBLightAmmo>
+  <entitydescription.MBLightAmmo>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche à munition, permettant un transport plus aisé de munitions d'infantrie et de grenades.</entitydescription.MBLightAmmo>
+  <entityname.MBLightMedical>Sac Modulaire + Projecteur + Médical</entityname.MBLightMedical>
+  <entitydescription.MBLightMedical>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche médicale, permettant un transport plus aisé d'équipement de nature médicale.</entitydescription.MBLightMedical>
+  <entityname.MBLightMining>Sac Modulaire + Projecteur + Minage</entityname.MBLightMining>
+  <entitydescription.MBLightMining>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche de minage, permettant un transport plus aisé de minerais et de plantes.</entitydescription.MBLightMining>
+  <entityname.MBLightTools>Sac Modulaire + Projecteur + Outils</entityname.MBLightTools>
+  <entitydescription.MBLightTools>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche à outils, permettant un transport plus aisé d'outils et de matériel de réparation.</entitydescription.MBLightTools>
+  <entityname.MBLightAmmoSmallFirearmHolster>Sac Modulaire + Projecteur + Munitions + Holster d'Arme de Poing</entityname.MBLightAmmoSmallFirearmHolster>
+  <entitydescription.MBLightAmmoSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche à munition and a pistol type holster, permettant un transport plus aisé de munitions d'infantrie, grenades et d'armes de poing.</entitydescription.MBLightAmmoSmallFirearmHolster>
+  <entityname.MBLightMedicalSmallFirearmHolster>Sac Modulaire + Projecteur + Médical + Holster d'Arme de Poing</entityname.MBLightMedicalSmallFirearmHolster>
+  <entitydescription.MBLightMedicalSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche médicale and a pistol type holster, permettant un transport plus aisé d'équipement de nature médicale et d'armes de poing.</entitydescription.MBLightMedicalSmallFirearmHolster>
+  <entityname.MBLightMiningSmallFirearmHolster>Sac Modulaire + Projecteur + Minage + Holster d'Arme de Poing</entityname.MBLightMiningSmallFirearmHolster>
+  <entitydescription.MBLightMiningSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche de minage and a pistol type holster, permettant un transport plus aisé de minerais, de plantes et d'armes de poing.</entitydescription.MBLightMiningSmallFirearmHolster>
+  <entityname.MBLightToolsSmallFirearmHolster>Sac Modulaire + Projecteur + Outils + Holster d'Arme de Poing</entityname.MBLightToolsSmallFirearmHolster>
+  <entitydescription.MBLightToolsSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant projecteur alimenté par batterie, il permet de percer les ténèbres des abysses les plus impénétrables. Il possède aussi une sacoche à outils and a pistol type holster, permettant un transport plus aisé of tools, repair equipements et d'armes de poing.</entitydescription.MBLightToolsSmallFirearmHolster>
+  <!-- MB + Moniteur -->
+  <entityname.MBMonitor>Sac Modulaire + Moniteur</entityname.MBMonitor>
+  <entitydescription.MBMonitor>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin.</entitydescription.MBMonitor>
+  <entityname.MBMonitorSmallFirearmHolster>Sac Modulaire + Moniteur + Holster d'Arme de Poing</entityname.MBMonitorSmallFirearmHolster>
+  <entitydescription.MBMonitorSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il est aussi équipé d'un holster d'arme de poing, permettant un transport plus aisé d'arme de poing.</entitydescription.MBMonitorSmallFirearmHolster>
+  <entityname.MBMonitorAmmo>Sac Modulaire + Moniteur + Munitions</entityname.MBMonitorAmmo>
+  <entitydescription.MBMonitorAmmo>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche à munition, permettant un transport plus aisé de munitions d'infantrie et de grenades.</entitydescription.MBMonitorAmmo>
+  <entityname.MBMonitorMedical>Sac Modulaire + Moniteur + Médical</entityname.MBMonitorMedical>
+  <entitydescription.MBMonitorMedical>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche médicale, permettant un transport plus aisé d'équipement de nature médicale.</entitydescription.MBMonitorMedical>
+  <entityname.MBMonitorMining>Sac Modulaire + Moniteur + Minage</entityname.MBMonitorMining>
+  <entitydescription.MBMonitorMining>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche de minage, permettant un transport plus aisé de minerais et de plantes.</entitydescription.MBMonitorMining>
+  <entityname.MBMonitorTools>Sac Modulaire + Moniteur + Outils</entityname.MBMonitorTools>
+  <entitydescription.MBMonitorTools>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche à outils, permettant un transport plus aisé d'outils et de matériel de réparation.</entitydescription.MBMonitorTools>
+  <entityname.MBMonitorAmmoSmallFirearmHolster>Sac Modulaire + Moniteur + Munitions + Holster d'Arme de Poing</entityname.MBMonitorAmmoSmallFirearmHolster>
+  <entitydescription.MBMonitorAmmoSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche à munition and a pistol type holster, permettant un transport plus aisé de munitions d'infantrie, grenades et d'armes de poing.</entitydescription.MBMonitorAmmoSmallFirearmHolster>
+  <entityname.MBMonitorMedicalSmallFirearmHolster>Sac Modulaire + Moniteur + Médical + Holster d'Arme de Poing</entityname.MBMonitorMedicalSmallFirearmHolster>
+  <entitydescription.MBMonitorMedicalSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche médicale and a pistol type holster, permettant un transport plus aisé d'équipement de nature médicale et d'armes de poing.</entitydescription.MBMonitorMedicalSmallFirearmHolster>
+  <entityname.MBMonitorMiningSmallFirearmHolster>Sac Modulaire + Moniteur + Minage + Holster d'Arme de Poing</entityname.MBMonitorMiningSmallFirearmHolster>
+  <entitydescription.MBMonitorMiningSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche de minage and a pistol type holster, permettant un transport plus aisé de minerais, de plantes et d'armes de poing.</entitydescription.MBMonitorMiningSmallFirearmHolster>
+  <entityname.MBMonitorToolsSmallFirearmHolster>Sac Modulaire + Moniteur + Outils + Holster d'Arme de Poing</entityname.MBMonitorToolsSmallFirearmHolster>
+  <entitydescription.MBMonitorToolsSmallFirearmHolster>Une modification du sac à dos modulaire. Equipé d'un puissant ordinateur portatif alimenté par batterie, il permet de consulter l'état de la grande majorité des systèmes du sous-marin, en plus de reporter toutes brêches de la coque. Il est aussi équipé d'un sonar intégré indépendant de celui du sous-marin. Il possède aussi une sacoche à outils and a pistol type holster, permettant un transport plus aisé of tools, repair equipements et d'armes de poing.</entitydescription.MBMonitorToolsSmallFirearmHolster>
+  <!-- MB + Propulseur -->
+  <entityname.MBScooter>Sac Modulaire + Propulseur</entityname.MBScooter>
+  <entitydescription.MBScooter>Une modification lourde du sac à dos modulaire. Il permet une puissante propulstion sous-marine grâce à ses propulseurs alimentés par batterie, mais limite sévèrement la capacité de transport du sac.</entitydescription.MBScooter>
+  <entityname.MBScooterSmallFirearmHolster>MB + Propulseur + Holster d'Arme de Poing</entityname.MBScooterSmallFirearmHolster>
+  <entitydescription.MBScooterSmallFirearmHolster>Une modification lourde du sac à dos modulaire. Il permet une puissante propulstion sous-marine grâce à ses propulseurs alimentés par batterie, mais limite sévèrement la capacité de transport du sac. Il est aussi équipé d'un holster d'arme de poing, permettant un transport plus aisé d'arme de poing.</entitydescription.MBScooterSmallFirearmHolster>
+  <entityname.MBScooterLargeFirearmHolster>MB + Propulseur + Holster d'Arme d'Épaule</entityname.MBScooterLargeFirearmHolster>
+  <entitydescription.MBScooterLargeFirearmHolster>Une modification lourde du sac à dos modulaire. Il permet une puissante propulstion sous-marine grâce à ses propulseurs alimentés par batterie, mais limite sévèrement la capacité de transport du sac. Il possède aussi d'un holster d'arme d'épaule, permettant un transport plus aisé d'arme d'épaule.</entitydescription.MBScooterLargeFirearmHolster>
+  <entityname.MBScooterLargeFirearmHolsterSmallFirearmHolster>MB + Propulseur + Holster d'Arme d'Épaule + Holster d'Arme de Poing</entityname.MBScooterLargeFirearmHolsterSmallFirearmHolster>
+  <entitydescription.MBScooterLargeFirearmHolsterSmallFirearmHolster>Une modification lourde du sac à dos modulaire. Il permet une puissante propulstion sous-marine grâce à ses propulseurs alimentés par batterie, mais limite sévèrement la capacité de transport du sac. Il possède aussi les deux types de holster, permettant un transport plus aisé d'armements variés.</entitydescription.MBScooterLargeFirearmHolsterSmallFirearmHolster>
+  <!-- MB + Respirateur -->
+  <entityname.MBRebreather>Sac Modulaire + Respirateur</entityname.MBRebreather>
+  <entitydescription.MBRebreather>Une modification lourde du sac à dos modulaire. Il permet la filtration d'air impur et de l'eau de mer afin d'en récupérer l'oxygène. Ce système de filtration permet d'approvisionner l'utilisateur en oxygène en même temps de reconditionner les bombonnes d'oxygènes placé dans les deux emplacements spécialisés. Toutefois, en raison de son imposante taille, les mouvements et la manipulation de l'utilisateur s'en retrouvent grandement limités.</entitydescription.MBRebreather>
+  <!-- Other -->
+  <entityname.Workbench>Poste de Modification</entityname.Workbench>
+  <entitydescription.Workbench>Une table de modification permettant la customisation et la création de nombreux sacs modulaires.</entitydescription.Workbench>
+  <Override>
+    <entityname.weaponholder>Ratelier à Sacs et Armement</entityname.weaponholder>
+  </Override>
+  <Override>
+    <entitydescription.weaponholder>Permet le stockage d'une grande variété d'arme et de sac à dos.</entitydescription.weaponholder>
+  </Override>
+  <!-- CRAFTING -->
+  <entityname.ammopouch>Sacoche à Munition</entityname.ammopouch>
+  <entitydescription.ammopouch>Une sacoche permettant le stockage de divers type de munitions.</entitydescription.ammopouch>
+  <entityname.medicalpouch>Sacoche Médicale</entityname.medicalpouch>
+  <entitydescription.medicalpouch>Une sacoche permettant le stockage d'équipement et matériel médical</entitydescription.medicalpouch>
+  <entityname.miningpouch>Sacoche de Minage</entityname.miningpouch>
+  <entitydescription.miningpouch>Une sacoche permettant le stockage de plantes et de minerais</entitydescription.miningpouch>
+  <entityname.toolpouch>Sacoche à Outils</entityname.toolpouch>
+  <entitydescription.toolpouch>Une sacoche permettant le stockage d'outils et de matériel de réparation</entitydescription.toolpouch>
+  <entityname.largefirearmholster>Holster d'Arme d'Épaule</entityname.largefirearmholster>
+  <entitydescription.largefirearmholster>Un holster permettant le transport d'arme d'épaule</entitydescription.largefirearmholster>
+  <entityname.smallfirearmholster>Holster d'Arme de Poing</entityname.smallfirearmholster>
+  <entitydescription.smallfirearmholster>Un holster permettant le transport d'arme de poing</entitydescription.smallfirearmholster>
+  <entityname.monitorMBMOD>Moniteur</entityname.monitorMBMOD>
+  <entitydescription.monitorMBMOD>Seul, cela ne sert pas à grand chose</entitydescription.monitorMBMOD>
+  <entityname.rebreatherMBMOD>Respirateur</entityname.rebreatherMBMOD>
+  <entitydescription.rebreatherMBMOD>Seul, cela ne sert pas à grand chose</entitydescription.rebreatherMBMOD>
+  <entityname.smallcapacitorMBMOD>Petit Capaciteur</entityname.smallcapacitorMBMOD>
+  <entitydescription.smallcapacitorMBMOD>Seul, cela ne sert pas à grand chose</entitydescription.smallcapacitorMBMOD>
+  <entityname.smallsearchlightMBMOD>Petit Projecteur</entityname.smallsearchlightMBMOD>
+  <entitydescription.smallsearchlightMBMOD>Seul, cela ne sert pas à grand chose</entitydescription.smallsearchlightMBMOD>
+</infotexts>

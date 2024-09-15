@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
+  <!-- Decorative -->
+  <entitydescription.opdeco_medcurtain>医用隔帘 1</entitydescription.opdeco_medcurtain>
+  <entitydescription.opdeco_medcurtain2>医用隔帘 2</entitydescription.opdeco_medcurtain2>
+  <!-- Machine -->
+  <entityname.WeldingTable>焊接台</entityname.WeldingTable>
+  <entitydescription.WeldingTable>用于制作全部barocraftables+物品的加工台。</entitydescription.WeldingTable>
+  <entityname.searchlightdown>探照灯（翻转）</entityname.searchlightdown>
+  <!-- (Componet) Containers -->
+  <entityname.toolboxfpgacircuitb>工具箱 [FPGA电路]</entityname.toolboxfpgacircuitb>
+  <entitydescription.toolboxfpgacircuitb>用于收纳FPGA电路的工具箱。</entitydescription.toolboxfpgacircuitb>
+  <!-- (Material) Containers -->
+  <entityname.toolboxaluminumb>工具箱 [铝]</entityname.toolboxaluminumb>
+  <entitydescription.toolboxaluminumb>用于收纳铝的工具箱。</entitydescription.toolboxaluminumb>
+  <entityname.toolboxballisitcfiberb>工具箱 [防弹纤维]</entityname.toolboxballisitcfiberb>
+  <entitydescription.toolboxballisitcfiberb>用于收纳防弹纤维的工具箱。</entitydescription.toolboxballisitcfiberb>
+  <entityname.toolboxcalciumb>工具箱 [钙]</entityname.toolboxcalciumb>
+  <entitydescription.toolboxcalciumb>用于收纳钙的工具箱。</entitydescription.toolboxcalciumb>
+  <entityname.toolboxcarbonb>工具箱 [碳]</entityname.toolboxcarbonb>
+  <entitydescription.toolboxcarbonb>用于收纳碳的工具箱。</entitydescription.toolboxcarbonb>
+  <entityname.toolboxchlorineb>工具箱 [氯]</entityname.toolboxchlorineb>
+  <entitydescription.toolboxchlorineb>用于收纳氯的工具箱。</entitydescription.toolboxchlorineb>
+  <entityname.toolboxcopperb>工具箱 [铜]</entityname.toolboxcopperb>
+  <entitydescription.toolboxcopperb>用于收纳铜的工具箱。</entitydescription.toolboxcopperb>
+  <entityname.toolboxdementoniteb>工具箱 [摄魂矿束]</entityname.toolboxdementoniteb>
+  <entitydescription.toolboxdementoniteb>用于收纳摄魂矿束的工具箱。</entitydescription.toolboxdementoniteb>
+  <entityname.toolboxflashpowderb>工具箱 [闪光粉]</entityname.toolboxflashpowderb>
+  <entitydescription.toolboxflashpowderb>用于收纳闪光粉的工具箱。</entitydescription.toolboxflashpowderb>
+  <entityname.toolboxfulguriumb>工具箱 [雷素块]</entityname.toolboxfulguriumb>
+  <entitydescription.toolboxfulguriumb>用于收纳雷素块的工具箱。</entitydescription.toolboxfulguriumb>
+  <entityname.toolboxincendiumb>工具箱 [燃素水晶]</entityname.toolboxincendiumb>
+  <entitydescription.toolboxincendiumb>用于收纳燃素水晶的工具箱。</entitydescription.toolboxincendiumb>
+  <entityname.toolboxironb>工具箱 [铁]</entityname.toolboxironb>
+  <entitydescription.toolboxironb>用于收纳铁的工具箱。</entitydescription.toolboxironb>
+  <entityname.toolboxleadb>工具箱 [铅]</entityname.toolboxleadb>
+  <entitydescription.toolboxleadb>用于收纳铅的工具箱。</entitydescription.toolboxleadb>
+  <entityname.toolboxlithiumb>工具箱 [锂]</entityname.toolboxlithiumb>
+  <entitydescription.toolboxlithiumb>用于收纳锂的工具箱。</entitydescription.toolboxlithiumb>
+  <entityname.toolboxmagnesiumb>工具箱 [镁]</entityname.toolboxmagnesiumb>
+  <entitydescription.toolboxmagnesiumb>用于收纳镁的工具箱。</entitydescription.toolboxmagnesiumb>
+  <entityname.toolboxorganicfiberb>工具箱 [活性纤维]</entityname.toolboxorganicfiberb>
+  <entitydescription.toolboxorganicfiberb>用于收纳活性纤维的工具箱。</entitydescription.toolboxorganicfiberb>
+  <entityname.toolboxoxygeniteshardb>工具箱 [氧矿碎片]</entityname.toolboxoxygeniteshardb>
+  <entitydescription.toolboxoxygeniteshardb>用于收纳氧矿碎片的工具箱。</entitydescription.toolboxoxygeniteshardb>
+  <entityname.toolboxparalyxisb>工具箱 [麻痹源]</entityname.toolboxparalyxisb>
+  <entitydescription.toolboxparalyxisb>用于收纳麻痹源的工具箱。</entitydescription.toolboxparalyxisb>
+  <entityname.toolboxphosphorusb>工具箱 [磷]</entityname.toolboxphosphorusb>
+  <entitydescription.toolboxphosphorusb>用于收纳磷的工具箱。</entitydescription.toolboxphosphorusb>
+  <entityname.toolboxphysicoriumb>工具箱 [刚素棒]</entityname.toolboxphysicoriumb>
+  <entitydescription.toolboxphysicoriumb>用于收纳刚素棒的工具箱。</entitydescription.toolboxphysicoriumb>
+  <entityname.toolboxplasticb>工具箱 [塑料]</entityname.toolboxplasticb>
+  <entitydescription.toolboxplasticb>用于收纳塑料的工具箱。</entitydescription.toolboxplasticb>
+  <entityname.toolboxpotassiumb>工具箱 [钾]</entityname.toolboxpotassiumb>
+  <entitydescription.toolboxpotassiumb>用于收纳钾的工具箱。</entitydescription.toolboxpotassiumb>
+  <entityname.toolboxrubberb>工具箱 [橡胶]</entityname.toolboxrubberb>
+  <entitydescription.toolboxrubberb>用于收纳橡胶的工具箱。</entitydescription.toolboxrubberb>
+  <entityname.toolboxscrapb>工具箱 [废料]</entityname.toolboxscrapb>
+  <entitydescription.toolboxscrapb>用于收纳废料的工具箱。</entitydescription.toolboxscrapb>
+  <entityname.toolboxsiliconb>工具箱 [硅]</entityname.toolboxsiliconb>
+  <entitydescription.toolboxsiliconb>用于收纳硅的工具箱。</entitydescription.toolboxsiliconb>
+  <entityname.toolboxsodiumb>工具箱 [钠]</entityname.toolboxsodiumb>
+  <entitydescription.toolboxsodiumb>用于收纳钠的工具箱。</entitydescription.toolboxsodiumb>
+  <entityname.toolboxsteelb>工具箱 [钢筋]</entityname.toolboxsteelb>
+  <entitydescription.toolboxsteelb>用于收纳钢筋的工具箱。</entitydescription.toolboxsteelb>
+  <entityname.toolboxsulphuriteshardb>工具箱 [硫酸矿碎片]</entityname.toolboxsulphuriteshardb>
+  <entitydescription.toolboxsulphuriteshardb>用于收纳硫酸矿碎片的工具箱。</entitydescription.toolboxsulphuriteshardb>
+  <entityname.toolboxthoriumb>工具箱 [钍]</entityname.toolboxthoriumb>
+  <entitydescription.toolboxthoriumb>用于收纳钍的工具箱。</entitydescription.toolboxthoriumb>
+  <entityname.toolboxtinb>工具箱 [锡]</entityname.toolboxtinb>
+  <entitydescription.toolboxtinb>用于收纳锡的工具箱。</entitydescription.toolboxtinb>
+  <entityname.toolboxtitaniumaluminumalloyb>工具箱 [钛铝合金]</entityname.toolboxtitaniumaluminumalloyb>
+  <entitydescription.toolboxtitaniumaluminumalloyb>用于收纳钛铝合金的工具箱。</entitydescription.toolboxtitaniumaluminumalloyb>
+  <entityname.toolboxtitaniumb>工具箱 [钛]</entityname.toolboxtitaniumb>
+  <entitydescription.toolboxtitaniumb>用于收纳钛的工具箱。</entitydescription.toolboxtitaniumb>
+  <entityname.toolboxuraniumb>工具箱 [铀]</entityname.toolboxuraniumb>
+  <entitydescription.toolboxuraniumb>用于收纳铀的工具箱。</entitydescription.toolboxuraniumb>
+  <entityname.toolboxzincb>工具箱 [锌]</entityname.toolboxzincb>
+  <entitydescription.toolboxzincb>用于收纳锌的工具箱。</entitydescription.toolboxzincb>
+  <!-- (Medical) Containers -->
+  <entityname.toolboxadrenalineb>工具箱 [肾上腺素]</entityname.toolboxadrenalineb>
+  <entitydescription.toolboxadrenalineb>用于收纳肾上腺素的工具箱。</entitydescription.toolboxadrenalineb>
+  <entityname.toolboxalienbloodb>工具箱 [异星血浆]</entityname.toolboxalienbloodb>
+  <entitydescription.toolboxalienbloodb>用于收纳异星血浆的工具箱。</entitydescription.toolboxalienbloodb>
+  <entityname.toolboxanabolicsteroidsb>工具箱 [合成代谢类固醇]</entityname.toolboxanabolicsteroidsb>
+  <entitydescription.toolboxanabolicsteroidsb>用于收纳合成代谢类固醇的工具箱。</entitydescription.toolboxanabolicsteroidsb>
+  <entityname.toolboxantibioticglueb>工具箱 [抗生素凝胶]</entityname.toolboxantibioticglueb>
+  <entitydescription.toolboxantibioticglueb>用于收纳抗生素凝胶的工具箱。</entitydescription.toolboxantibioticglueb>
+  <entityname.toolboxantiradb>工具箱 [消辐灵]</entityname.toolboxantiradb>
+  <entitydescription.toolboxantiradb>用于收纳消辐灵的工具箱。</entitydescription.toolboxantiradb>
+  <entityname.toolboxbandageb>工具箱 [绷带]</entityname.toolboxbandageb>
+  <entitydescription.toolboxbandageb>用于收纳绷带的工具箱。</entitydescription.toolboxbandageb>
+  <entityname.toolboxbloodbagb>工具箱 [血袋]</entityname.toolboxbloodbagb>
+  <entitydescription.toolboxbloodbagb>用于收纳血袋的工具箱。</entitydescription.toolboxbloodbagb>
+  <entityname.toolboxbroad-spectrumantibioticsb>工具箱 [广谱抗生素]</entityname.toolboxbroad-spectrumantibioticsb>
+  <entitydescription.toolboxbroad-spectrumantibioticsb>用于收纳广谱抗生素的工具箱。</entitydescription.toolboxbroad-spectrumantibioticsb>
+  <entityname.toolboxcalyxanideb>工具箱 [皮虫净]</entityname.toolboxcalyxanideb>
+  <entitydescription.toolboxcalyxanideb>用于收纳皮虫净的工具箱。</entitydescription.toolboxcalyxanideb>
+  <entityname.toolboxcyanideantidoteb>工具箱 [氰化物解药]</entityname.toolboxcyanideantidoteb>
+  <entitydescription.toolboxcyanideantidoteb>用于收纳氰化物解药的工具箱。</entitydescription.toolboxcyanideantidoteb>
+  <entityname.toolboxdeliriumineantidoteb>工具箱 [谵妄解药]</entityname.toolboxdeliriumineantidoteb>
+  <entitydescription.toolboxdeliriumineantidoteb>用于收纳谵妄解药的工具箱。</entitydescription.toolboxdeliriumineantidoteb>
+  <entityname.toolboxelastinb>工具箱 [弹性蛋白]</entityname.toolboxelastinb>
+  <entitydescription.toolboxelastinb>用于收纳弹性蛋白的工具箱。</entitydescription.toolboxelastinb>
+  <entityname.toolboxethanolb>工具箱 [医用酒精]</entityname.toolboxethanolb>
+  <entitydescription.toolboxethanolb>用于收纳医用酒精的工具箱。</entitydescription.toolboxethanolb>
+  <entityname.toolboxfentanylb>工具箱 [芬太尼]</entityname.toolboxfentanylb>
+  <entitydescription.toolboxfentanylb>用于收纳芬太尼的工具箱。</entitydescription.toolboxfentanylb>
+  <entityname.toolboxhyperzineb>工具箱 [加速粉剂]</entityname.toolboxhyperzineb>
+  <entitydescription.toolboxhyperzineb>用于收纳加速粉剂的工具箱。</entitydescription.toolboxhyperzineb>
+  <entityname.toolboxliquidoxygeniteb>工具箱 [液态氧矿]</entityname.toolboxliquidoxygeniteb>
+  <entitydescription.toolboxliquidoxygeniteb>用于收纳液态氧矿的工具箱。</entitydescription.toolboxliquidoxygeniteb>
+  <entityname.toolboxmorbusineantidoteb>工具箱 [窒死毒剂解毒剂]</entityname.toolboxmorbusineantidoteb>
+  <entitydescription.toolboxmorbusineantidoteb>用于收纳窒死毒剂解毒剂的工具箱。</entitydescription.toolboxmorbusineantidoteb>
+  <entityname.toolboxmorphineb>工具箱 [吗啡]</entityname.toolboxmorphineb>
+  <entitydescription.toolboxmorphineb>用于收纳吗啡的工具箱。</entitydescription.toolboxmorphineb>
+  <entityname.toolboxopiumb>工具箱 [药用鸦片]</entityname.toolboxopiumb>
+  <entitydescription.toolboxopiumb>用于收纳药用鸦片的工具箱。</entitydescription.toolboxopiumb>
+  <entityname.toolboxparalysisantidoteb>工具箱 [麻痹治愈剂]</entityname.toolboxparalysisantidoteb>
+  <entitydescription.toolboxparalysisantidoteb>用于收纳麻痹治愈剂的工具箱。</entitydescription.toolboxparalysisantidoteb>
+  <entityname.toolboxplastisealb>工具箱 [人造皮肤]</entityname.toolboxplastisealb>
+  <entitydescription.toolboxplastisealb>用于收纳人造皮肤的工具箱。</entitydescription.toolboxplastisealb>
+  <entityname.toolboxpomegrenadeextractb>工具箱 [爆弹石榴精华]</entityname.toolboxpomegrenadeextractb>
+  <entitydescription.toolboxpomegrenadeextractb>用于收纳爆弹石榴精华的工具箱。</entitydescription.toolboxpomegrenadeextractb>
+  <entityname.toolboxsalineb>工具箱 [生理盐水]</entityname.toolboxsalineb>
+  <entitydescription.toolboxsalineb>用于收纳生理盐水的工具箱。</entitydescription.toolboxsalineb>
+  <entityname.toolboxsufforinantidoteb>工具箱 [升天解药]</entityname.toolboxsufforinantidoteb>
+  <entitydescription.toolboxsufforinantidoteb>用于收纳升天解药的工具箱。</entitydescription.toolboxsufforinantidoteb>
+  <entityname.toolboxsulphuricacidb>工具箱 [硫酸]</entityname.toolboxsulphuricacidb>
+  <entitydescription.toolboxsulphuricacidb>用于收纳硫酸的工具箱。</entitydescription.toolboxsulphuricacidb>
+  <entityname.toolboxtonicliquidb>工具箱 [内用辅液]</entityname.toolboxtonicliquidb>
+  <entitydescription.toolboxtonicliquidb>用于收纳内用辅液的工具箱。</entitydescription.toolboxtonicliquidb>
+  <entityname.toolboxchloralhydrateb>工具箱 [水合三氯乙醛]</entityname.toolboxchloralhydrateb>
+  <entitydescription.toolboxchloralhydrateb>用于收纳水合三氯乙醛的工具箱。</entitydescription.toolboxchloralhydrateb>
+  <entityname.toolboxcyanideb>工具箱 [氰化物]</entityname.toolboxcyanideb>
+  <entitydescription.toolboxcyanideb>用于收纳氰化物的工具箱。</entitydescription.toolboxcyanideb>
+  <entityname.toolboxdeliriumineb>工具箱 [谵妄毒剂]</entityname.toolboxdeliriumineb>
+  <entitydescription.toolboxdeliriumineb>用于收纳谵妄毒剂的工具箱。</entitydescription.toolboxdeliriumineb>
+  <entityname.toolboxdeusizineb>工具箱 [神效剂]</entityname.toolboxdeusizineb>
+  <entitydescription.toolboxdeusizineb>用于收纳神效剂的工具箱。</entitydescription.toolboxdeusizineb>
+  <entityname.toolboxhaloperidolb>工具箱 [氟哌啶醇]</entityname.toolboxhaloperidolb>
+  <entitydescription.toolboxhaloperidolb>用于收纳氟哌啶醇的工具箱。</entitydescription.toolboxhaloperidolb>
+  <entityname.toolboxmethamphetamineb>工具箱 [兴奋粉剂]</entityname.toolboxmethamphetamineb>
+  <entitydescription.toolboxmethamphetamineb>用于收纳兴奋粉剂的工具箱。</entitydescription.toolboxmethamphetamineb>
+  <entityname.toolboxmorbusineb>工具箱 [窒死毒剂]</entityname.toolboxmorbusineb>
+  <entitydescription.toolboxmorbusineb>用于收纳窒死毒剂的工具箱。</entitydescription.toolboxmorbusineb>
+  <entityname.toolboxnaloxoneb>工具箱 [烯丙羟吗啡酮]</entityname.toolboxnaloxoneb>
+  <entitydescription.toolboxnaloxoneb>用于收纳烯丙羟吗啡酮的工具箱。</entitydescription.toolboxnaloxoneb>
+  <entityname.toolboxparalyzantb>工具箱 [麻痹剂]</entityname.toolboxparalyzantb>
+  <entitydescription.toolboxparalyzantb>用于收纳麻痹剂的工具箱。</entitydescription.toolboxparalyzantb>
+  <entityname.toolboxradiotoxinb>工具箱 [辐射毒剂]</entityname.toolboxradiotoxinb>
+  <entitydescription.toolboxradiotoxinb>用于收纳辐射毒剂的工具箱。</entitydescription.toolboxradiotoxinb>
+  <entityname.toolboxstabilozineb>工具箱 [疗素]</entityname.toolboxstabilozineb>
+  <entitydescription.toolboxstabilozineb>用于收纳疗素的工具箱。</entitydescription.toolboxstabilozineb>
+  <entityname.toolboxsufforinb>工具箱 [升天毒剂]</entityname.toolboxsufforinb>
+  <entitydescription.toolboxsufforinb>用于收纳升天毒剂的工具箱。</entitydescription.toolboxsufforinb>
+  <entityname.toolboxvelonacepscalyxeggsb>工具箱 [萼形体内转续拟寄生物卵]</entityname.toolboxvelonacepscalyxeggsb>
+  <entitydescription.toolboxvelonacepscalyxeggsb>用于收纳萼形体内转续拟寄生物卵的工具箱。</entitydescription.toolboxvelonacepscalyxeggsb>
+  <!-- ID Cards -->
+  <entityname.card_medicaldoctor>ID卡（医生）</entityname.card_medicaldoctor>
+  <entityname.card_mechanic>ID卡（机修工）</entityname.card_mechanic>
+  <entityname.card_engineer>ID卡（工程师）</entityname.card_engineer>
+  <entityname.card_captain>ID卡（船长）</entityname.card_captain>
+  <entityname.card_securityofficer>ID卡（安全官）</entityname.card_securityofficer>
+  <entityname.card_assistant>ID卡（助手）</entityname.card_assistant>
+  <entityname.card_1>ID卡 1</entityname.card_1>
+  <entityname.card_2>ID卡 2</entityname.card_2>
+  <entityname.card_3>ID卡 3</entityname.card_3>
+  <entityname.card_4>ID卡 4</entityname.card_4>
+  <entityname.card_5>ID卡 5</entityname.card_5>
+  <entityname.card_6>ID卡 6</entityname.card_6>
+  <entityname.card_7>ID卡 7</entityname.card_7>
+  <entityname.card_8>ID卡 8</entityname.card_8>
+  <!-- Electrical -->
+  <entityname.LRwifiComponentb>远距离Wifi组件</entityname.LRwifiComponentb>
+  <!-- Misc -->
+  <entityname.textdisplaysb>文字显示器（短）</entityname.textdisplaysb>
+  <entityname.textdisplaylb>文字显示器（长）</entityname.textdisplaylb>
+  <entityname.SecureSteelCabinetM1>保险钢柜 M1</entityname.SecureSteelCabinetM1>
+  <entityname.SecureSteelCabinetM2>保险钢柜 M2</entityname.SecureSteelCabinetM2>
+  <entityname.SecureSteelCabinetM3>保险钢柜 M3</entityname.SecureSteelCabinetM3>
+  <entityname.SecureSteelCabinetM4>保险钢柜 M4</entityname.SecureSteelCabinetM4>
+  <entityname.SecureSteelCabinetM5>保险钢柜 M5</entityname.SecureSteelCabinetM5>
+  <entityname.SecureSteelCabinetM6>保险钢柜 M6</entityname.SecureSteelCabinetM6>
+  <entityname.SecureSteelCabinetM7>保险钢柜 M7</entityname.SecureSteelCabinetM7>
+  <entityname.SecureSteelCabinetM8>保险钢柜 M8</entityname.SecureSteelCabinetM8>
+</infotexts>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="German" nowhitespace="false" translatedname="Deutsch">
+  <!-- Items -->
+  <entityname.safecracker>Tresor Knacker</entityname.safecracker>
+  <entitydescription.safecracker>Ein umfunktionierter, alter Bergbaubohrer, modifiziert um Tresore und Toxin Behälter aufzubrechen.</entitydescription.safecracker>
+  <!-- Interactions -->
+  <interaction.activate>Aktivieren</interaction.activate>
+  <interaction.deactivate>Deaktivieren</interaction.deactivate>
+  <!-- Dialog -->
+  <Eventtext.activedrill.CalledSecurity>Wachen! Wir haben hier illegale Aktivität!</Eventtext.activedrill.CalledSecurity>
+</infotexts>

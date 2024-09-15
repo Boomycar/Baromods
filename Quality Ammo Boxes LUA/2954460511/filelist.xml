@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Quality Ammo Boxes LUA" modversion="1.1.2" corepackage="False" steamworkshopid="2954460511" gameversion="1.0.21.0" expectedhash="533981EEF0B21135C32A8F08984D1447">
+  <Item file="%ModDir%/Items/QualityAmmo.xml" />
+</contentpackage>

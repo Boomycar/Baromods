@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Latinamerican Spanish" nowhitespace="false" translatedname="Español Latinoamericano">
+  <!-- Nombres de visualización -->
+  <displayname.humanfooditem>[itemname] (Humano)</displayname.humanfooditem>
+  <displayname.crawlerfooditem>[itemname] (Reptador)</displayname.crawlerfooditem>
+  <displayname.mudraptorfooditem>[itemname] (Fangorraptor)</displayname.mudraptorfooditem>
+  <displayname.hammerheadfooditem>[itemname] (Pez ariete)</displayname.hammerheadfooditem>
+  <displayname.thresherfooditem>[itemname] (Azotador)</displayname.thresherfooditem>
+  <displayname.endwormfooditem>[itemname] (Gusano Final)</displayname.endwormfooditem>
+  <!-- Alimentos -->
+  <entityname.he-proteinbar1>Barra de proteínas</entityname.he-proteinbar1>
+  <entitydescription.he-proteinbar1>Una barra de broteínas algo sabrosa. Ayuda a acelerar un poco el proceso de curación.</entitydescription.he-proteinbar1>
+  <entityname.he-chips1>Bolsa de chips de granada</entityname.he-chips1>
+  <entitydescription.he-chips1>Chips de granada secos. Un bocadillo popular para ver el evento anual 'DUNWICE FACE-OFF'.</entitydescription.he-chips1>
+  <entityname.he-chips2>Bolsa de chips de granada mutada</entityname.he-chips2>
+  <entitydescription.he-chips2>Chips de granada mutada secos. Un bocadillo popular. Se dice que acelera un poco la curación de quemaduras.</entitydescription.he-chips2>
+  <entityname.he-bread>Pan</entityname.he-bread>
+  <entitydescription.he-bread>Una hogaza de pan.</entitydescription.he-bread>
+  <entityname.he-burgerbun>Pan para hamburguesa</entityname.he-burgerbun>
+  <entitydescription.he-burgerbun>Se utiliza en la elaboración de hamburguesas.</entitydescription.he-burgerbun>
+  <entityname.he-hotdogbun>Pan para perrito caliente</entityname.he-hotdogbun>
+  <entitydescription.he-hotdogbun>Métele una salchicha.</entitydescription.he-hotdogbun>
+  <entityname.he-breadslices>Rebanadas de pan</entityname.he-breadslices>
+  <entitydescription.he-breadslices>Dos rebanadas de pan. ¡Geniales para hacer sándwiches!</entitydescription.he-breadslices>
+  <entityname.he-sandwichbbjam>Sándwich de mermelada de baya burbuja</entityname.he-sandwichbbjam>
+  <entitydescription.he-sandwichbbjam>Un sabroso sándwich con mermelada de bayas burbujas.</entitydescription.he-sandwichbbjam>
+  <!-- Reptador -->
+  <entityname.he-crawlerburger>Hamburguesa de Reptador</entityname.he-crawlerburger>
+  <entitydescription.he-crawlerburger>Una hamburguesa algo sabrosa.</entitydescription.he-crawlerburger>
+  <entityname.he-crawlerhotdog>Perrito caliente de Reptador</entityname.he-crawlerhotdog>
+  <entitydescription.he-crawlerhotdog>Un perrito caliente algo sabroso.</entitydescription.he-crawlerhotdog>
+  <entityname.he-cookedcrawlerfilet>Filete cocinado de Reptador</entityname.he-cookedcrawlerfilet>
+  <entitydescription.he-cookedcrawlerfilet>El sabor es terrible, pero eso no es inusual en Europa.</entitydescription.he-cookedcrawlerfilet>
+  <entityname.he-crawlermeatchunk>Medio Reptador</entityname.he-crawlermeatchunk>
+  <entitydescription.he-crawlermeatchunk>Un Reptador cortado por la mitad. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-crawlermeatchunk>
+  <entityname.he-crawlermeatchunkspecial>Trozo de carne de Reptador</entityname.he-crawlermeatchunkspecial>
+  <entitydescription.he-crawlermeatchunkspecial>Un trozo de carne de Reptador.</entitydescription.he-crawlermeatchunkspecial>
+  <entityname.he-rawcrawlermeat>Carne cruda de Reptador</entityname.he-rawcrawlermeat>
+  <entitydescription.he-rawcrawlermeat>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawcrawlermeat>
+  <entityname.he-rawcrawlersausage>Salchicha cruda de Reptador</entityname.he-rawcrawlersausage>
+  <entitydescription.he-rawcrawlersausage>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawcrawlersausage>
+  <entityname.he-rawcrawlermeatpatty>Hamburguesa cruda de carne de Reptador</entityname.he-rawcrawlermeatpatty>
+  <entitydescription.he-rawcrawlermeatpatty>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawcrawlermeatpatty>
+  <!-- Humano -->
+  <entityname.he-cookedhumanfilet>Filete cocinado de Humano</entityname.he-cookedhumanfilet>
+  <entitydescription.he-cookedhumanfilet>Sabe como cerdo, un poco más amargo, más fuerte.</entitydescription.he-cookedhumanfilet>
+  <entityname.he-humanburger>Hamburguesa de Humano</entityname.he-humanburger>
+  <entitydescription.he-humanburger>Tiene un ligero sabor amargo.</entitydescription.he-humanburger>
+  <entityname.he-humanhotdog>Perrito caliente de Humano</entityname.he-humanhotdog>
+  <entitydescription.he-humanhotdog>Tiene un ligero sabor amargo.</entitydescription.he-humanhotdog>
+  <entityname.he-humanmeatchunk>Trozo de carne humana</entityname.he-humanmeatchunk>
+  <entitydescription.he-humanmeatchunk>Piezas de un humano. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-humanmeatchunk>
+  <entityname.he-rawhumanmeat>Carne cruda de Humano</entityname.he-rawhumanmeat>
+  <entitydescription.he-rawhumanmeat>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhumanmeat>
+  <entityname.he-rawhumansausage>Salchicha cruda de Humano</entityname.he-rawhumansausage>
+  <entitydescription.he-rawhumansausage>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhumansausage>
+  <entityname.he-rawhumanmeatpatty>Hamburguesa cruda de carne humana</entityname.he-rawhumanmeatpatty>
+  <entitydescription.he-rawhumanmeatpatty>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhumanmeatpatty>
+  <!-- Fangorraptor -->
+  <entityname.he-cookedmudraptorroast>Asado de Fangorraptor</entityname.he-cookedmudraptorroast>
+  <entitydescription.he-cookedmudraptorroast>Una gran rebanada de asado.</entitydescription.he-cookedmudraptorroast>
+  <entityname.he-mudraptorburger>Hamburguesa de Fangorraptor</entityname.he-mudraptorburger>
+  <entitydescription.he-mudraptorburger>Sabe a pollo.</entitydescription.he-mudraptorburger>
+  <entityname.he-mudraptorhotdog>Perrito caliente de Fangorraptor</entityname.he-mudraptorhotdog>
+  <entitydescription.he-mudraptorhotdog>Sabe a pollo.</entitydescription.he-mudraptorhotdog>
+  <entityname.he-mudraptormeatchunk>Trozo de carne de Fangorraptor</entityname.he-mudraptormeatchunk>
+  <entitydescription.he-mudraptormeatchunk>Un buen trozo de carne cortado de un Fangorraptor. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-mudraptormeatchunk>
+  <entityname.he-rawmudraptormeat>Carne cruda de Fangorraptor</entityname.he-rawmudraptormeat>
+  <entitydescription.he-rawmudraptormeat>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawmudraptormeat>
+  <entityname.he-rawmudraptorsausage>Salchicha cruda de Fangorraptor</entityname.he-rawmudraptorsausage>
+  <entitydescription.he-rawmudraptorsausage>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawmudraptorsausage>
+  <entityname.he-rawmudraptormeatpatty>Hamburguesa cruda de carne de Fangorraptor</entityname.he-rawmudraptormeatpatty>
+  <entitydescription.he-rawmudraptormeatpatty>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawmudraptormeatpatty>
+  <entityname.he-rawmudraptorroast>Asado crudo de Fangorraptor</entityname.he-rawmudraptorroast>
+  <entitydescription.he-rawmudraptorroast>¡Hora de ponerlo en el horno! Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawmudraptorroast>
+  <!-- Pez Ariete -->
+  <entityname.he-cookedhammerheadroast>Asado de Pez ariete</entityname.he-cookedhammerheadroast>
+  <entitydescription.he-cookedhammerheadroast>Una gran rebanada de asado.</entitydescription.he-cookedhammerheadroast>
+  <entityname.he-cookedhammerheadspawnpickled>Cría de Pez ariete en conservas</entityname.he-cookedhammerheadspawnpickled>
+  <entitydescription.he-cookedhammerheadspawnpickled>Una delicia.</entitydescription.he-cookedhammerheadspawnpickled>
+  <entityname.he-cookedhammerheadspawnfried>Cría de Pez ariete frito</entityname.he-cookedhammerheadspawnfried>
+  <entitydescription.he-cookedhammerheadspawnfried>Comida rápida cara.</entitydescription.he-cookedhammerheadspawnfried>
+  <entityname.he-hammerheadburger>Hamburguesa de Pez ariete</entityname.he-hammerheadburger>
+  <entitydescription.he-hammerheadburger>¡Mmmm, está tan sabrosa que querrías estrellar tu cabeza de incredulidad!</entitydescription.he-hammerheadburger>
+  <entityname.he-hammerheadhotdog>Perrito caliente de Pez ariete</entityname.he-hammerheadhotdog>
+  <entitydescription.he-hammerheadhotdog>¡Mmmm, está tan sabroso que querrías estrellar tu cabeza de incredulidad!</entitydescription.he-hammerheadhotdog>
+  <entityname.he-cookedhammerheadspareribs>Costillas de Pez ariete cocinadas</entityname.he-cookedhammerheadspareribs>
+  <entitydescription.he-cookedhammerheadspareribs>Una deliciosa comida con un sabor fuerte.</entitydescription.he-cookedhammerheadspareribs>
+  <entityname.he-hammerheadmeatchunk>Trozo de carne de Pez ariete</entityname.he-hammerheadmeatchunk>
+  <entitydescription.he-hammerheadmeatchunk>Un buen trozo de carne cortado de un Pez ariete. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-hammerheadmeatchunk>
+  <entityname.he-rawhammerheadmeat>Carne cruda de Pez ariete</entityname.he-rawhammerheadmeat>
+  <entitydescription.he-rawhammerheadmeat>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhammerheadmeat>
+  <entityname.he-rawhammerheadsausage>Salchicha cruda de Pez ariete</entityname.he-rawhammerheadsausage>
+  <entitydescription.he-rawhammerheadsausage>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhammerheadsausage>
+  <entityname.he-rawhammerheadmeatpatty>Hamburguesa cruda de carne de Pez ariete</entityname.he-rawhammerheadmeatpatty>
+  <entitydescription.he-rawhammerheadmeatpatty>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhammerheadmeatpatty>
+  <entityname.he-rawhammerheadspareribs>Costillas de Pez ariete crudas</entityname.he-rawhammerheadspareribs>
+  <entitydescription.he-rawhammerheadspareribs>Cortadas de una caja torácica masiva. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhammerheadspareribs>
+  <entityname.he-rawhammerheadroast>Asado crudo de Pez ariete</entityname.he-rawhammerheadroast>
+  <entitydescription.he-rawhammerheadroast>¡Hora de ponerlo en el horno! Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawhammerheadroast>
+  <entityname.he-hammerheadspawnmeatchunk>Cría de Pez ariete</entityname.he-hammerheadspawnmeatchunk>
+  <entitydescription.he-hammerheadspawnmeatchunk>Un bebé Pez ariete. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-hammerheadspawnmeatchunk>
+  <!-- Azotador -->
+  <entityname.he-cookedthresherfilet>Filete cocinado de Azotador</entityname.he-cookedthresherfilet>
+  <entitydescription.he-cookedthresherfilet>Es flácido y un poco viscoso.</entitydescription.he-cookedthresherfilet>
+  <entityname.he-thresherburger>Hamburguesa de Azotador</entityname.he-thresherburger>
+  <entitydescription.he-thresherburger>El sabor te deja sin aliento.</entitydescription.he-thresherburger>
+  <entityname.he-thresherhotdog>Perrito caliente de Azotador</entityname.he-thresherhotdog>
+  <entitydescription.he-thresherhotdog>El sabor te deja sin aliento.</entitydescription.he-thresherhotdog>
+  <entityname.he-threshermeatchunk>Trozo de carne de Azotador</entityname.he-threshermeatchunk>
+  <entitydescription.he-threshermeatchunk>Un buen trozo de carne cortado de un Azotador. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-threshermeatchunk>
+  <entityname.he-rawthreshermeat>Carne cruda de Azotador</entityname.he-rawthreshermeat>
+  <entitydescription.he-rawthreshermeat>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawthreshermeat>
+  <entityname.he-rawthreshersausage>Salchicha cruda de Azotador</entityname.he-rawthreshersausage>
+  <entitydescription.he-rawthreshersausage>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawthreshersausage>
+  <entityname.he-rawthreshermeatpatty>Hamburguesa cruda de carne de Azotador</entityname.he-rawthreshermeatpatty>
+  <entitydescription.he-rawthreshermeatpatty>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawthreshermeatpatty>
+  <!-- Gusano Final -->
+  <entityname.he-endwormhotdog>Perrito caliente de Gusano Final</entityname.he-endwormhotdog>
+  <entitydescription.he-endwormhotdog>¡El sabor es insano!</entitydescription.he-endwormhotdog>
+  <entityname.he-endwormburger>Hamburguesa de Gusano Final</entityname.he-endwormburger>
+  <entitydescription.he-endwormburger>¡El sabor es insano!</entitydescription.he-endwormburger>
+  <entityname.he-endwormmeatchunk>Trozo de carne de Gusano Final</entityname.he-endwormmeatchunk>
+  <entitydescription.he-endwormmeatchunk>Un trozo grueso de carne de un Gusano Final. Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-endwormmeatchunk>
+  <entityname.he-rawendwormmeat>Carne cruda de Gusano Final</entityname.he-rawendwormmeat>
+  <entitydescription.he-rawendwormmeat>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawendwormmeat>
+  <entityname.he-rawendwormsausage>Salchicha cruda de Gusano Final</entityname.he-rawendwormsausage>
+  <entitydescription.he-rawendwormsausage>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawendwormsausage>
+  <entityname.he-rawendwormmeatpatty>Hamburguesa cruda de carne de Gusano Final</entityname.he-rawendwormmeatpatty>
+  <entitydescription.he-rawendwormmeatpatty>Se echa a perder si no se coloca en un recipiente refrigerado.</entitydescription.he-rawendwormmeatpatty>
+  <!-- Plantas -->
+  <entityname.bubbleberries>Bayas Burbuja</entityname.bubbleberries>
+  <entitydescription.bubbleberries>Muy sabrosas y jugosas.</entitydescription.bubbleberries>
+  <entityname.badbubbleberries>Bayas Burbuja mutantes</entityname.badbubbleberries>
+  <entityname.popnut>Pop Nut</entityname.popnut>
+  <entitydescription.popnut>A los niños les encanta jugar con ellos. Hay que meterlo en agua para que se abra y poder consumirlo.</entitydescription.popnut>
+  <entityname.popnutpopped>Pop Nut reventado</entityname.popnutpopped>
+  <entitydescription.popnutpopped>Está abierto, listo para ser consumido. Se utiliza en algunas recetas.</entitydescription.popnutpopped>
+  <entityname.badpopnutpopped>Pop Nut utado reventado</entityname.badpopnutpopped>
+  <entitydescription.badpopnutpopped>Está abierto, listo para ser consumido. Se utiliza en algunas recetas. Puede ser peligroso dejarlo en el agua.</entitydescription.badpopnutpopped>
+  <entityname.badpopnut>Pop Nut mutado</entityname.badpopnut>
+  <entityname.badtobaccobud>Capullo de tabaco mutado</entityname.badtobaccobud>
+  <entityname.badsaltbulb>Bulbo de sal mutado</entityname.badsaltbulb>
+  <entityname.saltbulb>Bulbo de sal</entityname.saltbulb>
+  <!-- Semillas -->
+  <entityname.bubbleberryvineseed>Semillas de vid de Bayas Burbuja</entityname.bubbleberryvineseed>
+  <entitydescription.bubbleberryvineseed>Plántalas en una maceta para que crezcan bayas burbuja.</entitydescription.bubbleberryvineseed>
+  <entityname.popnutvineseed>Semilla de vid de Pop Nut</entityname.popnutvineseed>
+  <entitydescription.popnutvineseed>Plántalas en una maceta para que crezcan Pop Nuts.</entitydescription.popnutvineseed>
+  <!-- Bebidas -->
+  <entityname.he-energydrink1>Bebida energética</entityname.he-energydrink1>
+  <entitydescription.he-energydrink1>Una refrescante bebida energética. Ideal cuando estás completamente borracho y necesitas estar sobrio un poco.</entitydescription.he-energydrink1>
+  <entityname.rum>Ron</entityname.rum>
+  <entitydescription.rum>Una bebida alcohólica fuerte. |Bebida alcohólica |Disminuye la psicosis |Disminuye las alucinaciones |Disminuye la infección de Husk (si está por debajo del 90%) |Cura daño |Aumenta la resistencia a la psicosis</entitydescription.rum>
+  <entityname.he-rum>Ron Pirata</entityname.he-rum>
+  <entitydescription.he-rum>Un ron muy fuerte enriquecido con uranio para darle un toque extra de picante. |Bebida alcohólica |Disminuye la psicosis |Disminuye las alucinaciones |Disminuye la infección de Husk (si está por debajo del 90%) |Propiedades curativas |Aumenta la resistencia a la psicosis |Aumenta la enfermedad por radiación (ligeramente)</entitydescription.he-rum>
+  <entityname.he-whiskey>Whiskey del Doc</entityname.he-whiskey>
+  <entitydescription.he-whiskey>El whiskey original del Doctor Michael. Aprobado por doctores en toda Europa. |Bebida alcohólica |Reduce las alucinaciones |Reduce los efectos de Halucinova |Reduce la adicción química |Aumenta la resistencia a la psicosis |Ligeras propiedades curativas</entitydescription.he-whiskey>
+  <entityname.he-halucinova>Halucinova</entityname.he-halucinova>
+  <entitydescription.he-halucinova>¡Manténgase alejado de "Sadashi Kira" a toda costa! |Bebida alcohólica |Aumenta las alucinaciones |Ligeras propiedades curativas</entitydescription.he-halucinova>
+  <entityname.he-beer>Cerveza Premium Lager de la Coalición</entityname.he-beer>
+  <entitydescription.he-beer>Una cerveza popular entre los habitantes de la estación de la Coalición. |Bebida alcohólica |Aumenta la resistencia a la psicosis</entitydescription.he-beer>
+  <entityname.he-water>Agua</entityname.he-water>
+  <entitydescription.he-water>Agua fresca. Ayuda un poco si te sientes lleno o estás borracho.</entitydescription.he-water>
+  <entityname.he-waterbeer>Agua en botella de cerveza</entityname.he-waterbeer>
+  <entitydescription.he-waterbeer>Agua fresca. Ayuda un poco si te sientes lleno o estás borracho.</entitydescription.he-waterbeer>
+  <entityname.he-waterrum>Agua en botella de ron</entityname.he-waterrum>
+  <entitydescription.he-waterrum>Agua fresca. Ayuda un poco si te sientes lleno o estás borracho.</entitydescription.he-waterrum>
+  <entityname.he-waterwhiskey>Agua en botella de whiskey</entityname.he-waterwhiskey>
+  <entitydescription.he-waterwhiskey>Agua fresca. Ayuda un poco si te sientes lleno o estás borracho.</entitydescription.he-waterwhiskey>
+  <entityname.he-waterhalucinova>Agua en botella de halucinova</entityname.he-waterhalucinova>
+  <entitydescription.he-waterhalucinova>Agua fresca. Ayuda un poco si te sientes lleno o estás borracho.</entitydescription.he-waterhalucinova>
+  <entityname.he-milk>Leche de Moloch</entityname.he-milk>
+  <entitydescription.he-milk>Una botella de leche de Moloch. Tiene un sabor un poco extraño. ¡No preguntes cómo obtienen leche de un Moloch! Puede ayudar un poco cuando estás borracho o hambriento.</entitydescription.he-milk>
+  <entityname.he-seawaterbeer>Agua de mar en botella de cerveza</entityname.he-seawaterbeer>
+  <entitydescription.he-seawaterbeer>Agua de mar. Mejor que nada, pero realmente no deberías beber eso.</entitydescription.he-seawaterbeer>
+  <entityname.he-seawaterrum>Agua de mar en botella de ron</entityname.he-seawaterrum>
+  <entitydescription.he-seawaterrum>Agua de mar. Mejor que nada, pero realmente no deberías beber eso.</entitydescription.he-seawaterrum>
+  <entityname.he-seawaterwhiskey>Agua de mar en botella de whiskey</entityname.he-seawaterwhiskey>
+  <entitydescription.he-seawaterwhiskey>Agua de mar. Mejor que nada, pero realmente no deberías beber eso.</entitydescription.he-seawaterwhiskey>
+  <entityname.he-seawaterhalucinova>Agua de mar en botella de halucinova</entityname.he-seawaterhalucinova>
+  <entitydescription.he-seawaterhalucinova>Agua de mar. Mejor que nada, pero realmente no deberías beber eso.</entitydescription.he-seawaterhalucinova>
+  <entityname.he-seawater>Agua de mar</entityname.he-seawater>
+  <entitydescription.he-seawater>Agua de mar. Mejor que nada, pero realmente no deberías beber eso.</entitydescription.he-seawater>
+  <entityname.he-beercoalitionpremium>Cerveza Premium Lager de la Coalición</entityname.he-beercoalitionpremium>
+  <entitydescription.he-beercoalitionpremium>Una cerveza popular entre los habitantes de la estación de la coalición. |Bebida alcohólica |Aumenta la resistencia a la psicosis</entitydescription.he-beercoalitionpremium>
+  <entityname.he-beerjovianforce>Cerveza Fuerza Joviana</entityname.he-beerjovianforce>
+  <entitydescription.he-beerjovianforce>Una cerveza muy popular entre los Separatistas. |Bebida alcohólica |Aumenta la resistencia a la psicosis</entitydescription.he-beerjovianforce>
+  <entityname.he-beerliquidascension>Cerveza Ascensión Líquida</entityname.he-beerliquidascension>
+  <entitydescription.he-beerliquidascension>Una cerveza popular entre los miembros de la Iglesia de la Vaina en su camino hacia la ascensión. |Bebida alcohólica |Aumenta la resistencia a la psicosis |Aumenta la inmunidad a la presión |Oxígeno no incluido |Puede contener rastros de parásitos del husk</entitydescription.he-beerliquidascension>
+  <entityname.he-beerclownjuice>Cerveza Jugo de Payaso</entityname.he-beerclownjuice>
+  <entitydescription.he-beerclownjuice>Una cerveza popular entre los bromistas. ¡Alaben a la Madre Mec-Mec! |Bebida alcohólica |Aumenta la resistencia a la psicosis</entitydescription.he-beerclownjuice>
+  <entityname.he-beerreaperstribute>Cerveza Tributo del Segador</entityname.he-beerreaperstribute>
+  <entitydescription.he-beerreaperstribute>Una cerveza fuerte para rendir homenaje al Segador. |Bebida alcohólica |Libera el impuesto del segador |Aumenta la resistencia a la psicosis</entitydescription.he-beerreaperstribute>
+  <!-- Barriles -->
+  <entityname.he-kegempty>Barril Vacío</entityname.he-kegempty>
+  <entitydescription.he-kegempty>Un barril vacío utilizado en algunas recetas. Puede usarse en agua para recoger agua sucia.</entitydescription.he-kegempty>
+  <entityname.he-kegseawater>Barril de agua de mar</entityname.he-kegseawater>
+  <entitydescription.he-kegseawater>Un barril lleno de agua de mar. Puede usarse para rellenar botellas en una estación de recarga. Puede cocinarse en agua limpia en una cocina o caldera de elaboración. También se utiliza en jardineras hidropónicas.</entitydescription.he-kegseawater>
+  <entityname.he-kegwater>Barril de agua</entityname.he-kegwater>
+  <entitydescription.he-kegwater>Un barril lleno de agua. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegwater>
+  <entityname.he-kegcoalitionpremium>Barril de Cerveza Premium de la Coalición</entityname.he-kegcoalitionpremium>
+  <entitydescription.he-kegcoalitionpremium>Un barril lleno de Cerveza Premium Lager de la Coalición. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegcoalitionpremium>
+  <entityname.he-kegjovianforce>Barril de Cerveza Fuerza Joviana</entityname.he-kegjovianforce>
+  <entitydescription.he-kegjovianforce>Un barril lleno de Cerveza Fuerza Joviana. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegjovianforce>
+  <entityname.he-kegliquidascension>Barril de Cerveza Ascensión Líquida</entityname.he-kegliquidascension>
+  <entitydescription.he-kegliquidascension>Un barril lleno de Cerveza Ascensión Líquida. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegliquidascension>
+  <entityname.he-kegclownjuice>Barril de Cerveza Jugo de Payaso</entityname.he-kegclownjuice>
+  <entitydescription.he-kegclownjuice>Un barril lleno de cerveza Jugo de Payaso. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegclownjuice>
+  <entityname.he-kegreaperstribute>Barril de Cerveza Tributo del Segador</entityname.he-kegreaperstribute>
+  <entitydescription.he-kegreaperstribute>Un barril lleno de cerveza Tributo del Segador. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegreaperstribute>
+  <entityname.he-kegrum>Barril de Ron</entityname.he-kegrum>
+  <entitydescription.he-kegrum>Un barril lleno de Ron. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegrum>
+  <entityname.he-kegpiraterum>Barril de Ron de Pirata</entityname.he-kegpiraterum>
+  <entitydescription.he-kegpiraterum>Un barril lleno de Ron de Pirata. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegpiraterum>
+  <entityname.he-kegwhiskey>Barril de Whiskey</entityname.he-kegwhiskey>
+  <entitydescription.he-kegwhiskey>Un barril lleno de Whiskey. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-kegwhiskey>
+  <entityname.he-keghalucinova>Barril de Halucinova</entityname.he-keghalucinova>
+  <entitydescription.he-keghalucinova>Un barril lleno de Halucinova. Puede usarse para rellenar botellas en una estación de recarga.</entitydescription.he-keghalucinova>
+  <!-- Botellas -->
+  <entityname.he-emptybottlerum>Botella de Ron Vacía</entityname.he-emptybottlerum>
+  <entitydescription.he-emptybottlerum>Una botella de Ron Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlerum>
+  <entityname.he-emptybottlewhiskey>Botella de Whiskey Vacía</entityname.he-emptybottlewhiskey>
+  <entitydescription.he-emptybottlewhiskey>Una botella de Whiskey Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlewhiskey>
+  <entityname.he-emptybottlehalucinova>Botella de Halucinova Vacía</entityname.he-emptybottlehalucinova>
+  <entitydescription.he-emptybottlehalucinova>Una botella de Halucinova vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlehalucinova>
+  <entityname.he-emptybottlebeer>Botella de Cerveza Vacía</entityname.he-emptybottlebeer>
+  <entitydescription.he-emptybottlebeer>Una botella de Cerveza Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlebeer>
+  <entityname.he-emptybottle>Botella Vacía</entityname.he-emptybottle>
+  <entitydescription.he-emptybottle>Una Botella Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottle>
+  <entityname.he-emptyjar>Tarro Vacío</entityname.he-emptyjar>
+  <entitydescription.he-emptyjar>Un Tarro Vacío usado para algunas recetas. Se puede tirar.</entitydescription.he-emptyjar>
+  <entityname.he-emptyshaker>Salero</entityname.he-emptyshaker>
+  <entitydescription.he-emptyshaker>Un salero vacío listo para ser llenado de sal.</entitydescription.he-emptyshaker>
+  <entityname.he-emptyshaker>Salero Vacío</entityname.he-emptyshaker>
+  <!--Patch 11-->
+  <entitydescription.he-emptyshaker>Un salero vacío listo para ser llenado de sal. Se puede arrojar.</entitydescription.he-emptyshaker>
+  <!--Patch 11-->
+  <entityname.he-emptybottlerum2>Botella de Ron Vacía</entityname.he-emptybottlerum2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlerum2>Una botella de Ron Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlerum2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlewhiskey2>Botella de Whiskey Vacía</entityname.he-emptybottlewhiskey2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlewhiskey2>Una botella de Whiskey Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlewhiskey2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlehalucinova2>Botella de Halucinova Vacía</entityname.he-emptybottlehalucinova2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlehalucinova2>Una botella de Halucinova vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlehalucinova2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlebeer2>Botella de Cerveza Vacía</entityname.he-emptybottlebeer2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlebeer2>Una botella de Cerveza Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottlebeer2>
+  <!--Patch 11-->
+  <entityname.he-emptybottle2>Botella Vacía</entityname.he-emptybottle2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottle2>Una Botella Vacía usada para algunas recetas. Se puede tirar o usar en agua para recolectar agua de mar.</entitydescription.he-emptybottle2>
+  <!--Patch 11-->
+  <entityname.he-emptyjar2>Tarro Vacío</entityname.he-emptyjar2>
+  <!--Patch 11-->
+  <entitydescription.he-emptyjar2>Un Tarro Vacío usado para algunas recetas. Se puede tirar.</entitydescription.he-emptyjar2>
+  <!--Patch 11-->
+  <entityname.he-emptyshaker2>Salero Vacío</entityname.he-emptyshaker2>
+  <!--Patch 11-->
+  <entitydescription.he-emptyshaker2>Un salero vacío listo para ser llenado de sal. Se puede arrojar.</entitydescription.he-emptyshaker2>
+  <!--Patch 11-->
+  <!-- Planos -->
+  <entityname.he-blueprintbottle>Plano de botella</entityname.he-blueprintbottle>
+  <entitydescription.he-blueprintbottle>Un plano de una botella normal. Se puede utilizar en una impresora de botellas.</entitydescription.he-blueprintbottle>
+  <entityname.he-blueprintbottlebeer>Plano de botella de cerveza</entityname.he-blueprintbottlebeer>
+  <entitydescription.he-blueprintbottlebeer>Un plano de una botella de cerveza. Se puede utilizar en una impresora de botellas.</entitydescription.he-blueprintbottlebeer>
+  <entityname.he-blueprintbottlerum>Plano de botella de ron</entityname.he-blueprintbottlerum>
+  <entitydescription.he-blueprintbottlerum>Un plano de una botella de ron. Se puede utilizar en una impresora de botellas.</entitydescription.he-blueprintbottlerum>
+  <entityname.he-blueprintbottlewhiskey>Plano de botella de whiskey</entityname.he-blueprintbottlewhiskey>
+  <entitydescription.he-blueprintbottlewhiskey>Un plano de una botella de whiskey. Se puede utilizar en una impresora de botellas.</entitydescription.he-blueprintbottlewhiskey>
+  <entityname.he-blueprintbottlehalucinova>Plano de botella de halucinova</entityname.he-blueprintbottlehalucinova>
+  <entitydescription.he-blueprintbottlehalucinova>Un plano de una botella de halucinova. Se puede utilizar en una impresora de botellas.</entitydescription.he-blueprintbottlehalucinova>
+  <entityname.he-blueprintjar>Plano de tarro</entityname.he-blueprintjar>
+  <entitydescription.he-blueprintjar>Un plano de un tarro. Se puede utilizar en una impresora de botellas.</entitydescription.he-blueprintjar>
+  <entityname.he-blueprintshaker>Plano de salero</entityname.he-blueprintshaker>
+  <entitydescription.he-blueprintshaker>Un plano de un salero. Se puede utilizar en una impresora de botellas.</entitydescription.he-blueprintshaker>
+  <!-- Ingredientes -->
+  <entityname.he-salt>Sal</entityname.he-salt>
+  <entitydescription.he-salt>¡No te pongas salado ahora!</entitydescription.he-salt>
+  <entityname.he-pepper>Pimienta Sintética</entityname.he-pepper>
+  <entitydescription.he-pepper>¡Prepárate para la pimienta!</entitydescription.he-pepper>
+  <entityname.he-sugar>Azúcar</entityname.he-sugar>
+  <entitydescription.he-sugar>¡Tan dulce!</entitydescription.he-sugar>
+  <entityname.he-ketchup>Ketchup</entityname.he-ketchup>
+  <entitydescription.he-ketchup>Hecho de granadas.</entitydescription.he-ketchup>
+  <entityname.he-vinegar>Vinagre</entityname.he-vinegar>
+  <entitydescription.he-vinegar>Ese olor...</entitydescription.he-vinegar>
+  <entityname.he-cookingoil>Aceite de cocina</entityname.he-cookingoil>
+  <entitydescription.he-cookingoil>Este no se utiliza en motores.</entitydescription.he-cookingoil>
+  <entityname.he-flour>Harina Sintética</entityname.he-flour>
+  <entitydescription.he-flour>Harina sintética original de Europa</entitydescription.he-flour>
+  <entityname.he-glassfragments>Fragmentos de Vidrio</entityname.he-glassfragments>
+  <entitydescription.he-glassfragments>Vidrio roto. Se puede obtener rompiendo botellas o fabricándolos a partir de cuarzo en un fabricante. Se utiliza para fabricar en un fabricante o impresora de botellas.</entitydescription.he-glassfragments>
+  <entityname.he-jambubbleberry>Mermelada de Baya Burbuja</entityname.he-jambubbleberry>
+  <entitydescription.he-jambubbleberry>Deliciosa mermelada hecha con bayas burbuja. Conocida por calmar un poco la sed.</entitydescription.he-jambubbleberry>
+  <!-- Herramientas -->
+  <entityname.he-enableneeds>Hungry Europans (Habilita NEEDS)</entityname.he-enableneeds>
+  <entitydescription.he-enableneeds>[Clic derecho + E] Habilita los efectos del hambre y la sed para el usuario, lo que les obliga a comer y beber regularmente. Esto es completamente opcional y NO es necesario para obtener beneficios al comer o beber. Advertencia: No se puede desactivar para tu personaje actual una vez que esté habilitado. ¡NO LO USES CUANDO JUEGUES CON 'NEEDS' POR 'LeDoux'!</entitydescription.he-enableneeds>
+  <entityname.he-butchersaw>Sierra de carnicero</entityname.he-butchersaw>
+  <entitydescription.he-butchersaw>Ideal para desmembrar enemigos</entitydescription.he-butchersaw>
+  <entityname.he-cleaver>Cuchillo de carnicero</entityname.he-cleaver>
+  <entitydescription.he-cleaver>¡El tiempo se ha acabado! ¡Chop, chop! \n\nPuede cortar:\n-Reptadores\n-Fangorraptores\n-Azotadores\n-Peces ariete\n-Esporas de Peces ariete\n-Gusanos finales\n-Humanos\n</entitydescription.he-cleaver>
+  <entityname.he-skillbooktheeuropan>El Europano Vol. 66</entityname.he-skillbooktheeuropan>
+  <entitydescription.he-skillbooktheeuropan>"... Echa un vistazo detrás del telón del tiempo. ¿Eres tú, Robert? No, soy Robert. Pero también soy Doris. Soy la carne. Come de mí y conviértete en uno con el Gusano. ..."</entitydescription.he-skillbooktheeuropan>
+  <entityname.he-skillbookauntdoris>El Arte de Cocinar en Alta Mar, por la Tía Doris</entityname.he-skillbookauntdoris>
+  <entitydescription.he-skillbookauntdoris>El estilo de cocina europano.</entitydescription.he-skillbookauntdoris>
+  <entityname.he-genesaw>Extractor de Genes</entityname.he-genesaw>
+  <entitydescription.he-genesaw>Puede extraer un gen aleatorio de un cadáver.</entitydescription.he-genesaw>
+  <entityname.extractedgene>Gen Extraído</entityname.extractedgene>
+  <entitydescription.extractedgene>Un gen extraído no identificado.</entitydescription.extractedgene>
+  <!-- Médico -->
+  <entityname.he-antistarve>Regenerador de Conciencia por Inanición</entityname.he-antistarve>
+  <entitydescription.he-antistarve>Se utiliza para despertar a un paciente que ha perdido la conciencia debido a la inanición o sed.</entitydescription.he-antistarve>
+  <!-- Equipo -->
+  <entityname.he-chefscap1>Gorro de Chef</entityname.he-chefscap1>
+  <entitydescription.he-chefscap1>¡Demuéstrales de quién es esta cocina!</entitydescription.he-chefscap1>
+  <entityname.he-chefscap2>Gorro de Chef</entityname.he-chefscap2>
+  <entitydescription.he-chefscap2>¡Demuéstrales de quién es esta cocina!</entitydescription.he-chefscap2>
+  <entityname.he-chefsuniform1>Uniforme de Chef</entityname.he-chefsuniform1>
+  <entitydescription.he-chefsuniform1>¡Usado por chefs en toda Europa!</entitydescription.he-chefsuniform1>
+  <entityname.he-chefsuniform2>Uniforme de Chef</entityname.he-chefsuniform2>
+  <entitydescription.he-chefsuniform2>¡Usado por chefs en toda Europa!</entitydescription.he-chefsuniform2>
+  <entityname.he-chefscapmaster1>Gorro de Chef Maestro</entityname.he-chefscapmaster1>
+  <entitydescription.he-chefscapmaster1>¡Solo para la élite de la cocina!</entitydescription.he-chefscapmaster1>
+  <entityname.he-chefsuniformmaster1>Uniforme de Chef Maestro</entityname.he-chefsuniformmaster1>
+  <entitydescription.he-chefsuniformmaster1>¡Usado por los chefs maestros!</entitydescription.he-chefsuniformmaster1>
+  <!-- Fabricantes y contenedores -->
+  <entityname.he-kitchencounter>Fregadero</entityname.he-kitchencounter>
+  <entitydescription.he-kitchencounter>Puede almacenar hasta 18 artículos diferentes de pequeño o mediano tamaño y rellenar botellas vacías y barriles con agua de mar.</entitydescription.he-kitchencounter>
+  <entityname.he-kitchencounter2>Encimera de cocina</entityname.he-kitchencounter2>
+  <entitydescription.he-kitchencounter2>Puede almacenar hasta 30 artículos pequeños o medianos diferentes.</entitydescription.he-kitchencounter2>
+  <entityname.he-refrigerator>Refrigerador</entityname.he-refrigerator>
+  <entitydescription.he-refrigerator>Evita que se descompongan alimentos y bebidas. Requiere energía.</entitydescription.he-refrigerator>
+  <entityname.he-stove>Cocina</entityname.he-stove>
+  <entitydescription.he-stove>Se utiliza para cocinar. Requiere energía.</entitydescription.he-stove>
+  <entityname.he-oven>Horno</entityname.he-oven>
+  <entitydescription.he-oven>Se utiliza para hornear. Requiere energía.</entitydescription.he-oven>
+  <entityname.he-cuttingboard>Tabla de cortar</entityname.he-cuttingboard>
+  <entitydescription.he-cuttingboard>Se utiliza para preparar ingredientes.</entitydescription.he-cuttingboard>
+  <entityname.he-fryer>Freidora</entityname.he-fryer>
+  <entitydescription.he-fryer>Se utiliza para freír cosas. Requiere energía.</entitydescription.he-fryer>
+  <entityname.he-distiller>Destilador</entityname.he-distiller>
+  <entitydescription.he-distiller>Se utiliza para destilar etanol a partir de azúcar y hongos de levadura marina. Requiere energía.</entitydescription.he-distiller>
+  <entityname.he-brewkettle>Caldera</entityname.he-brewkettle>
+  <entitydescription.he-brewkettle>Se utiliza para preparar barriles de casi cualquier tipo de bebida. Requiere energía.</entitydescription.he-brewkettle>
+  <entityname.he-bottleprinter>Impresora de botellas</entityname.he-bottleprinter>
+  <entitydescription.he-bottleprinter>Se utiliza para producir botellas en masa. Requiere energía.</entitydescription.he-bottleprinter>
+  <entityname.he-refillstation>Estación de recarga</entityname.he-refillstation>
+  <entitydescription.he-refillstation>Se utiliza para rellenar botellas vacías desde un barril.</entitydescription.he-refillstation>
+  <entityname.he-coolercrate>Caja refrigeradora</entityname.he-coolercrate>
+  <entityname.he-jarcrate>Caja para tarros</entityname.he-jarcrate>
+  <entitydescription.he-jarcrate>Una caja para guardar y transportar tarros. Las botellas no caben.</entitydescription.he-jarcrate>
+  <entitydescription.he-coolercrate>Se utiliza para evitar que la carne se eche a perder. Requiere una batería.</entitydescription.he-coolercrate>
+  <entityname.he-liquorcrate>Caja de licores</entityname.he-liquorcrate>
+  <entitydescription.he-liquorcrate>Se utiliza para almacenar y transportar hasta 20 botellas de cualquier tipo.</entitydescription.he-liquorcrate>
+  <entityname.he-liquorcrateshelf>Estantería de cajas de licores</entityname.he-liquorcrateshelf>
+  <entitydescription.he-liquorcrateshelf>Una estantería para almacenar hasta 4 de tus cajas de licores y frascos.</entitydescription.he-liquorcrateshelf>
+  <entityname.he-liquorcrateshelfsmall>Estantería de cajas de licores (Pequeña)</entityname.he-liquorcrateshelfsmall>
+  <entitydescription.he-liquorcrateshelfsmall>Una estantería pequeña para almacenar hasta 2 de tus cajas de licores y frascos.</entitydescription.he-liquorcrateshelfsmall>
+  <entityname.he-liquordisplayshelf>Estantería de exhibición de licores</entityname.he-liquordisplayshelf>
+  <entitydescription.he-liquordisplayshelf>Una estantería para exhibir y almacenar tus botellas. Los frascos no caben.</entitydescription.he-liquordisplayshelf>
+  <entityname.he-toolbeltlunch>Cinturón de herramientas con lonchera</entityname.he-toolbeltlunch>
+  <entitydescription.he-toolbeltlunch>Un cinturón de herramientas con una lonchera adjunta para llevar siempre tu comida contigo.</entitydescription.he-toolbeltlunch>
+  <entityname.he-lunchbox>Lonchera</entityname.he-lunchbox>
+  <entitydescription.he-lunchbox>Es una caja con asa para llevar tu comida. Puede colocarse en un Fabricador.</entitydescription.he-lunchbox>
+  <entityname.he-hydroponicplanter>Plantador hidropónico</entityname.he-hydroponicplanter>
+  <entitydescription.he-hydroponicplanter>Un dispositivo que proporciona condiciones perfectas para que crezcan las plantas acuáticas de Europa. Produce una planta cada 15 minutos. Requiere energía.</entitydescription.he-hydroponicplanter>
+  <entityname.he-cafeteriacart>Carro de cafetería</entityname.he-cafeteriacart>
+  <entitydescription.he-cafeteriacart>Se utiliza para transportar una gran cantidad de alimentos y bebidas o almacenarlos en un área más accesible para la tripulación. Puede contener hasta 30 alimentos o bebidas diferentes. Puede colocarse.</entitydescription.he-cafeteriacart>
+  <!-- Habilidades -->
+  <skillname.cooking>Cocina</skillname.cooking>
+  <skillname.butchery>Carnicería</skillname.butchery>
+  <!-- Trabajos -->
+  <jobname.he-chef>Chef</jobname.he-chef>
+  <jobdescription.he-chef>El chef es responsable de despiezar criaturas y preparar comidas para la tripulación, asegurándose de que todos estén satisfechos y felices.</jobdescription.he-chef>
+  <!-- Talentos -->
+  <talentname.he-hungryeuropan>Europano Hambriento</talentname.he-hungryeuropan>
+  <talentdescription.he-hungryeuropan>Eres un europano hambriento y necesitas comer y beber regularmente.</talentdescription.he-hungryeuropan>
+  <talentname.he-poacher>Furtivo</talentname.he-poacher>
+  <talentdescription.he-poacher>Obtén un bono adicional de [xpbonus]% de experiencia en misiones de tipo [missiontype1] y [missiontype2].</talentdescription.he-poacher>
+  <talentname.he-saltybusiness>Negocio Salado</talentname.he-saltybusiness>
+  <talentdescription.he-saltybusiness>La primera vez que abres un contenedor, tienes una probabilidad del [probability]% de encontrar algo de sal adicional en él.</talentdescription.he-saltybusiness>
+  <talentname.he-fastfood>Comida Rápida</talentname.he-fastfood>
+  <talentdescription.he-fastfood>Aumenta la velocidad de los Fabricadores relacionados con la cocina en un [amount]%.</talentdescription.he-fastfood>
+  <talentname.he-chefattire>Vestimenta de Master Chef</talentname.he-chefattire>
+  <talentdescription.he-chefattire>Desbloquea las recetas de fabricación para [itemname1] y [itemname2].</talentdescription.he-chefattire>
+  <talentname.he-frenzy>Frenesí</talentname.he-frenzy>
+  <talentdescription.he-frenzy>Aumenta tu fuerza de ataque con cuchillos relacionados con la carnicería en un [powerincrease]%.</talentdescription.he-frenzy>
+  <talentname.he-butchershop>Carnicería</talentname.he-butchershop>
+  <talentdescription.he-butchershop>Eres un carnicero talentoso y se nota. ¡Obtén un [amount]% más de dinero al vender carne!</talentdescription.he-butchershop>
+  <talentname.he-coldblood>Sangre Fría</talentname.he-coldblood>
+  <talentdescription.he-coldblood>Eres la persona más tranquila. La carne ya no se echa a perder en tu inventario.</talentdescription.he-coldblood>
+  <talentname.he-masterchef>Master Chef</talentname.he-masterchef>
+  <talentdescription.he-masterchef>Te has convertido en un maestro en tu trabajo y has aprendido a guardar algunos ingredientes para más tarde al cocinar. Tienes una probabilidad del [chance]% de no consumir un ingrediente al azar mientras preparas una comida.</talentdescription.he-masterchef>
+  <talentname.he-lifesaver>Salvavidas</talentname.he-lifesaver>
+  <talentdescription.he-lifesaver>Obtén un bono de [amount] en [skill]. Desbloquea la receta de fabricación para [itemname1].</talentdescription.he-lifesaver>
+  <talentname.he-delicacies>Delicias</talentname.he-delicacies>
+  <talentdescription.he-delicacies>Desbloquea las siguientes recetas de delicias europanas: [itemname1]</talentdescription.he-delicacies>
+  <talentname.he-masterbrewer>Maestro Cervecero</talentname.he-masterbrewer>
+  <talentdescription.he-masterbrewer>Desbloquea las siguientes recetas de bebidas europanas: [itemname1], [itemname2], [itemname3]</talentdescription.he-masterbrewer>
+  <!-- Aflicciones -->
+  <afflictionname.hunger>Hambre</afflictionname.hunger>
+  <afflictionname.he-hunger>Hambre</afflictionname.he-hunger>
+  <afflictiondescription.he-hunger>El estómago está satisfecho.</afflictiondescription.he-hunger>
+  <afflictioncauseofdeath.he-hunger>Murió de inanición.</afflictioncauseofdeath.he-hunger>
+  <afflictioncauseofdeathself.he-hunger>Has muerto de inanición.</afflictioncauseofdeathself.he-hunger>
+  <afflictiondescription.he-hunger.self>¡El estómago ruge!</afflictiondescription.he-hunger.self>
+  <afflictiondescription.he-hunger.lethal.self>Cerca de morir de hambre...</afflictiondescription.he-hunger.lethal.self>
+  <afflictiondescription.he-hunger.other.low>El paciente está empezando a tener un pequeño apetito.</afflictiondescription.he-hunger.other.low>
+  <afflictiondescription.he-hunger.other>El paciente tiene hambre.</afflictiondescription.he-hunger.other>
+  <afflictiondescription.he-hunger.lethal.other>El paciente está empezando a morir de hambre.</afflictiondescription.he-hunger.lethal.other>
+  <afflictionname.thirst>Sed</afflictionname.thirst>
+  <afflictionname.he-thirst>Sed</afflictionname.he-thirst>
+  <afflictiondescription.he-thirst>Te sientes refrescado.</afflictiondescription.he-thirst>
+  <afflictioncauseofdeath.he-thirst>Murió de sed.</afflictioncauseofdeath.he-thirst>
+  <afflictioncauseofdeathself.he-thirst>Has muerto de sed.</afflictioncauseofdeathself.he-thirst>
+  <afflictiondescription.he-thirst.self>La garganta se siente seca.</afflictiondescription.he-thirst.self>
+  <afflictiondescription.he-thirst.lethal.self>Empezando a morir de sed...</afflictiondescription.he-thirst.lethal.self>
+  <afflictiondescription.he-thirst.other.low>El paciente está empezando a tener sed.</afflictiondescription.he-thirst.other.low>
+  <afflictiondescription.he-thirst.other>El paciente tiene sed.</afflictiondescription.he-thirst.other>
+  <afflictiondescription.he-thirst.lethal.other>El paciente está empezando a morir de sed.</afflictiondescription.he-thirst.lethal.other>
+  <afflictionname.he-starvation>Inanición</afflictionname.he-starvation>
+  <afflictiondescription.he-starvation>Muriendo de hambre...</afflictiondescription.he-starvation>
+  <afflictioncauseofdeath.he-starvation>Murió de hambre.</afflictioncauseofdeath.he-starvation>
+  <afflictioncauseofdeathself.he-starvation>Has muerto de inanición.</afflictioncauseofdeathself.he-starvation>
+  <afflictiondescription.he-starvation.self>Muriendo de hambre...</afflictiondescription.he-starvation.self>
+  <afflictiondescription.he-starvation.other>El paciente está muriendo de hambre.</afflictiondescription.he-starvation.other>
+  <afflictionname.he-dieofthirst>Muriendo de sed</afflictionname.he-dieofthirst>
+  <afflictiondescription.he-dieofthirst>Muriendo de sed...</afflictiondescription.he-dieofthirst>
+  <afflictioncauseofdeath.he-dieofthirst>Murió de sed.</afflictioncauseofdeath.he-dieofthirst>
+  <afflictioncauseofdeathself.he-dieofthirst>Te secaste.</afflictioncauseofdeathself.he-dieofthirst>
+  <afflictiondescription.he-dieofthirst.self>Muriendo de sed...</afflictiondescription.he-dieofthirst.self>
+  <afflictiondescription.he-dieofthirst.other>El paciente está muriendo de sed.</afflictiondescription.he-dieofthirst.other>
+  <afflictionname.he-increasedswimmingspeedcrawler>Aumento de la velocidad de nado (Alimento)</afflictionname.he-increasedswimmingspeedcrawler>
+  <afflictiondescription.he-increasedswimmingspeedcrawler>Nadas un 50% más rápido.</afflictiondescription.he-increasedswimmingspeedcrawler>
+  <afflictionname.he-damageresistancemudraptor>Resistencia al daño (Alimento)</afflictionname.he-damageresistancemudraptor>
+  <afflictiondescription.he-damageresistancemudraptor>Recibes un 25% menos de daño.</afflictiondescription.he-damageresistancemudraptor>
+  <afflictionname.he-increasedwalkingspeedmudraptor>Aumento de la velocidad de caminar (Alimento)</afflictionname.he-increasedwalkingspeedmudraptor>
+  <afflictiondescription.he-increasedwalkingspeedmudraptor>Caminas un 20% más rápido.</afflictiondescription.he-increasedwalkingspeedmudraptor>
+  <afflictionname.he-damageresistancemoloch>Resistencia al daño (Alimento)</afflictionname.he-damageresistancemoloch>
+  <afflictiondescription.he-damageresistancemoloch>Recibes un 50% menos de daño.</afflictiondescription.he-damageresistancemoloch>
+  <afflictionname.he-increasedmeleedamagehammerhead>Aumento del daño cuerpo a cuerpo (Alimento)</afflictionname.he-increasedmeleedamagehammerhead>
+  <afflictiondescription.he-increasedmeleedamagehammerhead>Infliges un 25% más de daño cuerpo a cuerpo.</afflictiondescription.he-increasedmeleedamagehammerhead>
+  <afflictionname.he-decreasedoxygenconsumption>Disminución del consumo de oxígeno (Alimento)</afflictionname.he-decreasedoxygenconsumption>
+  <afflictiondescription.he-decreasedoxygenconsumption>No necesitas respirar.</afflictiondescription.he-decreasedoxygenconsumption>
+  <afflictionname.he-pressureresistance>Resistencia a la presión (Alimento)</afflictionname.he-pressureresistance>
+  <afflictiondescription.he-pressureresistance>Eres inmune a la presión.</afflictiondescription.he-pressureresistance>
+  <afflictionname.he-cannibalskillincrease>Aumento de habilidades (Alimento)</afflictionname.he-cannibalskillincrease>
+  <afflictiondescription.he-cannibalskillincrease>Todas tus habilidades aumentan un 20%.</afflictiondescription.he-cannibalskillincrease>
+  <afflictionname.he-alcoholism>Alcohólico</afflictionname.he-alcoholism>
+  <afflictiondescription.he-alcoholism>El paciente está lo suficientemente feliz... siempre y cuando obtenga lo que necesita.</afflictiondescription.he-alcoholism>
+  <advancedafflictiondescription.self.he-alcoholism>¡Es hora de un crucero de alcohol! Estás adicto al alcohol.</advancedafflictiondescription.self.he-alcoholism>
+  <advancedafflictiondescription.others.he-alcoholism>El paciente sufre de alcoholismo.</advancedafflictiondescription.others.he-alcoholism>
+  <afflictionname.he-alcoholwithdrawal>Abstinencia de alcohol</afflictionname.he-alcoholwithdrawal>
+  <afflictiondescription.he-alcoholwithdrawal>La agitación y el temblor son evidentes, al igual que los signos de náuseas.</afflictiondescription.he-alcoholwithdrawal>
+  <afflictioncauseofdeath.he-alcoholwithdrawal>Murió por abstinencia de alcohol</afflictioncauseofdeath.he-alcoholwithdrawal>
+  <afflictioncauseofdeathself.he-alcoholwithdrawal>Has muerto por abstinencia de alcohol.</afflictioncauseofdeathself.he-alcoholwithdrawal>
+  <advancedafflictiondescription.self.he-alcoholwithdrawal>Tienes la sensación de que es hora de abrir otra bebida fría con los chicos.</advancedafflictiondescription.self.he-alcoholwithdrawal>
+  <advancedafflictiondescription.others.he-alcoholwithdrawal>El paciente muestra signos leves de abstinencia de alcohol.</advancedafflictiondescription.others.he-alcoholwithdrawal>
+  <advancedafflictiondescription.self.he-alcoholwithdrawal.2>¡Una cerveza fría o una botella de ron... cualquier cosa para satisfacer esta horrible sed de alcohol!</advancedafflictiondescription.self.he-alcoholwithdrawal.2>
+  <advancedafflictiondescription.others.he-alcoholwithdrawal.2>El paciente muestra signos graves de abstinencia de alcohol.</advancedafflictiondescription.others.he-alcoholwithdrawal.2>
+  <afflictionname.he-cannibalism>Canibalismo</afflictionname.he-cannibalism>
+  <afflictiondescription.he-cannibalism>El paciente está lo suficientemente feliz... siempre y cuando obtenga lo que necesita.</afflictiondescription.he-cannibalism>
+  <advancedafflictiondescription.self.he-cannibalism>¡Uh oh! Parece que te gusta el sabor de tus compañeros de tripulación.</advancedafflictiondescription.self.he-cannibalism>
+  <advancedafflictiondescription.others.he-cannibalism>El paciente ciertamente disfruta de un tipo especial de carne.</advancedafflictiondescription.others.he-cannibalism>
+  <afflictionname.he-hungryforhumanmeat>Hambre de carne humana</afflictionname.he-hungryforhumanmeat>
+  <afflictiondescription.he-hungryforhumanmeat>La agitación y el temblor son evidentes, los ojos miran vacíos.</afflictiondescription.he-hungryforhumanmeat>
+  <afflictioncauseofdeath.he-hungryforhumanmeat>Perdió la cabeza por la carne humana.</afflictioncauseofdeath.he-hungryforhumanmeat>
+  <afflictioncauseofdeathself.he-hungryforhumanmeat>Perdiste la cabeza por la carne humana.</afflictioncauseofdeathself.he-hungryforhumanmeat>
+  <advancedafflictiondescription.self.he-hungryforhumanmeat>¡Tus compañeros de tripulación están empezando a verse bastante sabrosos!</advancedafflictiondescription.self.he-hungryforhumanmeat>
+  <advancedafflictiondescription.others.he-hungryforhumanmeat>El paciente te mira fríamente.</advancedafflictiondescription.others.he-hungryforhumanmeat>
+  <advancedafflictiondescription.self.he-hungryforhumanmeat.2>Te cuesta concentrarte en cualquier cosa. Ansías carne humana. Quieres matar. Tus brazos se fortalecen solo con pensarlo.</advancedafflictiondescription.self.he-hungryforhumanmeat.2>
+  <advancedafflictiondescription.others.he-hungryforhumanmeat.2>El paciente te mira fríamente y está temblando severamente.</advancedafflictiondescription.others.he-hungryforhumanmeat.2>
+  <afflictionname.he-drunkinvertcontrols>Desorientado</afflictionname.he-drunkinvertcontrols>
+  <afflictiondescription.he-drunkinvertcontrols>¡Arriba es abajo y la izquierda es... ¿derecha? ¿Dónde estoy?</afflictiondescription.he-drunkinvertcontrols>
+  <afflictionname.he-stuffed>Lleno</afflictionname.he-stuffed>
+  <afflictiondescription.he-stuffed>El estómago está lleno.</afflictiondescription.he-stuffed>
+  <afflictioncauseofdeath.he-stuffed>Atragantado de vómito.</afflictioncauseofdeath.he-stuffed>
+  <afflictioncauseofdeathself.he-stuffed>Te has atragantado con tu propio vómito.</afflictioncauseofdeathself.he-stuffed>
+  <advancedafflictiondescription.self.he-stuffed>El estómago está lleno.</advancedafflictiondescription.self.he-stuffed>
+  <advancedafflictiondescription.self.he-stuffed.2>El estómago está en su límite. Comer más podría provocar vómitos.</advancedafflictiondescription.self.he-stuffed.2>
+  <advancedafflictiondescription.self.he-stuffed.3>El estómago está demasiado lleno. Sientes la necesidad de vomitar.</advancedafflictiondescription.self.he-stuffed.3>
+  <advancedafflictiondescription.others.he-stuffed>El estómago está lleno. El paciente ha comido lo suficiente.</advancedafflictiondescription.others.he-stuffed>
+  <advancedafflictiondescription.others.he-stuffed.2>El estómago está muy lleno. El paciente ha comido casi demasiado.</advancedafflictiondescription.others.he-stuffed.2>
+  <advancedafflictiondescription.others.he-stuffed.3>El estómago está demasiado lleno. El paciente podría vomitar.</advancedafflictiondescription.others.he-stuffed.3>
+  <afflictionname.he-stomachache>Dolor de estómago</afflictionname.he-stomachache>
+  <afflictiondescription.he-stomachache>El estómago duele.</afflictiondescription.he-stomachache>
+  <afflictioncauseofdeath.he-stomachache>Atragantado de vómito.</afflictioncauseofdeath.he-stomachache>
+  <afflictioncauseofdeathself.he-stomachache>Te has atragantado con tu propio vómito.</afflictioncauseofdeathself.he-stomachache>
+  <advancedafflictiondescription.self.he-stomachache>El estómago duele y te sientes ligeramente nauseabundo.</advancedafflictiondescription.self.he-stomachache>
+  <advancedafflictiondescription.self.he-stomachache.2>El estómago duele mucho y te sientes muy nauseabundo.</advancedafflictiondescription.self.he-stomachache.2>
+  <advancedafflictiondescription.others.he-stomachache>El estómago del paciente duele por beber demasiada agua de mar.</advancedafflictiondescription.others.he-stomachache>
+  <afflictionname.he-geneticextraction>Extracción genética</afflictionname.he-geneticextraction>
+  <afflictiondescription.he-geneticextraction>Se están extrayendo genes.</afflictiondescription.he-geneticextraction>
+  <afflictionname.he-butchered>Desmembrado</afflictionname.he-butchered>
+  <afflictiondescription.he-butchered>El cadáver se está desmembrando para obtener carne.</afflictiondescription.he-butchered>
+  <afflictionname.he-halucinova>Halucinova</afflictionname.he-halucinova>
+  <afflictiondescription.he-halucinova.self>Sientes como si estuvieras viajando a un plano de existencia diferente.</afflictiondescription.he-halucinova.self>
+  <afflictiondescription.he-halucinova.others>La persona está claramente ausente.</afflictiondescription.he-halucinova.others>
+  <!-- Mensajes -->
+  <msg.pickup.interact>[E] Recoger</msg.pickup.interact>
+  <bottleprinter.infotext.bottle.regular>MATERIAL INSERTADO\nPLANO INSERTADO\nLISTO PARA IMPRIMIR BOTELLAS REGULARES.</bottleprinter.infotext.bottle.regular>
+  <bottleprinter.infotext.bottle.beer>MATERIAL INSERTADO\nPLANO INSERTADO\nLISTO PARA IMPRIMIR BOTELLAS DE CERVEZA.</bottleprinter.infotext.bottle.beer>
+  <bottleprinter.infotext.bottle.rum>MATERIAL INSERTADO\nPLANO INSERTADO\nLISTO PARA IMPRIMIR BOTELLAS DE RON.</bottleprinter.infotext.bottle.rum>
+  <bottleprinter.infotext.bottle.whiskey>MATERIAL INSERTADO\nPLANO INSERTADO\nLISTO PARA IMPRIMIR BOTELLAS DE WHISKY.</bottleprinter.infotext.bottle.whiskey>
+  <bottleprinter.infotext.bottle.halucinova>MATERIAL INSERTADO\nPLANO INSERTADO\nLISTO PARA IMPRIMIR BOTELLAS HALUCINOVA.</bottleprinter.infotext.bottle.halucinova>
+  <bottleprinter.infotext.jar>MATERIAL INSERTADO\nPLANO INSERTADO\nLISTO PARA IMPRIMIR FRASCOS.</bottleprinter.infotext.jar>
+  <bottleprinter.infotext.shaker>MATERIAL INSERTADO\nPLANO INSERTADO\nLISTO PARA IMPRIMIR AGITADORES.</bottleprinter.infotext.shaker>
+  <bottleprinter.print>IMPRIMIR</bottleprinter.print>
+  <bottleprinter.missingitem.blueprint>MATERIAL INSERTADO\nERROR: ¡NO SE ENCUENTRA EL PLANO! POR FAVOR, INSERTA UN PLANO.</bottleprinter.missingitem.blueprint>
+  <bottleprinter.missingitem.glassfragments>PLANO INSERTADO\nERROR: ¡NO SE ENCUENTRAN FRAGMENTOS DE VIDRIO! POR FAVOR, INSERTA FRAGMENTOS DE VIDRIO.</bottleprinter.missingitem.glassfragments>
+  <bottleprinter.empty>IMPRESORA DE BOTELLAS LISTA\nPOR FAVOR, INSERTA LO SIGUIENTE:\nUN MATERIAL -EN LA ENTRADA-\nUN PLANO -EN LA ENTRADA-\nUNA CAJA ADECUADA -EN LA SALIDA-</bottleprinter.empty>
+  <he-bottleprinter.output>Impresiones posibles:</he-bottleprinter.output>
+  <distiller.distill>DESTILAR</distiller.distill>
+  <distiller.ethanol>LISTO PARA DESTILAR ETANOL</distiller.ethanol>
+  <distiller.empty>DESTILADOR LISTO\nPOR FAVOR, INSERTA LO SIGUIENTE:\nUN PAQUETE DE AZÚCAR -EN LA ENTRADA-\nUN HONGO DE LEVADURA -EN LA ENTRADA-</distiller.empty>
+  <distiller.missingitem.yeastshroom>AZÚCAR INSERTADO\nERROR: ¡NO SE ENCUENTRA EL HONGO DE LEVADURA! POR FAVOR, INSERTA UN HONGO DE LEVADURA.</distiller.missingitem.yeastshroom>
+  <he-distiller.output>Salida:</he-distiller.output>
+  <interaction.emptybottle>Vaciar botella</interaction.emptybottle>
+  <!--Patch 11-->
+  <interaction.emptykeg>Empty the Keg</interaction.emptykeg>
+  <!--Patch 12-->
+  <!-- Nombres de las habitaciones -->
+  <roomname.kitchen>Cocina</roomname.kitchen>
+  <roomname.cafeteria>Cafetería</roomname.cafeteria>
+  <roomname.brewery>Cervecería</roomname.brewery>
+</infotexts>

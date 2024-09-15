@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<override>
+  <Items>
+    <!-- Name: Calyxanide -->
+    <!-- An antiparasitic drug used in the treatment of husk parasite infections. Will cure the infection regardless of its progress, unless it is at 100 strength. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Calyxanide name="" identifier="calyxanide" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.2" />
+      <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.1" />
+      <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.03" />
+      <PreferredContainer primary="medcab" secondary="medcontainer" />
+      <Price baseprice="510">
+        <Price storeidentifier="merchantoutpost" minavailable="5" />
+        <Price storeidentifier="merchantcity" minavailable="5" />
+        <Price storeidentifier="merchantresearch" minavailable="7" />
+        <Price storeidentifier="merchantmilitary" multiplier="1.1" minavailable="5" />
+        <Price storeidentifier="merchantmine" multiplier="1.1" minavailable="5" />
+        <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="7" />
+        <Price storeidentifier="merchanthusk" minavailable="3" maxavailable="5">
+          <Reputation faction="huskcult" min="30" />
+        </Price>
+      </Price>
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="60">
+        <RequiredSkill identifier="medical" level="22" />
+        <RequiredItem identifier="huskeggs" mincondition="0.5" usecondition="true" />
+        <RequiredItem identifier="antibiotics" />
+        <RequiredItem identifier="stabilozine" />
+      </Fabricate>
+      <Deconstruct time="20">
+        <Item identifier="antibiotics" />
+        <Item identifier="stabilozine" />
+      </Deconstruct>
+      <SuitableTreatment identifier="huskinfection" suitability="100" />
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="897,449,63,63" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="223,69,38,70" depth="0.6" origin="0.5,0.5" />
+      <Body width="35" height="70" density="20" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <StatusEffect type="OnFailure" target="This" Condition="-100.0" disabledeltatime="true">
+          <!-- No difference between failure and success when using this.-->
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true">
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnUse" target="UseTarget">
+          <Affliction identifier="calyxanideinjection" amount="5" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <Projectile characterusable="false" launchimpulse="20.0" sticktocharacters="true" launchrotation="-90">
+        <StatusEffect type="OnImpact" target="This" Condition="-100.0" disabledeltatime="true">
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect tags="medical,calyxanide" type="OnImpact" target="UseTarget">
+          <Affliction identifier="calyxanideinjection" amount="5" />
+        </StatusEffect>
+      </Projectile>
+    </Calyxanide>
+  </Items>
+</override>

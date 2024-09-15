@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Item name="" identifier="weaponholder" category="Weapon" tags="weaponholder" canflipx="false" canflipy="false" scale="0.5">
+    <Fabricate suitablefabricators="fabricator,Workbench" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="15" />
+      <RequiredItem identifier="steel" amount="2" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="steel" amount="2" />
+    </Deconstruct>
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.85" sourcerect="188,596,84,85" origin="0.5,0.5" />
+    <Body width="84" height="85" density="12" />
+    <DecorativeSprite texture="Content/Items/Containers/containers.png" depth="0.83" sourcerect="188,682,124,33" origin="0.5,0.5" />
+    <ItemContainer hideitems="false" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="1" itempos="46,-47" iteminterval="0,0" itemrotation="90" containedspritedepth="0.831" canbeselected="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="mountableweapon" />
+    </ItemContainer>
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand,LeftHand,Any" controlpose="true" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimpos="55,-70" holdangle="1" msg="ItemMsgDetachWrench" PickingTime="15.0" attachable="true" attachedbydefault="true" aimable="true">
+      <requireditem identifier="wrench" type="Equipped" />
+      <StatusEffect type="Always" target="Character" SpeedMultiplier="0.95" setvalue="true" />
+    </Holdable>
+    <Upgrade gameversion="0.18.3.0">
+      <ItemContainer>
+        <!-- previously the holder was configured to hold items with the tag "weapon", and sub builders 
+        used this tag in non-weapon items to allow placing various decorative items on the holders.
+        Let's readd the tag in older subs so we don't cause those items to drop. -->
+        <Containable items="mountableweapon,weapon,MBMOD" />
+      </ItemContainer>
+    </Upgrade>
+  </Item>
+</Override>

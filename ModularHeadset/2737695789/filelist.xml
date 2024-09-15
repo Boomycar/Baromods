@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="ModularHeadset" modversion="1.0.3" corepackage="False" steamworkshopid="2737695789" gameversion="0.17.12.0" expectedhash="714FC9E732549F706B2A711C2B9529F1">
+  <Item file="%ModDir%/Items/Headsets.xml" />
+  <Other file="%ModDir%/Items/ModularHeadset.png" />
+</contentpackage>

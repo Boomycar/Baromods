@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="All Jobs See Reports" modversion="0.1.0.0" corepackage="False" steamworkshopid="3169182250" gameversion="1.2.8.0" expectedhash="D43AE6464973D635F29E7D845419FE35">
+  <Orders file="%ModDir%/Orders.xml" />
+</contentpackage>

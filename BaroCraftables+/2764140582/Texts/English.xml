@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.searchlightdown>Search Light UpSideDown</entityname.searchlightdown>
+  <entitydescription.searchlightdown></entitydescription.searchlightdown>
+  <entityname.WeldingTable>Welding Table</entityname.WeldingTable>
+  <entitydescription.WeldingTable>Fabricator for all barocraftables+ items</entitydescription.WeldingTable>
+  <entityname.card_medicaldoctor>Medical Doctor</entityname.card_medicaldoctor>
+  <entitydescription.card_medicaldoctor></entitydescription.card_medicaldoctor>
+  <entityname.card_mechanic>Mechanic</entityname.card_mechanic>
+  <entitydescription.card_mechanic></entitydescription.card_mechanic>
+  <entityname.card_engineer>Engineer</entityname.card_engineer>
+  <entitydescription.card_engineer></entitydescription.card_engineer>
+  <entityname.card_captain>Captain</entityname.card_captain>
+  <entitydescription.card_captain></entitydescription.card_captain>
+  <entityname.card_securityofficer>Security officer</entityname.card_securityofficer>
+  <entitydescription.card_securityofficer></entitydescription.card_securityofficer>
+  <entityname.card_assistant>Assistant</entityname.card_assistant>
+  <entitydescription.card_assistant></entitydescription.card_assistant>
+  <entityname.card_1>ID Card1</entityname.card_1>
+  <entitydescription.card_1></entitydescription.card_1>
+  <entityname.card_2>ID Card2</entityname.card_2>
+  <entitydescription.card_2></entitydescription.card_2>
+  <entityname.card_3>ID Card3</entityname.card_3>
+  <entitydescription.card_3></entitydescription.card_3>
+  <entityname.card_4>ID Card4</entityname.card_4>
+  <entitydescription.card_4></entitydescription.card_4>
+  <entityname.card_5>ID Card5</entityname.card_5>
+  <entitydescription.card_5></entitydescription.card_5>
+  <entityname.card_6>ID Card6</entityname.card_6>
+  <entitydescription.card_6></entitydescription.card_6>
+  <entityname.card_7>ID Card7</entityname.card_7>
+  <entitydescription.card_7></entitydescription.card_7>
+  <entityname.card_8>ID Card8</entityname.card_8>
+  <entitydescription.card_8></entitydescription.card_8>
+  <entityname.radiocomponentL>Radio Component Linked To Chat</entityname.radiocomponentL>
+  <entitydescription.radiocomponentL></entitydescription.radiocomponentL>
+  <entityname.LRwifiComponentb>LRwifiComponent</entityname.LRwifiComponentb>
+  <entitydescription.LRwifiComponentb></entitydescription.LRwifiComponentb>
+  <entityname.SecureSteelCabinetM1>Secure Steel Cabinet M1</entityname.SecureSteelCabinetM1>
+  <entitydescription.SecureSteelCabinetM1></entitydescription.SecureSteelCabinetM1>
+  <entityname.SecureSteelCabinetM2>Secure Steel Cabinet M2</entityname.SecureSteelCabinetM2>
+  <entitydescription.SecureSteelCabinetM2></entitydescription.SecureSteelCabinetM2>
+  <entityname.SecureSteelCabinetM3>Secure Steel Cabinet M3</entityname.SecureSteelCabinetM3>
+  <entitydescription.SecureSteelCabinetM3></entitydescription.SecureSteelCabinetM3>
+  <entityname.SecureSteelCabinetM4>Secure Steel Cabinet M4</entityname.SecureSteelCabinetM4>
+  <entitydescription.SecureSteelCabinetM4></entitydescription.SecureSteelCabinetM4>
+  <entityname.SecureSteelCabinetM5>Secure Steel Cabinet M5</entityname.SecureSteelCabinetM5>
+  <entitydescription.SecureSteelCabinetM5></entitydescription.SecureSteelCabinetM5>
+  <entityname.SecureSteelCabinetM6>Secure Steel Cabinet M6</entityname.SecureSteelCabinetM6>
+  <entitydescription.SecureSteelCabinetM6></entitydescription.SecureSteelCabinetM6>
+  <entityname.SecureSteelCabinetM7>Secure Steel Cabinet M7</entityname.SecureSteelCabinetM7>
+  <entitydescription.SecureSteelCabinetM7></entitydescription.SecureSteelCabinetM7>
+  <entityname.SecureSteelCabinetM8>Secure Steel Cabinet M8</entityname.SecureSteelCabinetM8>
+  <entitydescription.SecureSteelCabinetM8></entitydescription.SecureSteelCabinetM8>
+  <entityname.textdisplaysb>Text DisplayS</entityname.textdisplaysb>
+  <entitydescription.textdisplaysb></entitydescription.textdisplaysb>
+  <entityname.textdisplaylb>Text DisplayL</entityname.textdisplaylb>
+  <entitydescription.textdisplaylb></entitydescription.textdisplaylb>
+  <entityname.toolboxaluminumb>Storage Container [Aluminum]</entityname.toolboxaluminumb>
+  <entityname.toolboxballisitcfiberb>Storage Container [Ballistic Fiber]</entityname.toolboxballisitcfiberb>
+  <entityname.toolboxcalciumb>Storage Container [Calcium]</entityname.toolboxcalciumb>
+  <entityname.toolboxcarbonb>Storage Container [Carbon]</entityname.toolboxcarbonb>
+  <entityname.toolboxchlorineb>Storage Container [Chlorine]</entityname.toolboxchlorineb>
+  <entityname.toolboxcopperb>Storage Container [Copper]</entityname.toolboxcopperb>
+  <entityname.toolboxdementoniteb>Storage Container [Dementonite]</entityname.toolboxdementoniteb>
+  <entityname.toolboxflashpowderb>Storage Container [Flash Powder]</entityname.toolboxflashpowderb>
+  <entityname.toolboxfulguriumb>Storage Container [Fulgurium]</entityname.toolboxfulguriumb>
+  <entityname.toolboxincendiumb>Storage Container [Incendium]</entityname.toolboxincendiumb>
+  <entityname.toolboxironb>Storage Container [Iron]</entityname.toolboxironb>
+  <entityname.toolboxleadb>Storage Container [Lead]</entityname.toolboxleadb>
+  <entityname.toolboxlithiumb>Storage Container [Lithium]</entityname.toolboxlithiumb>
+  <entityname.toolboxmagnesiumb>Storage Container [Magnesium]</entityname.toolboxmagnesiumb>
+  <entityname.toolboxorganicfiberb>Storage Container [Organic Fiber]</entityname.toolboxorganicfiberb>
+  <entityname.toolboxoxygeniteshardb>Storage Container [Oxygenite Shard]</entityname.toolboxoxygeniteshardb>
+  <entityname.toolboxparalyxisb>Storage Container [Paralyxis]</entityname.toolboxparalyxisb>
+  <entityname.toolboxphosphorusb>Storage Container [Phosphorus]</entityname.toolboxphosphorusb>
+  <entityname.toolboxphysicoriumb>Storage Container [Physicorium]</entityname.toolboxphysicoriumb>
+  <entityname.toolboxplasticb>Storage Container [Plastic]</entityname.toolboxplasticb>
+  <entityname.toolboxpotassiumb>Storage Container [Potassium]</entityname.toolboxpotassiumb>
+  <entityname.toolboxrubberb>Storage Container [Rubber]</entityname.toolboxrubberb>
+  <entityname.toolboxscrapb>Storage Container [Scrap]</entityname.toolboxscrapb>
+  <entityname.toolboxsiliconb>Storage Container [Silicon]</entityname.toolboxsiliconb>
+  <entityname.toolboxsodiumb>Storage Container [Sodium]</entityname.toolboxsodiumb>
+  <entityname.toolboxsteelb>Storage Container [Steel]</entityname.toolboxsteelb>
+  <entityname.toolboxsulphuriteshardb>Storage Container [Sulphurite Shard]</entityname.toolboxsulphuriteshardb>
+  <entityname.toolboxthoriumb>Storage Container [Thorium]</entityname.toolboxthoriumb>
+  <entityname.toolboxtinb>Storage Container [Tin]</entityname.toolboxtinb>
+  <entityname.toolboxtitaniumaluminumalloyb>Storage Container [Titanium-Aluminum Alloy]</entityname.toolboxtitaniumaluminumalloyb>
+  <entityname.toolboxtitaniumb>Storage Container [Titanium]</entityname.toolboxtitaniumb>
+  <entityname.toolboxuraniumb>Storage Container [Uranium]</entityname.toolboxuraniumb>
+  <entityname.toolboxzincb>Storage Container [Zinc]</entityname.toolboxzincb>
+  <entityname.toolboxfpgacircuitb>Storage Container [FPGA Circuit]</entityname.toolboxfpgacircuitb>
+  <entityname.toolboxadrenalineb>Storage Container [Adrenaline]</entityname.toolboxadrenalineb>
+  <entityname.toolboxalienbloodb>Storage Container [Alien Blood]</entityname.toolboxalienbloodb>
+  <entityname.toolboxanabolicsteroidsb>Storage Container [Anabolic Steroids]</entityname.toolboxanabolicsteroidsb>
+  <entityname.toolboxantibioticglueb>Storage Container [Antibiotic Glue]</entityname.toolboxantibioticglueb>
+  <entityname.toolboxantiradb>Storage Container [AntiRad]</entityname.toolboxantiradb>
+  <entityname.toolboxbandageb>Storage Container [Bandage]</entityname.toolboxbandageb>
+  <entityname.toolboxbloodbagb>Storage Container [Blood Pack]</entityname.toolboxbloodbagb>
+  <entityname.toolboxbroad-spectrumantibioticsb>Storage Container [Broad-spectrum Antibiotics]</entityname.toolboxbroad-spectrumantibioticsb>
+  <entityname.toolboxcalyxanideb>Storage Container [Calyxanide]</entityname.toolboxcalyxanideb>
+  <entityname.toolboxcyanideantidoteb>Storage Container [Cyanide Antidote]</entityname.toolboxcyanideantidoteb>
+  <entityname.toolboxdeliriumineantidoteb>Storage Container [Deliriumine Antidote]</entityname.toolboxdeliriumineantidoteb>
+  <entityname.toolboxelastinb>Storage Container [Elastin]</entityname.toolboxelastinb>
+  <entityname.toolboxethanolb>Storage Container [Ethanol]</entityname.toolboxethanolb>
+  <entityname.toolboxfentanylb>Storage Container [Fentanyl]</entityname.toolboxfentanylb>
+  <entityname.toolboxhyperzineb>Storage Container [Hyperzine]</entityname.toolboxhyperzineb>
+  <entityname.toolboxliquidoxygeniteb>Storage Container [Liquid Oxygenite]</entityname.toolboxliquidoxygeniteb>
+  <entityname.toolboxmorbusineantidoteb>Storage Container [Morbusine Antidote]</entityname.toolboxmorbusineantidoteb>
+  <entityname.toolboxmorphineb>Storage Container [Morphine]</entityname.toolboxmorphineb>
+  <entityname.toolboxopiumb>Storage Container [Opium]</entityname.toolboxopiumb>
+  <entityname.toolboxparalysisantidoteb>Storage Container [Paralysis Antidote]</entityname.toolboxparalysisantidoteb>
+  <entityname.toolboxplastisealb>Storage Container [Plastiseal]</entityname.toolboxplastisealb>
+  <entityname.toolboxpomegrenadeextractb>Storage Container [Pomegrenade Extract]</entityname.toolboxpomegrenadeextractb>
+  <entityname.toolboxsalineb>Storage Container [Saline]</entityname.toolboxsalineb>
+  <entityname.toolboxsufforinantidoteb>Storage Container [Sufforin Antidote]</entityname.toolboxsufforinantidoteb>
+  <entityname.toolboxsulphuricacidb>Storage Container [Sulphuric Acid]</entityname.toolboxsulphuricacidb>
+  <entityname.toolboxtonicliquidb>Storage Container [Tonic Liquid]</entityname.toolboxtonicliquidb>
+  <entityname.toolboxchloralhydrateb>Storage Container [Chloral Hydrate]</entityname.toolboxchloralhydrateb>
+  <entityname.toolboxcyanideb>Storage Container [Cyanide]</entityname.toolboxcyanideb>
+  <entityname.toolboxdeliriumineb>Storage Container [Deliriumine]</entityname.toolboxdeliriumineb>
+  <entityname.toolboxdeusizineb>Storage Container [Deusizine]</entityname.toolboxdeusizineb>
+  <entityname.toolboxhaloperidolb>Storage Container [Haloperidol]</entityname.toolboxhaloperidolb>
+  <entityname.toolboxmethamphetamineb>Storage Container [Methamphetamine]</entityname.toolboxmethamphetamineb>
+  <entityname.toolboxmorbusineb>Storage Container [Morbusine]</entityname.toolboxmorbusineb>
+  <entityname.toolboxnaloxoneb>Storage Container [Naloxone]</entityname.toolboxnaloxoneb>
+  <entityname.toolboxparalyzantb>Storage Container [Paralyzant]</entityname.toolboxparalyzantb>
+  <entityname.toolboxradiotoxinb>Storage Container [Radiotoxin]</entityname.toolboxradiotoxinb>
+  <entityname.toolboxstabilozineb>Storage Container [Stabilozine]</entityname.toolboxstabilozineb>
+  <entityname.toolboxsufforinb>Storage Container [Sufforin]</entityname.toolboxsufforinb>
+  <entityname.toolboxvelonacepscalyxeggsb>Storage Container [Velonaceps Calyx Eggs]</entityname.toolboxvelonacepscalyxeggsb>
+  <entityname.packaging_crate>Crate for sorting Type I</entityname.packaging_crate>
+  <entityname.packaging_crate2>Crate for sorting Type II</entityname.packaging_crate2>
+</infotexts>

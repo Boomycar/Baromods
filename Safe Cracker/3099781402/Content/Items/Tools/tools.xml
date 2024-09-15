@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Items>
+    <Item name="Safe Cracker" identifier="safecracker" category="Equipment" Tags="mediumitem,safecracker" cargocontaineridentifier="metalcrate" description="An old repurposed mining drill, modified to drill open safes and cabinets." Scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true" requireaimtouse="true">
+      <Sprite texture="%ModDir:3099781402%/Content/Items/Tools/SafeCracker.png" sourcerect="117,91,220,103" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite texture="%ModDir:3099781402%/Content/Items/Tools/SafeCracker.png" usewhenattached="true" decorativespritebehavior="HideWhenNotVisible" depth="0.55" sourcerect="0,0,117,193" origin="0.5,0.5" />
+      <!-- decorative sprite animated to shake if the device is active -->
+      <DecorativeSprite texture="%ModDir:3099781402%/Content/Items/Tools/SafeCracker.png" depth="0.549" sourcerect="338,70,97,124" canflipx="true" origin="0.5,0.53" offset="5,5" offsetanim="Noise" offsetanimspeed="5.0">
+        <IsActiveConditional IsActive="true" targetitemcomponent="LightComponent" />
+      </DecorativeSprite>
+      <Body width="160" radius="45" density="20" />
+      <PreferredContainer primary="storagecab" />
+      <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.01" />
+      <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.02" />
+      <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" amount="1" spawnprobability="0.01" />
+      <Price baseprice="325" sold="false">
+        <Price storeidentifier="merchantoutpost" minavailable="1" sold="true" />
+        <Price storeidentifier="merchantcity" minavailable="1" sold="true" />
+        <Price storeidentifier="merchantresearch" multiplier="1.25" minavailable="0" />
+        <Price storeidentifier="merchantmilitary" multiplier="1.25" minavailable="0" />
+        <Price storeidentifier="merchantmine" multiplier="1.2" minavailable="2" sold="true" />
+        <Price storeidentifier="merchantengineering" minavailable="0" sold="true" />
+      </Price>
+      <Deconstruct requireddeconstructor="deconstructor" time="15">
+        <Item identifier="plastic" commonness="3" />
+        <Item identifier="copper" commonness="2" />
+        <Item identifier="rubber" commonness="1" />
+        <Item identifier="steel" commonness="1" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator">
+        <RequiredSkill identifier="mechanical" level="55" />
+        <RequiredItem identifier="fpgacircuit" />
+        <RequiredItem identifier="titaniumaluminiumalloy" />
+        <RequiredItem identifier="steel" />
+        <RequiredItem identifier="plastic" />
+        <RequiredItem tag="wire" />
+      </Fabricate>
+      <LightComponent IsOn="false" lightcolor="150,100,0,190" range="800" castshadows="true" powerconsumption="1" flicker="0.8" flickerspeed="1" allowingameediting="false">
+        <!-- damage the device when active -->
+        <StatusEffect type="OnActive" target="This" condition="-0.4" interval="1" disabledeltatime="true" />
+        <!-- drain battery life when active -->
+        <StatusEffect type="OnActive" target="Contained" condition="-0.8" interval="1" disabledeltatime="true" />
+        <!-- constantly create an explosion when active to damage the safe and play sound in a 15m range -->
+        <StatusEffect type="OnActive" target="This" interval="0.1" duration="0.11">
+          <Sound file="%ModDir:3099781402%/Content/Items/Tools/safecrackerloop.ogg" loop="true" volume="2" range="1500" />
+          <Explosion range="20.0" itemdamage="4.0" structuredamage="0" stun="0.0" force="0.1" flames="false" flash="false" shockwave="false" sparks="true" underwaterbubble="false" camerashake="0" playtinnitus="false" applyFireEffects="false" smoke="false" />
+        </StatusEffect>
+        <!-- when active, check for the "crackedsafe" tag which gets applied by the safe as soon as it breaks to turn the device off if the safe was cracked open -->
+        <StatusEffect type="OnActive" target="This" IsOn="false" setvalue="true" interval="0.5" disabledeltatime="true">
+          <Conditional HasStatusTag="crackedsafe" />
+          <Sound file="%ModDir:3099781402%/Content/Items/Tools/safecrackerend.ogg" loop="false" volume="2" range="1500" />
+        </StatusEffect>
+        <!-- when active, turn the device off if the battery runs out -->
+        <StatusEffect type="OnActive" target="This" IsOn="false" setvalue="true" comparison="And">
+          <Conditional IsOn="true" />
+          <Conditional Voltage="lt 0.9" />
+          <Sound file="%ModDir:3099781402%/Content/Items/Tools/safecrackerend.ogg" loop="false" volume="2" range="1500" />
+        </StatusEffect>
+        <!-- trigger event to arrest players for using the device on an outpost -->
+        <StatusEffect type="OnActive" target="This" oneshot="true">
+          <TriggerEvent identifier="safecrackeractivedrill" />
+        </StatusEffect>
+      </LightComponent>
+      <Holdable selectkey="Select" pickkey="Use" attachable="true" holdpos="0,-25" handle1="0,-38" holdangle="0" slots="RightHand,LeftHand">
+        <!-- turn the device off when picked up and play the ending sound if it was still running -->
+        <StatusEffect type="OnPicked" Target="This" IsOn="false" setvalue="true" comparison="And">
+          <Conditional IsOn="true" />
+          <Conditional Voltage="gt 0" />
+          <Sound file="%ModDir:3099781402%/Content/Items/Tools/safecrackerend.ogg" loop="false" volume="2" range="1500" />
+        </StatusEffect>
+        <!-- turn the device off -->
+        <StatusEffect type="OnPicked" Target="This" IsOn="false" spawnedincurrentoutpost="true" allowstealing="false" setvalue="true" />
+      </Holdable>
+      <CustomInterface canbeselected="true" drawhudwhenequipped="false" allowuioverlap="false">
+        <GuiFrame style="ItemUI" absoluteoffset="0,-80" anchor="Center" relativesize="0.1,0.12" />
+        <Button text="interaction.activate">
+          <StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
+        </Button>
+        <Button text="interaction.deactivate">
+          <StatusEffect type="OnUse" target="This" IsOn="false" setvalue="true" comparison="And">
+            <Conditional IsOn="true" />
+            <Conditional Voltage="gt 0" />
+            <Sound file="%ModDir:3099781402%/Content/Items/Tools/safecrackerend.ogg" loop="false" volume="2" range="1500" />
+          </StatusEffect>
+          <StatusEffect type="OnUse" target="This" IsOn="false" setvalue="true" />
+        </Button>
+      </CustomInterface>
+      <ItemContainer canbeselected="true" selectkey="select" capacity="1" maxstacksize="1" hideitems="true">
+        <GuiFrame style="ItemUI" absoluteoffset="0,80" anchor="Center" relativesize="0.1,0.2" />
+        <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="128,448,64,64" origin="0.5,0.5" />
+        <Containable items="mobilebattery">
+          <!-- supply voltage to the device if a battery is contained -->
+          <StatusEffect type="OnContaining" target="This" voltage="1" setvalue="true" duration="0.1" />
+        </Containable>
+      </ItemContainer>
+    </Item>
+  </Items>
+</Override>

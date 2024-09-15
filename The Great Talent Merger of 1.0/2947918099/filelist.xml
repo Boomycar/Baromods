@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="The Great Talent Merger of 1.0" modversion="1.4.2" corepackage="False" steamworkshopid="2947918099" gameversion="1.5.9.1" expectedhash="725B50D57E338CFEAFFF45989BF90DBC">
+  <TalentTrees file="%ModDir%/TalentTreesnew.xml" />
+  <Talents file="%ModDir%/Assistant/TalentsAssistant.xml" />
+  <Talents file="%ModDir%/Captain/TalentsCaptain.xml" />
+  <Talents file="%ModDir%/Doctor/TalentsDoctor.xml" />
+  <Talents file="%ModDir%/Engineer/TalentsEngineer.xml" />
+  <Talents file="%ModDir%/Mechanic/TalentsMechanic.xml" />
+  <Talents file="%ModDir%/Security/TalentsSecurity.xml" />
+  <Text file="%ModDir%/EnglishVanillaNew.xml" />
+  <Item file="%ModDir%/Doctor/MedTalentItems.xml" />
+  <Item file="%ModDir%/Mechanic/MechTalentItems.xml" />
+  <Item file="%ModDir%/Engineer/EngiTalentItems.xml" />
+  <Item file="%ModDir%/Captain/Cigar.xml" />
+  <Item file="%ModDir%/alienitems.xml" />
+  <Afflictions file="%ModDir%/Captain/CaptainAfflictions.xml" />
+  <Afflictions file="%ModDir%/Engineer/InTheFlowAffliction.xml" />
+  <Afflictions file="%ModDir%/Doctor/DoctorAfflictions.xml" />
+  <Other file="%ModDir%/advtoolssprites.png" />
+  <Other file="%ModDir%/advtoolsicons.png" />
+  <Other file="%ModDir%/advheavywrench.png" />
+  <Other file="%ModDir%/radsscooter.png" />
+</contentpackage>

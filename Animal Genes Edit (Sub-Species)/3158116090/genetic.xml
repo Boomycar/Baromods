@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Рандомный генетический материал с шансом выпадения различного качества. Продается в магазине -->
+  <Item name="" identifier="animalsub-speciesgeneticmaterial_unresearched" nameidentifier="unidentifiedanimalsub-speciesgeneticmaterial" category="Material" maxstacksize="1" tags="smallitem,unidentifiedgeneticmaterial" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_soft" hideinmenus="true">
+    <PreferredContainer primary="medfabcab" spawnprobability="0" />
+    <PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.01" />
+    <PreferredContainer secondary="geneticstorage" spawnprobability="0.02" />
+    <Price baseprice="500" sold="true" requiresunlock="false">
+      <Price storeidentifier="merchantcity" minavailable="2" maxavailable="5" multiplier="1.4" />
+      <Price storeidentifier="merchantmedical" minavailable="2" maxavailable="5" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" minavailable="5" maxavailable="10" multiplier="0.8" />
+    </Price>
+    <Deconstruct time="5" chooserandom="true" amount="1" requireddeconstructor="geneticresearchstation">
+      <!-- Генетический материал собаки -->
+      <Item identifier="geneticmaterialguarddog" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialguarddog" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialguarddog" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <!-- Генетический материал кошки -->
+      <Item identifier="geneticmaterialcuddlecat" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialcuddlecat" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialcuddlecat" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <!-- Генетический материал лицицы -->
+      <Item identifier="geneticmaterialshrinefox" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialshrinefox" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialshrinefox" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <!-- Генетический материал волка -->
+      <Item identifier="geneticmaterialtempestwolf" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialtempestwolf" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialtempestwolf" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <!-- Генетический материал собаки -->
+      <Item identifier="geneticmaterialdemondog" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialdemondog" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialdemondog" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <!-- Генетический материал кошки -->
+      <Item identifier="geneticmaterialcrazycat" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialcrazycat" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialcrazycat" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <!-- Генетический материал лицицы -->
+      <Item identifier="geneticmaterialfatalfox" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialfatalfox" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialfatalfox" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <!-- Генетический материал волка -->
+      <Item identifier="geneticmaterialhellhound" commonness="3" requiredotheritem="stabilozine" outconditionmin="0.1" outconditionmax="0.2" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialhellhound" commonness="2" requiredotheritem="stabilozine" outconditionmin="0.2" outconditionmax="0.4" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+      <Item identifier="geneticmaterialhellhound" commonness="1" requiredotheritem="stabilozine" outconditionmin="0.4" outconditionmax="0.6" activatebuttontext="researchstation.research" infotext="researchstation.research.infotext" infotextonotheritemmissing="researchstation.combine.missingitem" />
+    </Deconstruct>
+    <Sprite texture="%ModDir%/GeneticIcon.png" sourcerect="0,79,58,40" depth="0.6" origin="0.5,0.5" />
+    <Body width="15" radius="15" density="20" />
+    <Pickable slots="Any" />
+  </Item>
+  <!-- Cuddle Cat Gene -->
+  <Item name="" identifier="geneticmaterialcuddlecat" variantof="geneticmaterialcrawler" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialcuddlecat" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <Price baseprice="300" sold="false">
+      <Price storeidentifier="merchantcity" multiplier="1.4" />
+      <Price storeidentifier="merchantmedical" multiplier="1.0" />
+      <Price storeidentifier="merchantresearch" multiplier="0.8" />
+    </Price>
+    <GeneticMaterial nameidentifier="character.cuddlecat" effect="cuddlecat" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub2.png" sheetindex="0,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub2.png" sheetindex="0,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+  <!-- Tempest Wolf Gene -->
+  <Item name="" identifier="geneticmaterialtempestwolf" variantof="geneticmaterialcuddlecat" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialtempestwolf" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <GeneticMaterial nameidentifier="character.tempestwolf" effect="tempestwolf" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub2.png" sheetindex="1,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub2.png" sheetindex="1,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+  <!-- Shrine Fox Gene -->
+  <Item name="" identifier="geneticmaterialshrinefox" variantof="geneticmaterialcuddlecat" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialshrinefox" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <GeneticMaterial nameidentifier="character.shrinefox" effect="shrinefox" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub2.png" sheetindex="2,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub2.png" sheetindex="2,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+  <!-- Guard Dog Gene -->
+  <Item name="" identifier="geneticmaterialguarddog" variantof="geneticmaterialcuddlecat" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialguarddog" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <GeneticMaterial nameidentifier="character.guarddog" effect="guarddog" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub2.png" sheetindex="3,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub2.png" sheetindex="3,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+  <!-- Crazy Cat Gene -->
+  <Item name="" identifier="geneticmaterialcrazycat" variantof="geneticmaterialcrawler" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialcrazycat" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <Price baseprice="300" sold="false">
+      <Price storeidentifier="merchantcity" multiplier="1.4" />
+      <Price storeidentifier="merchantmedical" multiplier="1.0" />
+      <Price storeidentifier="merchantresearch" multiplier="0.8" />
+    </Price>
+    <GeneticMaterial nameidentifier="character.crazycat" effect="crazycat" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub1.png" sheetindex="0,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub1.png" sheetindex="0,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+  <!-- Hell Hound Gene -->
+  <Item name="" identifier="geneticmaterialhellhound" variantof="geneticmaterialcrazycat" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialhellhound" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <GeneticMaterial nameidentifier="character.hellhound" effect="hellhound" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub1.png" sheetindex="1,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub1.png" sheetindex="1,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+  <!-- Fatal Fox Gene -->
+  <Item name="" identifier="geneticmaterialfatalfox" variantof="geneticmaterialcrazycat" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialfatalfox" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <GeneticMaterial nameidentifier="character.fatalfox" effect="fatalfox" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub1.png" sheetindex="2,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub1.png" sheetindex="2,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+  <!-- Demon Dog Gene -->
+  <Item name="" identifier="geneticmaterialdemondog" variantof="geneticmaterialcrazycat" nameidentifier="geneticmaterial">
+    <Deconstruct>
+      <Item identifier="geneticmaterialdemondog" multiplier="5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="10">
+      <RequiredSkill identifier="medical" level="1" />
+      <RequiredItem tag="unidentifiedgeneticmaterial" count="1" />
+    </Fabricate>
+    <GeneticMaterial nameidentifier="character.demondog" effect="demondog" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50"></GeneticMaterial>
+    <InventoryIcon texture="%ModDir%/Geneticsub1.png" sheetindex="3,1" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Geneticsub1.png" sheetindex="3,0" sheetelementsize="32,40" depth="0.6" origin="0.5,0.5" />
+  </Item>
+</Items>

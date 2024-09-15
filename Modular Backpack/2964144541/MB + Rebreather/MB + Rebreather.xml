@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Modular Backpack + Rebreather" identifier="MBRebreather" category="Equipment" tags="MBMOD,mountableweapon" fireproof="true" waterproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" description="">
+    <Deconstruct time="10">
+      <Item identifier="modularbackpack" amount="1" />
+      <Item identifier="rebreatherMBMOD" amount="1" />
+      <Item identifier="smallcapacitorMBMOD" amount="1" />
+      <Item identifier="aluminium" amount="6" />
+      <Item identifier="steel" amount="2" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="modularbackpack" amount="1" />
+      <RequiredItem identifier="rebreatherMBMOD" amount="1" />
+      <RequiredItem identifier="smallcapacitorMBMOD" amount="1" />
+      <RequiredItem identifier="aluminium" amount="6" />
+      <RequiredItem identifier="steel" amount="2" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/MB + Rebreather/MB + Rebreather - On Back.png" sourcerect="0,0,195,196" />
+    <Sprite texture="%ModDir%/MB + Rebreather/MB + Rebreather - Dropped.png" sourcerect="0,0,196,129" depth="0.6" origin="0.5,0.5" />
+    <Body width="196" height="129" density="10" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <sprite name="Backpack on character" texture="%ModDir%/MB + Rebreather/MB + Rebreather - On Back.png" limb="Torso" depth="0.8" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" origin="0.6,0.5" sourcerect="0,0,195,196" />
+      <sprite name="Diving Mask Wearable" texture="%ModDir%/MB + Rebreather/MB + Rebreather - Mask.png" limb="Head" depth="0.81" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hidelimb="false" hideotherwearables="false" sourcerect="226,326,69,68" origin="0.4,0.3" hidewearablesoftype="moustache,beard" />
+      <ItemContainer capacity="3" hideitems="true">
+        <Containable items="smallitem,weapon,gun" excludeditems="crate,toolbox,cargoscooter,backpack,MBMOD,mountableweapon" />
+        <SlotIcon slotindex="3" texture="%ModDir%/Icons/Power.png" origin="0.5,0.5" />
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="mobilebattery" excludeditems="MBMOD" />
+        </SubContainer>
+        <SlotIcon slotindex="4" texture="%ModDir%/Icons/Oxygen Refill.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="5" texture="%ModDir%/Icons/Oxygen Refill.png" origin="0.5,0.5" />
+        <SubContainer capacity="2" maxstacksize="1">
+          <Containable items="oxygensource" excludeditems="MBMOD" />
+        </SubContainer>
+      </ItemContainer>
+      <!-- REBREATHER PART -->
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.005" comparison="And" targetslot="3">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="batterycell" type="Contained" condition="gt 0" targetslot="3" />
+        <Sound file="%ModDir%/MB + Rebreather/Rebreather - Calm.ogg" range="0" volume="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.003" comparison="And" targetslot="3">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="fulguriumbatterycell" type="Contained" condition="gt 0" targetslot="3" />
+        <Sound file="%ModDir%/MB + Rebreather/Rebreather - Calm.ogg" range="0" volume="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.005" comparison="And" targetslot="3">
+        <Conditional IsDead="false" />
+        <RequiredAffliction identifier="oxygenlow" minstrength="10" />
+        <RequiredItem items="batterycell" type="Contained" condition="gt 0" targetslot="3" />
+        <Sound file="%ModDir%/MB + Rebreather/Rebreather - Calm.ogg" range="0" volume="0.5" />
+        <ReduceAffliction identifier="oxygenlow" amount="11" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.003" comparison="And" targetslot="3">
+        <Conditional IsDead="false" />
+        <RequiredAffliction identifier="oxygenlow" minstrength="10" />
+        <RequiredItem items="fulguriumbatterycellbatterycell" type="Contained" condition="gt 0" targetslot="3" />
+        <Sound file="%ModDir%/MB + Rebreather/Rebreather - Calm.ogg" range="0" volume="0.5" />
+        <ReduceAffliction identifier="oxygenlow" amount="11" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.005" comparison="And" targetslot="3">
+        <Conditional InWater="true" />
+        <RequiredItem items="batterycell" type="Contained" condition="gt 0" targetslot="3" />
+        <Sound file="%ModDir%/MB + Rebreather/Rebreather - Calm.ogg" range="0" volume="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.003" comparison="And" targetslot="3">
+        <Conditional InWater="true" />
+        <RequiredItem items="fulguriumbatterycell" type="Contained" condition="gt 0" targetslot="3" />
+        <Sound file="%ModDir%/MB + Rebreather/Rebreather - Calm.ogg" range="0" volume="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" Condition="0.05" comparison="And" targetslot="4">
+        <Conditional IsDead="false" />
+        <RequiredItem items="mobilebattery" type="Contained" condition="gt 0" targetslot="3" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" Condition="0.05" comparison="And" targetslot="5">
+        <Conditional IsDead="false" />
+        <RequiredItem items="mobilebattery" type="Contained" condition="gt 0" targetslot="3" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" Condition="-0.005" comparison="And" targetslot="3">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygensource" type="Contained" condition="lt 100" targetslot="4" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" Condition="-0.005" comparison="And" targetslot="3">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygensource" type="Contained" condition="lt 100" targetslot="5" />
+      </StatusEffect>
+      <!-- WEIGHT SYSTEM -->
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="0" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="1" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="2" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="3" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="4" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="5" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="6" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="7" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="8" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="9" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="10" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="11" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="12" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="13" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="14" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>	  --&gt;
+	  
+<!-- SPECIFIC BONUS --><SkillModifier skillidentifier="electrical" skillvalue="-15" /><SkillModifier skillidentifier="helm" skillvalue="-30" /><SkillModifier skillidentifier="mechanical" skillvalue="-15" /><SkillModifier skillidentifier="medical" skillvalue="-40" /><SkillModifier skillidentifier="weapons" skillvalue="-20" /><StatValue stattype="SwimmingSpeed" value="-0.1" /><StatValue stattype="WalkingSpeed" value="-0.2" /><StatValue stattype="RepairSpeed" value="-0.25" /></Wearable>
+    <Holdable slots="RightHand,LeftHand" controlpose="true" holdpos="10,-90" handle1="0,32" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+</Items>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Traditional Chinese" nowhitespace="true" translatedname="中文(繁體)">
+  <loadingscreentip>主動聲納的脉冲強度足以使換能器周圍的水沸騰。</loadingscreentip>
+  <loadingscreentip>在潛艇周圍工作時，建議穿著消聲潛水服。普通潛水服無法保護你免受主動聲納的影響。</loadingscreentip>
+  <loadingscreentip>潛艇的主動聲納可達235分貝，大約是噴氣發動機的724倍響度，強度是其31.6億倍。</loadingscreentip>
+  <loadingscreentip>聲波在水中傳播的距離是空氣中的四倍。低頻聲音，如潛艇主動聲納的脉冲聲，傳播得更遠。</loadingscreentip>
+  <loadingscreentip>當聲音從水傳播到空氣中時，強度會降低80分貝（聲音減弱256倍）。這一點，再加上潛艇的消聲瓦外殼，使潛艇乘員免受主動聲納的傷害。</loadingscreentip>
+  <loadingscreentip>潛艇外殼覆蓋著消聲瓦，這是含有數千個微小空隙的橡膠瓦，設計用於吸收主動聲納並減弱從船內發出的聲音。</loadingscreentip>
+  <loadingscreentip>在近距離內，主動聲納脉冲的強度足以破裂器官並導致內出血。</loadingscreentip>
+  <loadingscreentip>啟用主動聲納前，確保沒有船員在船體安全區域之外。</loadingscreentip>
+  <loadingscreentip>在潛艇內部，船員受到自身主動聲納的保護。然而，一旦船體破裂，水流進入，這種保護就消失了。</loadingscreentip>
+  <loadingscreentip>如果船體破裂，請關閉主動聲納。如果工程師的耳膜破裂，他們將很難修復洩漏。</loadingscreentip>
+  <loadingscreentip>在潛艇附近潛水時要小心。單次聲納脉冲可能導致聽力損失、組織損傷，在極端情況下，還可能導致器官破裂和腦出血。</loadingscreentip>
+  <loadingscreentip>激活信標站時，建議帶上消聲潛水服。雖然不如潛艇的聲納強大，但信標發出的聲納脉冲仍可能造成嚴重傷害。</loadingscreentip>
+  <loadingscreentip>科達靈是唯一能夠挽救聲納引起的腦出血患者的方法。</loadingscreentip>
+  <loadingscreentip>曼納提取物可以暫時阻止聲納引起的腦出血進展。之後，科達靈是唯一的選擇。</loadingscreentip>
+  <loadingscreentip>如果患者體內已有曼納提取物的痕跡，不建議再次使用。</loadingscreentip>
+  <loadingscreentip>主動聲納啟用時，遠離壓載艙。聲波可以輕易地通過充滿水的管道傳播。</loadingscreentip>
+  <loadingscreentip>如果不及時治療，主動聲納引起的振動損傷可能導致神經損傷和受影響肌肉的橫紋肌溶解症。</loadingscreentip>
+  <loadingscreentip>隨著潛艇成為歐羅巴生活方式的一部分，醫學已經進步到可以治療獨特的聲納相關傷害。智能移植物用於穿孔器官，科達靈用於腦出血，曼納提取物用於組織損傷。</loadingscreentip>
+  <!-- Active sonar -->
+  <afflictionname.activesonar>潛艇聲納</afflictionname.activesonar>
+  <!-- Beacon station sonar -->
+  <afflictionname.activesonarbeacon>信標聲納</afflictionname.activesonarbeacon>
+  <!-- Acoustic Trauma -->
+  <afflictionname.acoustictrauma>聲波創傷</afflictionname.acoustictrauma>
+  <afflictiondescription.acoustictrauma>患者的耳膜已被穿孔，導致出血和耳鳴。</afflictiondescription.acoustictrauma>
+  <afflictiondescription.acoustictrauma.self>你的耳朵在嗡鳴並流血，感到頭暈目眩。</afflictiondescription.acoustictrauma.self>
+  <afflictioncauseofdeath.acoustictrauma>耳源性死亡</afflictioncauseofdeath.acoustictrauma>
+  <afflictioncauseofdeathself.acoustictrauma>你因耳朵大出血而死亡。</afflictioncauseofdeathself.acoustictrauma>
+  <!-- Vibration Damage -->
+  <afflictionname.vibrationdamage>振動損傷</afflictionname.vibrationdamage>
+  <afflictiondescription.vibrationdamage>患者因強烈的聲納振動而導致循環系統輕微損傷。</afflictiondescription.vibrationdamage>
+  <afflictiondescription.vibrationdamage.medium>患者的動脈、神經和肌肉受到嚴重損傷。</afflictiondescription.vibrationdamage.medium>
+  <afflictiondescription.vibrationdamage.high>患者的內部組織支離破碎。動脈、神經、肌肉和骨骼都受到毀滅性損傷。</afflictiondescription.vibrationdamage.high>
+  <afflictiondescription.vibrationdamage.self>你全身感到鈍痛。皮膚刺痛，好像被針扎了一樣。</afflictiondescription.vibrationdamage.self>
+  <afflictiondescription.vibrationdamage.medium.self>你的四肢麻木，全身感到針刺般的劇痛。</afflictiondescription.vibrationdamage.medium.self>
+  <afflictiondescription.vibrationdamage.high.self>你感覺不到四肢。你只感到劇烈的疼痛，好像身體的每個細胞都被撕裂了。</afflictiondescription.vibrationdamage.high.self>
+  <afflictioncauseofdeath.vibrationdamage>災難性內部損傷</afflictioncauseofdeath.vibrationdamage>
+  <afflictioncauseofdeathself.vibrationdamage>你的內臟被撕裂了。</afflictioncauseofdeathself.vibrationdamage>
+  <!-- Nerve Damage -->
+  <afflictionname.nervedamage>神經損傷</afflictionname.nervedamage>
+  <afflictiondescription.nervedamage>患者的神經因振動而受損。日常任務變得更加困難。</afflictiondescription.nervedamage>
+  <afflictiondescription.nervedamage.self>你的手感到麻木，笨拙導致工作效率降低。</afflictiondescription.nervedamage.self>
+  <!-- Rhabdomyolysis -->
+  <afflictionname.muscledamage>橫紋肌溶解症</afflictionname.muscledamage>
+  <afflictiondescription.muscledamage>患者的肌肉開始分解並流入血液。</afflictiondescription.muscledamage>
+  <afflictiondescription.muscledamage.high>患者的大部分肌肉已壞死，危險量的蛋白質正在流入血液。</afflictiondescription.muscledamage.high>
+  <afflictiondescription.muscledamage.self>你感到無力，腿部腫脹疼痛。</afflictiondescription.muscledamage.self>
+  <afflictiondescription.muscledamage.high.self>你的腿感覺非常虛弱。行走幾乎不可能，疼痛難以忍受。</afflictiondescription.muscledamage.high.self>
+  <afflictioncauseofdeath.muscledamage>腎衰竭</afflictioncauseofdeath.muscledamage>
+  <afflictioncauseofdeathself.muscledamage>你的肌肉釋放了致命量的蛋白質進入血液。</afflictioncauseofdeathself.muscledamage>
+  <!-- Ruptured Lung -->
+  <afflictionname.rupturedlung>肺破裂</afflictionname.rupturedlung>
+  <afflictiondescription.rupturedlung>患者的肺因聲納振動而破裂。</afflictiondescription.rupturedlung>
+  <afflictiondescription.rupturedlung.high>患者的肺因極端振動而被撕裂，導致缺氧症和高概率窒息。</afflictiondescription.rupturedlung.high>
+  <afflictiondescription.rupturedlung.self>胸部有刺痛感。呼吸變得更加困難。</afflictiondescription.rupturedlung.self>
+  <afflictiondescription.rupturedlung.high.self>你幾乎無法在咳血之間呼吸，每次吸氣都伴隨著劇痛。</afflictiondescription.rupturedlung.high.self>
+  <afflictioncauseofdeath.rupturedlung>溺死在自己的血液中</afflictioncauseofdeath.rupturedlung>
+  <afflictioncauseofdeathself.rupturedlung>由於嚴重的肺損傷，你溺死在自己的血液中。</afflictioncauseofdeathself.rupturedlung>
+  <!-- Brain Hemorrhage -->
+  <afflictionname.brainhemorrhage>腦出血</afflictionname.brainhemorrhage>
+  <afflictiondescription.brainhemorrhage>患者的大腦因接觸主動聲納而出血。幸運的是，似乎沒有惡化。</afflictiondescription.brainhemorrhage>
+  <afflictiondescription.brainhemorrhage.medium>患者大腦的大部分區域已經融化成漿糊。大腦正在自己的血液中溺水，而且情況正在惡化。</afflictiondescription.brainhemorrhage.medium>
+  <afflictiondescription.brainhemorrhage.high>患者的大腦已被主動聲納融化。</afflictiondescription.brainhemorrhage.high>
+  <afflictiondescription.brainhemorrhage.self>你的視線模糊，思維感到混沌。</afflictiondescription.brainhemorrhage.self>
+  <afflictiondescription.brainhemorrhage.medium.self>你無法思考。你看到閃光並嚐到金屬味。你想尖叫，但做不到。你正在失去所有運動功能的控制，現實正在慢慢消逝。</afflictiondescription.brainhemorrhage.medium.self>
+  <afflictioncauseofdeath.brainhemorrhage>腦死亡</afflictioncauseofdeath.brainhemorrhage>
+  <afflictioncauseofdeathself.brainhemorrhage>你的大腦被主動聲納融化了。</afflictioncauseofdeathself.brainhemorrhage>
+  <!-- Manna Influence -->
+  <afflictionname.mannainfluence>曼納影響</afflictionname.mannainfluence>
+  <afflictiondescription.mannainfluence>這個肢體正在受到曼納提取物的治療影響。</afflictiondescription.mannainfluence>
+  <afflictiondescription.mannainfluence.self>你感到皮膚下有輕微的壓力和舒適的溫暖。</afflictiondescription.mannainfluence.self>
+  <!-- Manna Overdose -->
+  <afflictionname.mannaoverdose>曼納過量</afflictionname.mannaoverdose>
+  <afflictiondescription.mannaoverdose>患者血液中含有危險量的曼納。</afflictiondescription.mannaoverdose>
+  <afflictiondescription.mannaoverdose.self>你感覺棒極了。</afflictiondescription.mannaoverdose.self>
+  <afflictioncauseofdeath.mannaoverdose>在狂喜中死亡</afflictioncauseofdeath.mannaoverdose>
+  <afflictioncauseofdeathself.mannaoverdose>你成功了，歡迎來到天堂。</afflictioncauseofdeathself.mannaoverdose>
+  <!-- Photopsia -->
+  <afflictionname.photopsia>光視症</afflictionname.photopsia>
+  <afflictiondescription.photopsia>患者正經歷視覺異常，表現為閃爍的光和明亮的閃光。</afflictiondescription.photopsia>
+  <afflictiondescription.photopsia.self>燈光似乎在閃爍，你是不是看到了什麼？明亮的閃光充滿了你的周邊視野。肯定有什麼不對勁。</afflictiondescription.photopsia.self>
+  <!-- Ataxia -->
+  <afflictionname.ataxia>共濟失調</afflictionname.ataxia>
+  <afflictiondescription.ataxia>患者的小腦受到嚴重損傷，導致不自主肌肉痙攣和糟糕的協調能力。</afflictiondescription.ataxia>
+  <afflictiondescription.ataxia.self>你的肌肉似乎有自己的想法。你不斷地毫無預警地向前傾倒，當你試圖行走時，最後總是回到原點。</afflictiondescription.ataxia.self>
+  <!-- Aphasia -->
+  <afflictionname.aphasia>失語症</afflictionname.aphasia>
+  <afflictiondescription.aphasia>患者的布洛卡區受損，無法用完整的句子說話。</afflictiondescription.aphasia>
+  <afflictiondescription.aphasia.self>你無法完成基本的句子，形成單詞極其困難，有時會變成不連貫的咕噥。</afflictiondescription.aphasia.self>
+  <!-- Blindness -->
+  <afflictionname.opticneuritis>視神經炎</afflictionname.opticneuritis>
+  <afflictiondescription.opticneuritis>患者的枕葉嚴重受損，周期性地導致失明和方向感喪失。</afflictiondescription.opticneuritis>
+  <afflictiondescription.opticneuritis.self>你的視線周期性地被黑暗籠罩。這是終結嗎？</afflictiondescription.opticneuritis.self>
+  <!-- Treatments -->
+  <entityname.manna>曼納提取物</entityname.manna>
+  <entitydescription.manna>神奇液體，將人類血紅蛋白與外星等離子體融合，利用歐羅巴水下居民的天然恢復力和癒合特性。用於治療肌肉和神經系統的內部損傷，能夠暫時停止腦出血。需要注意的是，重複使用會產生遞減效果，並有過量風險。</entitydescription.manna>
+  <entityname.cortizide>科達靈</entityname.cortizide>
+  <entitydescription.cortizide>一種強效的止痛和減壓藥物混合物，伴有一系列嚴重的副作用。通常作為治療腦出血的最後手段注射到顱骨內。
+警告：在健康的大腦環境中使用可能導致顱內壓力危險增加。</entitydescription.cortizide>
+  <entityname.smartgraft>智能移植物</entityname.smartgraft>
+  <entitydescription.smartgraft>遺傳工程改造的結締組織，繼承患者的DNA以刺激複雜解剖系統的再生。通常用於修復穿孔器官。</entitydescription.smartgraft>
+  <!-- Items -->
+  <entityname.anechoicdivingsuit>消聲潛水服</entityname.anechoicdivingsuit>
+  <entitydescription.anechoicdivingsuit>一種隱形、輕量級的潛水服，設計用於吸收主動聲納的聲波，配備消聲板。它提供輕微的傷害保護，可以承受高達6,000米的壓力。</entitydescription.anechoicdivingsuit>
+  <entityname.navremote>導航遙控器</entityname.navremote>
+  <entitydescription.navremote>一種手持設備，可用於遠程控制潛艇的聲納和引擎。</entitydescription.navremote>
+  <!-- Menu -->
+  <realsonarsettings>真實聲納設置</realsonarsettings>
+  <volumesettings>音量設置</volumesettings>
+  <airpingvolume>空氣脉冲音量</airpingvolume>
+  <waterpingvolume>水中脉冲音量</waterpingvolume>
+  <suitpingvolume>潛水服脉冲音量</suitpingvolume>
+  <tinnitusvolume>耳鳴音量</tinnitusvolume>
+  <distortionvolume>失真音量</distortionvolume>
+  <networksettings>網絡設置 - 僅客戶端（需要在控制台輸入"cl_reloadlua"）</networksettings>
+  <lowlatencymode>低延遲模式（實驗性）</lowlatencymode>
+  <lowlatencymodetooltip>消除由高服務器延遲引起的延遲。如果服務器配置選項不同，可能會導致視覺錯誤或不同步。</lowlatencymodetooltip>
+  <gameplaysettingsserver>遊戲設置 - 僅主機</gameplaysettingsserver>
+  <gameplaysettingsclient>遊戲設置</gameplaysettingsclient>
+  <sonarrange>聲納範圍（僅單人遊戲）</sonarrange>
+  <sonardamage>聲納傷害（非線性）</sonardamage>
+  <submarinesonar>潛艇聲納</submarinesonar>
+  <submarinesonartooltip>啟用導航終端的功能。</submarinesonartooltip>
+  <beaconsonar>信標聲納</beaconsonar>
+  <beaconsonartooltip>啟用聲納監視器的功能。</beaconsonartooltip>
+  <shuttlesonar>穿梭機聲納</shuttlesonar>
+  <shuttlesonartooltip>啟用穿梭機終端的功能。</shuttlesonartooltip>
+  <customsonar>自定義聲納</customsonar>
+  <customsonartooltip>啟用自定義終端的功能。禁用可能會提高性能。</customsonartooltip>
+  <targetcreatures>目標生物</targetcreatures>
+  <targetcreaturestooltip>啟用對所有非人類生物的傷害。</targetcreaturestooltip>
+  <targetplayers>目標玩家</targetplayers>
+  <targetplayerstooltip>啟用對玩家的傷害。</targetplayerstooltip>
+  <targetbots>目標機器人</targetbots>
+  <targetbotstooltip>啟用對機器人的傷害。</targetbotstooltip>
+  <creaturehulldetection>生物船體檢測</creaturehulldetection>
+  <creaturehulldetectiontooltip>生物的準確聲納命中檢測。禁用可能會提高性能。</creaturehulldetectiontooltip>
+  <humanhulldetection>人類船體檢測</humanhulldetection>
+  <humanhulldetectiontooltip>人類的準確聲納命中檢測，例如，你是否希望人類在壓載艙中受到保護？</humanhulldetectiontooltip>
+  <impactvisuals>聲納影響視覺強度</impactvisuals>
+  <sonarslow>聲納移動速度懲罰</sonarslow>
+  <defaultfx>其他視覺效果（腦出血、科達靈等）：\n標準</defaultfx>
+  <lowfx>其他視覺效果（腦出血、科達靈等）：\n降低</lowfx>
+  <nofx>其他視覺效果（腦出血、科達靈等）：\n禁用</nofx>
+  <ignoredcharacters>忽略的角色ID</ignoredcharacters>
+  <wearableprotections>潛水服抗性</wearableprotections>
+  <sonarterminals>聲納終端</sonarterminals>
+  <requirescustomsonar>（需要啟用"自定義聲納"選項）</requirescustomsonar>
+  <resetdefault>重置</resetdefault>
+  <resetalldefault>重置全部</resetalldefault>
+  <invalidinput>無效輸入</invalidinput>
+  <close>關閉</close>
+  <!-- Dialogue -->
+  <dialoggetanechoicsuit>我需要消聲潛水裝備！</dialoggetanechoicsuit>
+  <dialoggetanechoicsuit>我需要消聲潛水服才能在聲納開啟時進行修理！</dialoggetanechoicsuit>
+  <dialoggetanechoicsuit>需要找到消聲潛水服！</dialoggetanechoicsuit>
+  <dialogcantfindanechoicsuit>我找不到消聲潛水服！關掉聲納！</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>沒有消聲潛水服！我不進去！</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>聲納關閉之前我不進去！</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>我沒有防護裝備！關掉聲納！</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>聲納關閉之前我無法進行修理！</dialogcantfindanechoicsuit>
+  <dialogturnoffsonar>關掉聲納！</dialogturnoffsonar>
+  <dialogturnoffsonar>那該死的聲納讓我耳朵流血了！</dialogturnoffsonar>
+  <dialogturnoffsonar>關掉聲納！</dialogturnoffsonar>
+  <dialogturnoffsonar>我被聲納困住了！</dialogturnoffsonar>
+  <dialogturnoffsonar>天哪，這聲納太響了！</dialogturnoffsonar>
+  <dialogturnoffsonar>我在水裡，關閉聲納！</dialogturnoffsonar>
+  <dialogturnoffsonar>天啊，關閉聲納！</dialogturnoffsonar>
+  <dialogturnoffsonar>誰來關掉聲納！</dialogturnoffsonar>
+</infotexts>

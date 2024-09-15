@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+  <EventSprites></EventSprites>
+  <EventPrefabs>
+    <ScriptedEvent identifier="safecrackeractivedrill">
+      <TagAction criteria="itemtag:safecracker" tag="activedrill" submarinetype="outpost" />
+      <TagAction criteria="player" tag="player" />
+      <TagAction criteria="humanprefabidentifier:securitynpccoalition" tag="securityguard" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:securitynpcseparatists" tag="securityguard" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:securitynpccoalition" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:securitynpcseparatists" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:outpostmanagerseparatists" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:outpostmanagercoalition" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:sergeantseparatists" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:quartermaster" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:bartender" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:tailor" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:botanist" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:pharmacist" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:gunsmith" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:hrmanager" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:reactoroperator" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:subupgradenpc" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:subsalesnpc" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantoutpost" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantcity" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantmine" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantresearch" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantmilitary" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantarmory" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantmedical" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:merchantengineering" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:armsdealer" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:cargomissiongiver" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:salvagemissiongiver" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:outpostdoctor" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:watchman" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:watchmanseparatist" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:commoner" tag="witness" ContinueIfNoTargetsFound="true" />
+      <TagAction criteria="humanprefabidentifier:researcher" tag="witness" ContinueIfNoTargetsFound="true" />
+      <Label name="restart" />
+      <TriggerAction target1tag="activedrill" target2tag="player" applytotarget2="ad_trig_player" waitforinteraction="false" radius="1500" allowmultiple="true" ContinueIfNoTargetsFound="true" />
+      <CheckVisibilityAction EntityTag="witness" TargetTag="activedrill" AllowSameEntity="false">
+        <Success>
+          <CombatAction combatmode="Arrest" npctag="securityguard" enemytag="ad_trig_player" isinstigator="false" guardreaction="none" witnessreaction="retreat" />
+          <ConversationAction targettag="ad_trig_player" text="EventText.activedrill.CalledSecurity" eventsprite="security" dialogtype="Small" />
+          <WaitAction time="30" />
+          <ClearTagAction tag="ad_trig_player" />
+          <GoTo name="restart" />
+        </Success>
+        <Failure>
+          <WaitAction time="1" />
+          <ClearTagAction tag="ad_trig_player" />
+          <GoTo name="restart" />
+        </Failure>
+      </CheckVisibilityAction>
+    </ScriptedEvent>
+  </EventPrefabs>
+</Randomevents>

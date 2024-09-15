@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Welding Fuel Generator" path="%ModDir%/filelist.xml" corepackage="false" gameversion="0.10.5.1">
+  <Item file="%ModDir%/Items/weldinggenerator.xml" />
+  <Item file="%ModDir%/Items/materials.xml" />
+  <None file="%ModDir%/Items/weldinggenerator.png" />
+  <Text file="%ModDir%/Items/English.xml" />
+</contentpackage>

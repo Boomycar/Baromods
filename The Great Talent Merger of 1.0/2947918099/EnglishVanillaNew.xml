@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!-- When adding new text, do it so at the bottom under the 'New values' & 'Modified values' sections. If it's a new tag entirely, put it under the new additions one; If it's an update to an existing value, put it under the changed values one. -->
+  <!-- DO NOT EDIT EXISTING TAGS FOR ALREADY TRANSLATED LINES -> if you need a new tag for something, add it under the 'New values' header and comment if there's some other tag that should be replaced -->
+  <!-- Modified values after November 7 (December pre-patch) -->
+  <talentdescription.emergencyresponsenew>You move [movementspeed]% faster and take [damagereduction]% less damage if any crew member is unconscious.</talentdescription.emergencyresponsenew>
+  <talentmenu.alltalentsunlockedold>All talents unlocked</talentmenu.alltalentsunlockedold>
+  <talentmenu.pointsold>Talent Points: [amount]</talentmenu.pointsold>
+  <talentmenu.points.spendingold>Talent Points: [amount] ([used])</talentmenu.points.spendingold>
+  <experienceshortold>EXP</experienceshortold>
+  <talentpointsleftold>Talent points left:</talentpointsleftold>
+  <experiencetooltipold>Experience is primarily gained by completing missions.\nCompleting missions in a more difficult area rewards more experience.</experiencetooltipold>
+  <talentname.handsomestrangerold>Once Upon a Time on Europa</talentname.handsomestrangerold>
+  <talentname.tumbleold>Tumble</talentname.tumbleold>
+  <talentdescription.tumbleold>Whenever you ragdoll for at least [seconds] seconds, your attacks with pistols are [damage]% more powerful for the next [duration] seconds.</talentdescription.tumbleold>
+  <talentname.sailorwithnonameold>Sailor with No Name</talentname.sailorwithnonameold>
+  <talentname.sailorwithnonamenew>Sailor with No Name</talentname.sailorwithnonamenew>
+  <talentdescription.cigarsmoked>Gain [number]% firerate after smoking a cigar for a few seconds.</talentdescription.cigarsmoked>
+  <afflictionname.cigar>Cigar smoked</afflictionname.cigar>
+  <afflictiondescription.cigar>Ready to lay down some suppressing fire \n(only works with sailor with no name)</afflictiondescription.cigar>
+  <talentname.quickdrawold>Quickdraw</talentname.quickdrawold>
+  <talentdescription.quickdrawold>If it has been longer than [seconds] seconds since you've attacked with a pistol, your next attack with a pistol is [damage]% more powerful.</talentdescription.quickdrawold>
+  <talentname.travelingtradesmanold>Traveling Tradesman</talentname.travelingtradesmanold>
+  <talentname.evasivemaneuversold>Evasive Maneuvers</talentname.evasivemaneuversold>
+  <talentdescription.evasivemaneuversold>Whenever your submarine takes damage from a monster, gain a bonus of [helmbonus] to the Helm skill for [seconds] seconds.</talentdescription.evasivemaneuversold>
+  <afflictionname.evasivemaneuversold>Emergency Maneuvers</afflictionname.evasivemaneuversold>
+  <afflictiondescription.evasivemaneuversold>The subject has momentarily become a much better captain.</afflictiondescription.evasivemaneuversold>
+  <talentname.bountyhunterold>Bounty Hunter</talentname.bountyhunterold>
+  <talentdescription.bountyhunterold>Whenever you or an allied crewmember kills a monster, your crew gains additional marks equal to [percentage]% of the creature's maximum health.</talentdescription.bountyhunterold>
+  <talentname.trustedcaptainold>Trusted Captain</talentname.trustedcaptainold>
+  <talentdescription.trustedcaptainold>Whenever you finish at least one mission, gain a Coalition Commendation.\nWhen you apply a Coalition Commendation on another character, they gain [targetxpgain] experience, and you gain [selfxpgain] experience.</talentdescription.trustedcaptainold>
+  <talentname.esteemedcaptainold>Esteemed Captain</talentname.esteemedcaptainold>
+  <talentdescription.esteemedcaptainold>Whenever you finish at least one mission, gain a Coalition Medal.\nWhen you apply a Coalition Medal on another character, gain [selfxpgain] experience.</talentdescription.esteemedcaptainold>
+  <talentdescription.figureheadnew>Whenever you finish at least one mission, gain a Coalition Medal.\nWhen you apply a Coalition Medal on another character, they gain [targetxpgain] experience, and you gain [selfxpgain] experience. If the target character is then below level [level], give them XP to reach level 5.\nAll services on affiliated outposts give [discount]% discount.</talentdescription.figureheadnew>
+  <talentname.downwiththeshipold>Down with the Ship</talentname.downwiththeshipold>
+  <talentdescription.downwiththeshipold>If you are on your submarine and it becomes at least [flooded]% flooded, you gain an additional [swimmingboost]% swimming speed and a bonus of [skillboost] to Mechanical and Electrical skills for [duration] seconds.</talentdescription.downwiththeshipold>
+  <talentname.camaraderieold>Camaraderie</talentname.camaraderieold>
+  <talentdescription.camaraderieold>Whenever you finish a mission without a crewmember dying, and your crew contains at least [jobcount] different jobs, your crew gains an additional [extramoney]% money and experience.</talentdescription.camaraderieold>
+  <talentname.drunkensailorold>Drunken Sailor</talentname.drunkensailorold>
+  <talentdescription.drunkensailorold>Gain [dmgresistance]% physical damage resistance and [stunresistance]% stun resistance while drunk.\nWhen you play a Harmonica, a random ally on your current submarine has a [skillgainprobability]% chance to gain a random skill point every second.</talentdescription.drunkensailorold>
+  <talentdescription.steadytune2>When you play a Harmonica, a random ally on your current submarine has a [skillgainprobability]% chance to gain a random skill point every second.</talentdescription.steadytune2>
+  <talentname.truckerold>Trucker</talentname.truckerold>
+  <talentdescription.drunkensailornew>Gain [dmgresistance]% physical damage resistance and [stunresistance]% stun resistance while drunk and immunity to the negative effects of drunkenness.</talentdescription.drunkensailornew>
+  <talentdescription.truckerold>Whenever you finish all your selected missions, gain an additional Coalition Commendation.</talentdescription.truckerold>
+  <talentname.trustbuildingold>Trust Building</talentname.trustbuildingold>
+  <talentdescription.trustbuildingold>Whenever you finish a mission, your crew gains an additional [smallgain]% maximum health, and if all crewmembers survived, your crew gains an additional [largegain]% maximum health instead, up to a maximum of [maxgain]%.</talentdescription.trustbuildingold>
+  <talentname.allseeingeyeold>All-Seeing Eye</talentname.allseeingeyeold>
+  <talentname.firstaidtrainingold>First Aid Training</talentname.firstaidtrainingold>
+  <talentname.bythebookold>By the Book</talentname.bythebookold>
+  <talentdescription.bythebookold>Whenever you finish at least one mission, your crew gains an additional [moneyamount] marks and [experienceamount] experience for each captured, live enemy human on board your ship, up to a maximum of [moneyamountmax] marks and [experienceamountmax] experience.</talentdescription.bythebookold>
+  <talentname.bootcampold>Bootcamp Old</talentname.bootcampold>
+  <talentdescription.bootcampold>Whenever you finish a mission without a crewmember dying, you gain an additional [amount]% experience.</talentdescription.bootcampold>
+  <talentname.tandemfireold>Tandem Fire</talentname.tandemfireold>
+  <talentdescription.tandemfireold>As long as you are manning a turret alongside another allied crewmember, both of your attacks are [amount]% more powerful. Only the closest allied crewmember gains this effect.</talentdescription.tandemfireold>
+  <talentname.munitionsexpertiseold>Munitions Expertise</talentname.munitionsexpertiseold>
+  <talentdescription.munitionsexpertiseold>Whenever you fabricate SMG ammo, shotgun ammo or stun gun ammo, you have a [probability]% chance to gain twice as much output.</talentdescription.munitionsexpertiseold>
+  <talentdescription.multitaskerold>Whenever you gain a skill point, if it’s not for the same skill as the last skill point gained, gain an additional skill point.</talentdescription.multitaskerold>
+  <talentdescription.apprenticeshipold>Whenever another allied character gains a skill point, you have a [probability]% chance to also gain a skill point in that skill.</talentdescription.apprenticeshipold>
+  <talentname.navydiverold>Navy Diver</talentname.navydiverold>
+  <talentname.scavengerold>Scavenger</talentname.scavengerold>
+  <talentname.buccaneerold>Buccaneer</talentname.buccaneerold>
+  <talentdescription.buccaneerold>Aiming with a melee weapon before attacking adds up to [amount]% power to your next melee attack.</talentdescription.buccaneerold>
+  <talentname.physicalconditioningold>Physical Conditioning</talentname.physicalconditioningold>
+  <talentname.enforcerold>Enforcer</talentname.enforcerold>
+  <talentname.beatcopold>Beat Cop</talentname.beatcopold>
+  <talentname.warlordold>Warlord</talentname.warlordold>
+  <talentname.deepseaslayerold>Deep Sea Slayer</talentname.deepseaslayerold>
+  <talentname.stonewallold>Stonewall</talentname.stonewallold>
+  <talentname.warriorpoetold>Warrior Poet</talentname.warriorpoetold>
+  <talentname.gunsmithold>Gunsmith</talentname.gunsmithold>
+  <talentname.commandoold>Expert Commando</talentname.commandoold>
+  <talentname.dualspecopsold>Dual Spec-Ops</talentname.dualspecopsold>
+  <talentname.implacableold>Implacable</talentname.implacableold>
+  <talentname.apprenticeshipold>Trainee</talentname.apprenticeshipold>
+  <talentname.multitaskerold>Multitasker</talentname.multitaskerold>
+  <talentname.richinknowledgeold>Rich in Knowledge</talentname.richinknowledgeold>
+  <talentname.standanddeliverold>Stand and Deliver</talentname.standanddeliverold>
+  <talentname.aceofalltradesold>Ace of All Trades</talentname.aceofalltradesold>
+  <talentname.olympianold>Olympian</talentname.olympianold>
+  <talentname.playingcatchupold>Playing Catchup</talentname.playingcatchupold>
+  <talentname.skedaddleold>Skedaddle</talentname.skedaddleold>
+  <talentname.crewlayaboutold>Crew Layabout</talentname.crewlayaboutold>
+  <talentname.survivalpackageold>Survival Package</talentname.survivalpackageold>
+  <talentname.insurancepolicynew>Insurance Policy</talentname.insurancepolicynew>
+  <talentname.stillkickingold>Still Kicking</talentname.stillkickingold>
+  <talentname.graduationceremonyold>Graduation Ceremony</talentname.graduationceremonyold>
+  <talentname.enrollintoclowncollegeold>Enroll into Clown College</talentname.enrollintoclowncollegeold>
+  <talentname.waterpranksterold>Water Prankster</talentname.waterpranksterold>
+  <talentname.inspiringtunesold>Inspiring Tunes</talentname.inspiringtunesold>
+  <talentname.psychoclownold>Psycho Clown</talentname.psychoclownold>
+  <talentname.slapstickexpertold>Slapstick Expert</talentname.slapstickexpertold>
+  <talentname.truepotentialold>True Potential</talentname.truepotentialold>
+  <talentname.remotemonitorold>Remote Monitor</talentname.remotemonitorold>
+  <talentname.collegeathleticsold>College Athletics</talentname.collegeathleticsold>
+  <talentname.hazardousmaterialsold>Hazardous Materials</talentname.hazardousmaterialsold>
+  <talentname.scroungerold>Scrounger</talentname.scroungerold>
+  <talentname.militaryapplicationsold>Military Applications</talentname.militaryapplicationsold>
+  <talentname.strengthenedalloysold>Strengthened Alloys</talentname.strengthenedalloysold>
+  <talentname.expandedresearchold>Expanded Research</talentname.expandedresearchold>
+  <talentname.armsdealerold>Arms Dealer</talentname.armsdealerold>
+  <talentname.nuclearoptionold>Nuclear Option</talentname.nuclearoptionold>
+  <talentname.minorinmechanicsold>Minor in Mechanics</talentname.minorinmechanicsold>
+  <talentname.intheflowold>In the Flow</talentname.intheflowold>
+  <talentname.castledoctrineold>Castle Doctrine</talentname.castledoctrineold>
+  <talentname.electrochemistold>Electrochemist</talentname.electrochemistold>
+  <talentname.optimizedpowerflowold>Optimized Power-Flow</talentname.optimizedpowerflowold>
+  <talentname.coauthorold>Co-Author</talentname.coauthorold>
+  <talentname.polymathold>Polymath</talentname.polymathold>
+  <talentname.phdinnuclearphysicsold>Ph.D in Nuclear Physics</talentname.phdinnuclearphysicsold>
+  <talentname.tinkererold>Tinkerer</talentname.tinkererold>
+  <talentname.quickfixold>Modular Repairs</talentname.quickfixold>
+  <talentname.massproductionold>Mass Production</talentname.massproductionold>
+  <talentname.hullsealerold>Hull Sealer</talentname.hullsealerold>
+  <talentname.letitdrainold>Let It Drain</talentname.letitdrainold>
+  <talentname.crisismanagementold>Crisis Management</talentname.crisismanagementold>
+  <talentdescription.crisismanagementold>The more filled with water your submarine is, the faster you repair the hull and swim, up to an additional [statamount1]% hull repair speed and [statamount2]% swimming speed.</talentdescription.crisismanagementold>
+  <talentname.hullfixerold>Hull Fixer</talentname.hullfixerold>
+  <talentname.minerold>Miner</talentname.minerold>
+  <talentname.elbowgreaseold>Elbow Grease</talentname.elbowgreaseold>
+  <talentname.scrapsavantold>Scrap Savant</talentname.scrapsavantold>
+  <talentname.safetyfirstold>Safety First</talentname.safetyfirstold>
+  <talentname.aggressiveengineeringold>Aggressive Engineering</talentname.aggressiveengineeringold>
+  <talentname.pyromaniacold>Pyromaniac</talentname.pyromaniacold>
+  <talentname.demolitionsexpertold>Demolitions Expert</talentname.demolitionsexpertold>
+  <talentname.cannedheatold>Canned Heat</talentname.cannedheatold>
+  <talentname.lifeoftheparty>Life of the Party</talentname.lifeoftheparty>
+  <talentname.atmosmachineold>Atmos Machine</talentname.atmosmachineold>
+  <talentname.artisansmithold>Artisan Smith</talentname.artisansmithold>
+  <talentname.researchersintuitionold>Researcher's Intuition</talentname.researchersintuitionold>
+  <talentname.fieldmedicold>Field Medic</talentname.fieldmedicold>
+  <talentname.curiosityold>Curiosity</talentname.curiosityold>
+  <talentname.reverseengineerold>Reverse Engineer</talentname.reverseengineerold>
+  <talentname.alienhoarderold>Alien Hoarder</talentname.alienhoarderold>
+  <talentname.doubledutyold>Double Duty</talentname.doubledutyold>
+  <talentname.firemanscarryold>Fireman's Carry</talentname.firemanscarryold>
+  <talentname.mechanicscourseold>Mechanics Course</talentname.mechanicscourseold>
+  <talentname.commanderold>Commander</talentname.commanderold>
+  <talentname.maintenanceroutineold>Maintenance Routine</talentname.maintenanceroutineold>
+  <talentname.inspiretobattleold>Inspire to Battle</talentname.inspiretobattleold>
+  <talentname.allhandsondeckold>All Hands on Deck</talentname.allhandsondeckold>
+  <talentname.genetherapistold>Gene Therapist</talentname.genetherapistold>
+  <talentname.researchanddevelopmentold>Research and Development</talentname.researchanddevelopmentold>
+  <talentname.supersoldiersnew>Super Soldiers</talentname.supersoldiersnew>
+  <talentname.geneticstabilityold>Genetic Stability</talentname.geneticstabilityold>
+  <talentname.advancedsplicingold>Advanced Splicing</talentname.advancedsplicingold>
+  <talentdescription.cannotfallunconsciousforsecondsold>Whenever you fall below 0 health, you will remain fully conscious and your attacks are [powerincrease]% more powerful for [seconds] seconds.</talentdescription.cannotfallunconsciousforsecondsold>
+  <talentdescription.gainmedicalskillformissionrunold>Whenever you complete a mission, if all crewmembers survived, gain [skillincrease] points in Medical skill.</talentdescription.gainmedicalskillformissionrunold>
+  <talentdescription.gainoutputandskillfromartifactsold>Whenever you deconstruct an alien artifact, you have a [probability]% chance to gain double output from it and gain [largeartifactskill] to a random skill. Small alien artifacts, when deconstructed, give [smallartifactskill] skill instead.</talentdescription.gainoutputandskillfromartifactsold>
+  <talentdescription.gainexperiencefromartifactsold>Whenever you deconstruct an alien artifact, you and another random allied crewmember gains [experiencegain] experience. Small alien artifacts, when deconstructed, give [smallexperiencegain] experience instead.</talentdescription.gainexperiencefromartifactsold>
+  <talentdescription.maxtriggeruntildeathold>This effect can only occur once per life each round.</talentdescription.maxtriggeruntildeathold>
+  <talentdescription.maxskillfromtalentold>This talent can only give up to [skillamount] skill bonus.</talentdescription.maxskillfromtalentold>
+  <talentdescription.expertcommandoold>When firing a ranged weapon while crouched, you gain [spreadreduction]% reduction to spread and your attacks are [powerincrease]% more powerful, but your firing rate is [firingratedecrease]% slower.</talentdescription.expertcommandoold>
+  <talentdescription.gainmedicalitemeffectivenessold>Medical items you apply are [amount]% more potent.</talentdescription.gainmedicalitemeffectivenessold>
+  <talentdescription.geneticmaterialrefineflatbonusold>Refining genetic materials adds an additional [amount]% to their potency.</talentdescription.geneticmaterialrefineflatbonusold>
+  <talentdescription.stillkickinghealold>Whenever you fall below 0 health, rapidly heal normal damage types and remove stun over a short duration.</talentdescription.stillkickinghealold>
+  <talentdescription.stillkickinghealold>Whenever you fall below 0 health, rapidly heal normal damage types and remove stun over a short duration.</talentdescription.stillkickinghealold>
+  <talentdescription.extraskillfromcraftinganyold>Gain [amount]% more skill from fabricating items.</talentdescription.extraskillfromcraftinganyold>
+  <talentdescription.medicaleffectivenessold>Medical items are [amount]% more potent when applied to you.</talentdescription.medicaleffectivenessold>
+  <talentdescription.payextra.monsterandnestold>You are paid an additional [extra]% for monster and nest missions.</talentdescription.payextra.monsterandnestold>
+  <talentdescription.tinker.fabricatoranddeconstructorold>You can tinker with a fabricator or a deconstructor, increasing their operating rate by [speedincrease]%.\nYou can tinker with fabricators and deconstructors indefinitely.</talentdescription.tinker.fabricatoranddeconstructorold>
+  <talentdescription.honkinggivesskillgainold>Clown Power allows you to honk your horn to give nearby allies an additional [skillgainincrease]% skill gain for a short while.</talentdescription.honkinggivesskillgainold>
+  <talentdescription.honkinghealscharactersold>Clown Power allows you to honk your horn to slowly heal nearby allies.</talentdescription.honkinghealscharactersold>
+  <talentdescription.standanddeliverold>Whenever you finish at least one mission, gain 'The Sailor's Guide'.\nWhenever you use 'The Sailor's Guide', the ally nearest to you gains [skillamount] to all skills.</talentdescription.standanddeliverold>
+  <talentdescription.letitdrainreminderold>You can only install a maximum of [itemcount] of this item on your submarine.</talentdescription.letitdrainreminderold>
+  <talentdescription.cannedheatold>Whenever you play an accordion, the ally nearest to you will gain [allyexperienceamount] experience every second. When they do, you gain [experienceamount] experience.</talentdescription.cannedheatold>
+  <talentdescription.nuclearoptionold>When you fabricate a fuel rod, gain triple output.</talentdescription.nuclearoptionold>
+  <talentdescription.doublefabricate>When you fabricate ammo, gain double output.</talentdescription.doublefabricate>
+  <talentdescription.quickfixold>Whenever you fully repair a device, gain [experienceamount] experience.</talentdescription.quickfixold>
+  <talentdescription.maxtriggeruntildeathold>This effect can only occur once per life.</talentdescription.maxtriggeruntildeathold>
+  <talentdescription.maxtriggeruntilmissionold>This effect can only occur up to [maxtrigger] times until you finish another mission.</talentdescription.maxtriggeruntilmissionold>
+  <talentdescription.singletriggeruntilmissionold>This effect cannot occur again until you finish another mission.</talentdescription.singletriggeruntilmissionold>
+  <talentdescription.increaseattackpowertomonstersinsubold>Your attacks are [attackpowerincrease]% more powerful against monsters inside your submarine.</talentdescription.increaseattackpowertomonstersinsubold>
+  <talentdescription.cannotfallunconsciousold>You will remain fully conscious even after falling below 0 health.</talentdescription.cannotfallunconsciousold>
+  <talentdescription.extramarksonnewstationold>Your crew gains an additional [marks] marks whenever you reach a new station.</talentdescription.extramarksonnewstationold>
+  <talentdescription.specialsaleitemincreaseold>Special sales offer [itemcount] additional items.</talentdescription.specialsaleitemincreaseold>
+  <talentdescription.offeradditionalmissionsold>Stations offer [missioncount] additional missions.</talentdescription.offeradditionalmissionsold>
+  <talentdescription.bonuseslostondeathold>These bonuses are lost on death.</talentdescription.bonuseslostondeathold>
+  <talentdescription.bonuslostondeathold>This bonus is lost on death.</talentdescription.bonuslostondeathold>
+  <talentdescription.gainattributesold>You gain the following attributes:</talentdescription.gainattributesold>
+  <talentdescription.assistantsdontcountold>The deaths of assistants do not count.</talentdescription.assistantsdontcountold>
+  <talentdescription.gainitemonfinishmissionwithoutdeathsold>Whenever you finish a mission without a crewmember dying, gain the item [item]</talentdescription.gainitemonfinishmissionwithoutdeathsold>
+  <talentdescription.maximumhealthperlevelold>Gain an additional [maximumhealth]% maximum health for each of your levels.</talentdescription.maximumhealthperlevelold>
+  <talentdescription.gainalltalentsintreeold>Gain all the talents in this talent tree.</talentdescription.gainalltalentsintreeold>
+  <talentname.bedsidemannerold>Bedside Manner</talentname.bedsidemannerold>
+  <talentdescription.bedsidemannerold>Whenever you apply medicine to a friendly character, they gain [physicaldamageresistance] physical damage resistance and an additional [skillgainincrease]% skill gain, the total duration depending on your medical skill.</talentdescription.bedsidemannerold>
+  <talentdescription.electrochemistold>If you have not been attacked for [seconds] seconds, the next attack you suffer has [powerreduction]% less power and your attacker is stunned for [stunseconds] seconds.</talentdescription.electrochemistold>
+  <talentname.drsubmarineold>Dr. Submarine</talentname.drsubmarineold>
+  <talentdescription.drsubmarineold>Boost regeneration of NearbyCharacters from bleeding by [selfinflictpercentage].</talentdescription.drsubmarineold>
+  <talentname.combatmedicold>Combat Medic</talentname.combatmedicold>
+  <talentdescription.combatmedicold>Gain an additional percentage to Movement Speed, Ranged Fire Rate and Melee Attack Speed equal to [skillpercentage]% of your medical skill.</talentdescription.combatmedicold>
+  <talentname.geneharvesterold>Gene Harvester</talentname.geneharvesterold>
+  <talentdescription.geneharvesterold>When you or another crewmember kills a monster while outside your submarine, you have a [probability]% chance of finding a random genetic material on it.</talentdescription.geneharvesterold>
+  <talentname.researchgrantold>Research Grant</talentname.researchgrantold>
+  <talentdescription.researchgrantold>Whenever you refine or combine genetic items, gain [marks] marks.</talentdescription.researchgrantold>
+  <talentname.melodicrespiteold>Melodic Respite</talentname.melodicrespiteold>
+  <talentdescription.melodicrespiteold>When you play a guitar, you and allies near you gain the following attributes for up to [seconds] seconds:</talentdescription.melodicrespiteold>
+  <talentdescription.expandedresearchold>Whenever you fabricate depleted fuel or a fuel rod, gain [experienceamount] experience.</talentdescription.expandedresearchold>
+  <talentdescription.hazardousmaterialsold>Whenever you loot a reactor in a wreck for the first time, you will find rare materials.</talentdescription.hazardousmaterialsold>
+  <talentdescription.gainskillatlowskillold>When you gain a skill point for a skill that has a total lower than [skilltotal], gain an additional skill point.</talentdescription.gainskillatlowskillold>
+  <talentdescription.advancedsplicingold>Whenever you or another allied crewmember combines or refines genetic materials, gain [experienceamount] experience and a bonus of [skillbonus] to medical.</talentdescription.advancedsplicingold>
+  <talentdescription.increasemaxrepairelectricalold>As long as your electrical skill is [skilltotal] or higher, you can repair electrical devices [percentage]% past their maximum condition.</talentdescription.increasemaxrepairelectricalold>
+  <talentname.overclockingold>Overclocking</talentname.overclockingold>
+  <talentname.dontdieonmeold>Don't Die on Me!</talentname.dontdieonmeold>
+  <talentdescription.dontdieonmeold>The CPR you apply is much more powerful.</talentdescription.dontdieonmeold>
+  <talentname.justascratchold>Just a scratch</talentname.justascratchold>
+  <talentdescription.healabovehealthold>As long as you are above [percentage]% health, normal damage types slowly heal by themselves.</talentdescription.healabovehealthold>
+  <talentdescription.extraskillfromcraftingold>Gain [amount]% more [skillname] skill from fabricating items.</talentdescription.extraskillfromcraftingold>
+  <talentdescription.extrastunonenemiesold>Inflict [amount]% more stun.</talentdescription.extrastunonenemiesold>
+  <talentdescription.scavengerold>Whenever you open a container outside your submarine for the first time, you have a [probability]% chance of finding additional items.</talentdescription.scavengerold>
+  <talentdescription.increasebuffdurationold>Buffs last [amount]% longer.</talentdescription.increasebuffdurationold>
+  <talentdescription.skillbonusold>Gain a bonus of [amount] to [skillname].</talentdescription.skillbonusold>
+  <talentdescription.payextra.cargoandescortold>You are paid an additional [extra]% for cargo and escort missions.</talentdescription.payextra.cargoandescortold>
+  <talentdescription.unlockrecipeold>Unlock recipe: [itemname].</talentdescription.unlockrecipeold>
+  <talentdescription.simultaneousskillgainold>Whenever you gain [skillname1] skill, also gain [skillname2] skill.</talentdescription.simultaneousskillgainold>
+  <talentdescription.increasereputationgainsold>Your crew's reputation gains are improved by [value]%.</talentdescription.increasereputationgainsold>
+  <talentdescription.chanceofextraweapondamageold>Whenever you attack with any weapon, your attack has a [probability]% chance of becoming twice as powerful.</talentdescription.chanceofextraweapondamageold>
+  <talentdescription.extrapowertoharpoonsold>Gain an additional [value]% attack power to harpoons.</talentdescription.extrapowertoharpoonsold>
+  <talentdescription.extrapowertoharpoonsinopenseaold>If you are in the open sea, gain an additional [value]% attack power to harpoons instead.</talentdescription.extrapowertoharpoonsinopenseaold>
+  <talentdescription.dropalienmaterialonkillold>When you kill a monster while outside your submarine, it has a [probability]% chance of having an additional alien material.</talentdescription.dropalienmaterialonkillold>
+  <talentdescription.warriorpoetold>You can write a book.\nTo do this, ragdoll yourself. After [seconds] seconds, you will gain the item [itemname] and [moneyamount] marks for each enemy you've killed since your last book (as royalties).</talentdescription.warriorpoetold>
+  <talentdescription.dualspecopsold>When you ragdoll in water, propel yourself forward in your current direction.</talentdescription.dualspecopsold>
+  <talentdescription.beatcopold>You can tackle other characters by ragdolling into them at high speeds.</talentdescription.beatcopold>
+  <talentdescription.truepotentialold>Clown Power allows you to hit characters with a Toy Hammer for a [probability]% chance to implode them.</talentdescription.truepotentialold>
+  <talentdescription.stonewallold>Whenever you are attacked, gain an additional [physicaldamagereduction]% physical damage resistance and [stunresistance]% stun resistance for [seconds] seconds.</talentdescription.stonewallold>
+  <talentdescription.richinknowledgeold>Whenever you gain a skill point, gain an additional [experienceamount] experience, while your allied crewmembers gain [alliedexperienceamount] experience.</talentdescription.richinknowledgeold>
+  <talentdescription.olympianold>You gain an additional percentage to the following attributes equal to [skillpercentage] of the total average of all your skills:</talentdescription.olympianold>
+  <talentdescription.playingcatchupold>If you are [levelvalue] or more levels behind your most highest-leveled crewmember, gain an additional [experiencevalue]% mission experience.</talentdescription.playingcatchupold>
+  <talentdescription.skedaddleold>Move [value]% faster. When you are attacked, this bonus is increased to [attackedvalue]% for [seconds] seconds.</talentdescription.skedaddleold>
+  <talentdescription.insurancepolicynew>Whenever you die from non-friendly sources during a mission, your crew is paid [amount] marks for each mission you've completed since the last time you've died.\nGain [amount2]% resistance to Reaper's Tax.</talentdescription.insurancepolicynew>
+  <talentdescription.feigndeathold>Enemies will ignore you if you have been ragdolled for longer than [seconds] seconds.</talentdescription.feigndeathold>
+  <talentdescription.stillkickingold>Whenever you fall unconscious, revive a short while later and remove all afflictions.</talentdescription.stillkickingold>
+  <talentdescription.crewlayaboutold>Allies near you repair [repairspeed]% faster and gain a bonus of [amount] to all skills.</talentdescription.crewlayaboutold>
+  <talentdescription.graduationceremonyold>Upon creating a new character, retain all of your current experience for that new character.</talentdescription.graduationceremonyold>
+  <talentdescription.enrollintoclowncollegeold>As long as you are wearing a full clown outfit, you gain Clown Power.</talentdescription.enrollintoclowncollegeold>
+  <talentdescription.clownpowerdamagereductionold>Clown Power gives you an additional [physicalresistance]% physical damage resistance.</talentdescription.clownpowerdamagereductionold>
+  <talentdescription.waterpranksterold>Clown Power gives you immunity to pressure and allows you to swim [swimspeedvalue]% faster.</talentdescription.waterpranksterold>
+  <talentdescription.inspiringtunesold>Clown Power allows you to honk your horn to repair nearby electrical and mechanical items, and nearby allies to gain a bonus of [skillamount] to all skills for a short while.</talentdescription.inspiringtunesold>
+  <talentdescription.psychoclownold>Clown Power allows you to attack faster with melee weapons based on how much Psychosis you have, up to [maxattackspeed]%, but you cannot run while having Psychosis.</talentdescription.psychoclownold>
+  <talentdescription.slapstickexpertold>Clown Power allows you to have a small chance to trip randomly when you run.\nWhile ragdolled, Clown Power allows you to reduce the power of incoming attacks by [powerreduction]%, and characters that attack you have a [probability]% chance of becoming stunned for [stunseconds] seconds.</talentdescription.slapstickexpertold>
+  <talentdescription.commandoold>When firing a ranged weapon while crouched, gain [armorpenetration]% additional armor penetration, and your attacks are [powerincrease]% more powerful, but your firing rate is [firingratedecrease]% slower.\nRecover from bleeding much more quickly.</talentdescription.commandoold>
+  <talentdescription.phdinnuclearphysicsold>Your attacks with crowbars are [powerincrease]% more powerful.</talentdescription.phdinnuclearphysicsold>
+  <talentdescription.intheflowold>Gain [amount]% swim speed.\nWhenever you fully repair a device, repair [repairspeed]% faster for the next [seconds] seconds.</talentdescription.intheflowold>
+  <talentdescription.coauthorold>You can co-write a book with a Mechanic.\nTo do this, select their character and have them select yours. After [seconds] seconds, you will gain [itemname], and both of you gain [experienceamount] experience.</talentdescription.coauthorold>
+  <talentdescription.polymathold>Gain a bonus of [skillincrease] to all skills, and you gain [experiencegain]% more mission experience, but you have [maximumhealthreduction]% less maximum health.</talentdescription.polymathold>
+  <talentdescription.optimizedpowerflowold>Gain an additional percentage to Turret Power Cost Reduction and Turret Charge Speed equal to [statamount]% of your Electrical skill.\nWhenever you fully repair an item, gain a bonus of [skillamount] to Electrical.</talentdescription.optimizedpowerflowold>
+  <talentdescription.aggressiveengineeringold>When you attack with a wrench, you have a [probability]% chance to attack with [powerincrease]% additional power and inflict an additional stun.</talentdescription.aggressiveengineeringold>
+  <talentdescription.pyromaniacold>When you inflict burning damage on an enemy, gain [physicaldamagereduction]% physical damage resistance for [seconds] seconds.\nInflict [burnincrease]% more burning damage.</talentdescription.pyromaniacold>
+  <talentdescription.scrapsavantold>You can refine [scrapamount] scrap to any alien material.\nGain [experienceamount] experience when you fabricate an alien material.</talentdescription.scrapsavantold>
+  <talentdescription.scroungerold>When you deconstruct scrap, gain [experienceamount] experience and a bonus of [skillamount] to mechanical.</talentdescription.scroungerold>
+  <talentdescription.elbowgreaseold>Gain an additional percentage to Melee Power and Maximum Health equal to [statamount]% of your Mechanical skill.\nWhenever you deconstruct scrap, gain a bonus of [skillamount] to Mechanical.</talentdescription.elbowgreaseold>
+  <talentdescription.mechanicalmelee>Gain an additional percentage to Melee Power and Maximum Health equal to [statamount]% of your Mechanical skill.</talentdescription.mechanicalmelee>
+  <talentdescription.minerold>Whenever you deconstruct an ore, you have a [probability]% chance to gain double the output.</talentdescription.minerold>
+  <talentdescription.tinker.fabricatoranddeconstructorold>You can tinker with a fabricator or a deconstructor, increases their operating rate by [speedincrease]%.\nYou can tinker with fabricators and deconstructors indefinitely.</talentdescription.tinker.fabricatoranddeconstructorold>
+  <talentdescription.tinker.pumpold>You can tinker with a pump, increasing its pumping rate by [speedincrease]%.</talentdescription.tinker.pumpold>
+  <talentdescription.tinker.engineold>You can tinker with an engine, increasing its torque by [speedincrease]%.</talentdescription.tinker.engineold>
+  <talentdescription.tinker.loaderold>You can tinker with a loader, increasing the connected turret's firing rate and damage by [damageincrease]%, while lowering its power usage by [powercostreduction]%.</talentdescription.tinker.loaderold>
+  <talentdescription.tinker.tutorialold>You can use a wrench to tinker with devices.</talentdescription.tinker.tutorialold>
+  <talentdescription.tinker.cooldownreductionold>The cooldown period of tinkering is reduced to [seconds] seconds.</talentdescription.tinker.cooldownreductionold>
+  <talentdescription.tinker.durationincreaseold>You can tinker for an additional [seconds] seconds.</talentdescription.tinker.durationincreaseold>
+  <talentdescription.tinker.suppliespowerold>Non-turret devices you tinker with will always function as if they had power.</talentdescription.tinker.suppliespowerold>
+  <talentdescription.tinker.reminderold>The device is only affected for as long as you keep tinkering with it.</talentdescription.tinker.reminderold>
+  <talentdescription.tinker.durationold>You can tinker for [duration] seconds. After you have tinkered with a device, you cannot tinker for [cooldown] seconds.</talentdescription.tinker.durationold>
+  <talentdescription.tinker.overclockingold>Tinkering with items damages them, but the effects of tinkering are increased by [tinkerincrease]%.</talentdescription.tinker.overclockingold>
+  <talentdescription.tinker.safetyprecautions>Tinkering with items repairs them, and you can tinker for additional [seconds] seconds.</talentdescription.tinker.safetyprecautions>
+  <talentname.safetyprecautions>Safety Precautions</talentname.safetyprecautions>
+  <talentdescription.fieldmedicold>Every [seconds] seconds, if your allied crewmembers are at [healththreshold]% health or higher, gain [skillincrease] point in Medical skill.</talentdescription.fieldmedicold>
+  <talentdescription.curiosityold>Whenever you deconstruct an alien artifact you gain [experiencegain] experience, and your crew gains [crewexperiencegain] experience.</talentdescription.curiosityold>
+  <talentdescription.reverseengineerold>Whenever you deconstruct an alien artifact, gain double output from it and gain [skillgain] to a random skill.</talentdescription.reverseengineerold>
+  <talentdescription.alienhoarderold>Your attacks with alien pistols have [powerincrease]% additional power for each alien artifact you are carrying, up to an additional [maxpowerincrease]% power.</talentdescription.alienhoarderold>
+  <talentdescription.doubledutyold>As long as you are outside your sub, take [physicaldamagedecrease]% less physical damage. As long as you are inside your submarine, gain a bonus of [skillincrease] to Medicine.</talentdescription.doubledutyold>
+  <talentdescription.firemanscarryold>You can drag characters at full speed.</talentdescription.firemanscarryold>
+  <talentdescription.researchersintuitionold>Whenever you open an alien container for the first time, you have a [probability]% chance of finding additional items.\nWhile you are holding a large alien artifact, gain an additional [swimmingspeed]% Swimming Speed.</talentdescription.researchersintuitionold>
+  <talentdescription.commanderold>Whenever you give an order to another character, apply Inspiration to that character, giving them [physicalresistance]% physical damage resistance and a bonus of [skillincrease] to all skills.</talentdescription.commanderold>
+  <talentdescription.commanderreminderold>Giving an order to a new character removes the effect from the last character.</talentdescription.commanderreminderold>
+  <talentdescription.additionalinspirationbonusesold>In addition to other Inspiration bonuses, the ordered character also gains the following attributes:</talentdescription.additionalinspirationbonusesold>
+  <talentdescription.allhandsondeckold>You may bestow an additional character with Inspiration effects.</talentdescription.allhandsondeckold>
+  <talentdescription.atmosmachineold>When you deconstruct an alien artifact, there is a [probability]% chance it will instead transform into a random alien item.\nWhenever you finish a mission, your crew gains [experienceamount]% additional mission experience for each large alien artifact on board your ship, up to [maxexperienceamount]%.</talentdescription.atmosmachineold>
+  <talentdescription.navydiverold>Attacks you suffer are [attackpowerreduction]% less powerful while you are in water.</talentdescription.navydiverold>
+  <talentdescription.crafthighqualityrepairtoolsold>Welding tools and plasma cutters you fabricate are [qualitybonus] higher quality.</talentdescription.crafthighqualityrepairtoolsold>
+  <talentdescription.crafthighqualityweaponsold>Weapons you fabricate are of [qualitybonus] higher quality.</talentdescription.crafthighqualityweaponsold>
+  <talentdescription.crafthighqualitybatteriesold>‖color:gui.orange‖Battery Cells‖end‖ you fabricate are of [qualitybonus] higher quality.</talentdescription.crafthighqualitybatteriesold>
+  <talentdescription.crafthighqualityfuelrodsold>Fuel rods you fabricate are of [qualitybonus] higher quality.</talentdescription.crafthighqualityfuelrodsold>
+  <talentdescription.crafthighqualitytoolsold>Tools you fabricate are of [qualitybonus] higher quality.</talentdescription.crafthighqualitytoolsold>
+  <talentdescription.crafthighqualitytanksold>Fuel and oxygen tanks you fabricate are of [qualitybonus] higher quality.</talentdescription.crafthighqualitytanksold>
+  <talentdescription.crafthighqualityexplosivesold>Explosives you fabricate are of [qualitybonus] higher quality.</talentdescription.crafthighqualityexplosivesold>
+  <talentdescription.gainitemsonmissionold>Whenever you finish at least one mission, gain the following items as an additional reward:</talentdescription.gainitemsonmissionold>
+  <talentdescription.extramissionold>You may select an additional mission.</talentdescription.extramissionold>
+  <talentdescription.extratalentpointold>Gain [points] free additional talent points.</talentdescription.extratalentpointold>
+  <talentdescription.lowhealth.effectivehealingold>When you are below [health]% health, normal damage types are healed [extraheal]% more effectively.</talentdescription.lowhealth.effectivehealingold>
+  <talentdescription.lowhealth.regenerateold>When you are below [health]% health, normal damage types slowly heal by themselves.</talentdescription.lowhealth.regenerateold>
+  <talentdescription.gainstructurerepairspeedold>Repair hulls [amount]% faster with welding tools.</talentdescription.gainstructurerepairspeedold>
+  <talentdescription.gainstructurecutterdamageold>Deal [amount]% more damage to structures with cutters.</talentdescription.gainstructurecutterdamageold>
+  <talentdescription.gainoredetachspeedold>Detach ores [amount]% faster with cutters.</talentdescription.gainoredetachspeedold>
+  <talentdescription.gainforcedoorsopenspeedold>Force doors open [amount]% faster.</talentdescription.gainforcedoorsopenspeedold>
+  <talentdescription.findadditionalscrapold>Whenever you open a container in a wreck for the first time, you have a [probability]% chance of finding an additional scrap.</talentdescription.findadditionalscrapold>
+  <talentdescription.gainmarksonskillpointold>Gain [amount] marks when you gain a skill point.</talentdescription.gainmarksonskillpointold>
+  <talentdescription.gainskillspastmaxold>You can gain skills past their ordinary maximum.</talentdescription.gainskillspastmaxold>
+  <talentdescription.gainbonustoallskillsold>Gain a bonus of [amount] to all skills.</talentdescription.gainbonustoallskillsold>
+  <talentdescription.reductiontoallskillsold>Suffer a reduction of [amount] to all skills.</talentdescription.reductiontoallskillsold>
+  <talentdescription.increasemaxrepairmechanicalold>You can repair mechanical devices [percentage]% past their normal maximum condition.</talentdescription.increasemaxrepairmechanicalold>
+  <talentdescription.geneticmaterialrefinebonusold>Refining genetic materials improves their potency by [amount]% more.</talentdescription.geneticmaterialrefinebonusold>
+  <talentdescription.geneticmaterialtaintedprobabilityreductiononcombineold>Combining different types of genetic materials is [amount]% less likely to taint the materials.</talentdescription.geneticmaterialtaintedprobabilityreductiononcombineold>
+  <talentdescription.physicaldamageresistanceold>+[amount] Physical Damage resistance</talentdescription.physicaldamageresistanceold>
+  <talentdescription.gainitemold>[amount]x [itemname]</talentdescription.gainitemold>
+  <talentdescription.additionalskillold>+[amount] [stattype]</talentdescription.additionalskillold>
+  <talentdescription.additionalstattypeold>+[amount]% [stattype]</talentdescription.additionalstattypeold>
+  <talentdescription.reductiontostattypeold>-[amount]% [stattype]</talentdescription.reductiontostattypeold>
+  <talentdescription.additionalresistanceold>+[amount]% [affliction] resistance</talentdescription.additionalresistanceold>
+  <talentdescription.additionalstattypeselfold>Gain an additional [amount]% [stattype].</talentdescription.additionalstattypeselfold>
+  <talentdescription.reductiontostattypeselfold>Lose [amount]% [stattype].</talentdescription.reductiontostattypeselfold>
+  <talentdescription.additionalresistanceselfold>Gain an additional [amount]% [affliction] resistance.</talentdescription.additionalresistanceselfold>
+  <talentdescription.gainmissionxpanditemold>Whenever you finish a mission without a crewmember dying, you gain the item [item].</talentdescription.gainmissionxpanditemold>
+  <talentdescription.depletedfueldeconstructedbyallyold>Whenever you or another allied crewmember deconstructs depleted fuel, they gain [amount] experience.</talentdescription.depletedfueldeconstructedbyallyold>
+  <talentdescription.gaindoubleskillatskillold>As long as your [skillname1] skill is [skilltotal] or higher, they gain twice as much [skillname2] skill.</talentdescription.gaindoubleskillatskillold>
+  <talentdescription.devicerepairfaster>You repair [devicetype] [amount]% faster.</talentdescription.devicerepairfaster>
+  <talentname.nobodyimportantdiesold>Nobody Important Dies Old</talentname.nobodyimportantdiesold>
+  <talentdescription.nobodyimportantdiesold>Gain [xpbonus]% bonus XP when completing a mission, if all crewmembers survived.</talentdescription.nobodyimportantdiesold>
+  <talentname.junctionjunkienew>Junction Junkie</talentname.junctionjunkienew>
+  <talentname.machinemaniacnew>Machine Maniac</talentname.machinemaniacnew>
+  <entityname.advscrewdriver>Advanced Screwdriver</entityname.advscrewdriver>
+  <entitydescription.advscrewdriver>A screwdriver with an attached electrical monitor. Makes electrical repairs and rewiring possible.</entitydescription.advscrewdriver>
+  <entityname.advwrench>Advanced Wrench</entityname.advwrench>
+  <entitydescription.advwrench>A wrench with an attached electrical monitor. Makes mechanical repair possible.</entitydescription.advwrench>
+  <entityname.advweldingtool>Advanced welding tool</entityname.advweldingtool>
+  <entitydescription.advweldingtool>A welding tool with an attached status monitor. One of the most crucial tools on board the submarine. Also works underwater.</entitydescription.advweldingtool>
+  <entityname.advwrenchdementonite>Advanced Dementonite Wrench</entityname.advwrenchdementonite>
+  <entitydescription.advwrenchdementonite>A wrench with an attached electrical monitor.\nFabricated from the poorly understood alien material dementonite.\nHolding it evokes a strange sense of unease.</entitydescription.advwrenchdementonite>
+  <entityname.advscrewdriverdementonite>Advanced Dementonite Screwdriver</entityname.advscrewdriverdementonite>
+  <entitydescription.advscrewdriverdementonite>A screwdriver with an attached electrical monitor.\nFabricated from the poorly understood alien material dementonite.\nHolding it evokes a strange sense of unease.</entitydescription.advscrewdriverdementonite>
+  <entityname.advwrenchhardened>Advanced Hardened Wrench</entityname.advwrenchhardened>
+  <entitydescription.advwrenchhardened>A wrench that has gone through a process of hardening using depleted fuel. The strengthed material allows for more efficient repairs and heavier swings. It has an attached electrical monitor.</entitydescription.advwrenchhardened>
+  <entityname.advscrewdriverhardened>Advanced Hardened Screwdriver</entityname.advscrewdriverhardened>
+  <entitydescription.advscrewdriverhardened>A screwdriver that has gone through a process of hardening using depleted fuel. The strengthed material allows for more efficient repairs and heavier swings. It has an attached electrical monitor.</entitydescription.advscrewdriverhardened>
+  <entityname.advheavywrench>Advanced Heavy Wrench</entityname.advheavywrench>
+  <entitydescription.advheavywrench>A large and heavy titanium wrench with an attached electrical monitor. Can only be properly swung by very burly mechanics.</entitydescription.advheavywrench>
+  <entityname.radsscooter>RADS Cargo Scooter</entityname.radsscooter>
+  <entitydescription.radsscooter>Radiation-Assisted Delivery System, or RADS is a cargo scooter that is powered by fuel rods. It's the same speed as a normal cargo scooter but has more storage for items. Be warned though, as any volatile fuel rods that emit radiation are not shielded by this.</entitydescription.radsscooter>
+</infotexts>

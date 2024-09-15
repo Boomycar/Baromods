@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="Weight" identifier="weight" description="Notice me Mason !" type="weight" limbspecific="false" indicatorlimb="Torso" maxstrength="100" affectmachines="true" showiconthreshold="1000" showinhealthscannerthreshold="1000">
+    <Effect minstrength="0" maxstrength="1" minspeedmultiplier="1.0" maxspeedmultiplier="0.98" strengthchange="-1">
+      <StatValue stattype="ElectricalSkillBonus" value="-1" />
+      <StatValue stattype="HelmSkillBonus" value="-1" />
+      <StatValue stattype="MechanicalSkillBonus" value="-1" />
+      <StatValue stattype="MedicalSkillBonus" value="-1" />
+      <StatValue stattype="WeaponsSkillBonus" value="-1" />
+      <StatValue stattype="RepairSpeed" value="-0.01" />
+    </Effect>
+    <Effect minstrength="1.1" maxstrength="2" minspeedmultiplier="0.98" maxspeedmultiplier="0.96" strengthchange="-2">
+      <StatValue stattype="ElectricalSkillBonus" value="-2" />
+      <StatValue stattype="HelmSkillBonus" value="-2" />
+      <StatValue stattype="MechanicalSkillBonus" value="-2" />
+      <StatValue stattype="MedicalSkillBonus" value="-2" />
+      <StatValue stattype="WeaponsSkillBonus" value="-2" />
+      <StatValue stattype="RepairSpeed" value="-0.02" />
+    </Effect>
+    <Effect minstrength="2.1" maxstrength="3" minspeedmultiplier="0.96" maxspeedmultiplier="0.94" strengthchange="-3">
+      <StatValue stattype="ElectricalSkillBonus" value="-3" />
+      <StatValue stattype="HelmSkillBonus" value="-3" />
+      <StatValue stattype="MechanicalSkillBonus" value="-3" />
+      <StatValue stattype="MedicalSkillBonus" value="-3" />
+      <StatValue stattype="WeaponsSkillBonus" value="-3" />
+      <StatValue stattype="RepairSpeed" value="-0.03" />
+    </Effect>
+    <Effect minstrength="3.1" maxstrength="4" minspeedmultiplier="0.94" maxspeedmultiplier="0.92" strengthchange="-4">
+      <StatValue stattype="ElectricalSkillBonus" value="-4" />
+      <StatValue stattype="HelmSkillBonus" value="-4" />
+      <StatValue stattype="MechanicalSkillBonus" value="-4" />
+      <StatValue stattype="MedicalSkillBonus" value="-4" />
+      <StatValue stattype="WeaponsSkillBonus" value="-4" />
+      <StatValue stattype="RepairSpeed" value="-0.04" />
+    </Effect>
+    <Effect minstrength="4.1" maxstrength="5" minspeedmultiplier="0.92" maxspeedmultiplier="0.90" strengthchange="-5">
+      <StatValue stattype="ElectricalSkillBonus" value="-5" />
+      <StatValue stattype="HelmSkillBonus" value="-5" />
+      <StatValue stattype="MechanicalSkillBonus" value="-5" />
+      <StatValue stattype="MedicalSkillBonus" value="-5" />
+      <StatValue stattype="WeaponsSkillBonus" value="-5" />
+      <StatValue stattype="RepairSpeed" value="-0.05" />
+    </Effect>
+    <Effect minstrength="5.1" maxstrength="6" minspeedmultiplier="0.90" maxspeedmultiplier="0.88" strengthchange="-6">
+      <StatValue stattype="ElectricalSkillBonus" value="-6" />
+      <StatValue stattype="HelmSkillBonus" value="-6" />
+      <StatValue stattype="MechanicalSkillBonus" value="-6" />
+      <StatValue stattype="MedicalSkillBonus" value="-6" />
+      <StatValue stattype="WeaponsSkillBonus" value="-6" />
+      <StatValue stattype="RepairSpeed" value="-0.06" />
+    </Effect>
+    <Effect minstrength="6.1" maxstrength="7" minspeedmultiplier="0.88" maxspeedmultiplier="0.86" strengthchange="-7">
+      <StatValue stattype="ElectricalSkillBonus" value="-7" />
+      <StatValue stattype="HelmSkillBonus" value="-7" />
+      <StatValue stattype="MechanicalSkillBonus" value="-7" />
+      <StatValue stattype="MedicalSkillBonus" value="-7" />
+      <StatValue stattype="WeaponsSkillBonus" value="-7" />
+      <StatValue stattype="RepairSpeed" value="-0.07" />
+    </Effect>
+    <Effect minstrength="7.1" maxstrength="8" minspeedmultiplier="0.86" maxspeedmultiplier="0.84" strengthchange="-8">
+      <StatValue stattype="ElectricalSkillBonus" value="-8" />
+      <StatValue stattype="HelmSkillBonus" value="-8" />
+      <StatValue stattype="MechanicalSkillBonus" value="-8" />
+      <StatValue stattype="MedicalSkillBonus" value="-8" />
+      <StatValue stattype="WeaponsSkillBonus" value="-8" />
+      <StatValue stattype="RepairSpeed" value="-0.08" />
+    </Effect>
+    <Effect minstrength="8.1" maxstrength="9" minspeedmultiplier="0.84" maxspeedmultiplier="0.82" strengthchange="-9">
+      <StatValue stattype="ElectricalSkillBonus" value="-9" />
+      <StatValue stattype="HelmSkillBonus" value="-9" />
+      <StatValue stattype="MechanicalSkillBonus" value="-9" />
+      <StatValue stattype="MedicalSkillBonus" value="-9" />
+      <StatValue stattype="WeaponsSkillBonus" value="-9" />
+      <StatValue stattype="RepairSpeed" value="-0.09" />
+    </Effect>
+    <Effect minstrength="9.1" maxstrength="10" minspeedmultiplier="0.82" maxspeedmultiplier="0.80" strengthchange="-10">
+      <StatValue stattype="ElectricalSkillBonus" value="-10" />
+      <StatValue stattype="HelmSkillBonus" value="-10" />
+      <StatValue stattype="MechanicalSkillBonus" value="-10" />
+      <StatValue stattype="MedicalSkillBonus" value="-10" />
+      <StatValue stattype="WeaponsSkillBonus" value="-10" />
+      <StatValue stattype="RepairSpeed" value="-0.1" />
+    </Effect>
+    <Effect minstrength="10.1" maxstrength="11" minspeedmultiplier="0.80" maxspeedmultiplier="0.78" strengthchange="-11">
+      <StatValue stattype="ElectricalSkillBonus" value="-11" />
+      <StatValue stattype="HelmSkillBonus" value="-11" />
+      <StatValue stattype="MechanicalSkillBonus" value="-11" />
+      <StatValue stattype="MedicalSkillBonus" value="-11" />
+      <StatValue stattype="WeaponsSkillBonus" value="-11" />
+      <StatValue stattype="RepairSpeed" value="-0.11" />
+    </Effect>
+    <Effect minstrength="11.1" maxstrength="12" minspeedmultiplier="0.78" maxspeedmultiplier="0.76" strengthchange="-12">
+      <StatValue stattype="ElectricalSkillBonus" value="-12" />
+      <StatValue stattype="HelmSkillBonus" value="-12" />
+      <StatValue stattype="MechanicalSkillBonus" value="-12" />
+      <StatValue stattype="MedicalSkillBonus" value="-12" />
+      <StatValue stattype="WeaponsSkillBonus" value="-12" />
+      <StatValue stattype="RepairSpeed" value="-0.12" />
+    </Effect>
+    <Effect minstrength="12.1" maxstrength="13" minspeedmultiplier="0.76" maxspeedmultiplier="0.74" strengthchange="-13">
+      <StatValue stattype="ElectricalSkillBonus" value="-13" />
+      <StatValue stattype="HelmSkillBonus" value="-13" />
+      <StatValue stattype="MechanicalSkillBonus" value="-13" />
+      <StatValue stattype="MedicalSkillBonus" value="-13" />
+      <StatValue stattype="WeaponsSkillBonus" value="-13" />
+      <StatValue stattype="RepairSpeed" value="-0.13" />
+    </Effect>
+    <Effect minstrength="13.1" maxstrength="14" minspeedmultiplier="0.74" maxspeedmultiplier="0.72" strengthchange="-14">
+      <StatValue stattype="ElectricalSkillBonus" value="-14" />
+      <StatValue stattype="HelmSkillBonus" value="-14" />
+      <StatValue stattype="MechanicalSkillBonus" value="-14" />
+      <StatValue stattype="MedicalSkillBonus" value="-14" />
+      <StatValue stattype="WeaponsSkillBonus" value="-14" />
+      <StatValue stattype="RepairSpeed" value="-0.14" />
+    </Effect>
+    <Effect minstrength="14.1" maxstrength="15" minspeedmultiplier="0.72" maxspeedmultiplier="0.70" strengthchange="-15">
+      <StatValue stattype="ElectricalSkillBonus" value="-15" />
+      <StatValue stattype="HelmSkillBonus" value="-15" />
+      <StatValue stattype="MechanicalSkillBonus" value="-15" />
+      <StatValue stattype="MedicalSkillBonus" value="-15" />
+      <StatValue stattype="WeaponsSkillBonus" value="-15" />
+      <StatValue stattype="RepairSpeed" value="-0.15" />
+    </Effect>
+    <Effect minstrength="15.1" maxstrength="16" minspeedmultiplier="0.70" maxspeedmultiplier="0.68" strengthchange="-16">
+      <StatValue stattype="ElectricalSkillBonus" value="-16" />
+      <StatValue stattype="HelmSkillBonus" value="-16" />
+      <StatValue stattype="MechanicalSkillBonus" value="-16" />
+      <StatValue stattype="MedicalSkillBonus" value="-16" />
+      <StatValue stattype="WeaponsSkillBonus" value="-16" />
+      <StatValue stattype="RepairSpeed" value="-0.16" />
+    </Effect>
+    <Effect minstrength="16.1" maxstrength="17" minspeedmultiplier="0.68" maxspeedmultiplier="0.66" strengthchange="-17">
+      <StatValue stattype="ElectricalSkillBonus" value="-17" />
+      <StatValue stattype="HelmSkillBonus" value="-17" />
+      <StatValue stattype="MechanicalSkillBonus" value="-17" />
+      <StatValue stattype="MedicalSkillBonus" value="-17" />
+      <StatValue stattype="WeaponsSkillBonus" value="-17" />
+      <StatValue stattype="RepairSpeed" value="-0.17" />
+    </Effect>
+    <Effect minstrength="17.1" maxstrength="18" minspeedmultiplier="0.66" maxspeedmultiplier="0.64" strengthchange="-18">
+      <StatValue stattype="ElectricalSkillBonus" value="-18" />
+      <StatValue stattype="HelmSkillBonus" value="-18" />
+      <StatValue stattype="MechanicalSkillBonus" value="-18" />
+      <StatValue stattype="MedicalSkillBonus" value="-18" />
+      <StatValue stattype="WeaponsSkillBonus" value="-18" />
+      <StatValue stattype="RepairSpeed" value="-0.18" />
+    </Effect>
+    <Effect minstrength="18.1" maxstrength="19" minspeedmultiplier="0.64" maxspeedmultiplier="0.62" strengthchange="-19">
+      <StatValue stattype="ElectricalSkillBonus" value="-19" />
+      <StatValue stattype="HelmSkillBonus" value="-19" />
+      <StatValue stattype="MechanicalSkillBonus" value="-19" />
+      <StatValue stattype="MedicalSkillBonus" value="-19" />
+      <StatValue stattype="WeaponsSkillBonus" value="-19" />
+      <StatValue stattype="RepairSpeed" value="-0.19" />
+    </Effect>
+    <Effect minstrength="19.1" maxstrength="20" minspeedmultiplier="0.62" maxspeedmultiplier="0.60" strengthchange="-20">
+      <StatValue stattype="ElectricalSkillBonus" value="-20" />
+      <StatValue stattype="HelmSkillBonus" value="-20" />
+      <StatValue stattype="MechanicalSkillBonus" value="-20" />
+      <StatValue stattype="MedicalSkillBonus" value="-20" />
+      <StatValue stattype="WeaponsSkillBonus" value="-20" />
+      <StatValue stattype="RepairSpeed" value="-0.2" />
+    </Effect>
+    <Effect minstrength="20.1" maxstrength="21" minspeedmultiplier="0.60" maxspeedmultiplier="0.58" strengthchange="-21">
+      <StatValue stattype="ElectricalSkillBonus" value="-21" />
+      <StatValue stattype="HelmSkillBonus" value="-21" />
+      <StatValue stattype="MechanicalSkillBonus" value="-21" />
+      <StatValue stattype="MedicalSkillBonus" value="-21" />
+      <StatValue stattype="WeaponsSkillBonus" value="-21" />
+      <StatValue stattype="RepairSpeed" value="-0.21" />
+    </Effect>
+    <Effect minstrength="21.1" maxstrength="22" minspeedmultiplier="0.58" maxspeedmultiplier="0.56" strengthchange="-22">
+      <StatValue stattype="ElectricalSkillBonus" value="-22" />
+      <StatValue stattype="HelmSkillBonus" value="-22" />
+      <StatValue stattype="MechanicalSkillBonus" value="-22" />
+      <StatValue stattype="MedicalSkillBonus" value="-22" />
+      <StatValue stattype="WeaponsSkillBonus" value="-22" />
+      <StatValue stattype="RepairSpeed" value="-0.22" />
+    </Effect>
+    <Effect minstrength="22.1" maxstrength="23" minspeedmultiplier="0.56" maxspeedmultiplier="0.54" strengthchange="-23">
+      <StatValue stattype="ElectricalSkillBonus" value="-23" />
+      <StatValue stattype="HelmSkillBonus" value="-23" />
+      <StatValue stattype="MechanicalSkillBonus" value="-23" />
+      <StatValue stattype="MedicalSkillBonus" value="-23" />
+      <StatValue stattype="WeaponsSkillBonus" value="-23" />
+      <StatValue stattype="RepairSpeed" value="-0.23" />
+    </Effect>
+    <Effect minstrength="23.1" maxstrength="24" minspeedmultiplier="0.54" maxspeedmultiplier="0.52" strengthchange="-24">
+      <StatValue stattype="ElectricalSkillBonus" value="-24" />
+      <StatValue stattype="HelmSkillBonus" value="-24" />
+      <StatValue stattype="MechanicalSkillBonus" value="-24" />
+      <StatValue stattype="MedicalSkillBonus" value="-24" />
+      <StatValue stattype="WeaponsSkillBonus" value="-24" />
+      <StatValue stattype="RepairSpeed" value="-0.24" />
+    </Effect>
+    <Effect minstrength="24.1" maxstrength="25" minspeedmultiplier="0.52" maxspeedmultiplier="0.50" strengthchange="-25">
+      <StatValue stattype="ElectricalSkillBonus" value="-25" />
+      <StatValue stattype="HelmSkillBonus" value="-25" />
+      <StatValue stattype="MechanicalSkillBonus" value="-25" />
+      <StatValue stattype="MedicalSkillBonus" value="-25" />
+      <StatValue stattype="WeaponsSkillBonus" value="-25" />
+      <StatValue stattype="RepairSpeed" value="-0.25" />
+    </Effect>
+    <Effect minstrength="25.1" maxstrength="26" minspeedmultiplier="0.50" maxspeedmultiplier="0.48" strengthchange="-26">
+      <StatValue stattype="ElectricalSkillBonus" value="-26" />
+      <StatValue stattype="HelmSkillBonus" value="-26" />
+      <StatValue stattype="MechanicalSkillBonus" value="-26" />
+      <StatValue stattype="MedicalSkillBonus" value="-26" />
+      <StatValue stattype="WeaponsSkillBonus" value="-26" />
+      <StatValue stattype="RepairSpeed" value="-0.26" />
+    </Effect>
+    <Effect minstrength="26.1" maxstrength="27" minspeedmultiplier="0.48" maxspeedmultiplier="0.46" strengthchange="-27">
+      <StatValue stattype="ElectricalSkillBonus" value="-27" />
+      <StatValue stattype="HelmSkillBonus" value="-27" />
+      <StatValue stattype="MechanicalSkillBonus" value="-27" />
+      <StatValue stattype="MedicalSkillBonus" value="-27" />
+      <StatValue stattype="WeaponsSkillBonus" value="-27" />
+      <StatValue stattype="RepairSpeed" value="-0.27" />
+    </Effect>
+    <Effect minstrength="27.1" maxstrength="28" minspeedmultiplier="0.46" maxspeedmultiplier="0.44" strengthchange="-28">
+      <StatValue stattype="ElectricalSkillBonus" value="-28" />
+      <StatValue stattype="HelmSkillBonus" value="-28" />
+      <StatValue stattype="MechanicalSkillBonus" value="-28" />
+      <StatValue stattype="MedicalSkillBonus" value="-28" />
+      <StatValue stattype="WeaponsSkillBonus" value="-28" />
+      <StatValue stattype="RepairSpeed" value="-0.28" />
+    </Effect>
+    <Effect minstrength="28.1" maxstrength="29" minspeedmultiplier="0.44" maxspeedmultiplier="0.42" strengthchange="-29">
+      <StatValue stattype="ElectricalSkillBonus" value="-29" />
+      <StatValue stattype="HelmSkillBonus" value="-29" />
+      <StatValue stattype="MechanicalSkillBonus" value="-29" />
+      <StatValue stattype="MedicalSkillBonus" value="-29" />
+      <StatValue stattype="WeaponsSkillBonus" value="-29" />
+      <StatValue stattype="RepairSpeed" value="-0.29" />
+    </Effect>
+    <Effect minstrength="29.1" maxstrength="30" minspeedmultiplier="0.42" maxspeedmultiplier="0.40" strengthchange="-30">
+      <StatValue stattype="ElectricalSkillBonus" value="-30" />
+      <StatValue stattype="HelmSkillBonus" value="-30" />
+      <StatValue stattype="MechanicalSkillBonus" value="-30" />
+      <StatValue stattype="MedicalSkillBonus" value="-30" />
+      <StatValue stattype="WeaponsSkillBonus" value="-30" />
+      <StatValue stattype="RepairSpeed" value="-0.30" />
+    </Effect>
+    <Effect minstrength="30.1" maxstrength="31" minspeedmultiplier="0.40" maxspeedmultiplier="0.38" strengthchange="-31">
+      <StatValue stattype="ElectricalSkillBonus" value="-31" />
+      <StatValue stattype="HelmSkillBonus" value="-31" />
+      <StatValue stattype="MechanicalSkillBonus" value="-31" />
+      <StatValue stattype="MedicalSkillBonus" value="-31" />
+      <StatValue stattype="WeaponsSkillBonus" value="-31" />
+      <StatValue stattype="RepairSpeed" value="-0.31" />
+    </Effect>
+    <Effect minstrength="31.1" maxstrength="32" minspeedmultiplier="0.38" maxspeedmultiplier="0.36" strengthchange="-32">
+      <StatValue stattype="ElectricalSkillBonus" value="-32" />
+      <StatValue stattype="HelmSkillBonus" value="-32" />
+      <StatValue stattype="MechanicalSkillBonus" value="-32" />
+      <StatValue stattype="MedicalSkillBonus" value="-32" />
+      <StatValue stattype="WeaponsSkillBonus" value="-32" />
+      <StatValue stattype="RepairSpeed" value="-0.32" />
+    </Effect>
+    <Effect minstrength="32.1" maxstrength="33" minspeedmultiplier="0.36" maxspeedmultiplier="0.34" strengthchange="-33">
+      <StatValue stattype="ElectricalSkillBonus" value="-33" />
+      <StatValue stattype="HelmSkillBonus" value="-33" />
+      <StatValue stattype="MechanicalSkillBonus" value="-33" />
+      <StatValue stattype="MedicalSkillBonus" value="-33" />
+      <StatValue stattype="WeaponsSkillBonus" value="-33" />
+      <StatValue stattype="RepairSpeed" value="-0.33" />
+    </Effect>
+    <Effect minstrength="33.1" maxstrength="34" minspeedmultiplier="0.34" maxspeedmultiplier="0.32" strengthchange="-34">
+      <StatValue stattype="ElectricalSkillBonus" value="-34" />
+      <StatValue stattype="HelmSkillBonus" value="-34" />
+      <StatValue stattype="MechanicalSkillBonus" value="-34" />
+      <StatValue stattype="MedicalSkillBonus" value="-34" />
+      <StatValue stattype="WeaponsSkillBonus" value="-34" />
+      <StatValue stattype="RepairSpeed" value="-0.34" />
+    </Effect>
+    <Effect minstrength="34.1" maxstrength="35" minspeedmultiplier="0.32" maxspeedmultiplier="0.30" strengthchange="-35">
+      <StatValue stattype="ElectricalSkillBonus" value="-35" />
+      <StatValue stattype="HelmSkillBonus" value="-35" />
+      <StatValue stattype="MechanicalSkillBonus" value="-35" />
+      <StatValue stattype="MedicalSkillBonus" value="-35" />
+      <StatValue stattype="WeaponsSkillBonus" value="-35" />
+      <StatValue stattype="RepairSpeed" value="-0.35" />
+    </Effect>
+    <Effect minstrength="35.1" maxstrength="36" minspeedmultiplier="0.30" maxspeedmultiplier="0.28" strengthchange="-36">
+      <StatValue stattype="ElectricalSkillBonus" value="-36" />
+      <StatValue stattype="HelmSkillBonus" value="-36" />
+      <StatValue stattype="MechanicalSkillBonus" value="-36" />
+      <StatValue stattype="MedicalSkillBonus" value="-36" />
+      <StatValue stattype="WeaponsSkillBonus" value="-36" />
+      <StatValue stattype="RepairSpeed" value="-0.36" />
+    </Effect>
+    <Effect minstrength="36.1" maxstrength="100" minspeedmultiplier="0.0" maxspeedmultiplier="0.0" strengthchange="-37">
+      <StatValue stattype="ElectricalSkillBonus" value="-100" />
+      <StatValue stattype="HelmSkillBonus" value="-100" />
+      <StatValue stattype="MechanicalSkillBonus" value="-100" />
+      <StatValue stattype="MedicalSkillBonus" value="-100" />
+      <StatValue stattype="WeaponsSkillBonus" value="-100" />
+      <StatValue stattype="RepairSpeed" value="-1" />
+    </Effect>
+    <icon texture="%ModDir%/Icons/Weight.png" sourcerect="0,0,128,128" color="255,255,0,255" origin="0,0" />
+  </Affliction>
+</Afflictions>

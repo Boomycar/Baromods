@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Modular Suit" identifier="modularsuit" category="Diving,Equipment" tags="divingsuit,diving,deepdiving,provocative" scale="0.5" fireproof="true" description="A suit that can be programmed to improve its design." allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
+    <Price baseprice="1000" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.5" />
+      <Price storeidentifier="merchantcity" multiplier="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1.3" />
+      <Price storeidentifier="merchantmilitary" multiplier="1" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" />
+    </Price>
+    <PreferredContainer primary="divingsuitcontainer" />
+    <Deconstruct time="30">
+      <RequiredItem identifier="divingsuit" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="rubber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredSkill identifier="electrical" level="40" />
+      <RequiredItem identifier="divingsuit" />
+      <RequiredItem tag="wire" />-
+      <RequiredItem tag="wire" /><RequiredItem identifier="titaniumaluminiumalloy" /><RequiredItem identifier="titaniumaluminiumalloy" /><RequiredItem identifier="rubber" /></Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="0,256,128,128" origin="0.5,0.5" />
+    <Sprite name="Diving Suit Item" texture="%ModDir%/suitlocker.png" sourcerect="130,0,124,128" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon name="Diving Suit Item" texture="%ModDir%/suitlocker.png" sourcerect="0,0,64,64" />
+    <ContainedSprite name="Diving Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/suitinlocker.png" sourcerect="12,30,77,209" depth="0.55" origin="-0.12,-0.13" />
+    <ContainedSprite name="Diving Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/suitlocker.png" sourcerect="134,134,248,59" depth="0.55" origin="0.58,0.5" />
+    <Body radius="45" width="34" density="15" />
+    <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite texture="%ModDir%/suitlocker.png" limb="Head" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" sourcerect="254,0,104,96" origin="0.55,0.6" scale="0.4">
+        <LightComponent range="200.0" lightcolor="100,255,0,255" powerconsumption="10" IsOn="true" allowingameediting="false">
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
+            <Conditional IsDead="false" />
+          </StatusEffect>
+          <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
+        </LightComponent>
+      </sprite>
+      <sprite texture="%ModDir%/suitbody.png" limb="Torso" inheritlimbdepth="true" hidelimb="true" hideotherwearables="false" inheritorigin="false" inherittexturescale="false" origin="0.6,0.48" sourcerect="0,0,128,256" scale="0.4"></sprite>
+      <sprite texture="%ModDir%/suitbody.png" limb="Waist" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.44,0.41" sourcerect="2,438,94,88" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="RightForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.45" sourcerect="197,8,52,121" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="LeftForearm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.45" sourcerect="197,135,52,117" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="RightArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.5" sourcerect="128,6,65,112" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="LeftArm" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.5" sourcerect="130,134,63,111" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="RightHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.5" sourcerect="0,0,1,1" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="LeftHand" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.5" sourcerect="0,0,1,1" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="RightThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.5" sourcerect="89,260,74,137" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="LeftThigh" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.5,0.5" sourcerect="186,256,76,138" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="RightLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.4,0.6" sourcerect="102,400,72,128" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="LeftLeg" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.4,0.6" sourcerect="184,400,72,128" scale="0.4" />
+      <sprite texture="%ModDir%/suitbody.png" limb="RightFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.6,0.45" sourcerect="10,260,58,105" scale="0.4" rotation="90" />
+      <sprite texture="%ModDir%/suitbody.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.6,0.45" sourcerect="10,260,58,105" scale="0.4" rotation="90" />
+      <StatusEffect type="OnWearing" target="Character" OxygenAvailable="-100.0" UseHullOxygen="false" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="true" PressureProtection="6000.0" SpeedMultiplier="0.8" LowPassMultiplier="0.2" setvalue="true" disabledeltatime="true">
+        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
+        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
+      </StatusEffect>
+      <!-- Refill oxygen when the suit is contained. -->
+      <StatusEffect type="OnContained" target="Contained" Condition="1.0" targetslot="0">
+        <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
+        <RequiredItem items="refillableoxygensource" type="Contained" excludebroken="false" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.3" comparison="Or" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-20.0" Condition="-0.5" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-20.0" Condition="-0.5" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.3" setvalue="true" comparison="Or" targetslot="0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" comparison="Or" targetslot="1">
+        <Conditional IsDead="false" />
+        <RequiredItem items="speedmoduleitem" type="Contained" />
+        <Affliction identifier="speedmoduleaffliction" amount="100" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" comparison="Or" targetslot="1">
+        <Conditional IsDead="false" />
+        <RequiredItem items="defensemoduleitem" type="Contained" />
+        <Affliction identifier="defensemoduleaffliction" amount="100" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" comparison="Or" targetslot="1">
+        <Conditional IsDead="false" />
+        <RequiredItem items="healingmoduleitem" type="Contained" />
+        <Affliction identifier="healingmoduleaffliction" amount="100" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" comparison="Or" targetslot="1">
+        <Conditional IsDead="false" />
+        <RequiredItem items="skillmoduleitem" type="Contained" />
+        <Affliction identifier="skillmoduleaffliction" amount="100" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Condition="-5" comparison="Or" targetslot="1">
+        <Conditional IsDead="false" />
+        <RequiredItem items="armorlockmoduleitem" type="Contained" />
+        <Affliction identifier="armorlockmoduleaffliction" amount="100" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" comparison="Or" targetslot="1">
+        <Conditional IsDead="false" />
+        <RequiredItem items="radiationresistanceitem" type="Contained" />
+        <Affliction identifier="radiationresistanceaffliction" amount="100" />
+      </StatusEffect>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.65" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.5" probabilitymultiplier="0.5" damagesound="LimbArmor" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
+    </Holdable>
+    <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
+      <Containable items="none" />
+      <StatusEffect type="OnWearing" target="Contained" targetslot="0">
+        <RequiredItem items="oxygensource" type="Contained" />
+        <Conditional condition="lt 5.0" />
+        <Sound file="Content/Items/WarningBeepSlow.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained" playsoundonrequireditemfailure="true" targetslot="0">
+        <RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+        <Conditional condition="lte 0.0" />
+        <Sound file="Content/Items/WarningBeep.ogg" range="500" />
+      </StatusEffect>
+      <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="1,93,120,29" origin="0.5,0.45" />
+      <SlotIcon slotindex="1" texture="%ModDir%/containerindicator.png" sourcerect="0,0,40,32" origin="0.5,0.5" />
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="oxygensource,weldingtoolfuel" />
+      </SubContainer>
+      <SubContainer capacity="1" maxstacksize="1">
+        <Containable items="module" />
+      </SubContainer>
+    </ItemContainer>
+    <aitarget maxsightrange="1500" />
+  </Item>
+  <Item name="Speed Module" identifier="speedmoduleitem" category="Electrical" maxstacksize="1" Tags="smallitem,module" canbepicked="true" description="A module that fits in the Modular Suit. Grants the user additional speed." cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="electrical" level="40" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="meth" />
+      <RequiredItem identifier="meth" />
+    </Fabricate>
+    <Price baseprice="400">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" sold="true" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantresearch" multiplier="0.9" sold="true" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.4" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" multiplier="0.9" sold="true" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/modules.png" sourcerect="59,41,48,38" />
+    <Sprite texture="%ModDir%/modules.png" sourcerect="36,5,30,24" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="24" density="25" />
+    <Holdable slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="Defense Module" identifier="defensemoduleitem" category="Electrical" maxstacksize="1" Tags="smallitem,module" canbepicked="true" description="A module that fits in the Modular Suit. Grants the user additional damage resistance." cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="electrical" level="40" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="steroids" />
+      <RequiredItem identifier="steroids" />
+    </Fabricate>
+    <Price baseprice="400">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" sold="true" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantresearch" multiplier="0.9" sold="true" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.4" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" multiplier="0.9" sold="true" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/modules.png" sourcerect="4,41,48,38" />
+    <Sprite texture="%ModDir%/modules.png" sourcerect="4,5,30,24" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="24" density="25" />
+    <Holdable slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="Healing Module" identifier="healingmoduleitem" category="Electrical" maxstacksize="1" Tags="smallitem,module" canbepicked="true" description="A module that fits in the Modular Suit. Installs an advanced medical system to slowly heal damage over time." cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="electrical" level="40" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="antidama2" />
+      <RequiredItem identifier="antidama2" />
+    </Fabricate>
+    <Price baseprice="600">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" sold="true" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantresearch" multiplier="0.8" sold="true" />
+      <Price storeidentifier="merchantmilitary" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" multiplier="0.9" sold="true" />
+      <Price storeidentifier="merchantmedical" multiplier="0.9" sold="true" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/modules.png" sourcerect="114,42,48,38" />
+    <Sprite texture="%ModDir%/modules.png" sourcerect="68,5,30,24" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="24" density="25" />
+    <Holdable slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="Skill Module" identifier="skillmoduleitem" category="Electrical" maxstacksize="1" Tags="smallitem,module" canbepicked="true" description="A module that fits in the Modular Suit. Installs an artifical intelligence that feeds you information regarding the problems you'll encounter on Europa." cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="electrical" level="40" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="assistantclothes" />
+    </Fabricate>
+    <Price baseprice="400">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantmilitary" multiplier="1" sold="true" />
+      <Price storeidentifier="merchantmine" sold="true" />
+      <Price storeidentifier="merchantengineering" multiplier="0.9" sold="true" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/modules.png" sourcerect="169,42,48,38" />
+    <Sprite texture="%ModDir%/modules.png" sourcerect="100,5,30,24" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="24" density="25" />
+    <Holdable slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="Armor Lock Module" identifier="armorlockmoduleitem" category="Electrical" maxstacksize="1" Tags="smallitem,module" canbepicked="true" description="A module that fits in the Modular Suit. Makes you impervious to most damage while active, but slowly breaks down when in use." cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer secondary="locker" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="electrical" level="70" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="defensemoduleitem" />
+      <RequiredItem identifier="fulgurium" />
+    </Fabricate>
+    <Price baseprice="1000" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/modules.png" sourcerect="224,42,48,38" />
+    <Sprite texture="%ModDir%/modules.png" sourcerect="133,5,30,24" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="24" density="25" />
+    <Holdable slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="Radiation Resistance Module" identifier="radiationresistanceitem" category="Electrical" maxstacksize="1" Tags="smallitem,module" canbepicked="true" description="A module that fits in the Modular Suit. Gives the Modular Suit lead plating, allowing it to block additional radiation." cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer secondary="locker" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="electrical" level="40" />
+      <RequiredItem identifier="copper" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Price baseprice="400" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/modules.png" sourcerect="280,42,48,38" />
+    <Sprite texture="%ModDir%/modules.png" sourcerect="167,5,30,24" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="24" density="25" />
+    <Holdable slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+</Items>

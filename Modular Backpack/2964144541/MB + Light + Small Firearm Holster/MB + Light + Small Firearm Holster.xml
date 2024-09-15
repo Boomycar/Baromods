@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Modular Backpack + Light + Small Firearm Holster" identifier="MBLightSmallFirearmHolster" category="Equipment" tags="MBMOD,mountableweapon" fireproof="true" waterproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" description="">
+    <Deconstruct time="40">
+      <Item identifier="modularbackpack" amount="1" />
+      <Item identifier="smallfirearmholster" amount="1" />
+      <Item identifier="smallcapacitorMBMOD" amount="1" />
+      <Item identifier="smallsearchlightMBMOD" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="modularbackpack" amount="1" />
+      <RequiredItem identifier="smallfirearmholster" amount="1" />
+      <RequiredItem identifier="smallcapacitorMBMOD" amount="1" />
+      <RequiredItem identifier="smallsearchlightMBMOD" amount="1" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/MB + Light + Small Firearm Holster/MB + Light + Small Firearm Holster - On Back.png" sourcerect="0,0,132,228" />
+    <Sprite texture="%ModDir%/MB + Light + Small Firearm Holster/MB + Light + Small Firearm Holster - Dropped.png" sourcerect="0,0,213,68" depth="0.6" origin="0.5,0.5" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="TopRight" absoluteoffset="20,128" style="ItemUI" />
+      <TickBox text="Toggle Backpack Lights" IsOn="true">
+        <StatusEffect type="OnUse" target="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" />
+        <StatusEffect type="OnUse" targettype="Contained" targetslot="9" Condition="-0.005">
+          <RequiredItem items="batterycell" type="Contained" condition="gt 0" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" targettype="Contained" targetslot="9" Condition="-0.0025">
+          <RequiredItem items="fulguriumbatterycell" type="Contained" condition="gt 0" />
+        </StatusEffect>
+      </TickBox>
+    </CustomInterface>
+    <Body width="213" height="68" density="10" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <sprite name="Backpack on character" texture="%ModDir%/MB + Light + Small Firearm Holster/MB + Light + Small Firearm Holster - On Back.png" limb="Torso" depth="0.8" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" origin="0.76,0.55" sourcerect="0,0,132,228">
+        <LightComponent range="2800.0" lightcolor="255,255,150,255" powerconsumption="10" IsOn="true">
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true" comparison="Or">
+            <RequiredItem identifier="mobilebattery" type="Contained" condition="gt 0" targetslot="9" />
+          </StatusEffect>
+          <LightTexture texture="%ModDir%/MB + Light/lightcone.png" origin="0.02, 0.507" size="1.0,1.0" />
+        </LightComponent>
+        <LightComponent range="500.0" lightcolor="255,255,200,255" powerconsumption="10" IsOn="true">
+          <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true" comparison="Or">
+            <RequiredItem identifier="mobilebattery" type="Contained" condition="gt 0" targetslot="9" />
+          </StatusEffect>
+          <LightTexture texture="%ModDir%/MB + Light/Light Custom.png" origin="0.68, 0.37" size="0.1,0.1" />
+        </LightComponent>
+      </sprite>
+      <ItemContainer capacity="9" hideitems="true">
+        <Containable items="smallitem,weapon,gun" excludeditems="crate,toolbox,cargoscooter,backpack,MBMOD,mountableweapon" />
+        <SlotIcon slotindex="9" texture="%ModDir%/Icons/Power.png" origin="0.5,0.5" />
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="mobilebattery" excludeditems="MBMOD" />
+        </SubContainer>
+        <SlotIcon slotindex="10" texture="%ModDir%/Icons/Small Firearm Holster.png" origin="0.5,0.5" />
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="weapon" excludeditems="MBMOD,mediumitem" />
+        </SubContainer>
+      </ItemContainer>
+      <!-- WEIGHT SYSTEM -->
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="0" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="1" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="2" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="3" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="4" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="5" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="6" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="7" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="8" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="9" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="10" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="11" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="12" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="13" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="14" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>	  --&gt;
+
+<!-- SPECIFIC BONUS --><SkillModifier skillidentifier="helm" skillvalue="-10" /><SkillModifier skillidentifier="medical" skillvalue="-5" /><SkillModifier skillidentifier="weapons" skillvalue="10" /><StatValue stattype="SwimmingSpeed" value="-0.1" /><StatValue stattype="WalkingSpeed" value="-0.1" /></Wearable>
+    <Holdable slots="RightHand,LeftHand" controlpose="true" holdpos="10,-90" handle1="0,32" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+</Items>

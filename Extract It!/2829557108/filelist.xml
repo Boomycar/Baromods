@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Extract It!" modversion="1.0.6" corepackage="False" steamworkshopid="2829557108" gameversion="1.4.5.0" expectedhash="FE0BDA02B73529610BCB123D882FBFB6">
+  <Item file="%ModDir%/items.xml" />
+</contentpackage>

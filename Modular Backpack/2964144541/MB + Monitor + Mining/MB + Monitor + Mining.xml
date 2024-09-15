@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Modular Backpack + Monitor + Mining" identifier="MBMonitorMining" category="Equipment" tags="MBMOD,mountableweapon" fireproof="true" waterproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" description="">
+    <Deconstruct time="40">
+      <Item identifier="modularbackpack" amount="1" />
+      <Item identifier="miningpouch" amount="1" />
+      <Item identifier="monitorMBMOD" amount="1" />
+      <Item identifier="smallcapacitorMBMOD" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="modularbackpack" amount="1" />
+      <RequiredItem identifier="miningpouch" amount="1" />
+      <RequiredItem identifier="monitorMBMOD" amount="1" />
+      <RequiredItem identifier="smallcapacitorMBMOD" amount="1" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/MB + Monitor + Mining/MB + Monitor + Mining - On Back.png" sourcerect="0,0,196,162" />
+    <Sprite texture="%ModDir%/MB + Monitor + Mining/MB + Monitor + Mining - dropped.png" sourcerect="0,0,162,134" depth="0.6" origin="0.5,0.5" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="TopRight" absoluteoffset="20,128" style="ItemUI" />
+      <TickBox text="Toggle Sub-Monitor" IsOn="true">
+        <StatusEffect type="OnUse" target="This" IsOn="true" Voltage="1.0" setvalue="true">
+          <RequiredItem items="mobilebattery" type="Contained" condition="gt 0" targetslot="15" />
+        </StatusEffect>
+        <StatusEffect type="OnSecondaryUse" target="This" IsOn="false" Voltage="0.0" setvalue="true" />
+        <StatusEffect type="OnUse" targettype="Contained" targetslot="15" Condition="-0.005">
+          <RequiredItem items="batterycell" type="Contained" condition="gt 0" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" targettype="Contained" targetslot="15" Condition="-0.0025">
+          <RequiredItem items="fulguriumbatterycell" type="Contained" condition="gt 0" />
+        </StatusEffect>
+      </TickBox>
+    </CustomInterface>
+    <Body width="162" height="134" density="10" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <sprite name="Backpack on character" texture="%ModDir%/MB + Monitor + Mining/MB + Monitor + Mining - On Back.png" limb="Torso" depth="0.8" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" origin="0.52,0.5" sourcerect="0,0,196,162" />
+      <ItemContainer capacity="9" slotsperrow="3" hideitems="true">
+        <Containable items="smallitem,weapon,gun" excludeditems="crate,toolbox,cargoscooter,backpack,MBMOD,mountableweapon" />
+        <SlotIcon slotindex="9" texture="%ModDir%/Icons/Mining.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="10" texture="%ModDir%/Icons/Mining.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="11" texture="%ModDir%/Icons/Mining.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="12" texture="%ModDir%/Icons/Mining.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="13" texture="%ModDir%/Icons/Mining.png" origin="0.5,0.5" />
+        <SlotIcon slotindex="14" texture="%ModDir%/Icons/Mining.png" origin="0.5,0.5" />
+        <SubContainer capacity="6" maxstacksize="64">
+          <Containable items="ore,plant" excludeditems="MBMOD" />
+        </SubContainer>
+        <SlotIcon slotindex="15" texture="%ModDir%/Icons/Power.png" origin="0.5,0.5" />
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="mobilebattery" excludeditems="MBMOD" />
+        </SubContainer>
+      </ItemContainer>
+      <Sonar range="6000.0" powerconsumption="10" drawhudwhenequipped="true" detectsubmarinewalls="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="true" allowuioverlap="true">
+        <StatusEffect type="OnUse" targettype="Contained" Condition="-0.5" disabledeltatime="true" targetslot="15">
+          <RequiredItem items="batterycell" type="Contained" targetslot="15" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" targettype="Contained" Condition="-0.25" disabledeltatime="true" targetslot="15">
+          <RequiredItem items="fulguriumbatterycell" type="Contained" targetslot="15" />
+        </StatusEffect>
+        <!--StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true" comparison="Or">
+          <RequiredItem identifier="mobilebattery" type="Contained" condition="gt 0" targetslot="15" />
+      </StatusEffect-->
+        <sound file="Content/Items/Command/SonarPing.ogg" type="OnUse" range="1000.0" />
+        <GuiFrame relativesize="0.25,0.25" anchor="CenterLeft" relativeoffset="0.006,-0.01" />
+        <PingCircle texture="Content/Items/Command/pingCircle.png" origin="0.5,0.5" />
+        <DirectionalPingCircle texture="Content/Items/Command/directionalPingCircle.png" origin="0.0,0.5" />
+        <ScreenOverlay texture="Content/Items/Command/sonarOverlay.png" origin="0.5,0.5" />
+        <ScreenBackground texture="Content/Items/Command/sonarBackground.png" origin="0.5,0.5" />
+        <DirectionalPingBackground texture="Content/Items/Command/directionalPingBackground.png" origin="0.5,0.5" />
+        <DirectionalPingButton index="0" texture="Content/Items/Command/directionalPingButton.png" sourcerect="0,0,91,266" origin="-4.5275,0.5" />
+        <DirectionalPingButton index="1" texture="Content/Items/Command/directionalPingButton.png" sourcerect="133,0,91,266" origin="-4.5275,0.5" />
+        <DirectionalPingButton index="2" texture="Content/Items/Command/directionalPingButton.png" sourcerect="266,0,91,266" origin="-4.5275,0.5" />
+        <Blip texture="Content/Items/Command/sonarBlip.png" origin="0.5,0.5" />
+        <LineSprite texture="Content/Items/Command/NavUI.png" sourcerect="181,141,109,4" origin="0,0.5" />
+        <icon identifier="outpost" texture="Content/UI/MainIconsAtlas.png" sourcerect="352,398,16,8" origin="0.5,0.5" />
+        <icon identifier="submarine" texture="Content/UI/MainIconsAtlas.png" sourcerect="353,407,14,6" origin="0.5,0.5" />
+        <icon identifier="shuttle" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,407,8,6" origin="0.5,0.5" />
+        <icon identifier="artifact" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,414,8,8" origin="0.5,0.5" />
+        <icon identifier="location" texture="Content/UI/MainIconsAtlas.png" sourcerect="349,435,11,11" origin="0.5,0.5" />
+        <icon identifier="mineral" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,434,7,12" origin="0.5,0.5" />
+        <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5" />
+      </Sonar>
+      <!-- WEIGHT SYSTEM -->
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="0" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="1" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="2" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="3" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="4" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="5" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="6" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="7" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="8" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="15" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="10" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="11" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="12" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="13" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="Character">
+        <RequiredItem item="smallitem,weapon,gun" type="Contained" targetslot="14" />
+        <Affliction identifier="weight" amount="1" />
+      </StatusEffect>	  --&gt;
+	  
+<!-- SPECIFIC BONUS --><SkillModifier skillidentifier="electrical" skillvalue="25" /><SkillModifier skillidentifier="helm" skillvalue="-20" /><SkillModifier skillidentifier="mechanical" skillvalue="5" /><SkillModifier skillidentifier="medical" skillvalue="-25" /><SkillModifier skillidentifier="weapons" skillvalue="-25" /><StatValue stattype="SwimmingSpeed" value="-0.2" /><StatValue stattype="WalkingSpeed" value="-0.1" /><StatValue stattype="RepairSpeed" value="0.20" /></Wearable>
+    <Holdable slots="RightHand,LeftHand" controlpose="true" holdpos="10,-90" handle1="0,32" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    <MiniMap MinVoltage="0.5" PowerConsumption="100" enableitemfinder="true" enablehullcondition="true" enableelectricalview="true" drawhudwhenequipped="true" displaybordersize="0.0" characterusable="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.20,0.20" anchor="TopCenter" relativeoffset="0.0,0.0" style="ItemUI" draggable="true" />
+    </MiniMap>
+  </Item>
+</Items>

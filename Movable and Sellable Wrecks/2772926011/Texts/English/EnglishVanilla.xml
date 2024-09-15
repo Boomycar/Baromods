@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!-- Selling Text -->
+  <SellWreck>Wreck %s will be sold for %s marks at the end of the round. The crew will receive %s experience points.</SellWreck>
+  <entityname.grapple>Heavy industrial hook</entityname.grapple>
+  <entitydescription.grapple>Heavy industrial titanium hook for lifting sunken submarines from the seabed. Make sure to use enough hooks, otherwise their cables may snap!</entitydescription.grapple>
+</infotexts>

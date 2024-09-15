@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Genes+Revived" modversion="1.0.21" corepackage="False" steamworkshopid="2799033770" gameversion="0.21.6.0" expectedhash="66CB6B6963E77863CC9070933FF78120">
+  <Text file="%ModDir%/Text/English.xml" />
+  <Text file="%ModDir%/Text/SimplifiedChinese.xml" />
+  <Text file="%ModDir%/Text/PTBR.xml" />
+  <Afflictions file="%ModDir%/Genetic/Afflictionsnew.xml" />
+  <Item file="%ModDir%/Genetic/GENESBABY.xml" />
+  <Item file="%ModDir%/Genetic/newgenes.xml" />
+  <Item file="%ModDir%/Genetic/Oldgenesoverride.xml" />
+  <Item file="%ModDir%/Genetic/GeneSplicers.xml" />
+  <Other file="%ModDir%/Genetic/Appendages/watchereffect.xml" />
+  <Character file="%ModDir%/CharactersAppendagesHusked/watchhusk.xml" />
+</contentpackage>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!--entityname.></entityname.>
+<entitydescription.></entitydescription.-->
+  <!-- MB -->
+  <entityname.modularbackpack>Modular Backpack</entityname.modularbackpack>
+  <entitydescription.modularbackpack>A water and fireproof backpack highly customizable used by many europan submariners.</entitydescription.modularbackpack>
+  <entityname.MBAmmo>Modular Backpack + Ammo</entityname.MBAmmo>
+  <entitydescription.MBAmmo>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with an ammunition pounch, allowing a better transportation of infantry based weaponry ammunition and grenades.</entitydescription.MBAmmo>
+  <entityname.MBMedical>Modular Backpack + Medical</entityname.MBMedical>
+  <entitydescription.MBMedical>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a medical pounch, allowing a better transportation of medical based equipement.</entitydescription.MBMedical>
+  <entityname.MBMining>Modular Backpack + Mining</entityname.MBMining>
+  <entitydescription.MBMining>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a mining pounch, allowing a better transportation of ores and plants.</entitydescription.MBMining>
+  <entityname.MBTools>Modular Backpack + Tools</entityname.MBTools>
+  <entitydescription.MBTools>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a tool pounch, allowing a better transportation of tools and repair equipements.</entitydescription.MBTools>
+  <entityname.MBSmallFirearmHolster>Modular Backpack + Small Firearm Holster</entityname.MBSmallFirearmHolster>
+  <entitydescription.MBSmallFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a pistol type holster, allowing a better transportation of one handed firearms.</entitydescription.MBSmallFirearmHolster>
+  <entityname.MBLargeFirearmHolster>Modular Backpack + Large Firearm Holster</entityname.MBLargeFirearmHolster>
+  <entitydescription.MBLargeFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a rifle type holster, allowing a better transportation of two handed firearms.</entitydescription.MBLargeFirearmHolster>
+  <entityname.MBLargeFirearmHolsterSmallFirearmHolster>Modular Backpack + Large Firearm Holster + Small Firearm Holster</entityname.MBLargeFirearmHolsterSmallFirearmHolster>
+  <entitydescription.MBLargeFirearmHolsterSmallFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with both type of holsters, allowing a better transportation of firearms.</entitydescription.MBLargeFirearmHolsterSmallFirearmHolster>
+  <entityname.MBAmmoSmallFirearmHolster>Modular Backpack + Monitor + Ammo + Small Firearm Holster</entityname.MBAmmoSmallFirearmHolster>
+  <entitydescription.MBAmmoSmallFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with an ammunition pounch and a pistol type holster, allowing a better transportation of infantry based weaponry ammunition, grenades and one handed firearms.</entitydescription.MBAmmoSmallFirearmHolster>
+  <entityname.MBMedicalSmallFirearmHolster>Modular Backpack + Medical + Small Firearm Holster</entityname.MBMedicalSmallFirearmHolster>
+  <entitydescription.MBMedicalSmallFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a medical pounch and a pistol type holster, allowing a better transportation of medical based equipement and one handed firearms.</entitydescription.MBMedicalSmallFirearmHolster>
+  <entityname.MBMiningSmallFirearmHolster>Modular Backpack + Mining + Small Firearm Holster</entityname.MBMiningSmallFirearmHolster>
+  <entitydescription.MBMiningSmallFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a mining pounch and a pistol type holster, allowing a better transportation of ores, plants and one handed firearms.</entitydescription.MBMiningSmallFirearmHolster>
+  <entityname.MBToolsSmallFirearmHolster>Modular Backpack + Tools + Small Firearm Holster</entityname.MBToolsSmallFirearmHolster>
+  <entitydescription.MBToolsSmallFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a tool pounch and a pistol type holster, allowing a better transportation of tools, repair equipements and one handed firearms.</entitydescription.MBToolsSmallFirearmHolster>
+  <!-- Ammocrates and Shell Rack -->
+  <entityname.MBAmmocrate>Modular Backpack + Ammocrate</entityname.MBAmmocrate>
+  <entitydescription.MBAmmocrate>A heavy modification of the regular modular backpack. It allow a far easier transportation of ammoboxes, but will severly impair underwater movements and equipement handling.</entitydescription.MBAmmocrate>
+  <entityname.MBShellRack>Modular Backpack + Shell Rack</entityname.MBShellRack>
+  <entitydescription.MBShellRack>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a small shell rack, allowing a better transportation railgun ammunitions.</entitydescription.MBShellRack>
+  <entityname.MBAmmocrateShellRack>Modular Backpack + Ammocrate + Shell Rack</entityname.MBAmmocrateShellRack>
+  <entitydescription.MBAmmocrateShellRack>A heavy modification of the regular modular backpack. It allow a far easier transportation of ammoboxes and railgun ammunitions, but will severly impair underwater movements and equipement handling.</entitydescription.MBAmmocrateShellRack>
+  <entityname.MBAmmocrateSmallFirearmHolster>Modular Backpack + Ammocrate + Small Firearm Holster</entityname.MBAmmocrateSmallFirearmHolster>
+  <entitydescription.MBAmmocrateSmallFirearmHolster>A heavy modification of the regular modular backpack. It allow a far easier transportation of ammoboxes, but will severly impair underwater movements and equipement handling. It is also fitted with a pistol type holster, allowing a better transportation of one handed firearms.</entitydescription.MBAmmocrateSmallFirearmHolster>
+  <entityname.MBShellRackSmallFirearmHolster>Modular Backpack + Shell Rack + Small Firearm Holster</entityname.MBShellRackSmallFirearmHolster>
+  <entitydescription.MBShellRackSmallFirearmHolster>A water and fireproof backpack highly customizable used by many europan submariners. This one is fitted with a small shell rack, allowing a better transportation railgun ammunitions. It is also fitted with a pistol type holster, allowing a better transportation of one handed firearms.</entitydescription.MBShellRackSmallFirearmHolster>
+  <entityname.MBAmmocrateShellRackSmallFirearmHolster>Modular Backpack + Ammocrate + Shell Rack + Small Firearm Holster</entityname.MBAmmocrateShellRackSmallFirearmHolster>
+  <entitydescription.MBAmmocrateShellRackSmallFirearmHolster>A heavy modification of the regular modular backpack. It allow a far easier transportation of ammoboxes and railgun ammunitions, but will severly impair underwater movements and equipement handling. It is also fitted with a pistol type holster, allowing a better transportation of one handed firearms.</entitydescription.MBAmmocrateShellRackSmallFirearmHolster>
+  <!-- MB + Light -->
+  <entityname.MBLight>Modular Backpack + Light</entityname.MBLight>
+  <entitydescription.MBLight>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss.</entitydescription.MBLight>
+  <entityname.MBLightSmallFirearmHolster>Modular Backpack + Light + Small Firearm Holster</entityname.MBLightSmallFirearmHolster>
+  <entitydescription.MBLightSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with a pistol type holster, allowing a better transportation of one handed firearms.</entitydescription.MBLightSmallFirearmHolster>
+  <entityname.MBLightAmmo>Modular Backpack + Light + Ammo</entityname.MBLightAmmo>
+  <entitydescription.MBLightAmmo>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with an ammunition pounch, allowing a better transportation of infantry based weaponry ammunition and grenades.</entitydescription.MBLightAmmo>
+  <entityname.MBLightMedical>Modular Backpack + Light + Medical</entityname.MBLightMedical>
+  <entitydescription.MBLightMedical>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with a medical pounch, allowing a better transportation of medical based equipement.</entitydescription.MBLightMedical>
+  <entityname.MBLightMining>Modular Backpack + Light + Mining</entityname.MBLightMining>
+  <entitydescription.MBLightMining>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with a mining pounch, allowing a better transportation of ores and plants.</entitydescription.MBLightMining>
+  <entityname.MBLightTools>Modular Backpack + Light + Tools</entityname.MBLightTools>
+  <entitydescription.MBLightTools>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with a tool pounch, allowing a better transportation of tools and repair equipements.</entitydescription.MBLightTools>
+  <entityname.MBLightAmmoSmallFirearmHolster>Modular Backpack + Light + Ammo + Small Firearm Holster</entityname.MBLightAmmoSmallFirearmHolster>
+  <entitydescription.MBLightAmmoSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with an ammunition pounch and a pistol type holster, allowing a better transportation of infantry based weaponry ammunition, grenades and one handed firearms.</entitydescription.MBLightAmmoSmallFirearmHolster>
+  <entityname.MBLightMedicalSmallFirearmHolster>Modular Backpack + Light + Medical + Small Firearm Holster</entityname.MBLightMedicalSmallFirearmHolster>
+  <entitydescription.MBLightMedicalSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with a medical pounch and a pistol type holster, allowing a better transportation of medical based equipement and one handed firearms.</entitydescription.MBLightMedicalSmallFirearmHolster>
+  <entityname.MBLightMiningSmallFirearmHolster>Modular Backpack + Light + Mining + Small Firearm Holster</entityname.MBLightMiningSmallFirearmHolster>
+  <entitydescription.MBLightMiningSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with a mining pounch and a pistol type holster, allowing a better transportation of ores, plants and one handed firearms.</entitydescription.MBLightMiningSmallFirearmHolster>
+  <entityname.MBLightToolsSmallFirearmHolster>Modular Backpack + Light + Tools + Small Firearm Holster</entityname.MBLightToolsSmallFirearmHolster>
+  <entitydescription.MBLightToolsSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered searchlight, it is able to pierce the most impenetrable darkness of the abyss. It is also fitted with a tool pounch and a pistol type holster, allowing a better transportation of tools, repair equipements and one handed firearms.</entitydescription.MBLightToolsSmallFirearmHolster>
+  <!-- MB + Monitor -->
+  <entityname.MBMonitor>Modular Backpack + Monitor</entityname.MBMonitor>
+  <entitydescription.MBMonitor>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind.</entitydescription.MBMonitor>
+  <entityname.MBMonitorSmallFirearmHolster>Modular Backpack + Monitor + Small Firearm Holster</entityname.MBMonitorSmallFirearmHolster>
+  <entitydescription.MBMonitorSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with a pistol type holster, allowing a better transportation of one handed firearms.</entitydescription.MBMonitorSmallFirearmHolster>
+  <entityname.MBMonitorAmmo>Modular Backpack + Monitor + Ammo</entityname.MBMonitorAmmo>
+  <entitydescription.MBMonitorAmmo>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with an ammunition pounch, allowing a better transportation of infantry based weaponry ammunition and grenades.</entitydescription.MBMonitorAmmo>
+  <entityname.MBMonitorMedical>Modular Backpack + Monitor + Medical</entityname.MBMonitorMedical>
+  <entitydescription.MBMonitorMedical>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with a medical pounch, allowing a better transportation of medical based equipement.</entitydescription.MBMonitorMedical>
+  <entityname.MBMonitorMining>Modular Backpack + Monitor + Mining</entityname.MBMonitorMining>
+  <entitydescription.MBMonitorMining>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with a mining pounch, allowing a better transportation of ores and plants.</entitydescription.MBMonitorMining>
+  <entityname.MBMonitorTools>Modular Backpack + Monitor + Tools</entityname.MBMonitorTools>
+  <entitydescription.MBMonitorTools>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with a tool pounch, allowing a better transportation of tools and repair equipements.</entitydescription.MBMonitorTools>
+  <entityname.MBMonitorAmmoSmallFirearmHolster>Modular Backpack + Monitor + Ammo + Small Firearm Holster</entityname.MBMonitorAmmoSmallFirearmHolster>
+  <entitydescription.MBMonitorAmmoSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with an ammunition pounch and a pistol type holster, allowing a better transportation of infantry based weaponry ammunition, grenades and one handed firearms.</entitydescription.MBMonitorAmmoSmallFirearmHolster>
+  <entityname.MBMonitorMedicalSmallFirearmHolster>Modular Backpack + Monitor + Medical + Small Firearm Holster</entityname.MBMonitorMedicalSmallFirearmHolster>
+  <entitydescription.MBMonitorMedicalSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with a medical pounch and a pistol type holster, allowing a better transportation of medical based equipement and one handed firearms.</entitydescription.MBMonitorMedicalSmallFirearmHolster>
+  <entityname.MBMonitorMiningSmallFirearmHolster>Modular Backpack + Monitor + Mining + Small Firearm Holster</entityname.MBMonitorMiningSmallFirearmHolster>
+  <entitydescription.MBMonitorMiningSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with a mining pounch and a pistol type holster, allowing a better transportation of ores, plants and one handed firearms.</entitydescription.MBMonitorMiningSmallFirearmHolster>
+  <entityname.MBMonitorToolsSmallFirearmHolster>Modular Backpack + Monitor + Tools + Small Firearm Holster</entityname.MBMonitorToolsSmallFirearmHolster>
+  <entitydescription.MBMonitorToolsSmallFirearmHolster>A modification of the regular modular backpack. Fitted with a powerful battery-powered Monitor, it is able to monitor every electrical and mecanical components of the submarine, as well as scanning all type of hull breach and anomalies. It also come with an integrated sonar independant of the submarine powergrind. It is also fitted with a tool pounch and a pistol type holster, allowing a better transportation of tools, repair equipements and one handed firearms.</entitydescription.MBMonitorToolsSmallFirearmHolster>
+  <!-- MB + Scooter -->
+  <entityname.MBScooter>Modular Backpack + Scooter</entityname.MBScooter>
+  <entitydescription.MBScooter>A heavy modification of the regular modular backpack. It allow a faster underwater travel using a set of powerful battery-powered thruster, but severly limit the total item capacity of the backpack.</entitydescription.MBScooter>
+  <entityname.MBScooterSmallFirearmHolster>MB + Scooter + Small Firearm Holster</entityname.MBScooterSmallFirearmHolster>
+  <entitydescription.MBScooterSmallFirearmHolster>A heavy modification of the regular modular backpack. It allow a faster underwater travel using a set of powerful battery-powered thruster, but severly limit the total item capacity of the backpack. It is also fitted with a pistol type holster, allowing a better transportation of one handed firearms.</entitydescription.MBScooterSmallFirearmHolster>
+  <entityname.MBScooterLargeFirearmHolster>MB + Scooter + Large Firearm Holster</entityname.MBScooterLargeFirearmHolster>
+  <entitydescription.MBScooterLargeFirearmHolster>A heavy modification of the regular modular backpack. It allow a faster underwater travel using a set of powerful battery-powered thruster, but severly limit the total item capacity of the backpack. It is also fitted with a rifle type holster, allowing a better transportation of two handed firearms.</entitydescription.MBScooterLargeFirearmHolster>
+  <entityname.MBScooterLargeFirearmHolsterSmallFirearmHolster>MB + Scooter + Large Firearm Holster + Small Firearm Holster</entityname.MBScooterLargeFirearmHolsterSmallFirearmHolster>
+  <entitydescription.MBScooterLargeFirearmHolsterSmallFirearmHolster>A heavy modification of the regular modular backpack. It allow a faster underwater travel using a set of powerful battery-powered thruster, but severly limit the total item capacity of the backpack. It is also fitted with both type of holsters, allowing a better transportation of firearms.</entitydescription.MBScooterLargeFirearmHolsterSmallFirearmHolster>
+  <!-- MB + Rebreather -->
+  <entityname.MBRebreather>Modular Backpack + Rebreather</entityname.MBRebreather>
+  <entitydescription.MBRebreather>A heavy modification of the regular modular backpack. It allow the user to both filter oxygen from CO2 contaminated air and sea water. The filtration system will provide oxygen to the user as well as refilling up to two oxygen tank placed in the rebreather. However, due to its imposing size, movement, equipement handling and carrying capacity are severly limited.</entitydescription.MBRebreather>
+  <!-- Other -->
+  <entityname.Workbench>Workbench</entityname.Workbench>
+  <entitydescription.Workbench>A workbench allowing the crafting and modification of all types of modular backpack.</entitydescription.Workbench>
+  <Override>
+    <entityname.weaponholder>Weapons and Backpacks holder</entityname.weaponholder>
+  </Override>
+  <Override>
+    <entitydescription.weaponholder>A place to stow your weapons and backpacks neatly.</entitydescription.weaponholder>
+  </Override>
+  <!-- CRAFTING -->
+  <entityname.ammopouch>Ammo Pouch</entityname.ammopouch>
+  <entitydescription.ammopouch>A special pouch able to store up to 6 stacks of ammunition</entitydescription.ammopouch>
+  <entityname.medicalpouch>Medical Pouch</entityname.medicalpouch>
+  <entitydescription.medicalpouch>A special pouch able to store up to 6 stacks of medical items</entitydescription.medicalpouch>
+  <entityname.miningpouch>Mining Pouch</entityname.miningpouch>
+  <entitydescription.miningpouch>A special pouch able to store up to 6 stacks of ores and plants</entitydescription.miningpouch>
+  <entityname.toolpouch>Tool Pouch</entityname.toolpouch>
+  <entitydescription.toolpouch>A special pouch able to store up to 6 stacks of tools and repairing equipement.</entitydescription.toolpouch>
+  <entityname.largefirearmholster>Large Firearm Holster</entityname.largefirearmholster>
+  <entitydescription.largefirearmholster>A large holster able to store many type of two-handed weapons</entitydescription.largefirearmholster>
+  <entityname.smallfirearmholster>Small Firearm Holster</entityname.smallfirearmholster>
+  <entitydescription.smallfirearmholster>A small holster able to store many type of one-handed weapons</entitydescription.smallfirearmholster>
+  <entityname.monitorMBMOD>Monitor</entityname.monitorMBMOD>
+  <entitydescription.monitorMBMOD>Alone it doesn't serve any purposes</entitydescription.monitorMBMOD>
+  <entityname.rebreatherMBMOD>Rebreather</entityname.rebreatherMBMOD>
+  <entitydescription.rebreatherMBMOD>Alone it doesn't serve any purposes</entitydescription.rebreatherMBMOD>
+  <entityname.smallcapacitorMBMOD>Small Capacitor</entityname.smallcapacitorMBMOD>
+  <entitydescription.smallcapacitorMBMOD>Alone it doesn't serve any purposes</entitydescription.smallcapacitorMBMOD>
+  <entityname.smallsearchlightMBMOD>Small Searchlight</entityname.smallsearchlightMBMOD>
+  <entitydescription.smallsearchlightMBMOD>Alone it doesn't serve any purposes</entitydescription.smallsearchlightMBMOD>
+  <!-- TICKBOX - Need investigating -->
+</infotexts>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="" identifier="cigar" type="cigar" isbuff="true" limbspecific="false" indicatorlimb="Head" maxstrength="100" showiconthreshold="1">
+    <Effect minstrength="0" maxstrength="100" strengthchange="-1.0"></Effect>
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,1" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction identifier="evasivemaneuversold" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="1" duration="5" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="1">
+      <StatValue stattype="HelmSkillBonus" value="75" />
+    </Effect>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,7" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+</Afflictions>

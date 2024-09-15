@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Override>
+    <Item name="Gene Splicer Overdrive Chip" identifier="genespliceroverdrivechip" description="Illegal chip that is used to put your gene splicer to overdrive." scale="0.4" category="Material" tags="smallitem,material" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+      <PreferredContainer primary="medcab" secondary="supplycab" />
+      <PreferredContainer secondary="wreckmedcab" spawnprobability="0.01" />
+      <PreferredContainer secondary="abandonedmedcab" spawnprobability="0.01" />
+      <InventoryIcon texture="%ModDir%/Textures/signalcomp.png" sourcerect="0,0,16,32" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Textures/signalcomp.png" depth="0.8" sourcerect="0,0,16,32" origin="0.5,0.5" />
+      <Deconstruct time="20">
+        <Item identifier="fpgacircuit" amount="4" />
+        <Item identifier="fulgurium" amount="2" />
+        <Item identifier="dementonite" />
+        <Item identifier="plastic" amount="2" />
+        <Item identifier="titaniumaluminiumalloy" amount="2" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20">
+        <Item identifier="fpgacircuit" amount="4" />
+        <Item identifier="fulgurium" amount="2" />
+        <Item identifier="dementonite" />
+        <Item identifier="plastic" amount="2" />
+        <Item identifier="titaniumaluminiumalloy" amount="2" />
+      </Fabricate>
+      <Price baseprice="3000" minleveldifficulty="10">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" />
+        <Price storeidentifier="merchantmine" />
+      </Price>
+      <Body radius="15" width="32" density="32" />
+      <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    </Item>
+  </Override>
+</Items>

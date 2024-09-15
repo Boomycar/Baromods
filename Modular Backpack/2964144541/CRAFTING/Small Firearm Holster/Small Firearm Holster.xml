@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Small Firearm Holster" identifier="smallfirearmholster" category="Equipment" tags="MBMOD,mountableweapon" fireproof="true" waterproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" description="">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="elastin" amount="1" />
+      <RequiredItem identifier="rubber" amount="1" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="40">
+      <Item identifier="elastin" amount="1" />
+      <Item identifier="rubber" amount="1" />
+      <Item identifier="organicfiber" amount="2" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/CRAFTING/Small Firearm Holster/Small Firearm Holster.png" sourcerect="0,0,59,92" />
+    <Sprite texture="%ModDir%/CRAFTING/Small Firearm Holster/Small Firearm Holster.png" sourcerect="0,0,59,92" depth="0.6" origin="0.5,0.5" />
+    <Body width="59" height="92" density="10" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <sprite name="Backpack on character" texture="%ModDir%/CRAFTING/Small Firearm Holster/Small Firearm Holster.png" limb="Torso" depth="0.8" hidelimb="false" canbehiddenbyotherwearables="false" inherittexturescale="true" origin="0.5,-0.2" sourcerect="0,0,59,92" />
+      <ItemContainer capacity="1" hideitems="true">
+        <SlotIcon slotindex="0" texture="%ModDir%/Icons/Small Firearm Holster.png" origin="0.5,0.5" />
+        <Containable items="pistolitem,stungun,machinepistol" excludeditems="MBMOD" />
+      </ItemContainer>
+      <!-- SPECIFIC BONUS -->
+      <SkillModifier skillidentifier="weapons" skillvalue="5" />
+    </Wearable>
+    <Holdable canbecombined="false" slots="RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true"></Holdable>
+  </Item>
+</Items>

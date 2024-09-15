@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Husk Regen Coma (Both Types)" modversion="1.0.3" corepackage="False" steamworkshopid="3087928865" gameversion="1.2.8.0" expectedhash="69F8FC35717057A7CE68F6CDFA84B9E8">
+  <Afflictions file="%ModDir%/Affliction.xml" />
+  <Item file="%ModDir%/Testitems.xml" />
+</contentpackage>

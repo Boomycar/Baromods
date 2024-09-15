@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Meaningful Upgrades" modversion="1.0.4" corepackage="False" steamworkshopid="2183524355" gameversion="1.0.21.0" expectedhash="76AC2CEE7FE68585E744E7BD233C9B56">
+  <UpgradeModules file="%ModDir%/UpgradeModules.xml" />
+  <UpgradeModules file="%ModDir%/CustomUpgradeModules.xml" />
+  <Text file="%ModDir%/EnglishMeaningfulUpgrades.xml" />
+</contentpackage>

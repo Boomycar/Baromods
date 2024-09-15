@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <!-- Tempest Wolf Effect -->
+  <AfflictionHusk name="TempestWolf" identifier="tempestwolf" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]tempestwolf" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="-0.1" maxresistance="-0.5">
+      <StatValue stattype="WalkingSpeed" minvalue="0.25" maxvalue="0.5" />
+      <StatValue stattype="SwimmingSpeed" value="0.5" />
+      <StatValue stattype="MaximumHealthMultiplier" minvalue="0.1" maxvalue="0.2" />
+      <StatValue stattype="AttackMultiplier" minvalue="0.1" maxvalue="0.5" />
+      <haracterAbilityGiveStat stattype="WeaponSkillBonus" value="15" />
+      <CharacterAbilityGiveStat stattype="RangedSpreadReduction" value="0.8" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" type="OnDamaged" durability="30" disableDeltaTime="true" multiplyafflictionsbymaxvitality="true">
+        <requiredaffliction type="damage,burn,bleeding" minstrength="0.01" />
+        <StatValue stattype="WalkingSpeed" value="0.5" />
+        <StatValue stattype="SwimmingSpeed" value="0.5" />
+        <StatValue stattype="MeleeAttackSpeed" value="0.5" />
+        <StatValue stattype="MaleeAttackMultiplier" value="0.5" />
+        <StatValue stattype="AttackMultiplier" value="0.5" />
+      </StatusEffect>
+    </Effect>
+  </AfflictionHusk>
+  <!-- Shrine Fox Effect -->
+  <AfflictionHusk name="ShrineFox" identifier="shrinefox" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]shrinefox" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" blocktransformation="huskinfection">
+      <StatValue stattype="MeleeAttackSpeed" value="1" />
+      <StatValue stattype="MaximumHealthMultiplier" minvalue="0.1" maxvalue="0.5" />
+      <StatValue stattype="WalkingSpeed" minvalue="0.1" maxvalue="0.4" />
+      <StatValue stattype="SwimmingSpeed" minvalue="0.1" maxvalue="0.4" />
+      <StatValue stattype="SkillGainSpeed" value="1" />
+      <CharacterAbilityGiveStat stattype="RangedSpreadReduction" value="-1" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" type="OnActive" interval="1" disabledeltatime="true">
+        <Conditional huskinfection="gt 90" />
+        <ReduceAffliction identifier="huskinfection" amount="1" />
+      </StatusEffect>
+    </Effect>
+  </AfflictionHusk>
+  <!-- Guard Dog Effect -->
+  <AfflictionHusk name="GuardDog" identifier="guarddog" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]guarddog" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="0.1" maxresistance="0.5" blocktransformation="huskinfection">
+      <StatValue stattype="WalkingSpeed" minvalue="0.1" maxvalue="0.3" />
+      <StatValue stattype="SwimmingSpeed" minvalue="0.1" maxvalue="0.5" />
+      <StatValue stattype="MaximumHealthMultiplier" minvalue="0.1" maxvalue="0.5" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <AbilityFlag flagtype="MoveNormallyWhileDragging" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+    </Effect>
+  </AfflictionHusk>
+  <!-- Cuddle Cat Effect -->
+  <AfflictionHusk name="CuddleCat" identifier="cuddlecat" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]cuddlecat" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="-0.1" maxresistance="-0.2">
+      <StatValue stattype="WalkingSpeed" minvalue="0.7" maxvalue="0.9" />
+      <StatValue stattype="SwimmingSpeed" minvalue="0.8" maxvalue="1.0" />
+      <StatValue stattype="SkillGainSpeed" value="0.5" />
+      <StatValue stattype="RepairSpeed" value="0.5" />
+      <StatValue stattype="RepairToolStructureRepairMultiplier" value="0.5" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <AbilityFlag flagtype="MoveNormallyWhileDragging" />
+      <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="10" />
+      <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="10" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <AbilityGroupInterval interval="0.9">
+        <Abilities>
+          <CharacterAbilityApplyStatusEffectsToAllies maxdistance="600" allowself="false">
+            <StatusEffects>
+              <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+                <Affliction identifier="cozycuddles" amount="1.0" />
+              </StatusEffect>
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffectsToAllies>
+        </Abilities>
+      </AbilityGroupInterval>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityGiveResistance resistanceid="cozycuddles" multiplier="0" />
+        </Abilities>
+      </AbilityGroupEffect>
+    </Effect>
+    <Effect minstrength="0" maxstrength="100" resistancefor="blunttrauma,stun" minresistance="1" maxresistance="1"></Effect>
+  </AfflictionHusk>
+  <!-- Hell Hound Effect-->
+  <AfflictionHusk name="HellHound" identifier="hellhound" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]hellhound" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="0.5" maxresistance="0.8">
+      <StatValue stattype="WalkingSpeed" value="0.3" />
+      <StatValue stattype="SwimmingSpeed" value="0.3" />
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="-0.25" maxvalue="-0.75" />
+      <StatValue stattype="MeleeAttackSpeed" value="-0.5" />
+      <StatValue stattype="AttackMultiplier" minvalue="0.25" maxvalue="0.75" />
+      <CharacterAbilityGiveStat stattype="RangedSpreadReduction" value="0.4" />
+      <StatValue stattype="SkillGainSpeed" value="-0.25" />
+      <StatValue stattype="RepairSpeed" value="-0.5" />
+      <StatValue stattype="RepairToolStructureRepairMultiplier" value="-0.5" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <StatusEffect Type="InWater" target="Character" interval="0.1" disabledeltatime="true">
+        <ReduceAffliction type="bleeding" strength="0.12" />
+        <ReduceAffliction type="burn" strength="0.12" />
+        <ReduceAffliction type="bloodloss" strength="0.12" />
+        <ReduceAffliction type="poison" strength="0.14" />
+        <ReduceAffliction type="paralysis" strength="0.14" />
+      </StatusEffect>
+    </Effect>
+  </AfflictionHusk>
+  <!-- Fatal Fox Effect -->
+  <AfflictionHusk name="FatalFox" identifier="fatalfox" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]fatalfox" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="0.2" maxresistance="0.4" blocktransformation="huskinfection">
+      <StatValue stattype="MeleeAttackMultiplier" minvalue="0.5" maxvalue="1" />
+      <StatValue stattype="MeleeAttackSpeed" value="0.3" />
+      <StatValue stattype="WalkingSpeed" minvalue="0.1" maxvalue="0.4" />
+      <StatValue stattype="SwimmingSpeed" minvalue="0.1" maxvalue="0.5" />
+      <CharacterAbilityGiveStat stattype="RangedSpreadReduction" value="-1" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <AbilityFlag flagtype="MoveNormallyWhileDragging" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" type="OnActive" interval="1" disabledeltatime="true">
+        <Conditional huskinfection="gt 90" />
+        <ReduceAffliction identifier="huskinfection" amount="1" />
+      </StatusEffect>
+    </Effect>
+  </AfflictionHusk>
+  <!-- Demon Dog Effect -->
+  <AfflictionHusk name="DemonDog" identifier="demondog" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]demondog" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="0.2" maxresistance="0.4">
+      <StatValue stattype="SwimmingSpeed" minvalue="0.8" maxvalue="1" />
+      <StatValue stattype="WalkingSpeed" minvalue="0.3" maxvalue="0.6" />
+      <StatValue stattype="MaximumHealthMultiplier" value="0.15" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <StatusEffect target="Character">
+        <ReduceAffliction identifier="poison" strength="1" />
+        <ReduceAffliction identifier="morbusinepoisoning" strength="1" />
+        <ReduceAffliction identifier="cyanidepoisoning" strength="1" />
+        <ReduceAffliction identifier="sufforinpoisoning" strength="1" />
+        <ReduceAffliction identifier="deliriuminepoisoning" strength="1" />
+        <ReduceAffliction identifier="paralysis" strength="1" />
+        <ReduceAffliction identifier="psychosis" strength="1" />
+        <ReduceAffliction identifier="radiationsickness" strength="1" />
+        <ReduceAffliction identifier="opiatewithdrawal" strength="1" />
+        <ReduceAffliction identifier="opiateaddiction" strength="1" />
+        <ReduceAffliction identifier="opiateoverdose" strength="1" />
+      </StatusEffect>
+    </Effect>
+  </AfflictionHusk>
+  <!-- Crazy Cat Effect -->
+  <AfflictionHusk name="CrazyCat" identifier="crazycat" type="geneticmaterialbuff" limbspecific="false" targets="human" huskedspeciesname="[speciesname]crazycat" indicatorlimb="Head" showiconthreshold="0" needsair="true" causespeechimpediment="false" treatmentthreshold="1000" dormantthreshold="0" activethreshold="0" transitionthreshold="1000" transformthresholdondeath="1000" sendmessages="false" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,0" sheetelementsize="128,128" color="181,230,29,255" origin="0,0" />
+    <Effect minstrength="0" maxstrength="100" resistancefor="blunttrauma,stun" minresistance="1" maxresistance="1" blocktransformation="huskinfection">
+      <StatValue stattype="WalkingSpeed" minvalue="0.8" maxvalue="1.0" />
+      <StatValue stattype="SwimmingSpeed" minvalue="0.3" maxvalue="0.6" />
+      <StatValue stattype="CPRBoost" value="0.5" />
+      <StatValue stattype="MedicalItemEffectivenessMultiplier" value="-0.15" />
+      <AbilityFlag flagtype="ImmuneToPressure" />
+      <AbilityFlag flagtype="MoveNormallyWhileDragging" />
+      <AbilityFlag flagtype="CanNotDieToAfflictions" />
+      <StatusEffect target="Character" usehulloxygen="false" setvalue="true">
+        <ReduceAffliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <StatusEffect target="Character" type="OnActive" interval="1" disabledeltatime="true">
+        <Conditional huskinfection="gt 90" />
+        <ReduceAffliction identifier="huskinfection" amount="1" />
+      </StatusEffect>
+    </Effect>
+  </AfflictionHusk>
+  <Affliction name="Extra Armor" identifier="guarddog_extraarmor" description="Your cute dog waifu protects you from harm" isbuff="true" limbspecific="false" activationthreshold="0" showinhealthscannerthreshold="0" showiconthreshold="0" showicontoothersthreshold="0" maxstrength="600">
+    <Effect minstrength="0" maxstrength="100" resistancefor="damage" minresistance="0.1" maxresistance="0.75" />
+    <icon texture="Content/UI/TalentsIcons4.png" sheetindex="4,0" sheetelementsize="128,128" color="220,110,220,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Cozy Cuddles" identifier="cozycuddles" description="Your cute cat girl waifu keeps you healthy" type="strengthbuff" isbuff="true" limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" maxstrength="100" duration="15" iconcolors="55,0,88;106,52,139;46,88,47;46,88,47;95,138,94">
+    <Effect minstrength="0" maxstrength="100" resistancefor="huskinfection" minresistance="0.99" maxresistance="0.99">
+      <StatusEffect target="Character">
+        <ReduceAffliction type="damage" amount="0.65" />
+        <ReduceAffliction identifier="damage" strength="0.4" />
+        <ReduceAffliction identifier="bloodloss" strength="1.3" />
+        <ReduceAffliction identifier="bleeding" strength="0.75" />
+        <ReduceAffliction identifier="burn" strength="0.35" />
+        <ReduceAffliction identifier="poison" strength="0.55" />
+        <ReduceAffliction identifier="reaperstax" strength="0.25" />
+        <ReduceAffliction identifier="lacerations" strength="0.3" />
+        <ReduceAffliction identifier="morbusinepoisoning" strength="0.55" />
+        <ReduceAffliction identifier="cyanidepoisoning" strength="0.55" />
+        <ReduceAffliction identifier="sufforinpoisoning" strength="0.55" />
+        <ReduceAffliction identifier="deliriuminepoisoning" strength="0.55" />
+        <ReduceAffliction identifier="paralysis" strength="0.35" />
+        <ReduceAffliction identifier="psychosis" strength="0.35" />
+        <ReduceAffliction identifier="radiationsickness" strength="0.45" />
+        <ReduceAffliction identifier="opiatewithdrawal" strength="0.45" />
+        <ReduceAffliction identifier="opiateaddiction" strength="0.45" />
+        <ReduceAffliction identifier="opiateoverdose" strength="0.45" />
+        <ReduceAffliction identifier="oxygenlow" strength="0.35" />
+        <ReduceAffliction identifier="nausea" strength="0.45" />
+        <ReduceAffliction identifier="huskinfection" strength="0.65" />
+        <ReduceAffliction identifier="organdamage" strength="0.60" />
+        <ReduceAffliction identifier="infection" strength="0.4" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/TalentsIcons4.png" sheetindex="4,0" sheetelementsize="128,128" color="110,110,220,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Cozy Kisses" identifier="cozykisses" description="The kiss from your waifu keeps you stop you from fading away" type="strengthbuff" isbuff="true" limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" maxstrength="100" duration="180" iconcolors="193,193,194;156,154,194;119,116,194;82,77,194;45,38,194">
+    <Effect minstrength="0" maxstrength="100" resistancefor="huskinfection" minresistance="0.99" maxresistance="0.99">
+      <StatusEffect target="Character">
+        <AbilityFlag flagtype="CanNotDieToAfflictions" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/TalentsIcons4.png" sheetindex="4,0" sheetelementsize="128,128" color="220,50,110,255" origin="0,0" />
+  </Affliction>
+</Afflictions>

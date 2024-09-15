@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="German" nowhitespace="false" translatedname="Deutsch">
+  <!-- Display names -->
+  <displayname.humanfooditem>[itemname] (Mensch)</displayname.humanfooditem>
+  <displayname.crawlerfooditem>[itemname] (Kriecher)</displayname.crawlerfooditem>
+  <displayname.mudraptorfooditem>[itemname] (Schlammechse)</displayname.mudraptorfooditem>
+  <displayname.hammerheadfooditem>[itemname] (Hammerkopf)</displayname.hammerheadfooditem>
+  <displayname.thresherfooditem>[itemname] (Tigerflosser)</displayname.thresherfooditem>
+  <displayname.endwormfooditem>[itemname] (Enderwurm)</displayname.endwormfooditem>
+  <!-- Food Items -->
+  <entityname.he-proteinbar1>Proteinriegel</entityname.he-proteinbar1>
+  <entitydescription.he-proteinbar1>Ein einigermaßen leckerer Proteinriegel. Hilft den Heilungsprozess etwas zu beschleunigen.</entitydescription.he-proteinbar1>
+  <entityname.he-chips1>Tüte Granatapfelchips</entityname.he-chips1>
+  <entitydescription.he-chips1>Getrocknete Granatapfelchips. Ein kleiner, beliebter Snack um sich das jährliche 'DUNWICE FACE-OFF' anzuschauen.</entitydescription.he-chips1>
+  <entityname.he-chips2>Tüte mutierte Granatapfelchips</entityname.he-chips2>
+  <entitydescription.he-chips2>Getrocknete, mutierte Granatapfelchips. Ein beliebter Snack. Man munkelt sie beschleunigen die Heilung von Verbrennungen.</entitydescription.he-chips2>
+  <entityname.he-bread>Brot</entityname.he-bread>
+  <entitydescription.he-bread>Ein Leib Brot.</entitydescription.he-bread>
+  <entityname.he-burgerbun>Burger Brötchen</entityname.he-burgerbun>
+  <entitydescription.he-burgerbun>Wird zur zubereitung von Burgern verwendet.</entitydescription.he-burgerbun>
+  <entityname.he-hotdogbun>Hotdog Brötchen</entityname.he-hotdogbun>
+  <entitydescription.he-hotdogbun>Steck 'ne Wurst rein.</entitydescription.he-hotdogbun>
+  <entityname.he-breadslices>Brotscheiben</entityname.he-breadslices>
+  <!--Patch 10-->
+  <entitydescription.he-breadslices>Zwei Scheiben Brot. Gut um ein Sandwich daraus zu machen!</entitydescription.he-breadslices>
+  <!--Patch 10-->
+  <entityname.he-sandwichbbjam>Blasenbeeren-Marmeladen Sandwich</entityname.he-sandwichbbjam>
+  <!--Patch 10-->
+  <entitydescription.he-sandwichbbjam>Ein leckeres Sandwich mit Blasenbeeren-Marmelade.</entitydescription.he-sandwichbbjam>
+  <!--Patch 10-->
+  <!--crawler-->
+  <entityname.he-crawlerburger>Burger</entityname.he-crawlerburger>
+  <entitydescription.he-crawlerburger>Ein einigermaßen leckerer Burger.</entitydescription.he-crawlerburger>
+  <entityname.he-crawlerhotdog>Hotdog</entityname.he-crawlerhotdog>
+  <entitydescription.he-crawlerhotdog>Ein einigermaßen leckerer Hotdog.</entitydescription.he-crawlerhotdog>
+  <entityname.he-cookedcrawlerfilet>Gekochtes Filet</entityname.he-cookedcrawlerfilet>
+  <entitydescription.he-cookedcrawlerfilet>Der Geschmack ist schrecklich, aber das ist nicht ungewöhnlich auf Europa.</entitydescription.he-cookedcrawlerfilet>
+  <!--human-->
+  <entityname.he-cookedhumanfilet>Gekochtes Filet</entityname.he-cookedhumanfilet>
+  <entitydescription.he-cookedhumanfilet>Schmeckt wie Schwein, ein bisschen bitterer, stärker.</entitydescription.he-cookedhumanfilet>
+  <entityname.he-humanburger>Burger</entityname.he-humanburger>
+  <entitydescription.he-humanburger>Hat einen leicht bitteren Geschmack.</entitydescription.he-humanburger>
+  <entityname.he-humanhotdog>Hotdog</entityname.he-humanhotdog>
+  <entitydescription.he-humanhotdog>Hat einen leicht bitteren Geschmack.</entitydescription.he-humanhotdog>
+  <!--mudraptor-->
+  <entityname.he-cookedmudraptorroast>Braten</entityname.he-cookedmudraptorroast>
+  <entitydescription.he-cookedmudraptorroast>Ein großes Stück Braten.</entitydescription.he-cookedmudraptorroast>
+  <entityname.he-mudraptorburger>Burger</entityname.he-mudraptorburger>
+  <entitydescription.he-mudraptorburger>Schmeckt wie Hühnchen.</entitydescription.he-mudraptorburger>
+  <entityname.he-mudraptorhotdog>Hotdog</entityname.he-mudraptorhotdog>
+  <entitydescription.he-mudraptorhotdog>Schmeckt wie Hühnchen.</entitydescription.he-mudraptorhotdog>
+  <!--hammerhead-->
+  <entityname.he-cookedhammerheadroast>Braten</entityname.he-cookedhammerheadroast>
+  <entitydescription.he-cookedhammerheadroast>Ein großes Stück Braten.</entitydescription.he-cookedhammerheadroast>
+  <entityname.he-cookedhammerheadspawnpickled>Eingelegte Hammerkopf-Brut</entityname.he-cookedhammerheadspawnpickled>
+  <entitydescription.he-cookedhammerheadspawnpickled>Eine Delikatesse.</entitydescription.he-cookedhammerheadspawnpickled>
+  <entityname.he-cookedhammerheadspawnfried>Frittierte Hammerkopf-Brut</entityname.he-cookedhammerheadspawnfried>
+  <entitydescription.he-cookedhammerheadspawnfried>Teures Fast-Food.</entitydescription.he-cookedhammerheadspawnfried>
+  <entityname.he-hammerheadburger>Burger</entityname.he-hammerheadburger>
+  <entitydescription.he-hammerheadburger>Mhhh es ist so lecker, du würdest deinen Kopf gerne an die Wand schlagen, weil du es kaum glauben kannst!</entitydescription.he-hammerheadburger>
+  <entityname.he-hammerheadhotdog>Hotdog</entityname.he-hammerheadhotdog>
+  <entitydescription.he-hammerheadhotdog>Mhhh es ist so lecker, du würdest deinen Kopf gerne an die Wand schlagen, weil du es kaum glauben kannst!</entitydescription.he-hammerheadhotdog>
+  <entityname.he-cookedhammerheadspareribs>Spareribs</entityname.he-cookedhammerheadspareribs>
+  <entitydescription.he-cookedhammerheadspareribs>Eine leckere Mahlzeit mit intensivem Geschmack.</entitydescription.he-cookedhammerheadspareribs>
+  <!--tresher-->
+  <entityname.he-cookedthresherfilet>Gekochtes Filet</entityname.he-cookedthresherfilet>
+  <entitydescription.he-cookedthresherfilet>Es ist schleimig und wabbelig.</entitydescription.he-cookedthresherfilet>
+  <entityname.he-thresherburger>Burger</entityname.he-thresherburger>
+  <entitydescription.he-thresherburger>Der Geschmack lässt dich Atemlos.</entitydescription.he-thresherburger>
+  <entityname.he-thresherhotdog>Hotdog</entityname.he-thresherhotdog>
+  <entitydescription.he-thresherhotdog>Der Geschmack lässt dich Atemlos.</entitydescription.he-thresherhotdog>
+  <!--endworm-->
+  <entityname.he-endwormhotdog>Hotdog</entityname.he-endwormhotdog>
+  <entitydescription.he-endwormhotdog>Der Geschmack ist Wahnsinn!</entitydescription.he-endwormhotdog>
+  <entityname.he-endwormburger>Burger</entityname.he-endwormburger>
+  <entitydescription.he-endwormburger>Der Geschmack ist Wahnsinn!</entitydescription.he-endwormburger>
+  <!--plants-->
+  <entityname.bubbleberries>Blasenbeeren</entityname.bubbleberries>
+  <!--Patch 10-->
+  <entitydescription.bubbleberries>Sehr lecker und saftig.</entitydescription.bubbleberries>
+  <!--Patch 10-->
+  <entityname.badbubbleberries>Mutierte Blasenbeeren</entityname.badbubbleberries>
+  <!--Patch 10-->
+  <entityname.popnut>Pop-Nuss</entityname.popnut>
+  <!--Patch 10-->
+  <entitydescription.popnut>Kinder lieben es mit ihnen zu spielen. Um sie konsumierbar zu machen, müssen sie für eine kurze Zeit in Wasser gelegt werden, damit sie aufplatzen.</entitydescription.popnut>
+  <!--Patch 10-->
+  <entityname.popnutpopped>Aufgeplatzte Pop-Nuss</entityname.popnutpopped>
+  <!--Patch 10-->
+  <entitydescription.popnutpopped>Sie ist aufgeplatzt und bereit für den Verzehr. Findet gebrauch in einigen Rezepten.</entitydescription.popnutpopped>
+  <!--Patch 10-->
+  <entityname.badpopnutpopped>Aufgeplatzte Mutierte Pop-Nuss</entityname.badpopnutpopped>
+  <!--Patch 10-->
+  <entitydescription.badpopnutpopped>Sie ist aufgeplatzt und bereit für den Verzehr. Findet gebrauch in einigen Rezepten. Könnte gefährlich sein, sie im Wasser liegen zu lassen.</entitydescription.badpopnutpopped>
+  <!--Patch 10-->
+  <entityname.badpopnut>Mutierte Pop-Nuss</entityname.badpopnut>
+  <!--Patch 10-->
+  <entityname.badtobaccobud>Mutierte Tabakpflanze</entityname.badtobaccobud>
+  <!--Patch 10-->
+  <entityname.badsaltbulb>Mutierte Salzglocke</entityname.badsaltbulb>
+  <!--Patch 10-->
+  <!-- SEEDS -->
+  <entityname.bubbleberryvineseed>Blasenbeerenrebensamen</entityname.bubbleberryvineseed>
+  <!--Patch 10-->
+  <entitydescription.bubbleberryvineseed>Pflanze sie in einem Pflanzkasten um Blasenbeeren zu züchten.</entitydescription.bubbleberryvineseed>
+  <!--Patch 10-->
+  <entityname.popnutvineseed>Pop-Nussrebensamen</entityname.popnutvineseed>
+  <!--Patch 10-->
+  <entitydescription.popnutvineseed>Pflanze sie in einem Pflanzkasten um Pop-Nüsse zu züchten.</entitydescription.popnutvineseed>
+  <!--Patch 10-->
+  <!-- Drinks -->
+  <entityname.he-energydrink1>Energydrink</entityname.he-energydrink1>
+  <entitydescription.he-energydrink1>Ein erfrischender Energydrink. Gut, wenn man sturzbesoffen ist und schnell wieder zu Sinnen kommen muss.</entitydescription.he-energydrink1>
+  <entityname.rum>Rum</entityname.rum>
+  <entitydescription.rum>Ein starkes alkoholisches Getränk. |Alkoholisches Getränk |Verringert Psychose |Verringert Halluzinationen |Verringert Hülleninfektion (wenn unter 90%) |Verringert Schmerzen |Erhöht Psychosenresistenz</entitydescription.rum>
+  <entityname.he-rum>Pirate Rum</entityname.he-rum>
+  <entitydescription.he-rum>Ein sehr starker Rum, angereichert mit Uran für den besonderen Geschmack. |Alkoholisches Getränk |Verringert Psychose |Verringert Halluzinationen |Verringert Hülleninfektion (wenn unter 90%) |Verringert Schmerzen |Erhöht Psychosenresistenz |Erhöht Strahlenkrankheit (geringfügig)</entitydescription.he-rum>
+  <entityname.he-whiskey>Doc's Whiskey</entityname.he-whiskey>
+  <entitydescription.he-whiskey>Doktor Michael's originaler Whiskey. Empfohlen von Doktoren Europaweit. |Alkoholisches Getränk |Verringert Halluzinationen |Verringert die Effekte von Halucinova |Verringert Chemikaliensucht |Erhöt Psychosenresistenz |Verringert Schmerzen (geringfügig)</entitydescription.he-whiskey>
+  <!--Changed as of Patch 10-->
+  <entityname.he-halucinova>Halucinova</entityname.he-halucinova>
+  <entitydescription.he-halucinova>Unbedingt von "Sadashi Kira" fernhalten! |Alkoholisches Getränk |Verursacht Halluzinationen |Verringert Schmerzen (geringfügig)</entitydescription.he-halucinova>
+  <entityname.he-beer>Koalition Premium</entityname.he-beer>
+  <entitydescription.he-beer>Ein beliebtes Bier unter Bewohnern von Koalition-Stationen. |Alkoholisches Getränk |Erhöt Psychosenresistenz</entitydescription.he-beer>
+  <entityname.he-water>Wasser</entityname.he-water>
+  <entitydescription.he-water>Frisches Wasser. Hilft ein wenig bei vollem Magen oder wenn du sturzbesoffen bist.</entitydescription.he-water>
+  <entityname.he-waterbeer>Wasser</entityname.he-waterbeer>
+  <!--Patch 10-->
+  <entitydescription.he-waterbeer>Frisches Wasser. Hilft ein wenig bei vollem Magen oder wenn du sturzbesoffen bist.</entitydescription.he-waterbeer>
+  <!--Patch 10-->
+  <entityname.he-waterrum>Wasser</entityname.he-waterrum>
+  <!--Patch 10-->
+  <entitydescription.he-waterrum>Frisches Wasser. Hilft ein wenig bei vollem Magen oder wenn du sturzbesoffen bist.</entitydescription.he-waterrum>
+  <!--Patch 10-->
+  <entityname.he-waterwhiskey>Wasser</entityname.he-waterwhiskey>
+  <!--Patch 10-->
+  <entitydescription.he-waterwhiskey>Frisches Wasser. Hilft ein wenig bei vollem Magen oder wenn du sturzbesoffen bist.</entitydescription.he-waterwhiskey>
+  <!--Patch 10-->
+  <entityname.he-waterhalucinova>Wasser</entityname.he-waterhalucinova>
+  <!--Patch 10-->
+  <entitydescription.he-waterhalucinova>Frisches Wasser. Hilft ein wenig bei vollem Magen oder wenn du sturzbesoffen bist.</entitydescription.he-waterhalucinova>
+  <!--Patch 10-->
+  <entityname.he-milk>Moloch-Milch</entityname.he-milk>
+  <entitydescription.he-milk>Eine Flasche Moloch-Milch. Scheckt etwas komisch. Frag nicht, wie man einen Moloch milkt! Sättigt ein wenig und hilft beim Ausnüchtern.</entitydescription.he-milk>
+  <entityname.he-seawaterrum>Meerwasser</entityname.he-seawaterrum>
+  <entitydescription.he-seawaterrum>Meerwasser. Besser als nichts, aber du solltest es wirklich nicht trinken.</entitydescription.he-seawaterrum>
+  <entityname.he-seawaterwhiskey>Meerwasser</entityname.he-seawaterwhiskey>
+  <entitydescription.he-seawaterwhiskey>Meerwasser. Besser als nichts, aber du solltest es wirklich nicht trinken.</entitydescription.he-seawaterwhiskey>
+  <entityname.he-seawaterhalucinova>Meerwasser</entityname.he-seawaterhalucinova>
+  <entitydescription.he-seawaterhalucinova>Meerwasser. Besser als nichts, aber du solltest es wirklich nicht trinken.</entitydescription.he-seawaterhalucinova>
+  <entityname.he-seawater>Sea Water</entityname.he-seawater>
+  <entitydescription.he-seawater>Meerwasser. Besser als nichts, aber du solltest es wirklich nicht trinken.</entitydescription.he-seawater>
+  <entityname.he-beercoalitionpremium>Koalition Premium</entityname.he-beercoalitionpremium>
+  <!--Changed as of Patch 10 | Identifier changed. Previous identifier <entityname.he-beer>-->
+  <entitydescription.he-beercoalitionpremium>Ein beliebtes Bier unter Bewohnern von Koalition-Stationen. |Alkoholisches Getränk |Erhöt Psychosenresistenz</entitydescription.he-beercoalitionpremium>
+  <!--Changed as of Patch 10 | Identifier changed. Previous identifier <entityname.he-beer>-->
+  <entityname.he-beerjovianforce>Jovianische Kraft</entityname.he-beerjovianforce>
+  <!--Patch 10-->
+  <entitydescription.he-beerjovianforce>Ein sehr beliebtes Bier unter Separatisten. |Alkoholisches Getränk |Erhöt Psychosenresistenz</entitydescription.he-beerjovianforce>
+  <!--Patch 10-->
+  <entityname.he-beerliquidascension>Flüssige Himmelfahrt</entityname.he-beerliquidascension>
+  <!--Patch 10-->
+  <entitydescription.he-beerliquidascension>Ein beliebtes Bier unter Mitgliedern der Kirche der Hülle! |Alkoholisches Getränk |Erhöt Psychosenresistenz |Erhöht Druckresistenz |Sauerstoff nicht inklusive |Kann Spuren von Hüllenparasiten enthalten</entitydescription.he-beerliquidascension>
+  <!--Patch 10-->
+  <entityname.he-beerclownjuice>Clown Saft</entityname.he-beerclownjuice>
+  <!--Patch 10-->
+  <entitydescription.he-beerclownjuice>Ein beliebtes Bier unter Streichespielern. Gelobt sei die Trötmutter! |Alkoholisches Getränk |Erhöt Psychosenresistenz</entitydescription.he-beerclownjuice>
+  <!--Patch 10-->
+  <entityname.he-beerreaperstribute>Gevatters Zoll</entityname.he-beerreaperstribute>
+  <!--Patch 10-->
+  <entitydescription.he-beerreaperstribute>Ein starked Bier um dem Totenreich Tribut zu zollen. |Alkoholisches Getränk |Zollt Gevatters Tribut |Erhöt Psychosenresistenz</entitydescription.he-beerreaperstribute>
+  <!--Patch 10-->
+  <!-- Kegs -->
+  <entityname.he-kegempty>Leeres Fass</entityname.he-kegempty>
+  <!--Patch 10-->
+  <entitydescription.he-kegempty>Ein leeres Fass, welches Verwendung in einigen Rezepten findet. Kann in Wasser verwendet werden, um Meerwasser zu sammeln.</entitydescription.he-kegempty>
+  <!--Patch 10-->
+  <entityname.he-kegseawater>Meerwasserfass</entityname.he-kegseawater>
+  <!--Patch 10-->
+  <entitydescription.he-kegseawater>Ein Fass voll mit Meerwasser. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen. Kann am Herd oder Braukessel zu frischem Wasser gekocht werden. Findet auch Verwendung im Hydrokulturtank.</entitydescription.he-kegseawater>
+  <!--Patch 10-->
+  <entityname.he-kegwater>Wasserfass</entityname.he-kegwater>
+  <!--Patch 10-->
+  <entitydescription.he-kegwater>Ein Fass voll mit frischem Wasser. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen. Findet auch Verwendung im Hydrokulturtank.</entitydescription.he-kegwater>
+  <!--Patch 10-->
+  <entityname.he-kegcoalitionpremium>Koalition Premium Fass</entityname.he-kegcoalitionpremium>
+  <!--Patch 10-->
+  <entitydescription.he-kegcoalitionpremium>Ein Fass voll mit Koalition Premium Bier. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegcoalitionpremium>
+  <!--Patch 10-->
+  <entityname.he-kegjovianforce>Jovianische Kraft Fass</entityname.he-kegjovianforce>
+  <!--Patch 10-->
+  <entitydescription.he-kegjovianforce>Ein Fass voll mit Jovianische Kraft Bier. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegjovianforce>
+  <!--Patch 10-->
+  <entityname.he-kegliquidascension>Flüssige Himmelfahrt Fass</entityname.he-kegliquidascension>
+  <!--Patch 10-->
+  <entitydescription.he-kegliquidascension>Ein Fass voll mit Flüssige Himmelfahrt Bier. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegliquidascension>
+  <!--Patch 10-->
+  <entityname.he-kegclownjuice>Clown Saft Fass</entityname.he-kegclownjuice>
+  <!--Patch 10-->
+  <entitydescription.he-kegclownjuice>Ein Fass voll mit Clown Saft Bier. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegclownjuice>
+  <!--Patch 10-->
+  <entityname.he-kegreaperstribute>Gevatters Zoll Fass</entityname.he-kegreaperstribute>
+  <!--Patch 10-->
+  <entitydescription.he-kegreaperstribute>Ein Fass voll mit Gevatters Zoll Bier. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegreaperstribute>
+  <!--Patch 10-->
+  <entityname.he-kegrum>Rumfass</entityname.he-kegrum>
+  <!--Patch 10-->
+  <entitydescription.he-kegrum>Ein Fass voll mit Rum. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegrum>
+  <!--Patch 10-->
+  <entityname.he-kegpiraterum>Piratenrumfass</entityname.he-kegpiraterum>
+  <!--Patch 10-->
+  <entitydescription.he-kegpiraterum>Ein Fass voll mit Piratenrum. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegpiraterum>
+  <!--Patch 10-->
+  <entityname.he-kegwhiskey>Whiskeyfass</entityname.he-kegwhiskey>
+  <!--Patch 10-->
+  <entitydescription.he-kegwhiskey>Ein Fass voll mit Whiskey. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-kegwhiskey>
+  <!--Patch 10-->
+  <entityname.he-keghalucinova>Halucinovafass</entityname.he-keghalucinova>
+  <!--Patch 10-->
+  <entitydescription.he-keghalucinova>Ein Fass voll mit Halucinova. Kann verwendet werden, um Flaschen an einer Füllstation aufzufüllen.</entitydescription.he-keghalucinova>
+  <!--Patch 10-->
+  <!-- Ingredients -->
+  <entityname.he-emptybottlerum>Leere Rumflasche</entityname.he-emptybottlerum>
+  <entitydescription.he-emptybottlerum>Eine leere Rumflasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottlerum>
+  <entityname.he-emptybottlewhiskey>Leere Whiskeyflasche</entityname.he-emptybottlewhiskey>
+  <entitydescription.he-emptybottlewhiskey>Eine leere Whiskeyflasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottlewhiskey>
+  <entityname.he-emptybottlehalucinova>Leere Halucinovaflasche</entityname.he-emptybottlehalucinova>
+  <entitydescription.he-emptybottlehalucinova>Eine leere Halucinovaflasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottlehalucinova>
+  <entityname.he-emptybottlebeer>Leere Bierflasche</entityname.he-emptybottlebeer>
+  <entitydescription.he-emptybottlebeer>Eine leere Bierflasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottlebeer>
+  <entityname.he-emptybottle>Leere Flasche</entityname.he-emptybottle>
+  <entitydescription.he-emptybottle>Eine leere Flasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottle>
+  <entityname.he-emptyjar>Leeres Einmachglas</entityname.he-emptyjar>
+  <entitydescription.he-emptyjar>Ein leeres Einmachglas, welches Verwendung in einigen Rezepten findet. Kann geworfen werden.</entitydescription.he-emptyjar>
+  <entityname.he-emptyshaker>Leerer Streuer</entityname.he-emptyshaker>
+  <!--Patch 11-->
+  <entitydescription.he-emptyshaker>Ein leerer Streuer, bereit um mit Salz gefüllt zu werden! Kann geworfen werden.</entitydescription.he-emptyshaker>
+  <!--Patch 11-->
+  <entityname.he-emptybottlerum2>Empty Rum Bottle</entityname.he-emptybottlerum2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlerum2>An empty Rum bottle used for some recipes. Can be thrown or used in water to collect sea water.</entitydescription.he-emptybottlerum2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlewhiskey2>Leere Whiskeyflasche</entityname.he-emptybottlewhiskey2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlewhiskey2>Eine leere Whiskeyflasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottlewhiskey2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlehalucinova2>Leere Halucinovaflasche</entityname.he-emptybottlehalucinova2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlehalucinova2>Eine leere Halucinovaflasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottlehalucinova2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlebeer2>Leere Bierflasche</entityname.he-emptybottlebeer2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlebeer2>Eine leere Bierflasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottlebeer2>
+  <!--Patch 11-->
+  <entityname.he-emptybottle2>Leere Flasche</entityname.he-emptybottle2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottle2>Eine leere Flasche, welche Verwendung in einigen Rezepten findet. Kann geworfen werden oder in Wasser genutzt werden um sie mit Meerwasser zu füllen.</entitydescription.he-emptybottle2>
+  <!--Patch 11-->
+  <entityname.he-emptyjar2>Leeres Einmachglas</entityname.he-emptyjar2>
+  <!--Patch 11-->
+  <entitydescription.he-emptyjar2>Ein leeres Einmachglas, welches Verwendung in einigen Rezepten findet. Kann geworfen werden.</entitydescription.he-emptyjar2>
+  <!--Patch 11-->
+  <entityname.he-emptyshaker2>Leerer Streuer</entityname.he-emptyshaker2>
+  <!--Patch 11-->
+  <entitydescription.he-emptyshaker2>Ein leerer Streuer, bereit um mit Salz gefüllt zu werden! Kann geworfen werden.</entitydescription.he-emptyshaker2>
+  <!--Patch 11-->
+  <entityname.he-endwormmeatchunk>Enderwurmfleischklumpen</entityname.he-endwormmeatchunk>
+  <entitydescription.he-endwormmeatchunk>Ein fetter Klumpen Enderwurmfleisch. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-endwormmeatchunk>
+  <entityname.he-rawendwormmeat>Rohes Enderwurmfleisch</entityname.he-rawendwormmeat>
+  <entitydescription.he-rawendwormmeat>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawendwormmeat>
+  <entityname.he-rawendwormsausage>Rohe Enderwurmwurst</entityname.he-rawendwormsausage>
+  <entitydescription.he-rawendwormsausage>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawendwormsausage>
+  <entityname.he-rawendwormmeatpatty>Rohe Enderwurmbulette</entityname.he-rawendwormmeatpatty>
+  <entitydescription.he-rawendwormmeatpatty>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawendwormmeatpatty>
+  <entityname.he-humanmeatchunk>Menschliches Fleisch</entityname.he-humanmeatchunk>
+  <entitydescription.he-humanmeatchunk>Teile eines Menschen. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-humanmeatchunk>
+  <entityname.he-rawhumanmeat>Rohes Menschenfleisch</entityname.he-rawhumanmeat>
+  <entitydescription.he-rawhumanmeat>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhumanmeat>
+  <entityname.he-rawhumansausage>Rohe Menschenwurst</entityname.he-rawhumansausage>
+  <entitydescription.he-rawhumansausage>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhumansausage>
+  <entityname.he-rawhumanmeatpatty>Rohes Menschenfleischbulette</entityname.he-rawhumanmeatpatty>
+  <entitydescription.he-rawhumanmeatpatty>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhumanmeatpatty>
+  <entityname.he-crawlermeatchunk>Kriecherhälfte</entityname.he-crawlermeatchunk>
+  <entitydescription.he-crawlermeatchunk>Die Hälfte eines Kriechers. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-crawlermeatchunk>
+  <entityname.he-crawlermeatchunkspecial>Kriecherfleischklumpen</entityname.he-crawlermeatchunkspecial>
+  <entitydescription.he-crawlermeatchunkspecial>Ein Klumpen Fleisch von einem Kriecher.</entitydescription.he-crawlermeatchunkspecial>
+  <entityname.he-rawcrawlermeat>Rohes Kriecherfleisch</entityname.he-rawcrawlermeat>
+  <entitydescription.he-rawcrawlermeat>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawcrawlermeat>
+  <entityname.he-rawcrawlersausage>Rohe Kriecherwurst</entityname.he-rawcrawlersausage>
+  <entitydescription.he-rawcrawlersausage>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawcrawlersausage>
+  <entityname.he-rawcrawlermeatpatty>Rohe Kriecherbulette</entityname.he-rawcrawlermeatpatty>
+  <entitydescription.he-rawcrawlermeatpatty>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawcrawlermeatpatty>
+  <entityname.he-mudraptormeatchunk>Schlammechsenfleischklumpen</entityname.he-mudraptormeatchunk>
+  <entitydescription.he-mudraptormeatchunk>Ein schöner Klumpen Fleisch von einer Schlammechse. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-mudraptormeatchunk>
+  <entityname.he-rawmudraptormeat>Rohes Schlammechsenfleisch</entityname.he-rawmudraptormeat>
+  <entitydescription.he-rawmudraptormeat>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawmudraptormeat>
+  <entityname.he-rawmudraptorsausage>Rohe Schlammechsenwurst</entityname.he-rawmudraptorsausage>
+  <entitydescription.he-rawmudraptorsausage>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawmudraptorsausage>
+  <entityname.he-rawmudraptormeatpatty>Rohe Schlammechsenbulette</entityname.he-rawmudraptormeatpatty>
+  <entitydescription.he-rawmudraptormeatpatty>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawmudraptormeatpatty>
+  <entityname.he-rawmudraptorroast>Roher Schlammechsenbraten</entityname.he-rawmudraptorroast>
+  <entitydescription.he-rawmudraptorroast>Zeit ihn in den Ofen zu schieben! Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawmudraptorroast>
+  <entityname.he-hammerheadmeatchunk>Hammerkopffleischklumpen</entityname.he-hammerheadmeatchunk>
+  <entitydescription.he-hammerheadmeatchunk>Ein schöner Klumpen Fleisch, herausgeschnitten aus einem Hammerkopf. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-hammerheadmeatchunk>
+  <entityname.he-rawhammerheadmeat>Rohes Hammerkopffleisch</entityname.he-rawhammerheadmeat>
+  <entitydescription.he-rawhammerheadmeat>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhammerheadmeat>
+  <entityname.he-rawhammerheadsausage>Rohe Hammerkopfwurst</entityname.he-rawhammerheadsausage>
+  <entitydescription.he-rawhammerheadsausage>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhammerheadsausage>
+  <entityname.he-rawhammerheadmeatpatty>Rohe Hammerkopfbulette</entityname.he-rawhammerheadmeatpatty>
+  <entitydescription.he-rawhammerheadmeatpatty>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhammerheadmeatpatty>
+  <entityname.he-rawhammerheadspareribs>Rohe Hammerkopfrippchen</entityname.he-rawhammerheadspareribs>
+  <entitydescription.he-rawhammerheadspareribs>Aus einem rießigen Brustkorb herausgeschnitten. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhammerheadspareribs>
+  <entityname.he-rawhammerheadroast>Roher Hammerkopfbraten</entityname.he-rawhammerheadroast>
+  <entitydescription.he-rawhammerheadroast>Zeit ihn in den Ofen zu schieben! Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawhammerheadroast>
+  <entityname.he-hammerheadspawnmeatchunk>Rohe Hammerkopf-Brut</entityname.he-hammerheadspawnmeatchunk>
+  <entitydescription.he-hammerheadspawnmeatchunk>Ein Hammerkopf-Säugling. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-hammerheadspawnmeatchunk>
+  <entityname.he-threshermeatchunk>Flosserfleischklumpen</entityname.he-threshermeatchunk>
+  <entitydescription.he-threshermeatchunk>Ein Stück Fleisch von einer der Flosserspezien. Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-threshermeatchunk>
+  <entityname.he-rawthreshermeat>Rohes Flosserfleisch</entityname.he-rawthreshermeat>
+  <entitydescription.he-rawthreshermeat>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawthreshermeat>
+  <entityname.he-rawthreshersausage>RoheFlosserwurst</entityname.he-rawthreshersausage>
+  <entitydescription.he-rawthreshersausage>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawthreshersausage>
+  <entityname.he-rawthreshermeatpatty>Rohe Flosserbulette</entityname.he-rawthreshermeatpatty>
+  <entitydescription.he-rawthreshermeatpatty>Verdirbt außerhalb eines kühlen Behälters.</entitydescription.he-rawthreshermeatpatty>
+  <entityname.he-salt>Salz</entityname.he-salt>
+  <entitydescription.he-salt>Werd' jetzt bloß nicht salzig!</entitydescription.he-salt>
+  <entityname.he-pepper>Synthetischer Pfeffer</entityname.he-pepper>
+  <entitydescription.he-pepper>Künstlich hergestellter Pfeffer.</entitydescription.he-pepper>
+  <entityname.he-sugar>Zucker</entityname.he-sugar>
+  <entitydescription.he-sugar>Oh so süß!</entitydescription.he-sugar>
+  <entityname.he-ketchup>Ketchup</entityname.he-ketchup>
+  <entitydescription.he-ketchup>Aus Granatäpfeln hergestellt.</entitydescription.he-ketchup>
+  <entityname.he-vinegar>Essig</entityname.he-vinegar>
+  <entitydescription.he-vinegar>Dieser Geruch...</entitydescription.he-vinegar>
+  <entityname.he-cookingoil>Speiseöl</entityname.he-cookingoil>
+  <entitydescription.he-cookingoil>Dieses hier wird nicht in Motoren verwendet.</entitydescription.he-cookingoil>
+  <entityname.he-flour>Synthetisches Mehl</entityname.he-flour>
+  <entitydescription.he-flour>Originales "Europan Synthetiflour".</entitydescription.he-flour>
+  <entityname.he-glassfragments>Glasfragmente</entityname.he-glassfragments>
+  <!--Patch 10-->
+  <entitydescription.he-glassfragments>Zerbrochenes Glas. Kann durch das Zerbrechen von Flaschen oder das Verarbeiten von Quartzkristallen an einem Fabrikator ergattert werden. Findet Verwendung in Fabrikatoren oder Flaschendruckern.</entitydescription.he-glassfragments>
+  <!--Patch 10-->
+  <entityname.he-jambubbleberry>Blasenbeerenmarmelade</entityname.he-jambubbleberry>
+  <!--Patch 10-->
+  <entitydescription.he-jambubbleberry>Leckere Marmelade, hergestellt aus Blasenbeeren. Löscht etwas Durst.</entitydescription.he-jambubbleberry>
+  <!--Patch 10-->
+  <!-- Tools -->
+  <entityname.he-enableneeds>Hungriger Europäer (Bedürfnisse Aktivieren)</entityname.he-enableneeds>
+  <entitydescription.he-enableneeds>[RMB+E] Aktiviert Hunger und Durst für den Anwender, sodass dieser regelmäßig essen und trinken muss. Diese Spielmechanik ist komplett optional und wird Nicht benötigt, um temporäre Vorteile von Nahrungsmitteln zu erhalten. Warnung: Kann für den jeweiligen Charakter nicht wieder abgeschaltet werden! NICHT VERWENDEN, WENN DU MIT "NEEDS" VON "LeDoux" SPIELST!</entitydescription.he-enableneeds>
+  <entityname.he-cleaver>Hackmesser</entityname.he-cleaver>
+  <entitydescription.he-cleaver>Kann folgende Kreaturen schlachten:\n-Kriecher\n-Schlammechsen\n-Flosser\n-Hammerköpfe\n-Hammerkopf-Bruten\n-Enderwürmer\n-Menschen\n</entitydescription.he-cleaver>
+  <entityname.he-skillbooktheeuropan>The Europan Ausgabe 66</entityname.he-skillbooktheeuropan>
+  <entitydescription.he-skillbooktheeuropan>"... Schaue hinter den Vorhang der Zeit. Bist du das, Robert? Nein, ich bin Robert. Aber ich bin auch Doris. Ich bin das Fleisch. Iss von mir und werde eins mit dem Wurm. ..."</entitydescription.he-skillbooktheeuropan>
+  <entityname.he-skillbookauntdoris>DIE KUNST DES TIEFSEE-KOCHENS von Tante Doris</entityname.he-skillbookauntdoris>
+  <entitydescription.he-skillbookauntdoris>Die europäische Art zu kochen.</entitydescription.he-skillbookauntdoris>
+  <!-- Medical -->
+  <entityname.he-antistarve>Entkräftungsnotfall-Bewusstseinsrückerlanger</entityname.he-antistarve>
+  <entitydescription.he-antistarve>Wird verwendet, wenn der Patient das Bewusstsein durch zu starker Entkräftung durch Hunger oder Durst verloren hat.</entitydescription.he-antistarve>
+  <!-- Gear -->
+  <entityname.he-chefscap1>Kochmütze</entityname.he-chefscap1>
+  <entitydescription.he-chefscap1>Zeig ihnen, wessen Küche das ist!</entitydescription.he-chefscap1>
+  <entityname.he-chefscap2>Kochmütze</entityname.he-chefscap2>
+  <entitydescription.he-chefscap2>Zeig ihnen, wessen Küche das ist!</entitydescription.he-chefscap2>
+  <entityname.he-chefsuniform1>Kochuniform</entityname.he-chefsuniform1>
+  <entitydescription.he-chefsuniform1>Getragen von Köchen rund um Europa!</entitydescription.he-chefsuniform1>
+  <entityname.he-chefsuniform2>Kochuniform</entityname.he-chefsuniform2>
+  <entitydescription.he-chefsuniform2>Getragen von Köchen rund um Europa!</entitydescription.he-chefsuniform2>
+  <entityname.he-chefscapmaster1>Meisterkochmütze</entityname.he-chefscapmaster1>
+  <entitydescription.he-chefscapmaster1>Nur für die Küchenelite!</entitydescription.he-chefscapmaster1>
+  <entityname.he-chefsuniformmaster1>Meisterkochuniform</entityname.he-chefsuniformmaster1>
+  <entitydescription.he-chefsuniformmaster1>Getragen von Meisterköchen!</entitydescription.he-chefsuniformmaster1>
+  <!-- Fabricators and Containers -->
+  <entityname.he-kitchencounter>Küchenspüle</entityname.he-kitchencounter>
+  <!--Changed as of Patch 10-->
+  <entitydescription.he-kitchencounter>Kann bis zu 18 verschiedene kleine oder mittelgroße Gegenstände lagern. Kann außerdem leere Flaschen und Fässer mit Meerwasser auffüllen.</entitydescription.he-kitchencounter>
+  <!--Changed as of Patch 10-->
+  <entityname.he-kitchencounter>Küchenzeile</entityname.he-kitchencounter>
+  <!--Patch 10-->
+  <entitydescription.he-kitchencounter>Kann bis zu 30 verschiedene kleine oder mittelgroße Gegenstände lagern.</entitydescription.he-kitchencounter>
+  <!--Patch 10-->
+  <entityname.he-refrigerator>Kühlschrank</entityname.he-refrigerator>
+  <entitydescription.he-refrigerator>Verhindert das verrotten von Fleisch. Kann nur Lebensmittel lagern. Benötigt Strom.</entitydescription.he-refrigerator>
+  <!--Changed as of Patch 10-->
+  <entityname.he-stove>Herd</entityname.he-stove>
+  <entitydescription.he-stove>Wird zum Kochen verwendet. Benötigt Strom.</entitydescription.he-stove>
+  <entityname.he-oven>Ofen</entityname.he-oven>
+  <entitydescription.he-oven>Wird zum Backen verwendet. Benötigt Strom.</entitydescription.he-oven>
+  <entityname.he-cuttingboard>Schneidbrett</entityname.he-cuttingboard>
+  <entitydescription.he-cuttingboard>Wird verwendet um Mahlzeiten oder Zutaten zuzubereiten.</entitydescription.he-cuttingboard>
+  <entityname.he-fryer>Fritteuse</entityname.he-fryer>
+  <!--Patch 10-->
+  <entitydescription.he-fryer>Wird zum frittieren verwendet. Benötigt Strom.</entitydescription.he-fryer>
+  <!--Patch 10-->
+  <entityname.he-distiller>Brenner</entityname.he-distiller>
+  <!--Patch 10-->
+  <entitydescription.he-distiller>Wird verwendet um Ethanol aus Zucker und Meereshefepilz zu brennen. Benötigt Strom.</entitydescription.he-distiller>
+  <!--Patch 10-->
+  <entityname.he-brewkettle>Braukessel</entityname.he-brewkettle>
+  <!--Patch 10-->
+  <entitydescription.he-brewkettle>Wird verwendet um allerlei Arten von Getränken zu brauen. Benötigt Strom.</entitydescription.he-brewkettle>
+  <!--Patch 10-->
+  <entityname.he-bottleprinter>Flaschendrucker</entityname.he-bottleprinter>
+  <!--Patch 10-->
+  <entitydescription.he-bottleprinter>Wird verwendet um Flaschen jeglicher Art aus Glasfragmenten schnell und effizient zu produzieren. Benötigt Strom.</entitydescription.he-bottleprinter>
+  <!--Patch 10-->
+  <entityname.he-refillstation>Füllstation</entityname.he-refillstation>
+  <!--Patch 10-->
+  <entitydescription.he-refillstation>Wird verwendet um leere Flaschen mithilfe eines Fasses aufzufüllen.</entitydescription.he-refillstation>
+  <!--Patch 10-->
+  <entityname.he-coolercrate>Kühler</entityname.he-coolercrate>
+  <!--Patch 10-->
+  <entitydescription.he-coolercrate>Verhindert das verrotten von Fleisch. Benötigt eine Batterie.</entitydescription.he-coolercrate>
+  <!--Patch 10-->
+  <entityname.he-liquorcrate>Getränkekiste</entityname.he-liquorcrate>
+  <!--Patch 10-->
+  <entitydescription.he-liquorcrate>Wird verwendet um bis zu 20 Flaschen zu transportieren oder zu lagern.</entitydescription.he-liquorcrate>
+  <!--Patch 10-->
+  <entityname.he-liquorcrateshelf>Getränkekistenregal</entityname.he-liquorcrateshelf>
+  <!--Patch 10-->
+  <entitydescription.he-liquorcrateshelf>Ein Regal welches bis zu 4 Getränke- oder Einmachglaskisten sicher lagern kann, um sie vor Einschlägen zu schützen.</entitydescription.he-liquorcrateshelf>
+  <!--Patch 10-->
+  <entityname.he-liquorcrateshelfsmall>Getränkekistenregal (Klein)</entityname.he-liquorcrateshelfsmall>
+  <!--Patch 10-->
+  <entitydescription.he-liquorcrateshelfsmall>Ein kleines Regal welches bis zu 2 Getränke- oder Einmachglaskisten sicher lagern kann, um sie vor Einschlägen zu schützen.</entitydescription.he-liquorcrateshelfsmall>
+  <!--Patch 10-->
+  <entityname.he-liquordisplayshelf>Getränkeschrank</entityname.he-liquordisplayshelf>
+  <!--Patch 10-->
+  <entitydescription.he-liquordisplayshelf>Ein Schrank um deine Getränke zu verstauen oder auszustellen. Einmachgläser passen nicht hinein.</entitydescription.he-liquordisplayshelf>
+  <!--Patch 10-->
+  <entityname.he-toolbeltlunch>Werkzeuggürtel mit Lunchbox</entityname.he-toolbeltlunch>
+  <!--Patch 10-->
+  <entitydescription.he-toolbeltlunch>Ein Werkzeuggürtel mit einer angebrachten Lunchbox. Damit kannst du deine Lebensmittel immer bei dir tragen.</entitydescription.he-toolbeltlunch>
+  <!--Patch 10-->
+  <entityname.he-lunchbox>Lunchbox</entityname.he-lunchbox>
+  <!--Patch 10-->
+  <entitydescription.he-lunchbox>Eine Box um deine Lebensmittel mit dir zu tragen. Kann an einem Fabrikator mit einem Werkzeuggürtel kombiniert werden.</entitydescription.he-lunchbox>
+  <!--Patch 10-->
+  <entityname.he-hydroponicplanter>Hydrokulturtank</entityname.he-hydroponicplanter>
+  <!--Patch 10-->
+  <entitydescription.he-hydroponicplanter>Ein Tank welcher die perfekten Bedingungen für Europas Wasserpflanzen erfüllt. Erzeugt alle 15 Minuten einen neuen Sprössling. Benötigt Strom.</entitydescription.he-hydroponicplanter>
+  <!--Patch 10-->
+  <entityname.he-cafeteriacart>Kantinenwagen</entityname.he-cafeteriacart>
+  <!--Patch 10-->
+  <entitydescription.he-cafeteriacart>Wird verwendet um größere Mengen an Nahrung zu transportieren oder an zugänglicheren für die Besatzung zu lagern. Kann bis zu 30 Lebensmittel lagern. Kann platziert werden.</entitydescription.he-cafeteriacart>
+  <!--Patch 10-->
+  <!-- Skills -->
+  <skillname.cooking>Kochen</skillname.cooking>
+  <skillname.butchery>Schlachten</skillname.butchery>
+  <!-- Jobs -->
+  <jobname.he-chef>Koch</jobname.he-chef>
+  <jobdescription.he-chef>Der Koch ist verantwortlich für das Schlachten von Kreaturen und Zubereiten von Mahlzeiten für die Besatzung, um sicherzustellen, dass alle Mitglieder gesättigt und glücklich sind.</jobdescription.he-chef>
+  <!-- Talents -->
+  <talentname.he-hungryeuropan>Hungriger Europäer</talentname.he-hungryeuropan>
+  <talentdescription.he-hungryeuropan>Du bist ein hungriger Europäer und musst regelmäßig essen und trinken.</talentdescription.he-hungryeuropan>
+  <talentname.he-poacher>Wilderer</talentname.he-poacher>
+  <talentdescription.he-poacher>Erhalte [xpbonus]% bonus Erfahrung in [missiontype1] und [missiontype2] Missionen.</talentdescription.he-poacher>
+  <talentname.he-saltybusiness>Salzige Angelegenheit</talentname.he-saltybusiness>
+  <talentdescription.he-saltybusiness>Wenn du einen Behälter zum ersten mal öffnest, besteht eine Chance von [probability]%, extra Salz darin zu finden.</talentdescription.he-saltybusiness>
+  <talentname.he-fastfood>Fastfood</talentname.he-fastfood>
+  <talentdescription.he-fastfood>Erhöht die Geschwindigkeit von Küchenspezifischen Fabrikatoren wie Herd, Ofen, usw. um [amount]%.</talentdescription.he-fastfood>
+  <talentname.he-chefattire>Kleidung des Meisters</talentname.he-chefattire>
+  <talentdescription.he-chefattire>Schaltet die Herstellungsrezepte für [itemname1] und [itemname2] frei.</talentdescription.he-chefattire>
+  <talentname.he-frenzy>Blutrausch</talentname.he-frenzy>
+  <talentdescription.he-frenzy>Erhöht deine Angrifsstärke mit Metzgerspezifischen Messern um [powerincrease]%.</talentdescription.he-frenzy>
+  <talentname.he-butchershop>Metzgerei</talentname.he-butchershop>
+  <talentdescription.he-butchershop>Du bist ein talentierter Schlachter und das macht sich bemerkbar!\nFleisch dass du verkaufst ist [amount]% mehr wert!</talentdescription.he-butchershop>
+  <talentname.he-coldblood>Kaltblüter</talentname.he-coldblood>
+  <talentdescription.he-coldblood>Du bist der coolste.\nFleisch verdirbt nicht wenn du es trägst.</talentdescription.he-coldblood>
+  <talentname.he-masterchef>Meisterkoch</talentname.he-masterchef>
+  <talentdescription.he-masterchef>Du bist jetzt Meister in deinem Feld und weißt wie man an Zutaten sparen kann.\nEs besteht nun eine Chance von [chance]% das eine zufällige Zutat beim zubereiten einer Mahlzeit nicht verbraucht wird.</talentdescription.he-masterchef>
+  <talentname.he-lifesaver>Lebensretter</talentname.he-lifesaver>
+  <talentdescription.he-lifesaver>Erhalte einen Bonus von [amount] auf [skill].\nSchaltet das Rezept für [itemname1] frei.</talentdescription.he-lifesaver>
+  <talentname.he-delicacies>Delikatessen</talentname.he-delicacies>
+  <talentdescription.he-delicacies>Schaltet die folgenden Rezepte europäischer Delikatessen frei:\n[itemname1]</talentdescription.he-delicacies>
+  <talentname.he-masterbrewer>Meisterbrauer</talentname.he-masterbrewer>
+  <!--Patch 10-->
+  <talentdescription.he-masterbrewer>Schaltet die folgenden Rezepte europäischer Braukunst frei:\n[itemname1]\n[itemname2]\n[itemname3]</talentdescription.he-masterbrewer>
+  <!--Patch 10-->
+  <!-- Afflictions -->
+  <afflictionname.hunger>Hunger</afflictionname.hunger>
+  <!--Patch 10-->
+  <afflictionname.he-hunger>Hunger</afflictionname.he-hunger>
+  <afflictiondescription.he-hunger>Der Magen ist glücklich.</afflictiondescription.he-hunger>
+  <afflictioncauseofdeath.he-hunger>Verhungert.</afflictioncauseofdeath.he-hunger>
+  <afflictioncauseofdeathself.he-hunger>Du bist verhungert.</afflictioncauseofdeathself.he-hunger>
+  <afflictiondescription.he-hunger.self>Der Magen knurrt!</afflictiondescription.he-hunger.self>
+  <afflictiondescription.he-hunger.lethal.self>Fast am verhungern...</afflictiondescription.he-hunger.lethal.self>
+  <afflictiondescription.he-hunger.other.low>Der Patient hat einen leichten Appetit.</afflictiondescription.he-hunger.other.low>
+  <afflictiondescription.he-hunger.other>Der Patient ist hungrig.</afflictiondescription.he-hunger.other>
+  <afflictiondescription.he-hunger.lethal.other>Der Patient beginnt zu verhungern.</afflictiondescription.he-hunger.lethal.other>
+  <afflictionname.thirst>Durst</afflictionname.thirst>
+  <!--Patch 10-->
+  <afflictionname.he-thirst>Durst</afflictionname.he-thirst>
+  <afflictiondescription.he-thirst>Du fühlst dich erfrischt.</afflictiondescription.he-thirst>
+  <afflictioncauseofdeath.he-thirst>Verdurstet.</afflictioncauseofdeath.he-thirst>
+  <afflictioncauseofdeathself.he-thirst>Du bist verdurstet.</afflictioncauseofdeathself.he-thirst>
+  <afflictiondescription.he-thirst.self>Der Rachen fühlt sich trocken an.</afflictiondescription.he-thirst.self>
+  <afflictiondescription.he-thirst.lethal.self>Fast am verdursten...</afflictiondescription.he-thirst.lethal.self>
+  <afflictiondescription.he-thirst.other.low>Der Patient wird durstig.</afflictiondescription.he-thirst.other.low>
+  <afflictiondescription.he-thirst.other>Der Patient ist durstig.</afflictiondescription.he-thirst.other>
+  <afflictiondescription.he-thirst.lethal.other>Der Patient beginnt zu verdursten.</afflictiondescription.he-thirst.lethal.other>
+  <afflictionname.he-starvation>Verhungern</afflictionname.he-starvation>
+  <afflictiondescription.he-starvation>Am verhungern...</afflictiondescription.he-starvation>
+  <afflictioncauseofdeath.he-starvation>Verhungert.</afflictioncauseofdeath.he-starvation>
+  <afflictioncauseofdeathself.he-starvation>Du bist verhungert.</afflictioncauseofdeathself.he-starvation>
+  <afflictiondescription.he-starvation.self>Am verhungern...</afflictiondescription.he-starvation.self>
+  <afflictiondescription.he-starvation.other>Der Patient verhungert.</afflictiondescription.he-starvation.other>
+  <afflictionname.he-dieofthirst>Verdursten</afflictionname.he-dieofthirst>
+  <afflictiondescription.he-dieofthirst>Am verdursten...</afflictiondescription.he-dieofthirst>
+  <afflictioncauseofdeath.he-dieofthirst>Verdurstet.</afflictioncauseofdeath.he-dieofthirst>
+  <afflictioncauseofdeathself.he-dieofthirst>Du bist verdurstet.</afflictioncauseofdeathself.he-dieofthirst>
+  <afflictiondescription.he-dieofthirst.self>Am verdursten...</afflictiondescription.he-dieofthirst.self>
+  <afflictiondescription.he-dieofthirst.other>Der Patient verdurstet.</afflictiondescription.he-dieofthirst.other>
+  <afflictionname.he-increasedswimmingspeedcrawler>Erhöhte Schwimmgeschwindigkeit (Nahrung)</afflictionname.he-increasedswimmingspeedcrawler>
+  <afflictiondescription.he-increasedswimmingspeedcrawler>Du schwimmst 50% schneller.</afflictiondescription.he-increasedswimmingspeedcrawler>
+  <afflictionname.he-damageresistancemudraptor>Schadensresistenz (Nahrung)</afflictionname.he-damageresistancemudraptor>
+  <afflictiondescription.he-damageresistancemudraptor>Du nimmst 25% weniger Schaden.</afflictiondescription.he-damageresistancemudraptor>
+  <afflictionname.he-increasedwalkingspeedmudraptor>Erhöhte Laufgeschwindigkeit (Nahrung)</afflictionname.he-increasedwalkingspeedmudraptor>
+  <afflictiondescription.he-increasedwalkingspeedmudraptor>Du läufst 20% schneller.</afflictiondescription.he-increasedwalkingspeedmudraptor>
+  <afflictionname.he-damageresistancemoloch>Schadensresistenz (Nahrung)</afflictionname.he-damageresistancemoloch>
+  <afflictiondescription.he-damageresistancemoloch>Du nimmst 50% weniger Schaden.</afflictiondescription.he-damageresistancemoloch>
+  <afflictionname.he-increasedmeleedamagehammerhead>Erhöhter Nahkampfschaden (Nahrung)</afflictionname.he-increasedmeleedamagehammerhead>
+  <afflictiondescription.he-increasedmeleedamagehammerhead>Du verursachst 25% mehr Nahkampfschaden.</afflictiondescription.he-increasedmeleedamagehammerhead>
+  <afflictionname.he-decreasedoxygenconsumption>Verringerte Sauerstoffaufnahme (Nahrung)</afflictionname.he-decreasedoxygenconsumption>
+  <afflictiondescription.he-decreasedoxygenconsumption>Du benötigst keinen Sauerstoff.</afflictiondescription.he-decreasedoxygenconsumption>
+  <afflictionname.he-pressureresistance>Druckimmunität (Nahrung)</afflictionname.he-pressureresistance>
+  <afflictiondescription.he-pressureresistance>Du bist immun gegen hohen Druck.</afflictiondescription.he-pressureresistance>
+  <afflictionname.he-cannibalskillincrease>Verbesserte Fertigkeiten (Nahrung)</afflictionname.he-cannibalskillincrease>
+  <!--Patch 9-->
+  <afflictiondescription.he-cannibalskillincrease>All deine Fertigkeiten sind um 20% erhöht.</afflictiondescription.he-cannibalskillincrease>
+  <!--Patch 9-->
+  <afflictionname.he-alcoholism>Alkoholiker</afflictionname.he-alcoholism>
+  <afflictiondescription.he-alcoholism>Der Patient ist glücklich... solange er bekommt was er braucht.</afflictiondescription.he-alcoholism>
+  <advancedafflictiondescription.self.he-alcoholism>Aus dem Kahn mascht du am besten jetzt eine Brauerei! Du bist süchtig nach Alkohol.</advancedafflictiondescription.self.he-alcoholism>
+  <advancedafflictiondescription.others.he-alcoholism>Der Patient leidet an Alkoholismus.</advancedafflictiondescription.others.he-alcoholism>
+  <afflictionname.he-alcoholwithdrawal>Alkohol Entzugserscheinungen</afflictionname.he-alcoholwithdrawal>
+  <afflictiondescription.he-alcoholwithdrawal>Unruhe und Zittern sind klar zu erkennen, genau wie die Anzeichen von Übelkeit.</afflictiondescription.he-alcoholwithdrawal>
+  <afflictioncauseofdeath.he-alcoholwithdrawal>Durch Entzugserscheinungen verendet.</afflictioncauseofdeath.he-alcoholwithdrawal>
+  <afflictioncauseofdeathself.he-alcoholwithdrawal>Du bist an deinen Entzugserscheinungen gestorben.</afflictioncauseofdeathself.he-alcoholwithdrawal>
+  <advancedafflictiondescription.self.he-alcoholwithdrawal>Du spürrst es... es ist Zeit ein weiteres Bier zu zischen!</advancedafflictiondescription.self.he-alcoholwithdrawal>
+  <!--Changed as of Patch 8 | identifier was previously "advancedafflictiondescription.self.he-alcoholwithdrawal"-->
+  <advancedafflictiondescription.others.he-alcoholwithdrawal>Der Patient zeigt leichte Symptome von Alkoholentzug.</advancedafflictiondescription.others.he-alcoholwithdrawal>
+  <!--Changed as of Patch 8 | identifier was previously "advancedafflictiondescription.others.he-alcoholwithdrawal"-->
+  <advancedafflictiondescription.self.he-alcoholwithdrawal.2>Ein kaltes Bier oder eine Flasche Rum... Irgendetwas um diesen furchtbaren Durst nach Alkohol zu stillen!</advancedafflictiondescription.self.he-alcoholwithdrawal.2>
+  <!--Changed as of Patch 8 | identifier was previously "advancedafflictiondescription.self.he-alcoholwithdrawal.2"-->
+  <advancedafflictiondescription.others.he-alcoholwithdrawal.2>Der Patient zeigt starke Symptome von Alkoholentzug.</advancedafflictiondescription.others.he-alcoholwithdrawal.2>
+  <!--Changed as of Patch 8 | identifier was previously "advancedafflictiondescription.others.he-alcoholwithdrawal.2"-->
+  <afflictionname.he-cannibalism>Kannibalismus</afflictionname.he-cannibalism>
+  <!--Patch 8-->
+  <afflictiondescription.he-cannibalism>Der Patient ist glücklich... solange er bekommt was er braucht.</afflictiondescription.he-cannibalism>
+  <!--Patch 8-->
+  <advancedafflictiondescription.self.he-cannibalism>Oh oh! Sieht aus als stehst du auf den Geschmack deiner Kameraden.</advancedafflictiondescription.self.he-cannibalism>
+  <!--Patch 8-->
+  <advancedafflictiondescription.others.he-cannibalism>Der Patient mag ganz offensichtlich eine besondere Art von Fleisch.</advancedafflictiondescription.others.he-cannibalism>
+  <!--Patch 8-->
+  <afflictionname.he-hungryforhumanmeat>Hungrig nach Menschenfleisch</afflictionname.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <afflictiondescription.he-hungryforhumanmeat>Unruhe und Zittern sind klar zu erkennen, Die Augen starren in die leere.</afflictiondescription.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <afflictioncauseofdeath.he-hungryforhumanmeat>Ist über Menschenfleisch verrückt geworden.</afflictioncauseofdeath.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <afflictioncauseofdeathself.he-hungryforhumanmeat>Du wurdest verrückt nach Menschenfleisch.</afflictioncauseofdeathself.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <advancedafflictiondescription.self.he-hungryforhumanmeat>Deine Kameraden sehen sehr Schmackhaft aus!</advancedafflictiondescription.self.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <advancedafflictiondescription.others.he-hungryforhumanmeat>Der Patient starrt dich mit einem kalten Blick an.</advancedafflictiondescription.others.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <advancedafflictiondescription.self.he-hungryforhumanmeat.2>Es fällt dir schwer dich auf etwas zu konzentrieren. Du sehnst dich nach Menschenfleisch. Du willst töten. Allein der Gedanke lässt deine Arme stärker werden.</advancedafflictiondescription.self.he-hungryforhumanmeat.2>
+  <!--Patch 8-->
+  <advancedafflictiondescription.others.he-hungryforhumanmeat.2>Der Patient starrt dich mit einem kalten, zuckenden Blick an.</advancedafflictiondescription.others.he-hungryforhumanmeat.2>
+  <!--Patch 8-->
+  <afflictionname.he-drunkinvertcontrols>Desorientiert</afflictionname.he-drunkinvertcontrols>
+  <afflictiondescription.he-drunkinvertcontrols>Oben ist unten und links ist... rechts? Wo bin ich?</afflictiondescription.he-drunkinvertcontrols>
+  <afflictionname.he-stuffed>Voller Magen</afflictionname.he-stuffed>
+  <afflictiondescription.he-stuffed>Der Magen ist voll.</afflictiondescription.he-stuffed>
+  <afflictioncauseofdeath.he-stuffed>An Kotze erstickt.</afflictioncauseofdeath.he-stuffed>
+  <afflictioncauseofdeathself.he-stuffed>Du bist an deiner eigenen Kotze erstickt.</afflictioncauseofdeathself.he-stuffed>
+  <advancedafflictiondescription.self.he-stuffed>Der Magen ist voll.</advancedafflictiondescription.self.he-stuffed>
+  <advancedafflictiondescription.self.he-stuffed.2>Der Magen ist an seinem Limit. Mehr zu essen könnte zu Brechreiz führen.</advancedafflictiondescription.self.he-stuffed.2>
+  <advancedafflictiondescription.self.he-stuffed.3>Der Magen ist zu voll. Du fühlst dich als müsstest du dich übergeben.</advancedafflictiondescription.self.he-stuffed.3>
+  <advancedafflictiondescription.others.he-stuffed>Der Magen ist voll. Der Patient hat genug gegessen.</advancedafflictiondescription.others.he-stuffed>
+  <advancedafflictiondescription.others.he-stuffed.2>Der Magen ist sehr voll. Der Patient hat fast schon zu viel gegessen.</advancedafflictiondescription.others.he-stuffed.2>
+  <advancedafflictiondescription.others.he-stuffed.3>Der Magen ist zu voll. Der Patient übergibt sich möglicherweise.</advancedafflictiondescription.others.he-stuffed.3>
+  <afflictionname.he-stomachache>Bauchschmerzen</afflictionname.he-stomachache>
+  <afflictiondescription.he-stomachache>Der Magen tut weh.</afflictiondescription.he-stomachache>
+  <afflictioncauseofdeath.he-stomachache>An Kotze erstickt.</afflictioncauseofdeath.he-stomachache>
+  <afflictioncauseofdeathself.he-stomachache>Du bist an deiner eigenen Kotze erstickt.</afflictioncauseofdeathself.he-stomachache>
+  <advancedafflictiondescription.self.he-stomachache>Der Magen schmerzt und dir ist leicht übel.</advancedafflictiondescription.self.he-stomachache>
+  <advancedafflictiondescription.self.he-stomachache.2>Der Magen schmerzt sehr stark und dir ist sehr übel.</advancedafflictiondescription.self.he-stomachache.2>
+  <advancedafflictiondescription.others.he-stomachache>Der Magen des Patienten ist von zu viel Meerwasser gereizt.</advancedafflictiondescription.others.he-stomachache>
+  <afflictionname.he-butchered>Geschlachtet</afflictionname.he-butchered>
+  <afflictiondescription.he-butchered>Der Leichnam wird für Fleisch ausgeschlachtet.</afflictiondescription.he-butchered>
+  <afflictionname.he-halucinova>Halucinova</afflictionname.he-halucinova>
+  <afflictiondescription.he-halucinova.self>Du fühlst dich als würdest du in eine andere Dimension reisen.</afflictiondescription.he-halucinova.self>
+  <afflictiondescription.he-halucinova.others>Die Person blickt einfach in die Ferne.</afflictiondescription.he-halucinova.others>
+  <!-- MESSAGES -->
+  <msg.pickup.interact>[E] Aufheben</msg.pickup.interact>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.regular>MATERIAL EINGEFÜGT\nBLAUPAUSE EINGEFÜGT\nBEREIT UM REGULÄRE FLASCHEN ZU DRUCKEN.</bottleprinter.infotext.bottle.regular>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.beer>MATERIAL EINGEFÜGT\nBLAUPAUSE EINGEFÜGT\nBEREIT UM BIERFLASCHEN ZU DRUCKEN.</bottleprinter.infotext.bottle.beer>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.rum>MATERIAL EINGEFÜGT\nBLAUPAUSE EINGEFÜGT\nBEREIT UM RUMFLASCHEN ZU DRUCKEN.</bottleprinter.infotext.bottle.rum>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.whiskey>MATERIAL EINGEFÜGT\nBLAUPAUSE EINGEFÜGT\nBEREIT UM WHISKEYFLASCHEN ZU DRUCKEN.</bottleprinter.infotext.bottle.whiskey>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.halucinova>MATERIAL EINGEFÜGT\nBLAUPAUSE EINGEFÜGT\nBEREIT UM HALUCINOVAFLASCHEN ZU DRUCKEN.</bottleprinter.infotext.bottle.halucinova>
+  <!--Patch 10-->
+  <bottleprinter.infotext.jar>MATERIAL EINGEFÜGT\nBLAUPAUSE EINGEFÜGT\nBEREIT UM EINMACHGLÄSER ZU DRUCKEN.</bottleprinter.infotext.jar>
+  <!--Patch 10-->
+  <bottleprinter.infotext.shaker>MATERIAL EINGEFÜGT\nBLAUPAUSE EINGEFÜGT\nBEREIT UM STREUER ZU DRUCKEN.</bottleprinter.infotext.shaker>
+  <!--Patch 10-->
+  <bottleprinter.print>DRUCKEN</bottleprinter.print>
+  <!--Patch 10-->
+  <bottleprinter.missingitem.blueprint>MATERIAL EINGEFÜGT\nFEHLER: KEINE BLAUPAUSE GEFUNDEN! BITTE BLAUPAUSE EINFÜGEN.</bottleprinter.missingitem.blueprint>
+  <!--Patch 10-->
+  <bottleprinter.missingitem.glassfragments>BLAUPAUSE EINGEFÜGT\nFEHLER: KEINE GLASFRAGMENTE GEFUNDEN! BITTE GLASFRAGMENTE EINFÜGEN.</bottleprinter.missingitem.glassfragments>
+  <!--Patch 10-->
+  <bottleprinter.empty>FLASCHENDRUCKER BEREIT\BITTE FOLGENDES EINFÜGEN:\nA MATERIAL -IN- EINGANGABE\nA BLAUPAUSE -IN- EINGABE\nA PASSENDE KISTE -IN- AUSGABE</bottleprinter.empty>
+  <!--Patch 10-->
+  <he-bottleprinter.output>Mögliche Drucke:</he-bottleprinter.output>
+  <!--Patch 10-->
+  <distiller.distill>BRENNEN</distiller.distill>
+  <!--Patch 10-->
+  <distiller.ethanol>BEREIT ETHANOL ZU BRENNEN</distiller.ethanol>
+  <!--Patch 10-->
+  <distiller.empty>BRENNER BEREIT\nBITTE FOLGENDES EINFÜGEN:\nA ZUCKER -IN- EINGABE\nA MEERESHEFEPILZ -IN- EINGABE</distiller.empty>
+  <!--Patch 10-->
+  <distiller.missingitem.yeastshroom>ZUCKER EINGEFÜGT\nFEHLER: KEIN MEERESHEFEPILZ GEFUNDEN! BITTE MEERESHEFEPILZ EINFÜGEN.</distiller.missingitem.yeastshroom>
+  <!--Patch 10-->
+  <he-distiller.output>Ausgabe:</he-distiller.output>
+  <!--Patch 10-->
+  <interaction.emptybottle>Flasche leeren</interaction.emptybottle>
+  <!--Patch 11-->
+  <interaction.emptykeg>Fass leeren</interaction.emptykeg>
+  <!--Patch 12-->
+  <!-- ROOM NAMES -->
+  <roomname.kitchen>Küche</roomname.kitchen>
+  <!--Patch 10-->
+  <roomname.cafeteria>Kantine</roomname.cafeteria>
+  <!--Patch 10-->
+  <roomname.brewery>Brauerei</roomname.brewery>
+  <!--Patch 10-->
+</infotexts>

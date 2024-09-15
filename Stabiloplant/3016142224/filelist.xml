@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Stabiloplant" modversion="1.0.0" corepackage="False" steamworkshopid="3016142224" gameversion="1.2.8.0" expectedhash="597A98E5940425F8C2C7DB0FA531F18B">
+  <Item file="%ModDir%/items.xml" />
+  <Text file="%ModDir%/Languages/Russian.xml" />
+  <Text file="%ModDir%/Languages/English.xml" />
+</contentpackage>

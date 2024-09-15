@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="advwrench" variantof="wrench" category="Equipment" Tags="smallitem,tool,simpletool,mechanicalrepairtool,wrenchitem,mountableweapon" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True" useinhealthinterface="True">
+    <Preferredcontainer secondary="respawncontainer" amount="1" spawnprobability="1" notcampaign="true" />
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.0" />
+    <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" amount="1" spawnprobability="0.0" />
+    <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.0" />
+    <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.0" />
+    <Price baseprice="20" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" minavailable="5" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" minavailable="10" multiplier="0.9" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="wrench" amount="1" />
+      <Item identifier="handheldstatusmonitor" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="wrench" amount="1" />
+      <RequiredItem identifier="handheldstatusmonitor" amount="1" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/advtoolsicons.png" sourcerect="450,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/advtoolssprites.png" sourcerect="161,235,64,20" depth="0.55" origin="0.5,0.5" />
+    <Body width="60" height="15" density="30" />
+    <SuitableTreatment identifier="dislocation1" suitability="50" />
+    <SuitableTreatment identifier="dislocation2" suitability="50" />
+    <SuitableTreatment identifier="dislocation3" suitability="50" />
+    <SuitableTreatment identifier="dislocation4" suitability="50" />
+    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="-8,0" holdangle="60" reload="1.0" range="50" combatpriority="8" msg="ItemMsgPickUpSelect">
+      <Attack structuredamage="0" itemdamage="2" targetimpulse="5">
+        <Affliction identifier="blunttrauma" strength="4" />
+        <Affliction identifier="stun" strength="0.2" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500" />
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <aitarget sightrange="500" soundrange="500" fadeouttime="1" />
+    <Quality>
+      <QualityStat stattype="RepairSpeed" value="0.1" />
+    </Quality>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <MiniMap enableitemfinder="false" enablehullstatus="false" enablehullcondition="false" drawhudwhenequipped="true" displaybordersize="-0.1" characterusable="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.3,0.3" anchor="CenterRight" relativeoffset="0.006,-0.01" style="ItemUI" />
+    </MiniMap>
+  </Item>
+  <Item name="" identifier="advweldingtool" category="Equipment" Tags="smallitem,weldingequipment,tool" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_light" useinhealthinterface="True">
+    <PreferredContainer primary="engcab" amount="0" spawnprobability="0" notcampaign="true" />
+    <PreferredContainer secondary="supplycab" amount="0" spawnprobability="0" notcampaign="true" />
+    <Price baseprice="300" sold="false" />
+    <InventoryIcon texture="%ModDir%/advwelder.png" sourcerect="0,0,151,83" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/advwelder.png" sourcerect="0,0,151,83" depth="0.55" origin="0.5,0.5" />
+    <!-- the item takes 10 seconds to break down in a deconstructor and turns into steel and plastic -->
+    <Deconstruct time="10">
+      <Item identifier="weldingtool" amount="1" />
+      <Item identifier="handheldstatusmonitor" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="weldingtool" amount="1" />
+      <RequiredItem identifier="handheldstatusmonitor" amount="1" />
+    </Fabricate>
+    <!-- physics body -->
+    <Body width="150" height="60" density="40" />
+    <!-- the character will hold the item 50 pixels in front of him, with his hands at the handle1 and handle2 positions -->
+    <SuitableTreatment identifier="ntc_bentmetal" suitability="50" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="60,0" handle1="-62,-16" handle2="-10,-6" msg="ItemMsgPickUpSelect" />
+    <RepairTool firedamage="10.0" structurefixamount="2.0" range="150" barrelpos="35,10" particles="weld" repairmultiple="true" repairthroughwalls="false" combatpriority="10" levelwallfixamount="-0.425" targetforce="10">
+      <!-- the item must contain a welding fuel tank for it to work -->
+      <RequiredItems items="weldingtoolfuel,oxygensource" type="Contained" msg="ItemMsgWeldingFuelRequired" />
+      <ParticleEmitter particle="weld" particlespersecond="50" copyentityangle="true" />
+      <ParticleEmitterHitStructure particle="weldspark" particlespersecond="200" anglemin="-40" anglemax="40" velocitymin="200" velocitymax="800" />
+      <ParticleEmitterHitStructure particle="GlowDot" particlespersecond="60" emitinterval="0.7" particleamount="10" scalemin="0.9" scalemax="1.0" anglemin="0" anglemax="360" velocitymin="10" velocitymax="50" />
+      <ParticleEmitterHitStructure particle="MistSmoke" particlespersecond="20" anglemin="-10" anglemax="10" velocitymin="0" velocitymax="50" />
+      <ParticleEmitterHitItem identifiers="door,hatch,ductblock" particle="weldspark" particlespersecond="200" anglemin="-40" anglemax="40" velocitymin="200" velocitymax="800" />
+      <ParticleEmitterHitItem identifiers="door,hatch,ductblock" particle="MistSmoke" particlespersecond="20" anglemin="-10" anglemax="10" velocitymin="10" velocitymax="100" />
+      <ParticleEmitterHitCharacter particle="fleshsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" />
+      <sound file="Content/Items/Tools/WeldingLoop.ogg" type="OnUse" range="500.0" loop="true" />
+      <!-- when using, the contained welding fuel tank will detoriate (= lose fuel) -->
+      <StatusEffect type="OnUse" targettype="Contained" targets="weldingfueltank" Condition="-1.0" />
+      <StatusEffect type="OnUse" targettype="Contained" targets="incendiumfueltank" Condition="-0.6" />
+      <!-- welding a door, it will get stuck after a while -->
+      <StatusEffect type="OnUse" targettype="UseTarget" targets="door,ductblock" Stuck="5.0" Condition="3.0" />
+      <!-- do burn damage to characters -->
+      <StatusEffect type="OnUse" targettype="Limb">
+        <Affliction identifier="burn" amount="1.0" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="UseTarget" Condition="-3.0" />
+      <StatusEffect type="OnUse" targettype="Contained" targets="oxygentank" delay="1.0" stackable="false" Condition="-100.0" disabledeltatime="true">
+        <sound file="Content/Items/Weapons/ExplosionSmall1.ogg" range="5000" />
+        <sound file="Content/Items/Weapons/ExplosionDebris1.ogg" range="5000" />
+        <Explosion range="250.0" structuredamage="50" force="3.0" ignorefireeffectsfortags="oxygensource,weldingtoolfuel">
+          <Affliction identifier="burn" strength="50" />
+          <Affliction identifier="stun" strength="4" />
+        </Explosion>
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" targets="oxygenitetank" delay="1.0" stackable="false" Condition="-100.0" disabledeltatime="true">
+        <sound file="Content/Items/Weapons/ExplosionSmall1.ogg" range="5000" />
+        <sound file="Content/Items/Weapons/ExplosionDebris1.ogg" range="5000" />
+        <Explosion range="250.0" structuredamage="110" force="6.0" ignorefireeffectsfortags="oxygensource,weldingtoolfuel">
+          <Affliction identifier="burn" strength="75" />
+          <Affliction identifier="stun" strength="4" />
+        </Explosion>
+      </StatusEffect>
+      <!-- the tool can fix structures, i.e. walls and windows -->
+      <Fixable identifier="structure" />
+      <!-- mechanic skill 20 required to use the item -->
+      <RequiredSkill identifier="mechanical" level="20" />
+      <!-- if the skill requirement isn't met the welding fuel will be used 3 times as fast -->
+      <StatusEffect type="OnFailure" targettype="Contained" targets="weldingfueltank" Condition="-3.0" />
+      <StatusEffect type="OnFailure" targettype="Contained" targets="incendiumfueltank" Condition="-1.5" />
+      <LightComponent LightColor="1.0,0.9,0.7,1.0" Flicker="0.5">
+        <sprite texture="Content/Items/Electricity/lightsprite.png" origin="0.5,0.5" />
+      </LightComponent>
+    </RepairTool>
+    <!-- one welding fuel or oxygen tank can be contained inside the welding tool -->
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="false" itempos="8,-35" containedspritedepth="0.56" containedstateindicatorstyle="tank">
+      <Containable items="weldingtoolfuel,oxygensource" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="500" fadeouttime="3" />
+    <Quality>
+      <QualityStat stattype="RepairToolStructureRepairMultiplier" value="0.1" />
+    </Quality>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <Upgrade gameversion="0.14.0.0">
+      <RepairTool>
+        <RequiredItems items="weldingtoolfuel,oxygensource" type="Contained" msg="ItemMsgWeldingFuelRequired" />
+      </RepairTool>
+    </Upgrade>
+    <Upgrade gameversion="0.15.4.0">
+      <ItemContainer itempos="8,-35" />
+    </Upgrade>
+    <MiniMap enableitemfinder="false" enablehullcondition="false" enableelectricalview="false" drawhudwhenequipped="true" displaybordersize="-0.1" characterusable="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.3,0.3" anchor="CenterLeft" relativeoffset="0.006,-0.01" style="ItemUI" />
+    </MiniMap>
+  </Item>
+  <Item name="" identifier="advwrenchdementonite" variantof="wrench" allowasextracargo="true" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4" useinhealthinterface="True">
+    <Preferredcontainer secondary="respawncontainer" amount="1" spawnprobability="0" notcampaign="true" />
+    <PreferredContainer primary="engcab" spawnprobability="0" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
+    <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" spawnprobability="0" />
+    <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0" />
+    <PreferredContainer secondary="outposttrashcan" spawnprobability="0" />
+    <Price baseprice="600" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Deconstruct>
+      <Item identifier="wrenchdementonite" amount="1" />
+      <Item identifier="handheldelectricalmonitor" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="wrenchdementonite" amount="1" />
+      <RequiredItem identifier="handheldelectricalmonitor" amount="1" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/advtoolsicons.png" sourcerect="450,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/advtoolssprites.png" sourcerect="161,235,64,20" depth="0.55" origin="0.5,0.5" />
+    <SuitableTreatment identifier="dislocation1" suitability="50" />
+    <SuitableTreatment identifier="dislocation2" suitability="50" />
+    <SuitableTreatment identifier="dislocation3" suitability="50" />
+    <SuitableTreatment identifier="dislocation4" suitability="50" />
+    <MeleeWeapon reload="*0.9">
+      <Attack targetimpulse="8">
+        <Affliction identifier="blunttrauma" strength="8.5" />
+        <Affliction identifier="psychosis" strength="5" />
+        <Affliction identifier="stun" strength="0.2" />
+      </Attack>
+      <StatusEffect type="OnFailure" target="Character">
+        <Sound file="Content/Items/Alien/AlienTurret1.ogg" range="500" />
+        <Affliction identifier="psychosis" strength="10" />
+      </StatusEffect>
+    </MeleeWeapon>
+    <MiniMap enableitemfinder="false" enablehullstatus="false" enablehullcondition="false" drawhudwhenequipped="true" displaybordersize="-0.1" characterusable="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.3,0.3" anchor="CenterRight" relativeoffset="0.006,-0.01" style="ItemUI" />
+    </MiniMap>
+  </Item>
+  <Item name="" identifier="advscrewdriverdementonite" variantof="screwdriver" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4" useinhealthinterface="True">
+    <PreferredContainer secondary="respawncontainer" spawnprobability="0" notcampaign="true" />
+    <PreferredContainer primary="reactorcab,engcab" spawnprobability="0" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
+    <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" spawnprobability="0" />
+    <PreferredContainer primary="wreckreactorcab,abandonedreactorcab" spawnprobability="0" />
+    <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0" />
+    <PreferredContainer secondary="outposttrashcan" spawnprobability="0" />
+    <Price baseprice="450" sold="false" />
+    <Deconstruct>
+      <Item identifier="screwdriverdementonite" amount="1" />
+      <Item identifier="handheldelectricalmonitor" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="screwdriverdementonite" amount="1" />
+      <RequiredItem identifier="handheldelectricalmonitor" amount="1" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/advtoolsicons.png" sourcerect="513,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/advtoolssprites.png" sourcerect="225,185,64,20" depth="0.55" origin="0.5,0.5" />
+    <SuitableTreatment identifier="ntc_loosescrews" suitability="50" />
+    <MeleeWeapon reload="*0.7">
+      <Attack targetimpulse="8">
+        <Affliction identifier="lacerations" strength="7.5" />
+        <Affliction identifier="psychosis" strength="5" />
+        <Affliction identifier="stun" strength="0.2" />
+      </Attack>
+      <StatusEffect type="OnFailure" target="Character">
+        <Sound file="Content/Items/Alien/AlienTurret1.ogg" range="500" />
+        <Affliction identifier="psychosis" strength="10" />
+      </StatusEffect>
+    </MeleeWeapon>
+    <MiniMap enableitemfinder="false" enablehullstatus="false" enablehullcondition="false" drawhudwhenequipped="true" displaybordersize="-0.1" characterusable="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.3,0.3" anchor="CenterRight" relativeoffset="0.006,-0.01" style="ItemUI" />
+    </MiniMap>
+  </Item>
+  <Item name="" identifier="advheavywrench" variantof="wrench" scale="0.5" addedrepairspeedmultiplier="0.4" useinhealthinterface="True">
+    <Preferredcontainer secondary="respawncontainer" amount="1" spawnprobability="0" notcampaign="true" />
+    <PreferredContainer primary="engcab" spawnprobability="0" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
+    <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" spawnprobability="0" />
+    <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0" />
+    <PreferredContainer secondary="outposttrashcan" spawnprobability="0" />
+    <Price baseprice="300" sold="false" />
+    <Deconstruct>
+      <Item identifier="heavywrench" amount="1" />
+      <Item identifier="handheldelectricalmonitor" amount="1" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="heavywrench" amount="1" />
+      <RequiredItem identifier="handheldelectricalmonitor" amount="1" />
+    </Fabricate>
+    <!-- disable base inventory icon -->
+    <InventoryIcon />
+    <Sprite texture="%ModDir%/advheavywrench.png" sourcerect="0,0,100,20" depth="0.55" origin="0.5,0.5" />
+    <Body width="114" height="20" density="30" />
+    <SuitableTreatment identifier="dislocation1" suitability="50" />
+    <SuitableTreatment identifier="dislocation2" suitability="50" />
+    <SuitableTreatment identifier="dislocation3" suitability="50" />
+    <SuitableTreatment identifier="dislocation4" suitability="50" />
+    <MeleeWeapon slots="RightHand+LeftHand,Any" range="100" reload="1.1" controlpose="true" aimpos="45,10" handle1="-10,0" handle2="0,5" holdangle="60" combatpriority="20">
+      <StatusEffect type="OnFailure" target="This" reload="1.5" setvalue="true" />
+      <StatusEffect type="OnUse" target="This" reload="1.1" setvalue="true" delay="1.4" />
+      <RequiredSkill identifier="mechanical" level="40" />
+      <Attack targetimpulse="15" structuredamage="9" itemdamage="9">
+        <Affliction identifier="blunttrauma" strength="25" />
+        <Affliction identifier="stun" strength="1" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500" />
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This">
+          <Conditional skillrequirement="true" mechanical="lt 40" />
+          <Affliction identifier="stun" strength="0.3" />
+        </StatusEffect>
+      </Attack>
+      <!-- Use either this or the one above. The effect here has a random factor. The one above is deterministic.
+      <StatusEffect type="OnFailure" target="Character">
+        <Affliction identifier="stun" strength="0.3" />
+      </StatusEffect>
+      -->
+    </MeleeWeapon>
+    <SkillRequirementHint identifier="mechanical" level="40" />
+    <MiniMap enableitemfinder="false" enablehullstatus="false" enablehullcondition="false" drawhudwhenequipped="true" displaybordersize="-0.1" characterusable="false" allowuioverlap="true">
+      <GuiFrame relativesize="0.3,0.3" anchor="CenterRight" relativeoffset="0.006,-0.01" style="ItemUI" />
+    </MiniMap>
+  </Item>
+  <Override>
+    <Item name="" identifier="screwdriverdementonite" descriptionidentifier="dementonitetool" variantof="screwdriver" allowasextracargo="true" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4" useinhealthinterface="True">
+      <PreferredContainer secondary="respawncontainer" spawnprobability="0" notcampaign="true" />
+      <PreferredContainer primary="reactorcab,engcab" spawnprobability="0" />
+      <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
+      <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" spawnprobability="0" />
+      <PreferredContainer primary="wreckreactorcab,abandonedreactorcab" spawnprobability="0" />
+      <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0" />
+      <PreferredContainer secondary="outposttrashcan" spawnprobability="0" />
+      <Price baseprice="450" sold="false" />
+      <Deconstruct>
+        <Item identifier="iron" />
+        <Item identifier="dementonite" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+        <RequiredSkill identifier="mechanical" level="40" />
+        <RequiredItem identifier="screwdriver" amount="1" />
+        <RequiredItem identifier="dementonite" amount="2" />
+      </Fabricate>
+      <SuitableTreatment identifier="ntc_loosescrews" suitability="50" />
+      <MeleeWeapon reload="*0.9">
+        <Attack targetimpulse="8">
+          <Affliction identifier="lacerations" strength="7.5" />
+          <Affliction identifier="psychosis" strength="5" />
+          <Affliction identifier="stun" strength="0.05" />
+        </Attack>
+        <StatusEffect type="OnFailure" target="Character">
+          <Sound file="Content/Items/Alien/AlienTurret1.ogg" range="500" />
+          <Affliction identifier="psychosis" strength="10" />
+        </StatusEffect>
+      </MeleeWeapon>
+    </Item>
+    <Item name="" identifier="wrenchdementonite" descriptionidentifier="dementonitetool" variantof="wrench" allowasextracargo="true" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4" useinhealthinterface="True">
+      <Preferredcontainer secondary="respawncontainer" amount="1" spawnprobability="0" notcampaign="true" />
+      <PreferredContainer primary="engcab" spawnprobability="0" />
+      <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
+      <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" spawnprobability="0" />
+      <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0" />
+      <PreferredContainer secondary="outposttrashcan" spawnprobability="0" />
+      <Price baseprice="450" sold="false">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" multiplier="0.9" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" />
+        <Price storeidentifier="merchantmine" />
+      </Price>
+      <Deconstruct>
+        <Item identifier="iron" amount="1" />
+        <Item identifier="dementonite" amount="1" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+        <RequiredSkill identifier="mechanical" level="40" />
+        <RequiredItem identifier="wrench" amount="1" />
+        <RequiredItem identifier="dementonite" amount="2" />
+      </Fabricate>
+      <SuitableTreatment identifier="dislocation1" suitability="50" />
+      <SuitableTreatment identifier="dislocation2" suitability="50" />
+      <SuitableTreatment identifier="dislocation3" suitability="50" />
+      <SuitableTreatment identifier="dislocation4" suitability="50" />
+      <MeleeWeapon reload="*0.9">
+        <Attack targetimpulse="8">
+          <Affliction identifier="blunttrauma" strength="8.5" />
+          <Affliction identifier="psychosis" strength="5" />
+          <Affliction identifier="stun" strength="0.2" />
+        </Attack>
+        <StatusEffect type="OnFailure" target="Character">
+          <Sound file="Content/Items/Alien/AlienTurret1.ogg" range="500" />
+          <Affliction identifier="psychosis" strength="10" />
+        </StatusEffect>
+      </MeleeWeapon>
+    </Item>
+    <Item name="" identifier="divingknifedementonite" descriptionidentifier="dementonitetool" variantof="divingknife" allowasextracargo="true" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" useinhealthinterface="True">
+      <PreferredContainer secondary="wreckarmcab,abandonedarmcab" spawnprobability="0" />
+      <PreferredContainer secondary="abandonedstoragecab" spawnprobability="0" />
+      <PreferredContainer secondary="beaconsupplycab" spawnprobability="0" />
+      <PreferredContainer primary="armcab,secarmcab" spawnprobability="0" />
+      <Price baseprice="450" sold="false">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" multiplier="0.9" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+        <Price storeidentifier="merchantmine" />
+      </Price>
+      <Deconstruct>
+        <Item identifier="iron" amoutn="1" />
+        <Item identifier="dementonite" amount="1" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+        <RequiredSkill identifier="weapons" level="40" />
+        <RequiredItem identifier="divingknife" amount="1" />
+        <RequiredItem identifier="dementonite" amount="2" />
+      </Fabricate>
+      <SuitableTreatment identifier="dirtybandage" suitability="50" />
+      <SuitableTreatment identifier="bandaged" suitability="50" />
+      <SuitableTreatment identifier="triagetag_green" suitability="100" />
+      <SuitableTreatment identifier="triagetag_yellow" suitability="100" />
+      <SuitableTreatment identifier="triagetag_red" suitability="100" />
+      <SuitableTreatment identifier="triagetag_black" suitability="100" />
+      <MeleeWeapon reload="*0.9">
+        <Attack targetimpulse="4" itemdamage="3">
+          <Affliction identifier="lacerations" strength="10" />
+          <Affliction identifier="bleeding" strength="10" />
+          <Affliction identifier="psychosis" strength="5" />
+          <Affliction identifier="stun" strength="0.2" />
+        </Attack>
+        <StatusEffect type="OnUse" target="Character">
+          <Sound file="Content/Items/Alien/AlienTurret2.ogg" range="500" />
+          <Affliction identifier="psychosis" strength="5" probability="0.05" />
+        </StatusEffect>
+      </MeleeWeapon>
+    </Item>
+    <Item name="" identifier="crowbardementonite" descriptionidentifier="dementonitetool" variantof="crowbar" allowasextracargo="true" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedpickingspeedmultiplier="0.6" useinhealthinterface="True">
+      <PreferredContainer secondary="respawncontainer" amount="1" spawnprobability="0" notcampaign="true" />
+      <PreferredContainer primary="engcab" spawnprobability="0" />
+      <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
+      <PreferredContainer primary="wreckengcab,abandonedengcab,outpostengcab,beaconengcab" spawnprobability="0" />
+      <PreferredContainer secondary="outpostcrewcabinet" spawnprobability="0" />
+      <Price baseprice="450" sold="false" />
+      <Deconstruct>
+        <Item identifier="iron" />
+        <Item identifier="dementonite" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+        <RequiredSkill identifier="mechanical" level="40" />
+        <RequiredItem identifier="crowbar" amount="1" />
+        <RequiredItem identifier="dementonite" amount="2" />
+      </Fabricate>
+      <MeleeWeapon reload="*0.9">
+        <Attack targetimpulse="13">
+          <Affliction identifier="blunttrauma" strength="18" />
+          <Affliction identifier="psychosis" strength="5" />
+          <Affliction identifier="stun" strength="0.5" />
+        </Attack>
+        <StatusEffect type="OnFailure" target="Character">
+          <Sound file="Content/Items/Alien/AlienTurret1.ogg" range="500" />
+          <Affliction identifier="psychosis" strength="10" />
+        </StatusEffect>
+        <StatusEffect type="OnSuccess" target="Character">
+          <Sound file="Content/Items/Alien/AlienTurret2.ogg" range="500" />
+          <Affliction identifier="psychosis" strength="5" probability="0.05" />
+        </StatusEffect>
+      </MeleeWeapon>
+    </Item>
+  </Override>
+</Items>

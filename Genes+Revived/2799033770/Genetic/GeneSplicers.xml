@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Gene Splicer Overdrive Chip" identifier="genespliceroverdrivechip" description="Illegal chip that is used to put your gene splicer to overdrive." scale="0.4" category="Material" tags="smallitem,material" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <PreferredContainer secondary="wreckmedcab" spawnprobability="0.01" />
+    <PreferredContainer secondary="abandonedmedcab" spawnprobability="0.01" />
+    <InventoryIcon texture="%ModDir%/Textures/signalcomp.png" sourcerect="0,0,16,32" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/signalcomp.png" depth="0.8" sourcerect="0,0,16,32" origin="0.5,0.5" />
+    <Body radius="15" width="32" density="32" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!-- genesplicersuper <- genesplicerbeta  -->
+  <!-- genespliceromega <-> genesplicerzeta 
+		<Deconstruct time="10">
+			<Item identifier="fulgurium" outcondition="0.25"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="genesplicersuper"/>
+		</Deconstruct>
+		<Fabricate suitablefabricators="fabricator" requiredtime="30">
+			<RequiredSkill identifier="medical" level="80"/>
+			<RequiredItem identifier="fulgurium" mincondition="0.25" usecondition="true"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="genesplicersuper"/>
+		</Fabricate>
+ -->
+  <Item name="Gene Splicer Alpha (T1)" identifier="genespliceralpha" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="advancedgenesplicer" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="advancedgenesplicer" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="3" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Beta (T2)" identifier="genesplicersuper" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.25" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genespliceralpha" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="genespliceralpha" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="4" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Gamma (T3)" identifier="genesplicergamma" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.25" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicersuper" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="genesplicersuper" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="5" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Delta (T4)" identifier="genesplicerdelta" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.25" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicergamma" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="genesplicergamma" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="6" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Epsilon (T5)" identifier="genesplicerepsilon" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.25" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicerdelta" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="genesplicerdelta" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="7" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Zeta (T6)" identifier="genespliceromega" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.25" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicerepsilon" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="genesplicerepsilon" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="8" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <!-- 
+		<Deconstruct time="10">
+			<Item identifier="fulgurium" outcondition="0.5"/>
+			<Item identifier="oxygeniteshard" outcondition="0.33"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="genesplicereta"/>
+		</Deconstruct>
+		<Fabricate suitablefabricators="fabricator" requiredtime="30">
+			<RequiredSkill identifier="medical" level="80"/>
+			<RequiredItem identifier="fulgurium" mincondition="0.5" usecondition="true"/>
+			<RequiredItem identifier="oxygeniteshard" mincondition="0.33" usecondition="true"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="genesplicereta"/>
+		</Fabricate>
+-->
+  <Item name="Gene Splicer Eta (T7)" identifier="genesplicereta" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="genespliceromega" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="genespliceromega" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="9" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Theta (T8)" identifier="genesplicertheta" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.33" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicereta" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="genesplicereta" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="10" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Iota (T9)" identifier="genespliceriota" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.33" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicertheta" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="genesplicertheta" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="11" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Kappa (T10)" identifier="genesplicerkappa" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.33" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genespliceriota" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="genespliceriota" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="12" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Lambda (T11)" identifier="genesplicerlambda" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.33" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicerkappa" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="genesplicerkappa" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="13" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Mu (T12)" identifier="genesplicermu" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.33" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicerlambda" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="oxygeniteshard" />
+      <RequiredItem identifier="genesplicerlambda" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="14" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <!-- 
+		<Deconstruct time="10">
+			<Item identifier="fulgurium" outcondition="0.5"/>
+			<Item identifier="oxygeniteshard" outcondition="0.66"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="genesplicernu"/>
+		</Deconstruct>
+		<Fabricate suitablefabricators="fabricator" requiredtime="30">
+			<RequiredSkill identifier="medical" level="90"/>
+			<RequiredItem identifier="fulgurium" mincondition="0.5" usecondition="true"/>
+			<RequiredItem identifier="oxygeniteshard" mincondition="0.66" usecondition="true"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="genesplicernu"/>
+		</Fabricate>
+-->
+  <Item name="Gene Splicer Nu (T13)" identifier="genesplicernu" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="oxygeniteshard" outcondition="0.66" />
+      <Item identifier="incendium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicermu" />
+      <Item identifier="alienpowercell" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="genesplicermu" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="15" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Xi (T14)" identifier="genesplicerxi" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.66" />
+      <Item identifier="incendium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicernu" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="genesplicernu" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="16" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Omicron (T15)" identifier="genespliceromicron" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.66" />
+      <Item identifier="incendium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicerxi" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="genesplicerxi" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="17" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Pi (T16)" identifier="genesplicerpi" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.66" />
+      <Item identifier="incendium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genespliceromicron" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="genespliceromicron" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="18" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Rho (T17)" identifier="genesplicerrho" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.66" />
+      <Item identifier="incendium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicerpi" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="genesplicerpi" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="19" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Sigma (T18)" identifier="genesplicersigma" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" outcondition="0.5" />
+      <Item identifier="oxygeniteshard" outcondition="0.66" />
+      <Item identifier="incendium" outcondition="0.5" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="genesplicerrho" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="genesplicerrho" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic2.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="20" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Super Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic2.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <!-- 
+		<Deconstruct time="10">
+			<Item identifier="fulgurium" outcondition="0.5"/>
+			<Item identifier="oxygeniteshard" outcondition="0.66"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="fpgacircuit"/>
+			<Item identifier="genesplicernu"/>
+		</Deconstruct>
+		<Fabricate suitablefabricators="fabricator" requiredtime="30">
+			<RequiredSkill identifier="medical" level="90"/>
+			<RequiredItem identifier="fulgurium" mincondition="0.5" usecondition="true"/>
+			<RequiredItem identifier="oxygeniteshard" mincondition="0.66" usecondition="true"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="fpgacircuit"/>
+			<RequiredItem identifier="genesplicernu"/>
+		</Fabricate>
+-->
+  <Item name="Gene Splicer Tau (T19)" identifier="genesplicertau" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="incendium" />
+      <Item identifier="physicorium" />
+      <Item identifier="genesplicersigma" />
+      <Item identifier="alienpowercell" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="genesplicersigma" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="21" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Omega Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Upsilon (T20)" identifier="genesplicerupsilon" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="incendium" />
+      <Item identifier="physicorium" />
+      <Item identifier="genesplicertau" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="genesplicertau" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="22" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Omega Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Phi (T21)" identifier="genesplicerphi" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="incendium" />
+      <Item identifier="physicorium" />
+      <Item identifier="genesplicerupsilon" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulguriumfuelrodvolatile" />
+      <RequiredItem identifier="genesplicerupsilon" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="23" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Omega Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Chi (T22)" identifier="genesplicerchi" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="incendium" />
+      <Item identifier="physicorium" />
+      <Item identifier="genesplicerphi" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulguriumfuelrodvolatile" />
+      <RequiredItem identifier="genesplicerphi" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="24" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Omega Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Psi (T23)" identifier="genesplicerpsi" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="incendium" />
+      <Item identifier="physicorium" />
+      <Item identifier="genesplicerchi" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulguriumfuelrodvolatile" />
+      <RequiredItem identifier="genesplicerchi" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="25" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Omega Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+  <Item name="Gene Splicer Omega (T24)" identifier="genesplicerzeta" scale="0.4" category="Equipment" tags="smallitem" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" secondary="supplycab" />
+    <Deconstruct time="10">
+      <Item identifier="oxygeniteshard" />
+      <Item identifier="incendium" />
+      <Item identifier="physicorium" />
+      <Item identifier="genesplicerpsi" />
+      <Item identifier="fulgurium" outcondition="0.5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="medical" level="80" />
+      <RequiredItem identifier="fulguriumfuelrod" />
+      <RequiredItem identifier="fulguriumfuelrodvolatile" />
+      <RequiredItem identifier="genesplicerpsi" />
+      <RequiredItem identifier="genespliceroverdrivechip" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+      <RequiredItem identifier="alienpowercell" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic2.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="%ModDir%/Textures/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body radius="15" width="45" density="30" />
+    <ItemContainer capacity="26" maxstacksize="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="true">
+      <Containable items="geneticmaterial" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,HealthInterface" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Omega Gene Splicer Wearable" texture="%ModDir%/Textures/Genetic.png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="false" sourcerect="258,131,64,54" origin="0.6,0.0" />
+    </Wearable>
+  </Item>
+</Items>

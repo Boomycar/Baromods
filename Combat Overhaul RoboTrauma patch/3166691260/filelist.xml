@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Combat Overhaul RoboTrauma patch" modversion="1.0.1" corepackage="False" steamworkshopid="3166691260" gameversion="1.2.8.0" expectedhash="CA792A535C0C64D1F16ACFF1261ECBB7">
+  <Character file="%ModDir%/Human.xml" />
+</contentpackage>

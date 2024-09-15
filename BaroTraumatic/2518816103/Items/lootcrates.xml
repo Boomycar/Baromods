@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Supply Box" identifier="low_lootcrate" description="Deconstruct to get a random item!" category="Equipment" Tags="crate,sonar" cargocontaineridentifier="metalcrate" Scale="0.4" impactsoundtag="impact_metal_heavy" hideconditionbar="true">
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="407,376,152,89" origin="0.5,0.5" />
+    <Body width="150" height="85" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <Deconstruct time="10" chooserandom="true" amount="1">
+      <Item identifier="elastinplant" copycondition="true" commonness="0.7" />
+      <Item identifier="smgmagazine" copycondition="true" commonness="0.3" />
+      <Item identifier="ballistichelmet1" copycondition="true" commonness="0.125" />
+      <Item identifier="aquaticpoppy" copycondition="true" commonness="0.7" />
+      <Item identifier="piratebodyarmor" copycondition="true" commonness="0.1" />
+      <Item identifier="clowncostume" copycondition="true" commonness="0.7" />
+      <Item identifier="titanium" copycondition="true" amount="2" commonness="0.3" />
+      <Item identifier="revolver" copycondition="true" commonness="0.5" />
+      <Item identifier="bikehorn" copycondition="true" commonness="0.75" />
+      <Item identifier="slimebacteria" copycondition="true" commonness="0.5" />
+      <Item identifier="shotgun" copycondition="true" commonness="0.1" />
+      <Item identifier="harpoongun" copycondition="true" commonness="0.4" />
+      <Item identifier="antidama1" copycondition="true" amount="2" commonness="0.45" />
+      <Item identifier="plastic" copycondition="true" amount="2" commonness="0.7" />
+      <Item identifier="clownmask" copycondition="true" commonness="0.6" />
+      <Item identifier="lead" copycondition="true" commonness="0.7" />
+    </Deconstruct>
+    <!--600000 range = 6000m -->
+    <LightComponent LightColor="255,200,50,255" range="80" castshadows="false" powerconsumption="0" pulsefrequency="0.4" pulseamount="0.7" blinkfrequency="0" IsOn="true" canbeselected="false">
+      <StatusEffect type="OnActive" targettype="This, NearbyCharacters" delay="5.0" stackable="false" range="200" Condition="0" IsOn="false" setvalue="true">
+        <Conditional IsPlayer="true" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <!--<RemoveItem />-->
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This" lifetime="0.1" setvalue="true" scale="0.5">
+        <Conditional scale="eq 0.4" />
+        <SpawnItem identifier="smg" spawnposition="ThisInventory" count="4" />
+        <SpawnItem identifier="smgmagazine" spawnposition="ThisInventory" count="8" />
+        <SpawnItem identifier="shotgun" spawnposition="ThisInventory" count="4" />
+        <SpawnItem identifier="shotgunshell" spawnposition="ThisInventory" count="32" />
+      </StatusEffect>
+    </LightComponent>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.16,0.15" anchor="CenterLeft" pivot="BottomLeft" relativeoffset="0.006,-0.05" style="ItemUI" />
+      <!--
+      <TickBox text="sonarbeacon.beaconactive">
+        <StatusEffect type="OnUse" targettype="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" targettype="This" IsOn="false" />
+      </TickBox>
+      -->
+      <!--
+      <TextBox text="sonarbeacon.beaconsignal" propertyname="SonarLabel"/>
+      -->
+    </CustomInterface>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="Mark Component" identifier="musictime" category="hidden" tags="smallitem" cargocontaineridentifier="metalcrate" description="DEBUG TOOL! A list of buttons that play some background music. Experiment for a music mod I want to create for Barotraumatic, testing out certain enviromental situations. Only press ONE button or else music will loop clientside when players rejoin, will find a way to fix this." hideinmenus="true" scale="0.4">
+    <Deconstruct time="1" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="1">
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="tin" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="325,388,59,55" origin="0.5,0.5" />
+    <Sprite name="Mark Component" texture="Content/Items/Electricity/signalcomp.png" depth="0.6" sourcerect="35,130,28,26" origin="0.5,0.5" />
+    <Body width="75" height="50" density="30" />
+    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" PickingTime="5.0" aimpos="65,-10" handle1="0,0" attachable="false" aimable="false">
+      <RequiredItem identifier="wrench" type="Equipped" />
+    </Holdable>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" absoluteoffset="0,-30" style="ItemUI" />
+      <Button text="DEFAULT1">
+        <StatusEffect type="OnUse" targettype="This" delay="2" IsOn="false" drawhudwhenequipped="true">
+          <Sound file="%ModDir%/Sounds/Default1.ogg" range="20000" volume="1" dontmuffle="true" />
+        </StatusEffect>
+      </Button>
+      <Button text="DEFAULT2">
+        <StatusEffect type="OnUse" targettype="This" delay="2" IsOn="false" drawhudwhenequipped="true">
+          <Sound file="%ModDir%/Sounds/Default2.ogg" range="20000" volume="1" dontmuffle="true" />
+        </StatusEffect>
+      </Button>
+      <Button text="DEFAULT3">
+        <StatusEffect type="OnUse" targettype="This" delay="2" IsOn="false" drawhudwhenequipped="true">
+          <Sound file="%ModDir%/Sounds/Default3.ogg" range="20000" volume="1" dontmuffle="true" />
+        </StatusEffect>
+      </Button>
+      <Button text="DEFAULT4">
+        <StatusEffect type="OnUse" targettype="This" delay="2" IsOn="false" drawhudwhenequipped="true">
+          <Sound file="%ModDir%/Sounds/Default4.ogg" range="20000" volume="1" dontmuffle="true" />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <ItemContainer capacity="3" canbeselected="false" hideitems="true" slotsperrow="5" drawinventory="true" ShowContainedStateIndicator="false" />
+  </Item>
+</Items>

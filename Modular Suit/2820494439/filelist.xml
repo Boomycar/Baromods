@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Modular Suit" modversion="1.0.6" corepackage="False" steamworkshopid="2820494439" gameversion="0.18.12.0" expectedhash="48CF29BA10E339685CC7E316BB8E55CD">
+  <Item file="%ModDir%/items.xml" />
+  <Other file="%ModDir%/containerindicator.png" />
+  <Other file="%ModDir%/suitbody.png" />
+  <Other file="%ModDir%/suitinlocker.png" />
+  <Other file="%ModDir%/suitlocker.png" />
+  <Other file="%ModDir%/modules.png" />
+  <Afflictions file="%ModDir%/afflictions.xml" />
+</contentpackage>

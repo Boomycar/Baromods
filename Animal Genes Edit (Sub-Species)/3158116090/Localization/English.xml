@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <character.cuddlecat>CuddleCat</character.cuddlecat>
+  <character.tempestwolf>TempestWolf</character.tempestwolf>
+  <character.shrinefox>ShrineFox</character.shrinefox>
+  <character.guarddog>GuardDog</character.guarddog>
+  <character.crazycat>CrazyCat</character.crazycat>
+  <character.hellhound>HellHound</character.hellhound>
+  <character.fatalfox>FatalFox</character.fatalfox>
+  <character.demondog>DemonDog</character.demondog>
+  <afflictionname.cuddlecat>Cat Genes</afflictionname.cuddlecat>
+  <afflictionname.tempestwolf>Wolf Genes</afflictionname.tempestwolf>
+  <afflictionname.shrinefox>Fox Genes</afflictionname.shrinefox>
+  <afflictionname.guarddog>Dog Genes</afflictionname.guarddog>
+  <afflictionname.crazycat>Crazy Cat Genes</afflictionname.crazycat>
+  <afflictionname.hellhound>Hell Hound Genes</afflictionname.hellhound>
+  <afflictionname.fatalfox>Fatal Fox Genes</afflictionname.fatalfox>
+  <afflictionname.demondog>Demon Dog Genes</afflictionname.demondog>
+  <afflictiondescription.cuddlecat>Become the cat girl of your dreams. You're so cuddly and adorable, no one will want to die and you drag characters at full speed. You're smart, gain 10-50% skill gain and repair speed, however beauty comes at a price, take 10-40% more damage. (50-80% movement speed)</afflictiondescription.cuddlecat>
+  <afflictiondescription.tempestwolf>Compared to your counterpart, you want blood for the blood gods, deal 10-50% more damage. You swim 50% faster. You gain a weapons skill bonus of 15, and you're ranged weapon spread is reduced by 80%. When attacked you gain 50% movement speed, swimming speed, melee attack speed, melee attack damage and ranged attack damage for 30 seconds. You're a menacing wolf looking for prey, 10-20% maximum health, however take 50% more damage. (25-50% movement speed)</afflictiondescription.tempestwolf>
+  <afflictiondescription.shrinefox>Foxes are majestic and so are you, gain 10-50% maximum health. Your shrine blesses you with unimaginable power granting you 100% extra melee attack speed and 10-40% swim speed. (10-40% movement speed)</afflictiondescription.shrinefox>
+  <afflictiondescription.guarddog>You're a good swimmer, gain 10-50% swim speed. You have a deep connection to your owner and must live at all costs, 10-50% damage reduction. Rough housing actually paid off, gain 10-50% max health. You drag characters at normal speed. (10-30% movement speed)</afflictiondescription.guarddog>
+  <afflictiondescription.crazycat>You have catlike reflexes, no fall damage and drag characters at full speed. You cannot bleed out and your CPR is 50% more effective. You're fast, too fast, no one can tell you what to do, gain 30-60% swim speed. Bandaging is 15% worse. (80-100% movement speed)</afflictiondescription.crazycat>
+  <afflictiondescription.hellhound>50-80% damage reduction. 30% walk and swim speed. 25-75% ranged damage. 40% bullet spread reduction. Heal injuries while in water. -25-75% melee damage. -50% melee attack speed. -25% skill gain. -50% repair and hull repair.</afflictiondescription.hellhound>
+  <afflictiondescription.fatalfox>10-40% movement speed. 20-40% damage reduction. 10-50% swim speed. 50-100% extra melee damage. 30% melee attack speed.</afflictiondescription.fatalfox>
+  <afflictiondescription.demondog>30-60% movement speed. 20-40% damage reduction. 80-100% swim speed. 15% maximum health. No longer able to overdose. Poison and paralysis immune. Delirium and psychosis immune.</afflictiondescription.demondog>
+  <entitydescription.geneticmaterialcuddlecat>Become the cat girl of your dreams. You're fast and dashing, drag characters at full speed and increase movement speed by 50-80%. You're a clever kitty who rules the world, gain 10-50% skill gain, repair speed, and hull repair. Your bites heal and give miracle in progress. Your abilites come at a price, take 10-40% more damage.</entitydescription.geneticmaterialcuddlecat>
+  <entitydescription.geneticmaterialshrinefox>Fox girl-best girl, 10-40% movement speed. The people worship you and call you a god, gain 10-50% health, and 100% attack speed. You are a nimble and agile predator, 10-40% swim speed. Your bites give combat stimulant.</entitydescription.geneticmaterialshrinefox>
+  <entitydescription.geneticmaterialguarddog>You got that dog on you, gain 10-30% movement speed. Your owner taught you how to swim properly, 10-50% swim speed. Protecting your owner from other dogs finally paid off, gain 10-50% maximum health and damage resistance. You drag characters at normal speed. Your bites give damage reduction.</entitydescription.geneticmaterialguarddog>
+  <entitydescription.geneticmaterialtempestwolf>You are the storm that is approaching, run 25-50% faster. You're motivated, you have 10-20% more health. Compared to your counterpart you want blood for the blood gods, deal 10-50% more damage. You gain 15 weapons. Ranged weapons have spread reduced by 80%. You swim 50% faster. On hit, gain 50% melee attack speed, melee damage, ranged damage, movement speed and swimming speed for 30 seconds. Your abilities come at a price, take 10-50% more damage.</entitydescription.geneticmaterialtempestwolf>
+  <entitydescription.geneticmaterialcrazycat>Your cat like reflexes and mobility negate all fall damage and you can drag characters at full speed. You have an extra 30-60% swim speed and 80-100% movement speed. You cannot bleed out. Your CPR is 50% more effective however your bandages are 15% worse. Your bites inflict deliriumine and psychosis. .</entitydescription.geneticmaterialcrazycat>
+  <entitydescription.geneticmaterialfatalfox>10-40% movement speed. 20-40% damage reduction. 10-50% swim speed. 50-100% extra melee damage. 30% melee attack speed. Your bites inflict paralysys and radiation burns. .</entitydescription.geneticmaterialfatalfox>
+  <entitydescription.geneticmaterialdemondog>10-30% movement speed. 20-40% damage reduction. 30-70% swim speed. Additional 15% max health. No longer able to overdose. Poison and paralysis immune. Delirium and psychosis immune. Your bites inflict morbusine and cyanide poisoning. .</entitydescription.geneticmaterialdemondog>
+  <entitydescription.geneticmaterialhellhound>10-75% damage reduction. 30% walk and swim speed. 25-75% ranged damage. 40% bullet spread reduction. Healing in water. Your powers come at a cost, -25-75% melee damage. -50% attack speed.-25% skill gain. -50% repair and hull repair speed. Your bites inflict burn and bleed. .</entitydescription.geneticmaterialhellhound>
+  <entityname.unidentifiedanimalsub-speciesgeneticmaterial>Genetic material containing multiple sub-species of various animal waifu genes.</entityname.unidentifiedanimalsub-speciesgeneticmaterial>
+  <entitydescription.unidentifiedanimalsub-speciesgeneticmaterial>A mass of THICC waifu materials. Use the research station to become the ultimate anime waifu and transform it into the ultimate lifeform known as a weeb.</entitydescription.unidentifiedanimalsub-speciesgeneticmaterial>
+</infotexts>

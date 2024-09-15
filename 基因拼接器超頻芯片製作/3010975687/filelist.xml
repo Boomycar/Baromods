@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="基因拼接器超頻芯片製作" modversion="1.0.1" corepackage="False" steamworkshopid="3010975687" gameversion="1.0.21.0" expectedhash="493B8D75A2C089EC8F3E639D890FD483">
+  <Item file="%ModDir%/GeneSplicers.xml" />
+</contentpackage>

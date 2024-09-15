@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="BaroCraftables+" modversion="1.0.60" corepackage="False" steamworkshopid="2764140582" gameversion="1.1.18.0" expectedhash="717036BF4DA4E6CF86BB581A44DEBF64">
+  <Item file="%ModDir%/Items/Containers Override.xml" />
+  <Item file="%ModDir%/Items/Electricity Override.xml" />
+  <Item file="%ModDir%/Items/Engine Override.xml" />
+  <Item file="%ModDir%/Items/Fabricators Override.xml" />
+  <Item file="%ModDir%/Items/Pump Override.xml" />
+  <Item file="%ModDir%/Items/Command Override.xml" />
+  <Item file="%ModDir%/Items/Weapons Override.xml" />
+  <Item file="%ModDir%/Items/Command Override.xml" />
+  <Item file="%ModDir%/Items/Decor Override.xml" />
+  <Item file="%ModDir%/Items/Wrecked Items.xml" />
+  <Item file="%ModDir%/Items/Item.xml" />
+  <Item file="%ModDir%/Items/Containers/Materials/(Material) Containers.xml" />
+  <Item file="%ModDir%/Items/Containers/Medical/(Medical) Containers.xml" />
+  <Item file="%ModDir%/Items/Containers/Componets/(Componet) Containers.xml" />
+  <Text file="%ModDir%/Texts/English.xml" />
+  <Text file="%ModDir%/Texts/SimplifiedChinese.xml" />
+  <Submarine file="%ModDir%/# Testing Space Barocraftables.sub" />
+</contentpackage>

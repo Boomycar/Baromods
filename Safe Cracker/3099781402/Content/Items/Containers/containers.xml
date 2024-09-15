@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Items>
+    <Item name="" identifier="securesteelcabinet" tags="locker,container,securecontainer" linkable="true" spritecolor="255,255,255,255" pickdistance="150" waterproof="true" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.1">
+      <Sprite texture="Content/Items/Containers/containers.png" depth="0.84" sourcerect="1,380,105,160" origin="0.5,0.5" />
+      <BrokenSprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersDamaged.png" depth="0.84" sourcerect="1,380,105,160" origin="0.5,0.5" maxcondition="99" fadein="true" />
+      <BrokenSprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersBroken.png" depth="0.84" sourcerect="1,380,105,160" origin="0.5,0.5" maxcondition="0" fadein="false" />
+      <ItemContainer capacity="20" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+        <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+        <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
+        <Containable items="smallitem,mediumitem" excludedidentifiers="mobilecontainer" />
+        <SubContainer capacity="3" maxstacksize="1">
+          <SlotIcon texture="Content/UI/CommandUIAtlas.png" sourcerect="639,926,128,80" origin="0.5,0.5" />
+          <Containable items="mobilecontainer" />
+        </SubContainer>
+        <StatusEffect type="OnPicked" target="this">
+          <Sound file="%ModDir:3099781402%/Content/Items/Containers/safe_open1.ogg" volume="1" range="250" selectionmode="Random" />
+        </StatusEffect>
+        <StatusEffect type="OnBroken" target="This" locked="true" allowaccess="false" setvalue="true">
+          <sound file="Content/Items/Door/DoorBreak1.ogg" range="800" />
+          <DropContainedItems />
+        </StatusEffect>
+        <StatusEffect type="OnBroken" target="This,NearbyItems" range="20" tags="crackedsafe" setvalue="true" duration="1" />
+      </ItemContainer>
+      <!-- backwards compatibility for older versions in which mobile containers like storage containers were containable in any cabinet -->
+      <Upgrade gameversion="1.1.0.0" campaignsaveonly="true">
+        <ItemContainer>
+          <Containable items="smallitem,mediumitem" />
+          <ClearSubContainerRestrictions />
+        </ItemContainer>
+      </Upgrade>
+      <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="0.0" mindeteriorationdelay="60" maxdeteriorationdelay="270" MinDeteriorationCondition="0" minsabotagecondition="101" RepairThreshold="100" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairWrench" hudpriority="10">
+        <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,280" anchor="Center" relativeoffset="-0.1,0.27" style="ItemUI" />
+        <RequiredSkill identifier="mechanical" level="75" />
+        <RequiredItem items="wrench" type="Equipped" />
+        <StatusEffect type="OnSuccess" target="This" locked="false" allowaccess="true" setvalue="true" disabledeltatime="true" />
+        <StatusEffect type="OnSuccess" target="This" condition="1" disabledeltatime="true" />
+        <StatusEffect type="OnFailure" target="This" locked="false" allowaccess="true" setvalue="true" disabledeltatime="true" />
+        <StatusEffect type="OnFailure" target="This" condition="1" disabledeltatime="true" />
+      </Repairable>
+    </Item>
+    <Item name="" identifier="securesteelcabinetwrecked" variantof="securesteelcabinet" nameidentifier="securesteelcabinet" tags="container,securecontainer" category="Wrecked" spritecolor="200,150,100,255">
+      <Sprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersDamaged.png" depth="0.84" sourcerect="1,380,105,160" origin="0.5,0.5" />
+      <BrokenSprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersBroken.png" depth="0.84" sourcerect="1,380,105,160" origin="0.5,0.5" maxcondition="0" fadein="false" />
+    </Item>
+    <Item name="" identifier="toxcabinet" tags="container,toxcontainer" linkable="true" pickdistance="150" waterproof="true" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.1">
+      <Sprite texture="Content/Items/Containers/containers.png" depth="0.84" sourcerect="889,483,125,148" origin="0.5,0.5" />
+      <BrokenSprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersDamaged.png" depth="0.84" sourcerect="889,483,125,148" origin="0.5,0.5" maxcondition="99" fadein="true" />
+      <BrokenSprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersBroken.png" depth="0.84" sourcerect="889,483,125,148" origin="0.5,0.5" maxcondition="0" fadein="false" />
+      <ItemContainer capacity="20" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+        <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+        <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
+        <Containable items="smallitem,mediumitem" excludedidentifiers="mobilecontainer" />
+        <SubContainer capacity="3" maxstacksize="1">
+          <SlotIcon texture="Content/UI/CommandUIAtlas.png" sourcerect="639,926,128,80" origin="0.5,0.5" />
+          <Containable items="mobilecontainer" />
+        </SubContainer>
+        <StatusEffect type="OnPicked" target="this">
+          <Sound file="%ModDir:3099781402%/Content/Items/Containers/cabinet_open1.ogg" volume="1" range="250" selectionmode="Random" />
+        </StatusEffect>
+        <StatusEffect type="OnBroken" target="This" locked="true" allowaccess="false" setvalue="true">
+          <sound file="Content/Items/Door/DoorBreak2.ogg" range="800" />
+          <DropContainedItems />
+        </StatusEffect>
+        <StatusEffect type="OnBroken" target="This,NearbyItems" range="20" tags="crackedsafe" setvalue="true" duration="1" />
+      </ItemContainer>
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <!-- backwards compatibility for older versions in which mobile containers like storage containers were containable in any cabinet -->
+      <Upgrade gameversion="1.1.0.0" campaignsaveonly="true">
+        <ItemContainer>
+          <Containable items="smallitem,mediumitem" />
+          <ClearSubContainerRestrictions />
+        </ItemContainer>
+      </Upgrade>
+      <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="0.0" mindeteriorationdelay="60" maxdeteriorationdelay="270" MinDeteriorationCondition="0" minsabotagecondition="101" RepairThreshold="100" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairWrench" hudpriority="10">
+        <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,280" anchor="Center" relativeoffset="-0.1,0.27" style="ItemUI" />
+        <RequiredSkill identifier="mechanical" level="75" />
+        <RequiredItem items="wrench" type="Equipped" />
+        <StatusEffect type="OnSuccess" target="This" locked="false" allowaccess="true" setvalue="true" disabledeltatime="true" />
+        <StatusEffect type="OnSuccess" target="This" condition="1" disabledeltatime="true" />
+        <StatusEffect type="OnFailure" target="This" locked="false" allowaccess="true" setvalue="true" disabledeltatime="true" />
+        <StatusEffect type="OnFailure" target="This" condition="1" disabledeltatime="true" />
+      </Repairable>
+    </Item>
+    <Item name="" identifier="toxcabinetwrecked" variantof="toxcabinet" nameidentifier="toxcabinet" tags="container,wrecktoxcontainer" waterproof="true" scale="0.4" category="Wrecked" spritecolor="200,150,100,255">
+      <Sprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersDamaged.png" depth="0.84" sourcerect="889,483,125,148" origin="0.5,0.5" />
+      <BrokenSprite texture="%ModDir:3099781402%/Content/Items/Containers/ContainersBroken.png" depth="0.84" sourcerect="889,483,125,148" origin="0.5,0.5" maxcondition="0" fadein="false" />
+    </Item>
+  </Items>
+</Override>

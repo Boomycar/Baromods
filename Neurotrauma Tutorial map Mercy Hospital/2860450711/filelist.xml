@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Neurotrauma Tutorial map Mercy Hospital" modversion="1.2" corepackage="False" steamworkshopid="2860450711" gameversion="1.0.8.0" altnames="Neurotrauma Tutorial map Mercy Hospital" expectedhash="E9B404E85CCA1D8108BFE4E5F44F30B4">
+  <Text file="%ModDir%/Localization/English.xml" />
+  <Item file="%ModDir%/Xml/items.xml" />
+  <Submarine file="%ModDir%/Mercy Hospital.sub" />
+</contentpackage>

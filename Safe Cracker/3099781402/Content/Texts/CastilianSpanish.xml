@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Castilian Spanish" nowhitespace="false" translatedname="Castellano">
+  <!-- Items -->
+  <entityname.safecracker>Safe Cracker</entityname.safecracker>
+  <entitydescription.safecracker>An old repurposed mining drill, modified to drill open safes and cabinets.</entitydescription.safecracker>
+  <!-- Interactions -->
+  <interaction.activate>Activate</interaction.activate>
+  <interaction.deactivate>Deactivate</interaction.deactivate>
+  <!-- Dialog -->
+  <Eventtext.activedrill.CalledSecurity>Security! We got illegal activity over here!</Eventtext.activedrill.CalledSecurity>
+</infotexts>

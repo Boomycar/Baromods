@@ -1,0 +1,1313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- TO MAKE IT EASIER FOR TRANSLATORS TO FIND NEW ADDITIONS OR CHANGES, I'LL PUT COMMENTS BEHIND EVERYTHING FROM THE CORRESPONDING PATCH
+SEARCH FOR THE FOLLOWING:                                                                                                                      -->
+<!--Patch patchnumber-->
+<!--FOR EXAMPLE "Patch 8" TO VIEW THE CHANGES OF THE CORRESPONDING PATCH-->
+<!--Changed as of Patch patchnumber-->
+<!--TO VIEW ANY CHANGES FROM OLDER VERSIONS IN THIS PATCH-->
+<!-- Keep in mind: The patch comments are behind/below the changed/added lines -->
+<!-- LATEST PATCH: 13 -->
+<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
+  <!-- Display names -->
+  <displayname.humanfooditem>[itemname]（人类）</displayname.humanfooditem>
+  <displayname.crawlerfooditem>[itemname]（爬行者）</displayname.crawlerfooditem>
+  <displayname.mudraptorfooditem>[itemname]（泥偶迅猛龙）</displayname.mudraptorfooditem>
+  <displayname.hammerheadfooditem>[itemname]（锤头煞）</displayname.hammerheadfooditem>
+  <displayname.thresherfooditem>[itemname]（虎尾煞）</displayname.thresherfooditem>
+  <displayname.endwormfooditem>[itemname]（末日蠕虫）</displayname.endwormfooditem>
+  <displayname.spinelingfooditem>[itemname]（脊刺）</displayname.spinelingfooditem>
+  <!--Patch 13-->
+  <displayname.molochfooditem>[itemname]（摩螺克）</displayname.molochfooditem>
+  <!--Patch 13-->
+  <displayname.huskfooditem>[itemname]（画皮）</displayname.huskfooditem>
+  <!--Patch 13-->
+  <displayname.watcherfooditem>[itemname]（独目哨兵）</displayname.watcherfooditem>
+  <!--Patch 13-->
+  <displayname.alternative>[itemname]（其它）</displayname.alternative>
+  <!--Patch 13-->
+  <!-- Food Items -->
+  <entityname.he-proteinbar1>蛋白质棒</entityname.he-proteinbar1>
+  <entitydescription.he-proteinbar1>有几分美味的蛋白质棒。有助于加快伤势愈合。</entitydescription.he-proteinbar1>
+  <entityname.he-chips1>袋装爆弹石榴薯片</entityname.he-chips1>
+  <entitydescription.he-chips1>干的爆弹石榴薯片。是观看一年一度的“DUNWICE FACE-OFF”时流行的小吃。</entitydescription.he-chips1>
+  <entityname.he-chips2>袋装突变爆弹石榴薯片</entityname.he-chips2>
+  <entitydescription.he-chips2>干的突变爆弹石榴薯片。一种流行的小吃。据说可以略微加快烧伤的愈合。</entitydescription.he-chips2>
+  <entityname.he-bread>面包</entityname.he-bread>
+  <entitydescription.he-bread>一条面包。</entitydescription.he-bread>
+  <entityname.he-burgerbun>汉堡面包胚</entityname.he-burgerbun>
+  <entitydescription.he-burgerbun>用于制作汉堡。</entitydescription.he-burgerbun>
+  <entityname.he-hotdogbun>热狗面包胚</entityname.he-hotdogbun>
+  <entitydescription.he-hotdogbun>塞根香肠到里面。</entitydescription.he-hotdogbun>
+  <entityname.he-breadslices>切片面包</entityname.he-breadslices>
+  <!--Patch 10-->
+  <entitydescription.he-breadslices>两片面包。十分适合用来制作三明治！</entitydescription.he-breadslices>
+  <!--Patch 10-->
+  <entityname.he-sandwichbbjam>泡泡莓酱三明治</entityname.he-sandwichbbjam>
+  <!--Patch 10-->
+  <entitydescription.he-sandwichbbjam>涂有泡泡莓酱的美味三明治。</entitydescription.he-sandwichbbjam>
+  <!--Patch 10-->
+  <entityname.he-sandwichpgjam>爆弹石榴酱三明治</entityname.he-sandwichpgjam>
+  <!--Patch 13-->
+  <entitydescription.he-sandwichpgjam>涂有爆弹石榴酱的美味三明治。</entitydescription.he-sandwichpgjam>
+  <!--Patch 13-->
+  <entityname.he-cookedjerky>肉干</entityname.he-cookedjerky>
+  <!--Patch 13-->
+  <entitydescription.he-cookedjerky>几条肉干。廉价且易于制作的一顿。无法辨认是由什么做成的，但味道还行。吃起来让你感觉口渴，除了饱腹外没有任何好处。</entitydescription.he-cookedjerky>
+  <!--Patch 13-->
+  <!--spineling-->
+  <entityname.he-spinelingburger>汉堡</entityname.he-spinelingburger>
+  <!--Patch 13-->
+  <entitydescription.he-spinelingburger>吃完后有种刺痛感。</entitydescription.he-spinelingburger>
+  <!--Patch 13-->
+  <entityname.he-spinelinghotdog>热狗</entityname.he-spinelinghotdog>
+  <!--Patch 13-->
+  <entitydescription.he-spinelinghotdog>吃完后有种刺痛感。</entitydescription.he-spinelinghotdog>
+  <!--Patch 13-->
+  <entityname.he-cookedspinelingnugget>炸肉块</entityname.he-cookedspinelingnugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedspinelingnugget>吃完后有种刺痛感。</entitydescription.he-cookedspinelingnugget>
+  <!--Patch 13-->
+  <entityname.he-cookedspinelingkebab>肉串</entityname.he-cookedspinelingkebab>
+  <!--Patch 13-->
+  <entitydescription.he-cookedspinelingkebab>吃完后有种刺痛感。</entitydescription.he-cookedspinelingkebab>
+  <!--Patch 13-->
+  <!--husk-->
+  <entityname.he-huskburger>汉堡</entityname.he-huskburger>
+  <!--Patch 13-->
+  <entitydescription.he-huskburger>尝起来很扎嘴。</entitydescription.he-huskburger>
+  <!--Patch 13-->
+  <entityname.he-huskhotdog>热狗</entityname.he-huskhotdog>
+  <!--Patch 13-->
+  <entitydescription.he-huskhotdog>尝起来很扎嘴。</entitydescription.he-huskhotdog>
+  <!--Patch 13-->
+  <entityname.he-cookedhusknugget>炸肉块</entityname.he-cookedhusknugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedhusknugget>尝起来很扎嘴。</entitydescription.he-cookedhusknugget>
+  <!--Patch 13-->
+  <entityname.he-cookedhuskfilet>熟里脊</entityname.he-cookedhuskfilet>
+  <!--Patch 13-->
+  <entitydescription.he-cookedhuskfilet>尝起来很扎嘴。</entitydescription.he-cookedhuskfilet>
+  <!--Patch 13-->
+  <!--watcher-->
+  <entityname.he-watcherburger>汉堡</entityname.he-watcherburger>
+  <!--Patch 13-->
+  <entitydescription.he-watcherburger>这味道让你出了神。</entitydescription.he-watcherburger>
+  <!--Patch 13-->
+  <entityname.he-watcherhotdog>热狗</entityname.he-watcherhotdog>
+  <!--Patch 13-->
+  <entitydescription.he-watcherhotdog>这味道让你出了神。</entitydescription.he-watcherhotdog>
+  <!--Patch 13-->
+  <entityname.he-cookedwatchernugget>炸肉块</entityname.he-cookedwatchernugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedwatchernugget>这味道让你出了神。</entitydescription.he-cookedwatchernugget>
+  <!--Patch 13-->
+  <entityname.he-cookedwatchersteak>肉排</entityname.he-cookedwatchersteak>
+  <!--Patch 13-->
+  <entitydescription.he-cookedwatchersteak>这味道让你出了神。</entitydescription.he-cookedwatchersteak>
+  <!--Patch 13-->
+  <!--moloch-->
+  <entityname.he-molochburger>汉堡</entityname.he-molochburger>
+  <!--Patch 13-->
+  <entitydescription.he-molochburger>这味道让你感觉更耐揍了。</entitydescription.he-molochburger>
+  <!--Patch 13-->
+  <entityname.he-molochhotdog>热狗</entityname.he-molochhotdog>
+  <!--Patch 13-->
+  <entitydescription.he-molochhotdog>这味道让你感觉更耐揍了。</entitydescription.he-molochhotdog>
+  <!--Patch 13-->
+  <entityname.he-cookedmolochnugget>炸肉块</entityname.he-cookedmolochnugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedmolochnugget>这味道让你感觉更耐揍了。</entitydescription.he-cookedmolochnugget>
+  <!--Patch 13-->
+  <entityname.he-cookedmolochsteak>肉排</entityname.he-cookedmolochsteak>
+  <!--Patch 13-->
+  <entitydescription.he-cookedmolochsteak>这味道让你感觉更耐揍了。</entitydescription.he-cookedmolochsteak>
+  <!--Patch 13-->
+  <entityname.he-molochsushi>摩螺克寿司</entityname.he-molochsushi>
+  <!--Patch 13-->
+  <entitydescription.he-molochsushi>这味道让你感觉更耐揍了。</entitydescription.he-molochsushi>
+  <!--Patch 13-->
+  <!--crawler-->
+  <entityname.he-madnessmealcrawler>疯狂套餐 - 爬行者</entityname.he-madnessmealcrawler>
+  <!--Patch 13-->
+  <entitydescription.he-madnessmealcrawler>内含：\n - 1x 爬行者汉堡\n - 8x 爬行者炸肉块\n - 1x 罐装科罗拉可乐\n - 1x 随机玩具</entitydescription.he-madnessmealcrawler>
+  <!--Patch 13-->
+  <entityname.he-mrecrawler>MRE - 爬行者</entityname.he-mrecrawler>
+  <!--Patch 13-->
+  <entitydescription.he-mrecrawler>菜单：爬行者。打开至多获得2份口粮。</entitydescription.he-mrecrawler>
+  <!--Patch 13-->
+  <entityname.he-mrecrawlerration>MRE - 爬行者</entityname.he-mrecrawlerration>
+  <!--Patch 13-->
+  <entitydescription.he-mrecrawlerration>菜单：爬行者。很能填饱肚子的一餐，即食品。把水倒进去就能好好享受了。</entitydescription.he-mrecrawlerration>
+  <!--Patch 13-->
+  <entityname.he-crawlerburger>汉堡</entityname.he-crawlerburger>
+  <entitydescription.he-crawlerburger>有点美味的汉堡。</entitydescription.he-crawlerburger>
+  <entityname.he-crawlerhotdog>热狗</entityname.he-crawlerhotdog>
+  <entitydescription.he-crawlerhotdog>有点美味的热狗。</entitydescription.he-crawlerhotdog>
+  <entityname.he-cookedcrawlerfilet>熟里脊</entityname.he-cookedcrawlerfilet>
+  <entitydescription.he-cookedcrawlerfilet>味道糟透了，但在欧罗巴上不足为奇。</entitydescription.he-cookedcrawlerfilet>
+  <entityname.he-cookedcrawlernugget>炸肉块</entityname.he-cookedcrawlernugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedcrawlernugget>味道糟透了，但在欧罗巴上不足为奇。</entitydescription.he-cookedcrawlernugget>
+  <!--Patch 13-->
+  <entityname.he-nuggetpackcrawler>袋装爬行者炸肉块</entityname.he-nuggetpackcrawler>
+  <!--Patch 13-->
+  <entitydescription.he-nuggetpackcrawler>一袋 8x 爬行者炸肉块。</entitydescription.he-nuggetpackcrawler>
+  <!--Patch 13-->
+  <!--human-->
+  <entityname.he-cookedhumanfilet>熟里脊</entityname.he-cookedhumanfilet>
+  <entitydescription.he-cookedhumanfilet>尝起来像猪肉，只是味道有点更苦，更重。</entitydescription.he-cookedhumanfilet>
+  <entityname.he-humanburger>汉堡</entityname.he-humanburger>
+  <entitydescription.he-humanburger>尝起来有那么一点苦。</entitydescription.he-humanburger>
+  <entityname.he-humanhotdog>热狗</entityname.he-humanhotdog>
+  <entitydescription.he-humanhotdog>尝起来有那么一点苦。</entitydescription.he-humanhotdog>
+  <entityname.he-cookedhumannugget>炸肉块</entityname.he-cookedhumannugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedhumannugget>尝起来有那么一点苦。</entitydescription.he-cookedhumannugget>
+  <!--Patch 13-->
+  <!--mudraptor-->
+  <entityname.he-madnessmealmudraptor>疯狂套餐 - 迅猛龙</entityname.he-madnessmealmudraptor>
+  <!--Patch 13-->
+  <entitydescription.he-madnessmealmudraptor>内含：\n - 1x 迅猛龙汉堡\n - 8x 迅猛龙炸肉块\n - 1x 罐装科罗拉可乐\n - 1x 随机玩具</entitydescription.he-madnessmealmudraptor>
+  <!--Patch 13-->
+  <entityname.he-mremudraptor>MRE - 泥偶迅猛龙</entityname.he-mremudraptor>
+  <!--Patch 13-->
+  <entitydescription.he-mremudraptor>菜单：泥偶迅猛龙。打开至多获得2份口粮。</entitydescription.he-mremudraptor>
+  <!--Patch 13-->
+  <entityname.he-mremudraptorration>MRE - 泥偶迅猛龙</entityname.he-mremudraptorration>
+  <!--Patch 13-->
+  <entitydescription.he-mremudraptorration>菜单：泥偶迅猛龙。很能填饱肚子的一餐，即食品。把水倒进去就能好好享受了。</entitydescription.he-mremudraptorration>
+  <!--Patch 13-->
+  <entityname.he-cookedmudraptorroast>烤肉</entityname.he-cookedmudraptorroast>
+  <entitydescription.he-cookedmudraptorroast>一大块烤肉。</entitydescription.he-cookedmudraptorroast>
+  <entityname.he-mudraptorburger>汉堡</entityname.he-mudraptorburger>
+  <entitydescription.he-mudraptorburger>尝起来像鸡肉。</entitydescription.he-mudraptorburger>
+  <entityname.he-mudraptorhotdog>热狗</entityname.he-mudraptorhotdog>
+  <entitydescription.he-mudraptorhotdog>尝起来像鸡肉。</entitydescription.he-mudraptorhotdog>
+  <entityname.he-cookedmudraptornugget>炸肉块</entityname.he-cookedmudraptornugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedmudraptornugget>尝起来像鸡肉。</entitydescription.he-cookedmudraptornugget>
+  <!--Patch 13-->
+  <entityname.he-nuggetpackmudraptor>袋装迅猛龙炸肉块</entityname.he-nuggetpackmudraptor>
+  <!--Patch 13-->
+  <entitydescription.he-nuggetpackmudraptor>一袋 8x 迅猛龙炸肉块。</entitydescription.he-nuggetpackmudraptor>
+  <!--Patch 13-->
+  <!--hammerhead-->
+  <entityname.he-mrehammerhead>MRE - 锤头煞</entityname.he-mrehammerhead>
+  <!--Patch 13-->
+  <entitydescription.he-mrehammerhead>菜单：锤头煞。打开至多获得2份口粮。</entitydescription.he-mrehammerhead>
+  <!--Patch 13-->
+  <entityname.he-mrehammerheadration>MRE - 锤头煞</entityname.he-mrehammerheadration>
+  <!--Patch 13-->
+  <entitydescription.he-mrehammerheadration>菜单：锤头煞。很能填饱肚子的一餐，即食品。把水倒进去就能好好享受了。</entitydescription.he-mrehammerheadration>
+  <!--Patch 13-->
+  <entityname.he-cookedhammerheadroast>烤肉</entityname.he-cookedhammerheadroast>
+  <entitydescription.he-cookedhammerheadroast>一大块烤肉。</entitydescription.he-cookedhammerheadroast>
+  <entityname.he-cookedhammerheadspawnpickled>腌制锤头煞幼体</entityname.he-cookedhammerheadspawnpickled>
+  <entitydescription.he-cookedhammerheadspawnpickled>美味佳肴。</entitydescription.he-cookedhammerheadspawnpickled>
+  <entityname.he-cookedhammerheadspawnfried>油炸锤头煞幼体</entityname.he-cookedhammerheadspawnfried>
+  <entitydescription.he-cookedhammerheadspawnfried>昂贵的快餐。</entitydescription.he-cookedhammerheadspawnfried>
+  <entityname.he-hammerheadburger>汉堡</entityname.he-hammerheadburger>
+  <entitydescription.he-hammerheadburger>嗯唔，太好吃了，难以置信到你想把头砸了！</entitydescription.he-hammerheadburger>
+  <entityname.he-hammerheadhotdog>热狗</entityname.he-hammerheadhotdog>
+  <entitydescription.he-hammerheadhotdog>嗯唔，太好吃了，难以置信到你想把头砸了！</entitydescription.he-hammerheadhotdog>
+  <entityname.he-cookedhammerheadspareribs>排骨</entityname.he-cookedhammerheadspareribs>
+  <entitydescription.he-cookedhammerheadspareribs>味道浓郁的美食。</entitydescription.he-cookedhammerheadspareribs>
+  <entityname.he-cookedhammerheadnugget>炸肉块</entityname.he-cookedhammerheadnugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedhammerheadnugget>嗯唔，太好吃了，难以置信到你想把头砸了！</entitydescription.he-cookedhammerheadnugget>
+  <!--Patch 13-->
+  <entityname.he-nuggetpackhammerhead>袋装锤头煞炸肉块</entityname.he-nuggetpackhammerhead>
+  <!--Patch 13-->
+  <entitydescription.he-nuggetpackhammerhead>一袋 8x 锤头煞炸肉块。</entitydescription.he-nuggetpackhammerhead>
+  <!--Patch 13-->
+  <!--tresher-->
+  <entityname.he-mrethresher>MRE - 虎尾煞</entityname.he-mrethresher>
+  <!--Patch 13-->
+  <entitydescription.he-mrethresher>菜单：虎尾煞。打开至多获得2份口粮。</entitydescription.he-mrethresher>
+  <!--Patch 13-->
+  <entityname.he-mrethresherration>MRE - 虎尾煞</entityname.he-mrethresherration>
+  <!--Patch 13-->
+  <entitydescription.he-mrethresherration>菜单：虎尾煞。很能填饱肚子的一餐，即食品。把水倒进去就能好好享受了。</entitydescription.he-mrethresherration>
+  <!--Patch 13-->
+  <entityname.he-cookedthresherfilet>熟里脊</entityname.he-cookedthresherfilet>
+  <entitydescription.he-cookedthresherfilet>肉质松弛，还有点粘。</entitydescription.he-cookedthresherfilet>
+  <entityname.he-thresherburger>汉堡</entityname.he-thresherburger>
+  <entitydescription.he-thresherburger>这味道让你目瞪口呆。</entitydescription.he-thresherburger>
+  <entityname.he-thresherhotdog>热狗</entityname.he-thresherhotdog>
+  <entitydescription.he-thresherhotdog>这味道让你目瞪口呆。</entitydescription.he-thresherhotdog>
+  <entityname.he-cookedthreshernugget>炸肉块</entityname.he-cookedthreshernugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedthreshernugget>这味道让你目瞪口呆。</entitydescription.he-cookedthreshernugget>
+  <!--Patch 13-->
+  <entityname.he-nuggetpackthresher>袋装虎尾煞炸肉块</entityname.he-nuggetpackthresher>
+  <!--Patch 13-->
+  <entitydescription.he-nuggetpackthresher>一袋 8x 虎尾煞炸肉块。</entitydescription.he-nuggetpackthresher>
+  <!--Patch 13-->
+  <!--endworm-->
+  <entityname.he-endwormhotdog>热狗</entityname.he-endwormhotdog>
+  <entitydescription.he-endwormhotdog>这味道太疯狂了！</entitydescription.he-endwormhotdog>
+  <entityname.he-endwormburger>汉堡</entityname.he-endwormburger>
+  <entitydescription.he-endwormburger>这味道太疯狂了！</entitydescription.he-endwormburger>
+  <entityname.he-cookedendwormnugget>炸肉块</entityname.he-cookedendwormnugget>
+  <!--Patch 13-->
+  <entitydescription.he-cookedendwormnugget>这味道太疯狂了！</entitydescription.he-cookedendwormnugget>
+  <!--Patch 13-->
+  <!--plants-->
+  <entityname.bubbleberries>泡泡莓</entityname.bubbleberries>
+  <!--Patch 10-->
+  <entitydescription.bubbleberries>非常美味多汁。</entitydescription.bubbleberries>
+  <!--Patch 10-->
+  <entityname.badbubbleberries>突变泡泡莓</entityname.badbubbleberries>
+  <!--Patch 10-->
+  <entityname.popnut>爆爆果</entityname.popnut>
+  <!--Patch 10-->
+  <entitydescription.popnut>是许多孩子喜爱的玩具。吃之前得放在水中让它爆开。</entitydescription.popnut>
+  <!--Patch 10-->
+  <entityname.popnutpopped>爆开的爆爆果</entityname.popnutpopped>
+  <!--Patch 10-->
+  <entitydescription.popnutpopped>已经爆开了，可以食用。用于一些配方。</entitydescription.popnutpopped>
+  <!--Patch 10-->
+  <entityname.badpopnutpopped>爆开的突变爆爆果</entityname.badpopnutpopped>
+  <!--Patch 10-->
+  <entitydescription.badpopnutpopped>已经爆开了，可以食用。用于一些配方。留在水中可能会有危险。</entitydescription.badpopnutpopped>
+  <!--Patch 10-->
+  <entityname.badpopnut>突变爆爆果</entityname.badpopnut>
+  <!--Patch 10-->
+  <entityname.badtobaccobud>突变烟草芽</entityname.badtobaccobud>
+  <!--Patch 10-->
+  <entityname.badsaltbulb>突变盐木鳞</entityname.badsaltbulb>
+  <!--Patch 10-->
+  <!-- SEEDS -->
+  <entityname.bubbleberryvineseed>泡泡莓种子</entityname.bubbleberryvineseed>
+  <!--Changed as of Patch 11 | Identifier changed. Previous identifier <entityname.he-bubbleberryvineseed>-->
+  <entitydescription.bubbleberryvineseed>种在小号种植箱中可长出泡泡莓。</entitydescription.bubbleberryvineseed>
+  <!--Changed as of Patch 11 | Identifier changed. Previous identifier <entityname.he-bubbleberryvineseed>-->
+  <entityname.popnutvineseed>爆爆果种子</entityname.popnutvineseed>
+  <!--Changed as of Patch 11 | Identifier changed. Previous identifier <entityname.he-popnutvineseed>-->
+  <entitydescription.popnutvineseed>种在小号种植箱中可长出爆爆果。</entitydescription.popnutvineseed>
+  <!--Changed as of Patch 11 | Identifier changed. Previous identifier <entityname.he-popnutvineseed>-->
+  <!-- Drinks -->
+  <entityname.he-energydrink1>能量饮料</entityname.he-energydrink1>
+  <entitydescription.he-energydrink1>一种提神的能量饮料。在你喝得烂醉如泥需要醒醒酒的时候很有用。</entitydescription.he-energydrink1>
+  <entityname.rum>朗姆酒</entityname.rum>
+  <entitydescription.rum>一种浓烈的酒精饮料。|酒精饮料|降低精神病|降低幻觉|降低画皮感染（90%以下时）|治疗受伤|增加精神抗性</entitydescription.rum>
+  <entityname.he-rum>海盗朗姆酒</entityname.he-rum>
+  <entitydescription.he-rum>富含铀元素用以增味的浓烈朗姆酒。|酒精饮料|降低精神病|降低幻觉|降低画皮感染（90%以下时）|治疗属性|增加精神抗性|增加辐射病（轻微）</entitydescription.he-rum>
+  <entityname.he-whiskey>医生威士忌</entityname.he-whiskey>
+  <entitydescription.he-whiskey>迈克尔医生的原创威士忌。受到了全欧罗巴医生的一致认同。|酒精饮料|降低幻觉|降低致幻诺瓦的效果|降低化学成瘾|增加精神抗性|轻微的治疗属性</entitydescription.he-whiskey>
+  <!--Changed as of Patch 10-->
+  <entityname.he-halucinova>致幻诺瓦</entityname.he-halucinova>
+  <entitydescription.he-halucinova>不惜一切代价远离"Sadashi Kira"！|酒精饮料|增加幻觉|轻微的治疗属性</entitydescription.he-halucinova>
+  <entityname.he-beer>联盟高级拉格啤酒</entityname.he-beer>
+  <entitydescription.he-beer>联盟站点居民中流行的啤酒。|酒精饮料|增加精神抗性</entitydescription.he-beer>
+  <entityname.he-water>水</entityname.he-water>
+  <entitydescription.he-water>淡水。如果你吃撑了或喝得烂醉如泥时能派上点用处。</entitydescription.he-water>
+  <entityname.he-waterbeer>水</entityname.he-waterbeer>
+  <!--Patch 10-->
+  <entitydescription.he-waterbeer>淡水。如果你吃撑了或喝得烂醉如泥时能派上点用处。</entitydescription.he-waterbeer>
+  <!--Patch 10-->
+  <entityname.he-waterrum>水</entityname.he-waterrum>
+  <!--Patch 10-->
+  <entitydescription.he-waterrum>淡水。如果你吃撑了或喝得烂醉如泥时能派上点用处。</entitydescription.he-waterrum>
+  <!--Patch 10-->
+  <entityname.he-waterwhiskey>水</entityname.he-waterwhiskey>
+  <!--Patch 10-->
+  <entitydescription.he-waterwhiskey>淡水。如果你吃撑了或喝得烂醉如泥时能派上点用处。</entitydescription.he-waterwhiskey>
+  <!--Patch 10-->
+  <entityname.he-waterhalucinova>水</entityname.he-waterhalucinova>
+  <!--Patch 10-->
+  <entitydescription.he-waterhalucinova>淡水。如果你吃撑了或喝得烂醉如泥时能派上点用处。</entitydescription.he-waterhalucinova>
+  <!--Patch 10-->
+  <entityname.he-milk>摩螺克奶</entityname.he-milk>
+  <entitydescription.he-milk>一瓶摩螺克奶。味道有点奇怪。别问他们是怎么从摩螺克那搞到奶的！在你喝得烂醉如泥或饿的时候，或许能派上点用处。</entitydescription.he-milk>
+  <entityname.he-seawaterrum>海水</entityname.he-seawaterrum>
+  <entitydescription.he-seawaterrum>海水。总比什么都没要好，但你真不该喝这个。</entitydescription.he-seawaterrum>
+  <entityname.he-seawaterwhiskey>海水</entityname.he-seawaterwhiskey>
+  <entitydescription.he-seawaterwhiskey>海水。总比什么都没要好，但你真不该喝这个。</entitydescription.he-seawaterwhiskey>
+  <entityname.he-seawaterhalucinova>海水</entityname.he-seawaterhalucinova>
+  <entitydescription.he-seawaterhalucinova>海水。总比什么都没要好，但你真不该喝这个。</entitydescription.he-seawaterhalucinova>
+  <entityname.he-seawater>海水</entityname.he-seawater>
+  <entitydescription.he-seawater>海水。总比什么都没要好，但你真不该喝这个。</entitydescription.he-seawater>
+  <entityname.he-seawaterbeer>海水</entityname.he-seawaterbeer>
+  <!--Patch 11-->
+  <entitydescription.he-seawaterbeer>海水。总比什么都没要好，但你真不该喝这个。</entitydescription.he-seawaterbeer>
+  <!--Patch 11-->
+  <entityname.he-beercoalitionpremium>联盟高级拉格啤酒</entityname.he-beercoalitionpremium>
+  <!--Changed as of Patch 10 | Identifier changed. Previous identifier <entityname.he-beer>-->
+  <entitydescription.he-beercoalitionpremium>联盟站点居民中流行的啤酒。|酒精饮料|增加精神抗性</entitydescription.he-beercoalitionpremium>
+  <!--Changed as of Patch 10 | Identifier changed. Previous identifier <entityname.he-beer>-->
+  <entityname.he-beerjovianforce>木星军</entityname.he-beerjovianforce>
+  <!--Patch 10-->
+  <entitydescription.he-beerjovianforce>在分离主义者中最为流行的啤酒。|酒精饮料|增加精神抗性</entitydescription.he-beerjovianforce>
+  <!--Patch 10-->
+  <entityname.he-beerliquidascension>液态飞升</entityname.he-beerliquidascension>
+  <!--Patch 10-->
+  <entitydescription.he-beerliquidascension>画皮教派的成员飞升路上流行的啤酒！|酒精饮料|增加精神抗性|增加压力适应|不含氧|可能含有少量画皮寄生虫</entitydescription.he-beerliquidascension>
+  <!--Patch 10-->
+  <entityname.he-beerclownjuice>小丑果汁</entityname.he-beerclownjuice>
+  <!--Patch 10-->
+  <entitydescription.he-beerclownjuice>恶作剧者中流行的啤酒。赞美小丑圣母！|酒精饮料|增加精神抗性</entitydescription.he-beerclownjuice>
+  <!--Patch 10-->
+  <entityname.he-beerreaperstribute>死神献礼</entityname.he-beerreaperstribute>
+  <!--Patch 10-->
+  <entitydescription.he-beerreaperstribute>向死神献礼的强劲啤酒。|酒精饮料|清除死神之税|增加精神抗性</entitydescription.he-beerreaperstribute>
+  <!--Patch 13-->
+  <entityname.he-cupbubbleberrytea>杯装泡泡莓茶</entityname.he-cupbubbleberrytea>
+  <!--Patch 13-->
+  <entitydescription.he-cupbubbleberrytea>人们声称喝了之后一段时间都感觉不到口渴。</entitydescription.he-cupbubbleberrytea>
+  <!--Patch 13-->
+  <entityname.he-cuppopnuttea>杯装爆爆果茶</entityname.he-cuppopnuttea>
+  <!--Patch 13-->
+  <entitydescription.he-cuppopnuttea>人们声称喝了之后一段时间都感觉不到口渴。</entitydescription.he-cuppopnuttea>
+  <!--Patch 13-->
+  <entityname.he-colacan>罐装科罗拉可乐</entityname.he-colacan>
+  <!--Patch 13-->
+  <entitydescription.he-colacan>令人神清气爽的罐装科罗拉可乐。超级清爽，在你喝得完全烂醉如泥需要赶紧醒醒酒的时候有用。大量摄入可能会导致不适。</entitydescription.he-colacan>
+  <!--Patch 13-->
+  <entityname.he-colazerocan>罐装零度科罗拉可乐</entityname.he-colazerocan>
+  <!--Patch 13-->
+  <entitydescription.he-colazerocan>令人神清气爽的罐装零度科罗拉可乐。无糖，但风味依旧！十分清爽，在你喝得完全烂醉如泥需要赶紧醒醒酒的时候有用。</entitydescription.he-colazerocan>
+  <!--Patch 13-->
+  <entityname.he-colabottle>科罗拉可乐</entityname.he-colabottle>
+  <!--Patch 13-->
+  <entitydescription.he-colabottle>一瓶科罗拉可乐。非常清爽且在你喝得烂醉如泥的时候很有用。大量摄入可能会导致不适。</entitydescription.he-colabottle>
+  <!--Patch 13-->
+  <entityname.he-colazerobottle>零度科罗拉可乐</entityname.he-colazerobottle>
+  <!--Patch 13-->
+  <entitydescription.he-colazerobottle>一瓶零度科罗拉可乐。无糖，但风味依旧！非常清爽且在你喝得烂醉如泥的时候有点用。</entitydescription.he-colazerobottle>
+  <!--Patch 13-->
+  <!-- Kegs -->
+  <entityname.he-kegempty>空桶</entityname.he-kegempty>
+  <!--Patch 10-->
+  <entitydescription.he-kegempty>用于某些配方的空桶。可在水中使用来收集脏水。</entitydescription.he-kegempty>
+  <!--Patch 10-->
+  <entityname.he-kegseawater>桶装海水</entityname.he-kegseawater>
+  <!--Patch 10-->
+  <entitydescription.he-kegseawater>装满海水的小桶。可用于在填充站填充空瓶。可在炉灶或酿酒壶煮干净。也用于水培种植箱。</entitydescription.he-kegseawater>
+  <!--Patch 10-->
+  <entityname.he-kegwater>桶装水</entityname.he-kegwater>
+  <!--Patch 10-->
+  <entitydescription.he-kegwater>装满水的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegwater>
+  <!--Patch 10-->
+  <entityname.he-kegcoalitionpremium>桶装联盟高级啤酒</entityname.he-kegcoalitionpremium>
+  <!--Patch 10-->
+  <entitydescription.he-kegcoalitionpremium>装满联盟高级啤酒的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegcoalitionpremium>
+  <!--Patch 10-->
+  <entityname.he-kegjovianforce>桶装木星军啤酒</entityname.he-kegjovianforce>
+  <!--Patch 10-->
+  <entitydescription.he-kegjovianforce>装满木星军啤酒的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegjovianforce>
+  <!--Patch 10-->
+  <entityname.he-kegliquidascension>桶装液态飞升啤酒</entityname.he-kegliquidascension>
+  <!--Patch 10-->
+  <entitydescription.he-kegliquidascension>装满液态飞升啤酒的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegliquidascension>
+  <!--Patch 10-->
+  <entityname.he-kegclownjuice>桶装小丑果汁啤酒</entityname.he-kegclownjuice>
+  <!--Patch 10-->
+  <entitydescription.he-kegclownjuice>装满小丑果汁啤酒的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegclownjuice>
+  <!--Patch 10-->
+  <entityname.he-kegreaperstribute>桶装死神献礼啤酒</entityname.he-kegreaperstribute>
+  <!--Patch 10-->
+  <entitydescription.he-kegreaperstribute>装满死神献礼啤酒的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegreaperstribute>
+  <!--Patch 10-->
+  <entityname.he-kegrum>桶装朗姆酒</entityname.he-kegrum>
+  <!--Patch 10-->
+  <entitydescription.he-kegrum>装满朗姆酒的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegrum>
+  <!--Patch 10-->
+  <entityname.he-kegpiraterum>桶装海盗朗姆酒</entityname.he-kegpiraterum>
+  <!--Patch 10-->
+  <entitydescription.he-kegpiraterum>装满海盗朗姆酒的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegpiraterum>
+  <!--Patch 10-->
+  <entityname.he-kegwhiskey>桶装威士忌</entityname.he-kegwhiskey>
+  <!--Patch 10-->
+  <entitydescription.he-kegwhiskey>装满威士忌的小桶。可用于在填充站填充空瓶。</entitydescription.he-kegwhiskey>
+  <!--Patch 10-->
+  <entityname.he-keghalucinova>桶装致幻诺瓦</entityname.he-keghalucinova>
+  <!--Patch 10-->
+  <entitydescription.he-keghalucinova>装满致幻诺瓦的小桶。可用于在填充站填充空瓶。</entitydescription.he-keghalucinova>
+  <!--Patch 10-->
+  <!-- Blueprints -->
+  <entityname.he-blueprintbottle>瓶子蓝图</entityname.he-blueprintbottle>
+  <!--Patch 11-->
+  <entitydescription.he-blueprintbottle>普通瓶子的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintbottle>
+  <!--Patch 11-->
+  <entityname.he-blueprintbottlebeer>啤酒瓶蓝图</entityname.he-blueprintbottlebeer>
+  <!--Patch 11-->
+  <entitydescription.he-blueprintbottlebeer>啤酒瓶的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintbottlebeer>
+  <!--Patch 11-->
+  <entityname.he-blueprintbottlerum>朗姆酒瓶蓝图</entityname.he-blueprintbottlerum>
+  <!--Patch 11-->
+  <entitydescription.he-blueprintbottlerum>朗姆酒瓶的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintbottlerum>
+  <!--Patch 11-->
+  <entityname.he-blueprintbottlewhiskey>威士忌瓶蓝图</entityname.he-blueprintbottlewhiskey>
+  <!--Patch 11-->
+  <entitydescription.he-blueprintbottlewhiskey>威士忌瓶的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintbottlewhiskey>
+  <!--Patch 11-->
+  <entityname.he-blueprintbottlehalucinova>致幻诺瓦瓶蓝图</entityname.he-blueprintbottlehalucinova>
+  <!--Patch 11-->
+  <entitydescription.he-blueprintbottlehalucinova>致幻诺瓦瓶的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintbottlehalucinova>
+  <!--Patch 11-->
+  <entityname.he-blueprintjar>罐子蓝图</entityname.he-blueprintjar>
+  <!--Patch 11-->
+  <entitydescription.he-blueprintjar>罐子的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintjar>
+  <!--Patch 11-->
+  <entityname.he-blueprintshaker>作料瓶蓝图</entityname.he-blueprintshaker>
+  <!--Patch 11-->
+  <entitydescription.he-blueprintshaker>作料瓶的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintshaker>
+  <!--Patch 11-->
+  <entityname.he-blueprintcup>杯子蓝图</entityname.he-blueprintcup>
+  <!--Patch 13-->
+  <entitydescription.he-blueprintcup>杯子的蓝图。可以被瓶子打印机使用。</entitydescription.he-blueprintcup>
+  <!--Patch 13-->
+  <!-- Ingredients -->
+  <entityname.he-emptybottlerum>空朗姆酒瓶</entityname.he-emptybottlerum>
+  <entitydescription.he-emptybottlerum>用于某些配方的空朗姆酒瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlerum>
+  <entityname.he-emptybottlewhiskey>空威士忌瓶</entityname.he-emptybottlewhiskey>
+  <entitydescription.he-emptybottlewhiskey>用于某些配方的空威士忌酒瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlewhiskey>
+  <entityname.he-emptybottlehalucinova>空致幻诺瓦瓶</entityname.he-emptybottlehalucinova>
+  <entitydescription.he-emptybottlehalucinova>用于某些配方的空致幻诺瓦瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlehalucinova>
+  <entityname.he-emptybottlebeer>空啤酒瓶</entityname.he-emptybottlebeer>
+  <!--Patch 10-->
+  <entitydescription.he-emptybottlebeer>用于某些配方的空啤酒瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlebeer>
+  <!--Patch 10-->
+  <entityname.he-emptybottle>空瓶子</entityname.he-emptybottle>
+  <entitydescription.he-emptybottle>用于某些配方的空瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottle>
+  <entityname.he-emptyjar>空罐子</entityname.he-emptyjar>
+  <entitydescription.he-emptyjar>用于某些配方的空罐子。可被投掷。</entitydescription.he-emptyjar>
+  <entityname.he-emptyshaker>空作料瓶</entityname.he-emptyshaker>
+  <!--Patch 11-->
+  <entitydescription.he-emptyshaker>准备装满盐的空作料瓶！可被投掷。</entitydescription.he-emptyshaker>
+  <!--Patch 11-->
+  <entityname.he-emptycup>空杯子</entityname.he-emptycup>
+  <!--Patch 13-->
+  <entitydescription.he-emptycup>用来装饮料的空杯子。可被投掷或装茶。</entitydescription.he-emptycup>
+  <!--Patch 13-->
+  <entityname.he-emptybottlerum2>空朗姆酒瓶</entityname.he-emptybottlerum2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlerum2>用于某些配方的空朗姆酒瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlerum2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlewhiskey2>空威士忌瓶</entityname.he-emptybottlewhiskey2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlewhiskey2>用于某些配方的空威士忌酒瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlewhiskey2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlehalucinova2>空致幻诺瓦瓶</entityname.he-emptybottlehalucinova2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlehalucinova2>用于某些配方的空致幻诺瓦瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlehalucinova2>
+  <!--Patch 11-->
+  <entityname.he-emptybottlebeer2>空啤酒瓶</entityname.he-emptybottlebeer2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottlebeer2>用于某些配方的空啤酒瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottlebeer2>
+  <!--Patch 11-->
+  <entityname.he-emptybottle2>空瓶子</entityname.he-emptybottle2>
+  <!--Patch 11-->
+  <entitydescription.he-emptybottle2>用于某些配方的空瓶。可被投掷或在水中使用来收集海水。</entitydescription.he-emptybottle2>
+  <!--Patch 11-->
+  <entityname.he-emptyjar2>空罐子</entityname.he-emptyjar2>
+  <!--Patch 11-->
+  <entitydescription.he-emptyjar2>用于某些配方的空罐子。可被投掷。</entitydescription.he-emptyjar2>
+  <!--Patch 11-->
+  <entityname.he-emptyshaker2>空作料瓶</entityname.he-emptyshaker2>
+  <!--Patch 11-->
+  <entitydescription.he-emptyshaker2>准备装满盐的空作料瓶！可被投掷。</entitydescription.he-emptyshaker2>
+  <!--Patch 11-->
+  <entityname.he-emptycup2>空杯子</entityname.he-emptycup2>
+  <!--Patch 13-->
+  <entitydescription.he-emptycup2>用来装饮料的空杯子。可被投掷或装茶。</entitydescription.he-emptycup2>
+  <!--Patch 13-->
+  <entityname.he-endwormmeatchunk>末日蠕虫大肉块</entityname.he-endwormmeatchunk>
+  <entitydescription.he-endwormmeatchunk>末日蠕虫的一大块肉。在冷藏容器外将会变质。</entitydescription.he-endwormmeatchunk>
+  <entityname.he-rawendwormmeat>生末日蠕虫肉</entityname.he-rawendwormmeat>
+  <entitydescription.he-rawendwormmeat>在冷藏容器外将会变质。</entitydescription.he-rawendwormmeat>
+  <entityname.he-rawendwormsausage>生末日蠕虫香肠</entityname.he-rawendwormsausage>
+  <entitydescription.he-rawendwormsausage>在冷藏容器外将会变质。</entitydescription.he-rawendwormsausage>
+  <entityname.he-rawendwormmeatpatty>生末日蠕虫肉饼</entityname.he-rawendwormmeatpatty>
+  <entitydescription.he-rawendwormmeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawendwormmeatpatty>
+  <entityname.he-humanmeatchunk>人肉</entityname.he-humanmeatchunk>
+  <entitydescription.he-humanmeatchunk>人类身体的一部分。在冷藏容器外将会变质。</entitydescription.he-humanmeatchunk>
+  <entityname.he-rawhumanmeat>生人肉</entityname.he-rawhumanmeat>
+  <entitydescription.he-rawhumanmeat>在冷藏容器外将会变质。</entitydescription.he-rawhumanmeat>
+  <entityname.he-rawhumansausage>生人肉香肠</entityname.he-rawhumansausage>
+  <entitydescription.he-rawhumansausage>在冷藏容器外将会变质。</entitydescription.he-rawhumansausage>
+  <entityname.he-rawhumanmeatpatty>生人肉饼</entityname.he-rawhumanmeatpatty>
+  <entitydescription.he-rawhumanmeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawhumanmeatpatty>
+  <entityname.he-rawhumannuggets>生人肉块堆</entityname.he-rawhumannuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawhumannuggets>人肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawhumannuggets>
+  <!--Patch 13-->
+  <entityname.he-crawlermeatchunk>半扇爬行者</entityname.he-crawlermeatchunk>
+  <entitydescription.he-crawlermeatchunk>被砍成两半的爬行者。在冷藏容器外将会变质。</entitydescription.he-crawlermeatchunk>
+  <entityname.he-crawlermeatchunkspecial>爬行者大肉块</entityname.he-crawlermeatchunkspecial>
+  <entitydescription.he-crawlermeatchunkspecial>一块爬行者肉。</entitydescription.he-crawlermeatchunkspecial>
+  <entityname.he-rawcrawlermeat>生爬行者肉</entityname.he-rawcrawlermeat>
+  <entitydescription.he-rawcrawlermeat>在冷藏容器外将会变质。</entitydescription.he-rawcrawlermeat>
+  <entityname.he-rawcrawlersausage>生爬行者香肠</entityname.he-rawcrawlersausage>
+  <entitydescription.he-rawcrawlersausage>在冷藏容器外将会变质。</entitydescription.he-rawcrawlersausage>
+  <entityname.he-rawcrawlermeatpatty>生爬行者肉饼</entityname.he-rawcrawlermeatpatty>
+  <entitydescription.he-rawcrawlermeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawcrawlermeatpatty>
+  <entityname.he-rawcrawlernuggets>生爬行者肉块堆</entityname.he-rawcrawlernuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawcrawlernuggets>爬行者肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawcrawlernuggets>
+  <!--Patch 13-->
+  <entityname.he-mudraptormeatchunk>迅猛龙大肉块</entityname.he-mudraptormeatchunk>
+  <entitydescription.he-mudraptormeatchunk>迅猛龙身上砍下的一大块肉。在冷藏容器外将会变质。</entitydescription.he-mudraptormeatchunk>
+  <entityname.he-rawmudraptormeat>生迅猛龙肉</entityname.he-rawmudraptormeat>
+  <entitydescription.he-rawmudraptormeat>在冷藏容器外将会变质。</entitydescription.he-rawmudraptormeat>
+  <entityname.he-rawmudraptorsausage>生迅猛龙香肠</entityname.he-rawmudraptorsausage>
+  <entitydescription.he-rawmudraptorsausage>在冷藏容器外将会变质。</entitydescription.he-rawmudraptorsausage>
+  <entityname.he-rawmudraptormeatpatty>生迅猛龙肉饼</entityname.he-rawmudraptormeatpatty>
+  <entitydescription.he-rawmudraptormeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawmudraptormeatpatty>
+  <entityname.he-rawmudraptorroast>生迅猛龙烤肉</entityname.he-rawmudraptorroast>
+  <entitydescription.he-rawmudraptorroast>该放进烤箱了！在冷藏容器外将会变质。</entitydescription.he-rawmudraptorroast>
+  <entityname.he-rawmudraptornuggets>生迅猛龙肉块堆</entityname.he-rawmudraptornuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawmudraptornuggets>迅猛龙肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawmudraptornuggets>
+  <!--Patch 13-->
+  <entityname.he-hammerheadmeatchunk>锤头煞大肉块</entityname.he-hammerheadmeatchunk>
+  <entitydescription.he-hammerheadmeatchunk>锤头煞身上砍下的一大块肉。在冷藏容器外将会变质。</entitydescription.he-hammerheadmeatchunk>
+  <entityname.he-rawhammerheadmeat>生锤头煞肉</entityname.he-rawhammerheadmeat>
+  <entitydescription.he-rawhammerheadmeat>在冷藏容器外将会变质。</entitydescription.he-rawhammerheadmeat>
+  <entityname.he-rawhammerheadsausage>生锤头煞香肠</entityname.he-rawhammerheadsausage>
+  <entitydescription.he-rawhammerheadsausage>在冷藏容器外将会变质。</entitydescription.he-rawhammerheadsausage>
+  <entityname.he-rawhammerheadmeatpatty>生锤头煞肉饼</entityname.he-rawhammerheadmeatpatty>
+  <entitydescription.he-rawhammerheadmeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawhammerheadmeatpatty>
+  <entityname.he-rawhammerheadspareribs>生锤头煞排骨</entityname.he-rawhammerheadspareribs>
+  <entitydescription.he-rawhammerheadspareribs>从巨大的胸廓上砍下来的。在冷藏容器外将会变质。</entitydescription.he-rawhammerheadspareribs>
+  <entityname.he-rawhammerheadroast>生锤头煞烤肉</entityname.he-rawhammerheadroast>
+  <entitydescription.he-rawhammerheadroast>该放进烤箱了。在冷藏容器外将会变质。</entitydescription.he-rawhammerheadroast>
+  <entityname.he-hammerheadspawnmeatchunk>锤头煞幼体</entityname.he-hammerheadspawnmeatchunk>
+  <entitydescription.he-hammerheadspawnmeatchunk>锤头煞的幼崽。在冷藏容器外将会变质。</entitydescription.he-hammerheadspawnmeatchunk>
+  <entityname.he-rawhammerheadnuggets>生锤头煞肉块堆</entityname.he-rawhammerheadnuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawhammerheadnuggets>锤头煞肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawhammerheadnuggets>
+  <!--Patch 13-->
+  <entityname.he-threshermeatchunk>虎尾煞大肉块</entityname.he-threshermeatchunk>
+  <entitydescription.he-threshermeatchunk>虎尾煞身上砍下的一块肉。在冷藏容器外将会变质。</entitydescription.he-threshermeatchunk>
+  <entityname.he-rawthreshermeat>生虎尾煞肉</entityname.he-rawthreshermeat>
+  <entitydescription.he-rawthreshermeat>在冷藏容器外将会变质。</entitydescription.he-rawthreshermeat>
+  <entityname.he-rawthreshersausage>生虎尾煞香肠</entityname.he-rawthreshersausage>
+  <entitydescription.he-rawthreshersausage>在冷藏容器外将会变质。</entitydescription.he-rawthreshersausage>
+  <entityname.he-rawthreshermeatpatty>生虎尾煞肉饼</entityname.he-rawthreshermeatpatty>
+  <entitydescription.he-rawthreshermeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawthreshermeatpatty>
+  <entityname.he-rawthreshernuggets>生虎尾煞肉块堆</entityname.he-rawthreshernuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawthreshernuggets>虎尾煞肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawthreshernuggets>
+  <!--Patch 13-->
+  <entityname.he-huskmeatchunk>画皮大肉块</entityname.he-huskmeatchunk>
+  <!--Patch 13-->
+  <entitydescription.he-huskmeatchunk>画皮身上砍下的一块肉。在冷藏容器外将会变质。</entitydescription.he-huskmeatchunk>
+  <!--Patch 13-->
+  <entityname.he-rawhuskmeat>生画皮肉</entityname.he-rawhuskmeat>
+  <!--Patch 13-->
+  <entitydescription.he-rawhuskmeat>在冷藏容器外将会变质。</entitydescription.he-rawhuskmeat>
+  <!--Patch 13-->
+  <entityname.he-rawhusksausage>生画皮香肠</entityname.he-rawhusksausage>
+  <!--Patch 13-->
+  <entitydescription.he-rawhusksausage>在冷藏容器外将会变质。</entitydescription.he-rawhusksausage>
+  <!--Patch 13-->
+  <entityname.he-rawhuskmeatpatty>生画皮肉饼</entityname.he-rawhuskmeatpatty>
+  <!--Patch 13-->
+  <entitydescription.he-rawhuskmeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawhuskmeatpatty>
+  <!--Patch 13-->
+  <entityname.he-rawhusknuggets>生画皮肉块堆</entityname.he-rawhusknuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawhusknuggets>画皮肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawhusknuggets>
+  <!--Patch 13-->
+  <entityname.he-watchermeatchunk>独目哨兵大肉块</entityname.he-watchermeatchunk>
+  <!--Patch 13-->
+  <entitydescription.he-watchermeatchunk>一块独目哨兵的肉。在冷藏容器外将会变质。</entitydescription.he-watchermeatchunk>
+  <!--Patch 13-->
+  <entityname.he-rawwatchermeat>生独目哨兵肉</entityname.he-rawwatchermeat>
+  <!--Patch 13-->
+  <entitydescription.he-rawwatchermeat>在冷藏容器外将会变质。</entitydescription.he-rawwatchermeat>
+  <!--Patch 13-->
+  <entityname.he-rawwatchersteak>生独目哨兵肉排</entityname.he-rawwatchersteak>
+  <!--Patch 13-->
+  <entitydescription.he-rawwatchersteak>在冷藏容器外将会变质。</entitydescription.he-rawwatchersteak>
+  <!--Patch 13-->
+  <entityname.he-rawwatchersausage>生独目哨兵香肠</entityname.he-rawwatchersausage>
+  <!--Patch 13-->
+  <entitydescription.he-rawwatchersausage>在冷藏容器外将会变质。</entitydescription.he-rawwatchersausage>
+  <!--Patch 13-->
+  <entityname.he-rawwatchermeatpatty>生独目哨兵肉饼</entityname.he-rawwatchermeatpatty>
+  <!--Patch 13-->
+  <entitydescription.he-rawwatchermeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawwatchermeatpatty>
+  <!--Patch 13-->
+  <entityname.he-rawwatchernuggets>生独目哨兵肉块堆</entityname.he-rawwatchernuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawwatchernuggets>独目哨兵肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawwatchernuggets>
+  <!--Patch 13-->
+  <entityname.he-molochmeatchunk>摩螺克大肉块</entityname.he-molochmeatchunk>
+  <!--Patch 13-->
+  <entitydescription.he-molochmeatchunk>一块摩螺克肉。在冷藏容器外将会变质。</entitydescription.he-molochmeatchunk>
+  <!--Patch 13-->
+  <entityname.he-rawmolochmeat>生摩螺克肉</entityname.he-rawmolochmeat>
+  <!--Patch 13-->
+  <entitydescription.he-rawmolochmeat>在冷藏容器外将会变质。</entitydescription.he-rawmolochmeat>
+  <!--Patch 13-->
+  <entityname.he-rawmolochsteak>生摩螺克肉排</entityname.he-rawmolochsteak>
+  <!--Patch 13-->
+  <entitydescription.he-rawmolochsteak>在冷藏容器外将会变质。</entitydescription.he-rawmolochsteak>
+  <!--Patch 13-->
+  <entityname.he-rawmolochsausage>生摩螺克香肠</entityname.he-rawmolochsausage>
+  <!--Patch 13-->
+  <entitydescription.he-rawmolochsausage>在冷藏容器外将会变质。</entitydescription.he-rawmolochsausage>
+  <!--Patch 13-->
+  <entityname.he-rawmolochmeatpatty>生摩螺克肉饼</entityname.he-rawmolochmeatpatty>
+  <!--Patch 13-->
+  <entitydescription.he-rawmolochmeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawmolochmeatpatty>
+  <!--Patch 13-->
+  <entityname.he-rawmolochnuggets>生摩螺克肉块堆</entityname.he-rawmolochnuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawmolochnuggets>摩螺克肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawmolochnuggets>
+  <!--Patch 13-->
+  <entityname.he-spinelingmeatchunk>脊刺大肉块</entityname.he-spinelingmeatchunk>
+  <!--Patch 13-->
+  <entitydescription.he-spinelingmeatchunk>一块脊刺的肉。在冷藏容器外将会变质。</entitydescription.he-spinelingmeatchunk>
+  <!--Patch 13-->
+  <entityname.he-rawspinelingmeat>生脊刺肉</entityname.he-rawspinelingmeat>
+  <!--Patch 13-->
+  <entitydescription.he-rawspinelingmeat>在冷藏容器外将会变质。</entitydescription.he-rawspinelingmeat>
+  <!--Patch 13-->
+  <entityname.he-rawspinelingsteak>生脊刺肉排</entityname.he-rawspinelingsteak>
+  <!--Patch 13-->
+  <entitydescription.he-rawspinelingsteak>在冷藏容器外将会变质。</entitydescription.he-rawspinelingsteak>
+  <!--Patch 13-->
+  <entityname.he-rawspinelingsausage>生脊刺香肠</entityname.he-rawspinelingsausage>
+  <!--Patch 13-->
+  <entitydescription.he-rawspinelingsausage>在冷藏容器外将会变质。</entitydescription.he-rawspinelingsausage>
+  <!--Patch 13-->
+  <entityname.he-rawspinelingmeatpatty>生脊刺肉饼</entityname.he-rawspinelingmeatpatty>
+  <!--Patch 13-->
+  <entitydescription.he-rawspinelingmeatpatty>在冷藏容器外将会变质。</entitydescription.he-rawspinelingmeatpatty>
+  <!--Patch 13-->
+  <entityname.he-rawspinelingnuggets>生脊刺肉块堆</entityname.he-rawspinelingnuggets>
+  <!--Patch 13-->
+  <entitydescription.he-rawspinelingnuggets>脊刺肉制成的一堆生肉块。把它放入炸锅中。</entitydescription.he-rawspinelingnuggets>
+  <!--Patch 13-->
+  <entityname.he-rawjerky>肉干</entityname.he-rawjerky>
+  <!--Patch 13-->
+  <entitydescription.he-rawjerky>一堆生肉干。廉价且易于制作。无法辨认是由什么做成的。把它放入烤箱中。</entitydescription.he-rawjerky>
+  <!--Patch 13-->
+  <entityname.he-salt>盐</entityname.he-salt>
+  <entitydescription.he-salt>别咸着了！</entitydescription.he-salt>
+  <entityname.he-pepper>合成辣椒</entityname.he-pepper>
+  <entitydescription.he-pepper>辣椒来啦！</entitydescription.he-pepper>
+  <entityname.he-sugar>糖</entityname.he-sugar>
+  <entitydescription.he-sugar>噢，真甜！</entitydescription.he-sugar>
+  <entityname.he-ketchup>番茄酱</entityname.he-ketchup>
+  <entitydescription.he-ketchup>由爆弹石榴制成。</entitydescription.he-ketchup>
+  <entityname.he-vinegar>醋</entityname.he-vinegar>
+  <entitydescription.he-vinegar>这味道……</entitydescription.he-vinegar>
+  <entityname.he-cookingoil>食用油</entityname.he-cookingoil>
+  <entitydescription.he-cookingoil>引擎里用的不是这玩意。</entitydescription.he-cookingoil>
+  <entityname.he-flour>合成面粉</entityname.he-flour>
+  <entitydescription.he-flour>欧罗巴人原创的人造面粉</entitydescription.he-flour>
+  <entityname.he-glassfragments>玻璃碎片</entityname.he-glassfragments>
+  <!--Patch 10-->
+  <entitydescription.he-glassfragments>破碎的玻璃。可通过砸碎瓶子或在加工台使用石英制作获得。用于在加工台或瓶子打印机制作物品。</entitydescription.he-glassfragments>
+  <!--Patch 10-->
+  <entityname.he-jambubbleberry>泡泡莓酱</entityname.he-jambubbleberry>
+  <!--Patch 10-->
+  <entitydescription.he-jambubbleberry>由泡泡莓制成的美味果酱。能略微解渴。</entitydescription.he-jambubbleberry>
+  <!--Patch 10-->
+  <entityname.he-jampomegrenade>爆弹石榴酱</entityname.he-jampomegrenade>
+  <!--Patch 13-->
+  <entitydescription.he-jampomegrenade>由爆弹石榴制成的美味果酱。能略微解饿。</entitydescription.he-jampomegrenade>
+  <!--Patch 13-->
+  <entityname.he-bubbleberryleaf>泡泡莓叶</entityname.he-bubbleberryleaf>
+  <!--Patch 13-->
+  <entitydescription.he-bubbleberryleaf>能用来泡茶。</entitydescription.he-bubbleberryleaf>
+  <!--Patch 13-->
+  <entityname.he-seaweedstrip>海藻条</entityname.he-seaweedstrip>
+  <!--Patch 13-->
+  <entitydescription.he-seaweedstrip>压平切割后的海藻。烘干后可变为海苔。</entitydescription.he-seaweedstrip>
+  <!--Patch 13-->
+  <entityname.he-nori>海苔</entityname.he-nori>
+  <!--Patch 13-->
+  <entitydescription.he-nori>烘干后的海藻，准备用于制作寿司。</entitydescription.he-nori>
+  <!--Patch 13-->
+  <!-- Dairy Products -->
+  <entityname.he-icecreambasemilky>盒装牛奶冰淇淋基料</entityname.he-icecreambasemilky>
+  <!--Patch 13-->
+  <entitydescription.he-icecreambasemilky>牛奶冰淇淋的基料。存放在冷藏容器内用于制造可食用的冰淇淋。</entitydescription.he-icecreambasemilky>
+  <!--Patch 13-->
+  <entityname.he-icecreamboxmilky>盒装牛奶冰淇淋</entityname.he-icecreamboxmilky>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamboxmilky>一盒牛奶冰淇淋。人们说吃了之后感觉很长一段时间防御力更强了。一整盒能产出至多16勺冰淇淋。</entitydescription.he-icecreamboxmilky>
+  <!--Patch 13-->
+  <entityname.he-icecreamballmilky>牛奶冰淇淋球</entityname.he-icecreamballmilky>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamballmilky>一勺牛奶冰淇淋。人们说吃了之后感觉很长一段时间防御力更强了。</entitydescription.he-icecreamballmilky>
+  <!--Patch 13-->
+  <entityname.he-icecreambasepomegrenade>盒装爆弹石榴冰淇淋基料</entityname.he-icecreambasepomegrenade>
+  <!--Patch 13-->
+  <entitydescription.he-icecreambasepomegrenade>爆弹石榴冰淇淋的基料。存放在冷藏容器内用于制造可食用的冰淇淋。</entitydescription.he-icecreambasepomegrenade>
+  <!--Patch 13-->
+  <entityname.he-icecreamboxpomegrenade>盒装爆弹石榴冰淇淋</entityname.he-icecreamboxpomegrenade>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamboxpomegrenade>一盒爆弹石榴冰淇淋。一种美味的小吃，看样子能减少一点疼痛并提高防御力。一整盒能产出至多16勺冰淇淋。</entitydescription.he-icecreamboxpomegrenade>
+  <!--Patch 13-->
+  <entityname.he-icecreamballpomegrenade>爆弹石榴冰淇淋球</entityname.he-icecreamballpomegrenade>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamballpomegrenade>一勺爆弹石榴冰淇淋。一种美味的小吃，看样子能减少一点疼痛并提高防御力。</entitydescription.he-icecreamballpomegrenade>
+  <!--Patch 13-->
+  <entityname.he-icecreambasepopnut>盒装爆爆果冰淇淋基料</entityname.he-icecreambasepopnut>
+  <!--Patch 13-->
+  <entitydescription.he-icecreambasepopnut>爆爆果冰淇淋的基料。味道和地球上的巧克力有点像。存放在冷藏容器内用于制造可食用的冰淇淋。</entitydescription.he-icecreambasepopnut>
+  <!--Patch 13-->
+  <entityname.he-icecreamboxpopnut>盒装爆爆果冰淇淋</entityname.he-icecreamboxpopnut>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamboxpopnut>一盒爆爆果冰淇淋。味道和地球上的巧克力有点像。看样子能减少一点疼痛并提高防御力。一整盒能产出至多16勺冰淇淋。</entitydescription.he-icecreamboxpopnut>
+  <!--Patch 13-->
+  <entityname.he-icecreamballpopnut>爆爆果冰淇淋球</entityname.he-icecreamballpopnut>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamballpopnut>一勺爆爆果冰淇淋。味道和地球上的巧克力有点像。看样子能减少一点疼痛，提高防御力并能很好地解渴。</entitydescription.he-icecreamballpopnut>
+  <!--Patch 13-->
+  <entityname.he-icecreambasebubbleberry>盒装泡泡莓冰淇淋基料</entityname.he-icecreambasebubbleberry>
+  <!--Patch 13-->
+  <entitydescription.he-icecreambasebubbleberry>泡泡莓冰淇淋的基料。味道十分清爽像是地球上的草莓。存放在冷藏容器内用于制造可食用的冰淇淋。</entitydescription.he-icecreambasebubbleberry>
+  <!--Patch 13-->
+  <entityname.he-icecreamboxbubbleberry>盒装泡泡莓冰淇淋</entityname.he-icecreamboxbubbleberry>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamboxbubbleberry>一盒泡泡莓冰淇淋。味道十分清爽像是地球上的草莓。看样子能减少一点疼痛并提高防御力。一整盒能产出至多16勺冰淇淋。</entitydescription.he-icecreamboxbubbleberry>
+  <!--Patch 13-->
+  <entityname.he-icecreamballbubbleberry>泡泡莓冰淇淋球</entityname.he-icecreamballbubbleberry>
+  <!--Patch 13-->
+  <entitydescription.he-icecreamballbubbleberry>一勺泡泡莓冰淇淋。味道和地球上的巧克力有点像。看样子能减少一点疼痛，提高防御力并能解点渴。</entitydescription.he-icecreamballbubbleberry>
+  <!--Patch 13-->
+  <entityname.he-molochcheesecurd>摩螺克奶酪凝乳</entityname.he-molochcheesecurd>
+  <!--Patch 13-->
+  <entitydescription.he-molochcheesecurd>慢慢变为奶酪。一整块奶酪能产出18份奶酪片。</entitydescription.he-molochcheesecurd>
+  <!--Patch 13-->
+  <entityname.he-molochcheese>摩螺克奶酪</entityname.he-molochcheese>
+  <!--Patch 13-->
+  <entitydescription.he-molochcheese>由摩螺克奶制成的奶酪。能被切成18份奶酪片。</entitydescription.he-molochcheese>
+  <!--Patch 13-->
+  <entityname.he-molochcheeseslice>摩螺克奶酪片</entityname.he-molochcheeseslice>
+  <!--Patch 13-->
+  <entitydescription.he-molochcheeseslice>一片摩螺克奶酪。</entitydescription.he-molochcheeseslice>
+  <!--Patch 13-->
+  <entityname.he-wafflecone>华夫脆筒</entityname.he-wafflecone>
+  <!--Patch 13-->
+  <entitydescription.he-wafflecone>圆锥状的冰淇淋华夫脆筒。在冷藏容器外其中的冰淇淋将会融化。</entitydescription.he-wafflecone>
+  <!--Patch 13-->
+  <!-- Tools -->
+  <entityname.he-enableneeds>饥饿欧罗巴人（开启饮食需求）</entityname.he-enableneeds>
+  <entitydescription.he-enableneeds>[右键+E] 为使用者开启饥饿及口渴状态，使得他们必须定期吃喝。这完全是可选项与吃喝是否获得增益无关。警告：一经启用，无法关闭。在游玩“LeDoux”制作的“NEEDS”模组时请不要使用！</entitydescription.he-enableneeds>
+  <entityname.he-enableextraneeds>污秽欧罗巴人（开启额外需求）</entityname.he-enableextraneeds>
+  <!--Patch 13-->
+  <entitydescription.he-enableextraneeds>[右键+E] 为使用者开启膀胱及排便状态，使得他们必须排尿排便取决他们吃喝的东西和多少。这完全是可选项与吃喝是否获得增益无关。警告：一经启用，无法关闭。</entitydescription.he-enableextraneeds>
+  <!--Patch 13-->
+  <entityname.he-cleaver>剁肉刀</entityname.he-cleaver>
+  <entitydescription.he-cleaver>没时间了！快快砍！\n\n可以切碎：\n-爬行者\n-泥偶迅猛龙\n-虎尾煞\n-锤头煞\n-锤头煞卵\n-末日蠕虫\n-人类\n</entitydescription.he-cleaver>
+  <entityname.he-skillbooktheeuropan>《欧罗巴人》第66卷</entityname.he-skillbooktheeuropan>
+  <entitydescription.he-skillbooktheeuropan>“……在时间的帷幕后窥视。是你吗，罗伯特？不，我是罗伯特。但我也是多丽丝。我是肉。吃了我，与蠕虫成为一体……”</entitydescription.he-skillbooktheeuropan>
+  <entityname.he-skillbookauntdoris>《深海烹饪艺术》多丽丝阿姨著</entityname.he-skillbookauntdoris>
+  <entitydescription.he-skillbookauntdoris>欧罗巴人的烹饪方式。</entitydescription.he-skillbookauntdoris>
+  <entityname.he-genesaw>基因提取器</entityname.he-genesaw>
+  <entitydescription.he-genesaw>可从尸体上提取随机的基因。</entitydescription.he-genesaw>
+  <entityname.extractedgene>被提取出的基因</entityname.extractedgene>
+  <entitydescription.extractedgene>被提取出的未鉴定基因。</entitydescription.extractedgene>
+  <!-- Medical -->
+  <entityname.he-antistarve>饥饿意识恢复剂</entityname.he-antistarve>
+  <entitydescription.he-antistarve>用于唤醒因饥饿或口渴而失去意识的患者。</entitydescription.he-antistarve>
+  <!-- Misc -->
+  <entityname.punchgun>拳击枪</entityname.punchgun>
+  <!--Patch 13-->
+  <entitydescription.punchgun>确实是把拳头甩出去了！</entitydescription.punchgun>
+  <!--Patch 13-->
+  <entityname.he-toilet>马桶</entityname.he-toilet>
+  <!--Patch 13-->
+  <entitydescription.he-toilet>用于方便或将东西冲走。</entitydescription.he-toilet>
+  <!--Patch 13-->
+  <entityname.he-cafeteriatable>餐厅桌</entityname.he-cafeteriatable>
+  <!--Patch 13-->
+  <entitydescription.he-cafeteriatable>餐厅中普遍使用的可移动桌子。</entitydescription.he-cafeteriatable>
+  <!--Patch 13-->
+  <entityname.he-diningtable1>饭桌</entityname.he-diningtable1>
+  <!--Patch 13-->
+  <entityname.he-diningtable1large>饭桌（大）)</entityname.he-diningtable1large>
+  <!--Patch 13-->
+  <entityname.he-diningtable2>饭桌</entityname.he-diningtable2>
+  <!--Patch 13-->
+  <entityname.he-cafeteriachair>餐厅椅</entityname.he-cafeteriachair>
+  <!--Patch 13-->
+  <entitydescription.he-cafeteriachair>餐厅中普遍使用的可移动椅子。</entitydescription.he-cafeteriachair>
+  <!--Patch 13-->
+  <entityname.he-chair>椅子</entityname.he-chair>
+  <!--Patch 13-->
+  <entityname.he-emptycantonic>空罐头</entityname.he-emptycantonic>
+  <!--Patch 13-->
+  <entitydescription.he-emptycantonic>空的铝制罐头。可被分解成铝或投掷。</entitydescription.he-emptycantonic>
+  <!--Patch 13-->
+  <entityname.he-emptycanenergy1>空罐头</entityname.he-emptycanenergy1>
+  <!--Patch 13-->
+  <entitydescription.he-emptycanenergy1>空的铝制罐头。可被分解成铝或投掷。</entitydescription.he-emptycanenergy1>
+  <!--Patch 13-->
+  <entityname.he-emptycancola>空罐头</entityname.he-emptycancola>
+  <!--Patch 13-->
+  <entitydescription.he-emptycancola>空的铝制罐头。可被分解成铝或投掷。</entitydescription.he-emptycancola>
+  <!--Patch 13-->
+  <entityname.he-emptycancolazero>空罐头</entityname.he-emptycancolazero>
+  <!--Patch 13-->
+  <entitydescription.he-emptycancolazero>空的铝制罐头。可被分解成铝或投掷。</entitydescription.he-emptycancolazero>
+  <!--Patch 13-->
+  <entityname.he-couwolaexosuit>限量版科罗拉可乐外骨骼</entityname.he-couwolaexosuit>
+  <!--Patch 13-->
+  <entitydescription.he-couwolaexosuit>科罗拉可乐生产的限量版外骨骼。其燃料效率更高并使得穿着者可以从周围的环境中呼吸氧气且只在需要的时候使用氧气罐。</entitydescription.he-couwolaexosuit>
+  <!--Patch 13-->
+  <!-- Gear -->
+  <entityname.he-chefscap1>厨师帽</entityname.he-chefscap1>
+  <entitydescription.he-chefscap1>给他们看看这是谁的厨房！</entitydescription.he-chefscap1>
+  <entityname.he-chefscap2>厨师帽</entityname.he-chefscap2>
+  <entitydescription.he-chefscap2>给他们看看这是谁的厨房！</entitydescription.he-chefscap2>
+  <entityname.he-chefsuniform1>厨师制服</entityname.he-chefsuniform1>
+  <entitydescription.he-chefsuniform1>全欧罗巴的厨师都穿！</entitydescription.he-chefsuniform1>
+  <entityname.he-chefsuniform2>厨师制服</entityname.he-chefsuniform2>
+  <entitydescription.he-chefsuniform2>全欧罗巴的厨师都穿！</entitydescription.he-chefsuniform2>
+  <entityname.he-chefscapmaster1>厨神帽</entityname.he-chefscapmaster1>
+  <entitydescription.he-chefscapmaster1>仅限厨房精英！</entitydescription.he-chefscapmaster1>
+  <entityname.he-chefsuniformmaster1>厨神制服</entityname.he-chefsuniformmaster1>
+  <entitydescription.he-chefsuniformmaster1>厨神们穿的！</entitydescription.he-chefsuniformmaster1>
+  <!-- Fabricators and Containers -->
+  <entityname.he-kitchencounter>厨房水槽</entityname.he-kitchencounter>
+  <!--Changed as of Patch 10-->
+  <entitydescription.he-kitchencounter>可存储至多18种不同的小型或中型物品，并能将空瓶或空桶填满海水。</entitydescription.he-kitchencounter>
+  <!--Changed as of Patch 10-->
+  <entityname.he-kitchencounter2>厨房操作台</entityname.he-kitchencounter2>
+  <!--Changed as of Patch 11 | New identifier-->
+  <entitydescription.he-kitchencounter2>可存储至多30种不同的小型或中型物品。</entitydescription.he-kitchencounter2>
+  <!--Changed as of Patch 11 | New identifier-->
+  <entityname.he-refrigerator>冰箱</entityname.he-refrigerator>
+  <entitydescription.he-refrigerator>防止变质。只可存储食物和饮料。需要供电。</entitydescription.he-refrigerator>
+  <!--Changed as of Patch 10-->
+  <entityname.he-stove>炉灶</entityname.he-stove>
+  <entitydescription.he-stove>用于烹饪。需要供电。</entitydescription.he-stove>
+  <entityname.he-oven>烤箱</entityname.he-oven>
+  <entitydescription.he-oven>用于烘焙。需要供电。</entitydescription.he-oven>
+  <entityname.he-cuttingboard>砧板</entityname.he-cuttingboard>
+  <entitydescription.he-cuttingboard>用于准备配料。</entitydescription.he-cuttingboard>
+  <entityname.he-fryer>炸锅</entityname.he-fryer>
+  <!--Patch 10-->
+  <entitydescription.he-fryer>用于油炸。需要供电。</entitydescription.he-fryer>
+  <!--Patch 10-->
+  <entityname.he-distiller>蒸馏器</entityname.he-distiller>
+  <!--Patch 10-->
+  <entitydescription.he-distiller>用于从糖和水生酵母菌中蒸馏酒精。需要供电。</entitydescription.he-distiller>
+  <!--Patch 10-->
+  <entityname.he-brewkettle>酿酒壶</entityname.he-brewkettle>
+  <!--Patch 10-->
+  <entitydescription.he-brewkettle>用于酿制几乎任何种类饮料的小桶。需要供电。</entitydescription.he-brewkettle>
+  <!--Patch 10-->
+  <entityname.he-bottleprinter>瓶子打印机</entityname.he-bottleprinter>
+  <!--Patch 10-->
+  <entitydescription.he-bottleprinter>用于批量生产瓶子。需要供电。</entitydescription.he-bottleprinter>
+  <!--Patch 10-->
+  <entityname.he-refillstation>填充站</entityname.he-refillstation>
+  <!--Patch 10-->
+  <entitydescription.he-refillstation>用于使用小桶来重新装满空瓶。</entitydescription.he-refillstation>
+  <!--Patch 10-->
+  <entityname.he-coolercrate>冷冻箱</entityname.he-coolercrate>
+  <!--Patch 10-->
+  <entitydescription.he-coolercrate>用于防止肉变质。需要电池。</entitydescription.he-coolercrate>
+  <!--Patch 10-->
+  <entityname.he-liquorcrate>烈酒箱</entityname.he-liquorcrate>
+  <!--Patch 10-->
+  <entitydescription.he-liquorcrate>用于存储并运输至多20种任意种类的瓶子。</entitydescription.he-liquorcrate>
+  <!--Patch 10-->
+  <entityname.he-jarcrate>罐子箱</entityname.he-jarcrate>
+  <!--Patch 11-->
+  <entitydescription.he-jarcrate>用于存储并运输至多8种罐子。</entitydescription.he-jarcrate>
+  <!--Patch 11-->
+  <entityname.he-colacrate>科罗拉可乐箱</entityname.he-colacrate>
+  <!--Patch 13-->
+  <entitydescription.he-colacrate>科罗拉可乐的板条箱用于存储并携带瓶子。罐子放不进去。</entitydescription.he-colacrate>
+  <!--Patch 13-->
+  <entityname.he-liquorcrateshelf>烈酒箱货架</entityname.he-liquorcrateshelf>
+  <!--Patch 10-->
+  <entitydescription.he-liquorcrateshelf>用于存储至多4个烈酒或罐子箱的货架。</entitydescription.he-liquorcrateshelf>
+  <!--Patch 10-->
+  <entityname.he-liquorcrateshelfsmall>烈酒箱货架（小型）</entityname.he-liquorcrateshelfsmall>
+  <!--Patch 10-->
+  <entitydescription.he-liquorcrateshelfsmall>用于存储至多2个烈酒或罐子箱的小型货架。</entitydescription.he-liquorcrateshelfsmall>
+  <!--Patch 10-->
+  <entityname.he-liquordisplayshelf>烈酒陈列架</entityname.he-liquordisplayshelf>
+  <!--Patch 10-->
+  <entitydescription.he-liquordisplayshelf>用于陈列并存储瓶子的架子。罐子放不进去。</entitydescription.he-liquordisplayshelf>
+  <!--Patch 10-->
+  <entityname.he-toolbeltlunch>系有午餐盒的工具带</entityname.he-toolbeltlunch>
+  <!--Patch 10-->
+  <entitydescription.he-toolbeltlunch>这个工具带上系了个午餐盒，以便一直携带你的食物。</entitydescription.he-toolbeltlunch>
+  <!--Patch 10-->
+  <entityname.he-lunchbox>午餐盒</entityname.he-lunchbox>
+  <!--Patch 10-->
+  <entitydescription.he-lunchbox>一个配有把手的盒子用于携带你的食物。可在加工台处将其系到工具带上。</entitydescription.he-lunchbox>
+  <!--Patch 10-->
+  <entityname.he-hydroponicplanter>水培种植箱</entityname.he-hydroponicplanter>
+  <!--Patch 10-->
+  <entitydescription.he-hydroponicplanter>一种能够为欧罗巴水生植物生长提供完美条件的设备。每15分钟产出一株植物。需要供电。</entitydescription.he-hydroponicplanter>
+  <!--Patch 10-->
+  <entityname.he-cafeteriacart>餐厅手推车</entityname.he-cafeteriacart>
+  <!--Patch 10-->
+  <entitydescription.he-cafeteriacart>用于运输大量食物或饮料，或作为更方便船员存取它们的容器。可存储至多30种不同的食物或饮料。可被放置。</entitydescription.he-cafeteriacart>
+  <!--Patch 10-->
+  <entityname.he-teakettle>茶壶</entityname.he-teakettle>
+  <!--Patch 13-->
+  <entitydescription.he-teakettle>用于将杯子装满茶。需要放入茶料在炉灶上煮。</entitydescription.he-teakettle>
+  <!--Patch 13-->
+  <!-- Skills -->
+  <skillname.cooking>烹饪水平</skillname.cooking>
+  <skillname.butchery>屠宰水平</skillname.butchery>
+  <!-- Jobs -->
+  <jobname.he-chef>厨师</jobname.he-chef>
+  <jobdescription.he-chef>厨师负责屠宰生物并为船员准备食物，以确保每个人都吃饱喝足。</jobdescription.he-chef>
+  <!-- Talent trees -->
+  <talenttree.butcher>屠夫</talenttree.butcher>
+  <!--Patch 13-->
+  <talenttree.entertainer>艺人</talenttree.entertainer>
+  <!--Patch 13-->
+  <talenttree.chef>厨子</talenttree.chef>
+  <!--Patch 13-->
+  <!-- Talents -->
+  <talentname.he-hungryeuropan>饥饿欧罗巴人</talentname.he-hungryeuropan>
+  <talentdescription.he-hungryeuropan>你是个饥饿的欧罗巴人，需要定期吃喝。</talentdescription.he-hungryeuropan>
+  <talentname.he-specialeuropan>污秽欧罗巴人</talentname.he-specialeuropan>
+  <!--Patch 13-->
+  <talentdescription.he-specialeuropan>你是个特殊的欧罗巴人需要定期排尿排便，取决于你吃喝了什么。</talentdescription.he-specialeuropan>
+  <!--Patch 13-->
+  <talentname.he-poacher>偷猎者</talentname.he-poacher>
+  <talentdescription.he-poacher>[missiontype1]及[missiontype2]任务额外获得[xpbonus]%经验。</talentdescription.he-poacher>
+  <talentname.he-saltybusiness>咸活</talentname.he-saltybusiness>
+  <talentdescription.he-saltybusiness>你第一次打开一个容器时，有[probability]%概率额外找到一些盐。</talentdescription.he-saltybusiness>
+  <talentname.he-fastfood>快餐</talentname.he-fastfood>
+  <talentdescription.he-fastfood>厨房相关的加工台速度增加[amount]%。</talentdescription.he-fastfood>
+  <talentname.he-chefattire>厨神服装</talentname.he-chefattire>
+  <talentdescription.he-chefattire>解锁制作配方：[itemname1]以及[itemname2]。</talentdescription.he-chefattire>
+  <talentname.he-frenzy>狂暴</talentname.he-frenzy>
+  <talentdescription.he-frenzy>屠宰相关刀具的伤害增加[powerincrease]%。</talentdescription.he-frenzy>
+  <talentname.he-butchershop>肉铺</talentname.he-butchershop>
+  <talentdescription.he-butchershop>你是个有天赋的屠夫，不言而喻！\n贩卖肉时额外获得[amount]%金钱！</talentdescription.he-butchershop>
+  <talentname.he-coldblood>冷血</talentname.he-coldblood>
+  <!--Patch 13-->
+  <talentdescription.he-coldblood>你是周围最cool的人。\n你物品栏中的肉将不会变质，冰淇淋将不会融化。</talentdescription.he-coldblood>
+  <!--Patch 13-->
+  <talentname.he-masterchef>厨神</talentname.he-masterchef>
+  <talentdescription.he-masterchef>你已成为工作中的佼佼者，学会了如何在烹饪中节省配料以便以后使用。\n做饭时有[chance]%概率不消耗一个随机配料。</talentdescription.he-masterchef>
+  <talentname.he-lifesaver>救生员</talentname.he-lifesaver>
+  <talentdescription.he-lifesaver>额外获得[amount]点[skill]。\n解锁制作配方：[itemname1]。</talentdescription.he-lifesaver>
+  <talentname.he-delicacies>佳肴</talentname.he-delicacies>
+  <talentdescription.he-delicacies>解锁以下欧罗巴美食配方：\n[itemname1]\n[itemname2]</talentdescription.he-delicacies>
+  <!--Patch 13 | added \n[itemname2] at the end-->
+  <talentname.he-huskfood>画皮食品</talentname.he-huskfood>
+  <!--Patch 13-->
+  <talentdescription.he-huskfood>你现在可以将[itemname1]的肉变成一种可食用的食物。</talentdescription.he-huskfood>
+  <!--Patch 13-->
+  <talentname.he-masterbrewer>酿酒大师</talentname.he-masterbrewer>
+  <!--Patch 10-->
+  <talentdescription.he-masterbrewer>解锁以下欧罗巴饮料配方：\n[itemname1]\n[itemname2]\n[itemname3]。</talentdescription.he-masterbrewer>
+  <!--Patch 10-->
+  <talentname.he-tastyfood>美味食物</talentname.he-tastyfood>
+  <!--Patch 13-->
+  <talentdescription.he-tastyfood>你的食物是最好的那一批，人们喜欢在你周围。在船员的附近能使得他们高兴，给予他们‖color:gui.orange‖高涨士气‖end‖并获得以下好处：</talentdescription.he-tastyfood>
+  <!--Patch 13-->
+  <talentname.he-favorite>每个人的最爱</talentname.he-favorite>
+  <!--Patch 13-->
+  <talentname.he-piper>吹笛者</talentname.he-piper>
+  <!--Patch 13-->
+  <talentdescription.he-piper>在船员的附近演奏风笛将给予他们下列增益：\n‖color:gui.orange‖20 武器操作\n20% 行走速度\n25% 近战伤害\n25% 伤害抗性‖end‖.</talentdescription.he-piper>
+  <!--Patch 13-->
+  <!-- Afflictions -->
+  <afflictionname.hunger>饥饿</afflictionname.hunger>
+  <!--Patch 10-->
+  <afflictionname.he-hunger>饥饿</afflictionname.he-hunger>
+  <afflictiondescription.he-hunger>胃很开心。</afflictiondescription.he-hunger>
+  <afflictioncauseofdeath.he-hunger>死于饥饿。</afflictioncauseofdeath.he-hunger>
+  <afflictioncauseofdeathself.he-hunger>你饿死了。</afflictioncauseofdeathself.he-hunger>
+  <afflictiondescription.he-hunger.self>胃在咕咕叫！</afflictiondescription.he-hunger.self>
+  <afflictiondescription.he-hunger.lethal.self>濒临饿死……</afflictiondescription.he-hunger.lethal.self>
+  <afflictiondescription.he-hunger.other.low>患者开始有点胃口了。</afflictiondescription.he-hunger.other.low>
+  <afflictiondescription.he-hunger.other>患者饿了。</afflictiondescription.he-hunger.other>
+  <afflictiondescription.he-hunger.lethal.other>患者开始饿死。</afflictiondescription.he-hunger.lethal.other>
+  <afflictionname.thirst>口渴</afflictionname.thirst>
+  <!--Patch 10-->
+  <afflictionname.he-thirst>口渴</afflictionname.he-thirst>
+  <afflictiondescription.he-thirst>你感觉神清气爽。</afflictiondescription.he-thirst>
+  <afflictioncauseofdeath.he-thirst>死于口渴。</afflictioncauseofdeath.he-thirst>
+  <afflictioncauseofdeathself.he-thirst>你渴死了。</afflictioncauseofdeathself.he-thirst>
+  <afflictiondescription.he-thirst.self>喉咙有点干。</afflictiondescription.he-thirst.self>
+  <afflictiondescription.he-thirst.lethal.self>开始渴死……</afflictiondescription.he-thirst.lethal.self>
+  <afflictiondescription.he-thirst.other.low>患者开始口渴。</afflictiondescription.he-thirst.other.low>
+  <afflictiondescription.he-thirst.other>患者渴了。</afflictiondescription.he-thirst.other>
+  <afflictiondescription.he-thirst.lethal.other>患者开始渴死。</afflictiondescription.he-thirst.lethal.other>
+  <afflictionname.quenched>止渴</afflictionname.quenched>
+  <!--Patch 13-->
+  <afflictiondescription.quenched>你感觉不到口渴。</afflictiondescription.quenched>
+  <!--Patch 13-->
+  <afflictiondescription.quenched.other>患者已经解渴了。他们一段时间不会口渴。</afflictiondescription.quenched.other>
+  <!--Patch 13-->
+  <afflictionname.bladder>膀胱</afflictionname.bladder>
+  <!--Patch 13-->
+  <afflictiondescription.bladder>没有压力。</afflictiondescription.bladder>
+  <!--Patch 13-->
+  <afflictiondescription.bladder.self>你需要撒尿。</afflictiondescription.bladder.self>
+  <!--Patch 13-->
+  <afflictiondescription.bladder.self.high>膀胱太满了！可能随时都会漏出来！</afflictiondescription.bladder.self.high>
+  <!--Patch 13-->
+  <afflictiondescription.bladder.other.low>患者的膀胱很好。</afflictiondescription.bladder.other.low>
+  <!--Patch 13-->
+  <afflictiondescription.bladder.other>患者需要撒尿。</afflictiondescription.bladder.other>
+  <!--Patch 13-->
+  <afflictiondescription.bladder.other.high>患者的膀胱几乎快爆了！他们应当撒尿！</afflictiondescription.bladder.other.high>
+  <!--Patch 13-->
+  <afflictionname.defecate>需要排便</afflictionname.defecate>
+  <!--Patch 13-->
+  <afflictiondescription.defecate>没有压力。</afflictiondescription.defecate>
+  <!--Patch 13-->
+  <afflictiondescription.defecate.self>你需要拉屎。</afflictiondescription.defecate.self>
+  <!--Patch 13-->
+  <afflictiondescription.defecate.self.high>你快憋不住了！你应当找最近的厕所！</afflictiondescription.defecate.self.high>
+  <!--Patch 13-->
+  <afflictiondescription.defecate.other.low>患者没有压力。</afflictiondescription.defecate.other.low>
+  <!--Patch 13-->
+  <afflictiondescription.defecate.other>患者需要拉屎。</afflictiondescription.defecate.other>
+  <!--Patch 13-->
+  <afflictiondescription.defecate.other.high>患者真的很需要排便！</afflictiondescription.defecate.other.high>
+  <!--Patch 13-->
+  <afflictionname.embarrassment>难堪</afflictionname.embarrassment>
+  <!--Patch 13-->
+  <afflictiondescription.embarrassment>你感觉很尴尬无法专注于你的工作。</afflictiondescription.embarrassment>
+  <!--Patch 13-->
+  <afflictiondescription.embarrassment.other>患者似乎很尴尬无法专心做任何事。</afflictiondescription.embarrassment.other>
+  <!--Patch 13-->
+  <afflictionname.he-starvation>饥肠辘辘</afflictionname.he-starvation>
+  <afflictiondescription.he-starvation>快饿死了……</afflictiondescription.he-starvation>
+  <afflictioncauseofdeath.he-starvation>饿死了。</afflictioncauseofdeath.he-starvation>
+  <afflictioncauseofdeathself.he-starvation>你饿死了。</afflictioncauseofdeathself.he-starvation>
+  <afflictiondescription.he-starvation.self>快饿死了……</afflictiondescription.he-starvation.self>
+  <afflictiondescription.he-starvation.other>患者快饿死了。</afflictiondescription.he-starvation.other>
+  <afflictionname.he-dieofthirst>口干舌燥</afflictionname.he-dieofthirst>
+  <afflictiondescription.he-dieofthirst>快渴死了……</afflictiondescription.he-dieofthirst>
+  <afflictioncauseofdeath.he-dieofthirst>死于口渴</afflictioncauseofdeath.he-dieofthirst>
+  <afflictioncauseofdeathself.he-dieofthirst>你因脱水而死。</afflictioncauseofdeathself.he-dieofthirst>
+  <afflictiondescription.he-dieofthirst.self>快渴死了……</afflictiondescription.he-dieofthirst.self>
+  <afflictiondescription.he-dieofthirst.other>患者快渴死了。</afflictiondescription.he-dieofthirst.other>
+  <afflictionname.he-increasedswimmingspeedcrawler10>游泳速度增加（食物）</afflictionname.he-increasedswimmingspeedcrawler10>
+  <!--Patch 13-->
+  <afflictiondescription.he-increasedswimmingspeedcrawler10>你的游泳速度增加10%。</afflictiondescription.he-increasedswimmingspeedcrawler10>
+  <!--Patch 13-->
+  <afflictionname.he-increasedswimmingspeedcrawler25>游泳速度增加（食物）</afflictionname.he-increasedswimmingspeedcrawler25>
+  <!--Patch 13-->
+  <afflictiondescription.he-increasedswimmingspeedcrawler25>你的游泳速度增加25%。</afflictiondescription.he-increasedswimmingspeedcrawler25>
+  <!--Patch 13-->
+  <afflictionname.he-increasedswimmingspeedcrawler>游泳速度增加（食物）</afflictionname.he-increasedswimmingspeedcrawler>
+  <afflictiondescription.he-increasedswimmingspeedcrawler>你的游泳速度增加50%。</afflictiondescription.he-increasedswimmingspeedcrawler>
+  <afflictionname.he-damageresistancemudraptor>伤害抗性（食物）</afflictionname.he-damageresistancemudraptor>
+  <afflictiondescription.he-damageresistancemudraptor>你承受的伤害减少25%。</afflictiondescription.he-damageresistancemudraptor>
+  <afflictionname.he-increasedwalkingspeedmudraptor>行走速度增加（食物）</afflictionname.he-increasedwalkingspeedmudraptor>
+  <afflictiondescription.he-increasedwalkingspeedmudraptor>你的行走速度增加20%。</afflictiondescription.he-increasedwalkingspeedmudraptor>
+  <afflictionname.he-damageresistancemoloch25>伤害抗性（食物）</afflictionname.he-damageresistancemoloch25>
+  <!--Patch 13-->
+  <afflictiondescription.he-damageresistancemoloch25>你承受的伤害减少25%。</afflictiondescription.he-damageresistancemoloch25>
+  <!--Patch 13-->
+  <afflictionname.he-damageresistancemoloch>伤害抗性（食物）</afflictionname.he-damageresistancemoloch>
+  <afflictiondescription.he-damageresistancemoloch>你承受的伤害减少50%。</afflictiondescription.he-damageresistancemoloch>
+  <afflictionname.he-increasedmeleedamagehammerhead>近战伤害增加（食物）</afflictionname.he-increasedmeleedamagehammerhead>
+  <afflictiondescription.he-increasedmeleedamagehammerhead>你的近战伤害增加25%。</afflictiondescription.he-increasedmeleedamagehammerhead>
+  <afflictionname.he-decreasedoxygenconsumption>氧气消耗减少（食物）</afflictionname.he-decreasedoxygenconsumption>
+  <afflictiondescription.he-decreasedoxygenconsumption>你不需要呼吸。</afflictiondescription.he-decreasedoxygenconsumption>
+  <afflictionname.he-pressureresistance>压力适应（食物）</afflictionname.he-pressureresistance>
+  <afflictiondescription.he-pressureresistance>你免疫水压。</afflictiondescription.he-pressureresistance>
+  <afflictionname.he-cannibalskillincrease>技能等级增加（食物）</afflictionname.he-cannibalskillincrease>
+  <!--Patch 9-->
+  <afflictiondescription.he-cannibalskillincrease>你的全部技能增加20%</afflictiondescription.he-cannibalskillincrease>
+  <!--Patch 9-->
+  <afflictionname.he-disguisedashusk>画皮腐臭（食物）</afflictionname.he-disguisedashusk>
+  <!--Patch 13-->
+  <afflictiondescription.he-disguisedashusk.self>呃……你散发着被画皮感染的腐肉味！画皮或许会将你接纳为它们的一员。</afflictiondescription.he-disguisedashusk.self>
+  <!--Patch 13-->
+  <afflictiondescription.he-disguisedashusk.others>呃……患者散发着被画皮感染的腐肉味！</afflictiondescription.he-disguisedashusk.others>
+  <!--Patch 13-->
+  <afflictionname.he-alcoholism>嗜酒如命</afflictionname.he-alcoholism>
+  <afflictiondescription.he-alcoholism>如果不能满足需求，患者将持续抑郁。</afflictiondescription.he-alcoholism>
+  <advancedafflictiondescription.self.he-alcoholism>是时候来吨吨吨了！你已酒精成瘾。</advancedafflictiondescription.self.he-alcoholism>
+  <advancedafflictiondescription.others.he-alcoholism>患者患有酒精中毒。</advancedafflictiondescription.others.he-alcoholism>
+  <afflictionname.he-alcoholwithdrawal>酒精戒断</afflictionname.he-alcoholwithdrawal>
+  <afflictiondescription.he-alcoholwithdrawal>患者呼吸无力，肢体不自主震颤，有明显恶心症状。</afflictiondescription.he-alcoholwithdrawal>
+  <afflictioncauseofdeath.he-alcoholwithdrawal>死于酒精戒断</afflictioncauseofdeath.he-alcoholwithdrawal>
+  <afflictioncauseofdeathself.he-alcoholwithdrawal>你因酒精戒断而死。</afflictioncauseofdeathself.he-alcoholwithdrawal>
+  <advancedafflictiondescription.self.he-alcoholwithdrawal>你觉得是时候和兄弟们再吹一瓶了！</advancedafflictiondescription.self.he-alcoholwithdrawal>
+  <!--Changed as of Patch 8 | identifier was previously "advancedafflictiondescription.self.he-alcoholwithdrawal"-->
+  <advancedafflictiondescription.others.he-alcoholwithdrawal>患者表现出轻微的酒精戒断迹象。</advancedafflictiondescription.others.he-alcoholwithdrawal>
+  <!--Changed as of Patch 8 | identifier was previously "advancedafflictiondescription.others.he-alcoholwithdrawal"-->
+  <advancedafflictiondescription.self.he-alcoholwithdrawal.2>来瓶冰啤酒还是朗姆酒……能满足对酒精的可怕渴望就行！</advancedafflictiondescription.self.he-alcoholwithdrawal.2>
+  <!--Changed as of Patch 8 | identfier was previously "advancedafflictiondescription.self.he-alcoholwithdrawal.2"-->
+  <advancedafflictiondescription.others.he-alcoholwithdrawal.2>患者表现出严重的酒精戒断迹象。</advancedafflictiondescription.others.he-alcoholwithdrawal.2>
+  <!--Changed as of Patch 8 | identifier was previously "advancedafflictiondescription.others.he-alcoholwithdrawal.2"-->
+  <afflictionname.he-cannibalism>同类相食</afflictionname.he-cannibalism>
+  <!--Patch 8-->
+  <afflictiondescription.he-cannibalism>如果不能满足需求，患者将持续抑郁。</afflictiondescription.he-cannibalism>
+  <!--Patch 8-->
+  <advancedafflictiondescription.self.he-cannibalism>噢不！看来你喜欢你同伴船员的味道。</advancedafflictiondescription.self.he-cannibalism>
+  <!--Patch 8-->
+  <advancedafflictiondescription.others.he-cannibalism>患者肯定喜欢某种特殊的肉。</advancedafflictiondescription.others.he-cannibalism>
+  <!--Patch 8-->
+  <afflictionname.he-hungryforhumanmeat>渴望人肉</afflictionname.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <afflictiondescription.he-hungryforhumanmeat>患者呼吸无力，肢体不自主震颤，有明显恶心症状。</afflictiondescription.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <afflictioncauseofdeath.he-hungryforhumanmeat>对人肉失去了理智。</afflictioncauseofdeath.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <afflictioncauseofdeathself.he-hungryforhumanmeat>你对人肉失去了理智。</afflictioncauseofdeathself.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <advancedafflictiondescription.self.he-hungryforhumanmeat>你的船员开始看上去相当美味！</advancedafflictiondescription.self.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <advancedafflictiondescription.others.he-hungryforhumanmeat>患者冷冷地盯着你。</advancedafflictiondescription.others.he-hungryforhumanmeat>
+  <!--Patch 8-->
+  <advancedafflictiondescription.self.he-hungryforhumanmeat.2>你苦于对任何事集中注意力。你贪求人肉。你想杀人。光是想想你的手臂就变得强劲。</advancedafflictiondescription.self.he-hungryforhumanmeat.2>
+  <!--Patch 8-->
+  <advancedafflictiondescription.others.he-hungryforhumanmeat.2>患者冷冷地盯着你，剧烈地抽搐着。</advancedafflictiondescription.others.he-hungryforhumanmeat.2>
+  <!--Patch 8-->
+  <afflictionname.he-drunkinvertcontrols>晕头转向</afflictionname.he-drunkinvertcontrols>
+  <afflictiondescription.he-drunkinvertcontrols>上是下，左是……右？我在哪儿？</afflictiondescription.he-drunkinvertcontrols>
+  <afflictionname.he-stuffed>饱腹</afflictionname.he-stuffed>
+  <afflictiondescription.he-stuffed>胃满了。</afflictiondescription.he-stuffed>
+  <afflictioncauseofdeath.he-stuffed>因呕吐物窒息而死。</afflictioncauseofdeath.he-stuffed>
+  <afflictioncauseofdeathself.he-stuffed>你被自己的呕吐物呛死了。</afflictioncauseofdeathself.he-stuffed>
+  <advancedafflictiondescription.self.he-stuffed>胃满了。</advancedafflictiondescription.self.he-stuffed>
+  <advancedafflictiondescription.self.he-stuffed.2>胃已经到极限了。再吃可能就吐了。</advancedafflictiondescription.self.he-stuffed.2>
+  <advancedafflictiondescription.self.he-stuffed.3>胃太满了。你想吐。</advancedafflictiondescription.self.he-stuffed.3>
+  <advancedafflictiondescription.others.he-stuffed>胃满了。患者吃够了。</advancedafflictiondescription.others.he-stuffed>
+  <advancedafflictiondescription.others.he-stuffed.2>胃非常满了。患者吃得几乎太多了。</advancedafflictiondescription.others.he-stuffed.2>
+  <advancedafflictiondescription.others.he-stuffed.3>胃太满了。患者可能会吐。</advancedafflictiondescription.others.he-stuffed.3>
+  <afflictiondescription.self.he-internalburn.low>你的喉咙感觉刺痛有种轻微的灼烧感。</afflictiondescription.self.he-internalburn.low>
+  <!--Patch 13-->
+  <afflictiondescription.self.he-internalburn>你的喉咙有种非常疼痛的灼烧感。吞咽很疼。</afflictiondescription.self.he-internalburn>
+  <!--Patch 13-->
+  <afflictiondescription.self.he-internalburn.high>你的喉咙如同明火般灼烧。你几乎说不出话。</afflictiondescription.self.he-internalburn.high>
+  <!--Patch 13-->
+  <afflictiondescription.others.he-internalburn.low>喉咙通红刺痛。患者肯定是喝下了纯度极高的酒精饮料。</afflictiondescription.others.he-internalburn.low>
+  <!--Patch 13-->
+  <afflictiondescription.others.he-internalburn>喉咙因喝下了强劲的酒精饮料而受到了严重刺激。患者应当最好一段时间不要再喝了。</afflictiondescription.others.he-internalburn>
+  <!--Patch 13-->
+  <afflictiondescription.others.he-internalburn.high>喉咙开始起水泡了。患者肯定痛不欲生应当立即停止进一步摄入酒精！</afflictiondescription.others.he-internalburn.high>
+  <!--Patch 13-->
+  <afflictioncauseofdeath.he-internalburn>因内烧伤而死</afflictioncauseofdeath.he-internalburn>
+  <!--Patch 13-->
+  <afflictioncauseofdeathself.he-internalburn>你因内烧伤而死。</afflictioncauseofdeathself.he-internalburn>
+  <!--Patch 13-->
+  <afflictionname.he-stomachache>胃痛</afflictionname.he-stomachache>
+  <afflictiondescription.he-stomachache>胃疼。</afflictiondescription.he-stomachache>
+  <afflictioncauseofdeath.he-stomachache>因呕吐物窒息而死。</afflictioncauseofdeath.he-stomachache>
+  <afflictioncauseofdeathself.he-stomachache>你被自己的呕吐物呛死了。</afflictioncauseofdeathself.he-stomachache>
+  <advancedafflictiondescription.self.he-stomachache>胃疼，你感觉有点恶心。</advancedafflictiondescription.self.he-stomachache>
+  <advancedafflictiondescription.self.he-stomachache.2>胃很疼，你感觉非常恶心。</advancedafflictiondescription.self.he-stomachache.2>
+  <advancedafflictiondescription.others.he-stomachache>患者因喝了太多海水而胃疼。</advancedafflictiondescription.others.he-stomachache>
+  <afflictionname.he-geneticextraction>基因提取</afflictionname.he-geneticextraction>
+  <afflictiondescription.he-geneticextraction>基因正在被提取。</afflictiondescription.he-geneticextraction>
+  <afflictionname.he-butchered>被屠宰</afflictionname.he-butchered>
+  <afflictiondescription.he-butchered>这具尸体正在被屠宰成肉。</afflictiondescription.he-butchered>
+  <afflictionname.he-halucinova>致幻诺瓦</afflictionname.he-halucinova>
+  <afflictiondescription.he-halucinova.self>你感觉像是去了一个不同的位面。</afflictiondescription.he-halucinova.self>
+  <afflictiondescription.he-halucinova.others>此人显然正在灵魂出窍。</afflictiondescription.he-halucinova.others>
+  <afflictionname.he-drankredpaint>红色涂料喝嗨了</afflictionname.he-drankredpaint>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankredpaint.self>唔……这涂料劲真大！尝起来有点像……爆弹石榴？</afflictiondescription.he-drankredpaint.self>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankredpaint.others>患者喝下了红色涂料并陶醉于此。从嘴边的污渍可以看出。</afflictiondescription.he-drankredpaint.others>
+  <!--Patch 13-->
+  <afflictionname.he-drankgreenpaint>绿色涂料喝嗨了</afflictionname.he-drankgreenpaint>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankgreenpaint.self>哇噢……这涂料劲真大！味道像是盐木鳞？</afflictiondescription.he-drankgreenpaint.self>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankgreenpaint.others>患者喝下了绿色涂料并陶醉于此。从嘴边的污渍可以看出。</afflictiondescription.he-drankgreenpaint.others>
+  <!--Patch 13-->
+  <afflictionname.he-drankbluepaint>蓝色涂料喝嗨了</afflictionname.he-drankbluepaint>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankbluepaint.self>哈？！啊？水！不？嗯……这水尝起来好奇奇奇怪怪！</afflictiondescription.he-drankbluepaint.self>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankbluepaint.others>患者喝下了蓝色涂料并陶醉于此。从嘴边的污渍可以看出。</afflictiondescription.he-drankbluepaint.others>
+  <!--Patch 13-->
+  <afflictionname.he-drankblackpaint>黑色涂料喝嗨了</afflictionname.he-drankblackpaint>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankblackpaint.self>干！那绝对不是科罗拉可乐！虽然味道有一丁点像……</afflictiondescription.he-drankblackpaint.self>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankblackpaint.others>患者喝下了黑色涂料并陶醉于此。从嘴边的污渍可以看出。</afflictiondescription.he-drankblackpaint.others>
+  <!--Patch 13-->
+  <afflictionname.he-drankwhitepaint>白色涂料喝嗨了</afflictionname.he-drankwhitepaint>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankwhitepaint.self>我的牙齿可能从来没那么好看过！我敢说它们是全欧罗巴最闪亮的！</afflictiondescription.he-drankwhitepaint.self>
+  <!--Patch 13-->
+  <afflictiondescription.he-drankwhitepaint.others>患者喝下了白色涂料并陶醉于此。从嘴边的污渍可以看出。但他们的牙齿看上去很好！或许是你见过最好看的牙齿了。</afflictiondescription.he-drankwhitepaint.others>
+  <!--Patch 13-->
+  <afflictionname.he-battlemusic>战斗音乐</afflictionname.he-battlemusic>
+  <!--Patch 13-->
+  <afflictiondescription.he-battlemusic>音乐让你热血沸腾。你感觉更坚韧，更强壮，更快，对武器更加精通了。你已经为战斗做好了准备！</afflictiondescription.he-battlemusic>
+  <!--Patch 13-->
+  <!-- MESSAGES -->
+  <msg.pickup.interact>[E]捡起</msg.pickup.interact>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.regular>已放入材料\n已放入蓝图\n准备打印普通瓶子。</bottleprinter.infotext.bottle.regular>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.beer>已放入材料\n已放入蓝图\n准备打印啤酒瓶。</bottleprinter.infotext.bottle.beer>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.rum>已放入材料\n已放入蓝图\n准备打印朗姆酒瓶。</bottleprinter.infotext.bottle.rum>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.whiskey>已放入材料\n已放入蓝图\n准备打印威士忌瓶。</bottleprinter.infotext.bottle.whiskey>
+  <!--Patch 10-->
+  <bottleprinter.infotext.bottle.halucinova>已放入材料\n已放入蓝图\n准备打印致幻诺瓦瓶。</bottleprinter.infotext.bottle.halucinova>
+  <!--Patch 10-->
+  <bottleprinter.infotext.jar>已放入材料\n已放入蓝图\n准备打印罐子。</bottleprinter.infotext.jar>
+  <!--Patch 10-->
+  <bottleprinter.infotext.shaker>已放入材料\n已放入蓝图\n准备打印作料瓶。</bottleprinter.infotext.shaker>
+  <!--Patch 10-->
+  <bottleprinter.infotext.cup>已放入材料\n已放入蓝图\n准备打印杯子。</bottleprinter.infotext.cup>
+  <!--Patch 13-->
+  <bottleprinter.print>打印</bottleprinter.print>
+  <!--Patch 10-->
+  <bottleprinter.missingitem.blueprint>已放入材料\n错误：未发现蓝图！请放入一种蓝图。</bottleprinter.missingitem.blueprint>
+  <!--Patch 10-->
+  <bottleprinter.missingitem.glassfragments>已放入蓝图\n错误：未发现玻璃碎片！请放入玻璃碎片。</bottleprinter.missingitem.glassfragments>
+  <!--Patch 10-->
+  <bottleprinter.empty>1X 瓶子： 1X 玻璃碎片\n1X 罐子： 2X 玻璃碎片\n2X 杯子: 1X 玻璃碎片\n2X 作料瓶： 1X 玻璃碎片\n------------------------------------------\n将一种箱子放入输出栏</bottleprinter.empty>
+  <!--Changed as of Patch 13-->
+  <he-bottleprinter.output>可能的打印：</he-bottleprinter.output>
+  <!--Patch 10-->
+  <distiller.distill>蒸馏</distiller.distill>
+  <!--Patch 10-->
+  <distiller.ethanol>准备蒸馏酒精</distiller.ethanol>
+  <!--Patch 10-->
+  <distiller.empty>蒸馏器已就绪\n请放置下列物品：\n一包糖 -至- 输入\n一株酵母菌菇 -至- 输入</distiller.empty>
+  <!--Patch 10-->
+  <distiller.missingitem.yeastshroom>已放入糖\n错误：未发现酵母菌菇！请放入一株酵母菌菇。</distiller.missingitem.yeastshroom>
+  <!--Patch 10-->
+  <he-distiller.output>输出：</he-distiller.output>
+  <!--Patch 10-->
+  <interaction.emptybottle>倒空瓶子</interaction.emptybottle>
+  <!--Patch 11-->
+  <interaction.emptykeg>倒空小桶</interaction.emptykeg>
+  <!--Patch 12-->
+  <interaction.emptycup>倒空杯子</interaction.emptycup>
+  <!--Patch 13-->
+  <interaction.refillcup>重新装满杯子</interaction.refillcup>
+  <!--Patch 13-->
+  <interaction.flushtoilet>冲马桶</interaction.flushtoilet>
+  <!--Patch 13-->
+  <interaction.breakbottle>打碎瓶子</interaction.breakbottle>
+  <!--Patch 13-->
+  <interaction.sleep>睡觉 | 醒来</interaction.sleep>
+  <!--Patch 13-->
+  <interaction.onoff>开/关</interaction.onoff>
+  <!--Patch 13-->
+  <interaction.refill>重新装满</interaction.refill>
+  <!--Patch 13-->
+  <interaction.open>打开</interaction.open>
+  <!--Patch 13-->
+  <!-- ROOM NAMES -->
+  <roomname.kitchen>厨房</roomname.kitchen>
+  <!--Patch 10-->
+  <roomname.cafeteria>餐厅</roomname.cafeteria>
+  <!--Patch 10-->
+  <roomname.brewery>酿酒室</roomname.brewery>
+  <!--Patch 10-->
+  <roomname.restroom>洗手间</roomname.restroom>
+  <!--Patch 13-->
+</infotexts>

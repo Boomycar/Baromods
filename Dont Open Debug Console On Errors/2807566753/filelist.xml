@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Dont Open Debug Console On Errors" modversion="1.0.5" corepackage="False" steamworkshopid="2807566753" gameversion="1.2.6.0" expectedhash="59B0D917FB9B36FE022FAD7069559E16">
+  <Item file="%ModDir%/dummyitem1.xml" />
+  <Item file="%ModDir%/dummyitem2.xml" />
+  <Item file="%ModDir%/dummyitem3.xml" />
+</contentpackage>

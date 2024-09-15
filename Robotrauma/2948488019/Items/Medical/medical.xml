@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Override>
+    <!-- ********************************************************************************************* -->
+    <!-- ****************************************Meds************************************************* -->
+    <!-- ********************************************************************************************* -->
+    <!-- Name: Bandage -->
+    <!-- Description: Basic bandages, useful in the treatment of bleeding wounds and burns. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Bandage name="" identifier="antibleeding1" aliases="Bandage" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" useinhealthinterface="true" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer secondary="supplycab" minamount="1" maxamount="2" spawnprobability="0.5" notcampaign="true" />
+      <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.3" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab,piratemedcab" minamount="1" maxamount="2" spawnprobability="0.8" />
+      <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="3" spawnprobability="0.5" />
+      <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.2" />
+      <PreferredContainer secondary="researchcontainer" spawnprobability="0.02" />
+      <PreferredContainer primary="medcab" secondary="medcontainer" />
+      <Price baseprice="30" minavailable="25">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" />
+        <Price storeidentifier="merchantmine" />
+        <Price storeidentifier="merchantmedical" multiplier="0.9" />
+      </Price>
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="15" amount="2">
+        <RequiredSkill identifier="medical" level="5" />
+        <RequiredItem identifier="organicfiber" />
+      </Fabricate>
+      <Deconstruct time="2" />
+      <SuitableTreatment type="bleeding" suitability="30" />
+      <SuitableTreatment type="burn" suitability="15" />
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,448,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="310,33,26,42" depth="0.6" origin="0.5,0.5" />
+      <Body width="25" height="40" density="10.05" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="40" />
+        <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+          <Sound file="Content/Items/Medical/Bandage1.ogg" range="500" />
+          <Sound file="Content/Items/Medical/Bandage2.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="This, Limb" Comparison="Or" duration="20.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="bleeding" amount="1.5" />
+          <ReduceAffliction type="burn" amount="0.75" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="This, Limb" duration="20.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="bleeding" amount="1.125" />
+          <ReduceAffliction type="burn" amount="0.6" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <SkillRequirementHint identifier="medical" level="40" />
+    </Bandage>
+    <!-- Name: Plastiseal -->
+    <!-- Description: A synthetic skin with hemostatic properties, able to quickly seal most wounds. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Plastiseal name="" identifier="antibleeding2" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer primary="medcab" secondary="medcontainer" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab,piratemedcab" minamount="1" maxamount="2" spawnprobability="0.4" />
+      <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="3" spawnprobability="0.3" />
+      <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.1" />
+      <PreferredContainer secondary="researchcontainer" spawnprobability="0.02" />
+      <Price baseprice="100">
+        <Price storeidentifier="merchantmedical" minavailable="12" />
+      </Price>
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="25" amount="3">
+        <RequiredSkill identifier="medical" level="16" />
+        <RequiredItem identifier="antibleeding1" amount="3" />
+        <RequiredItem identifier="elastin" />
+      </Fabricate>
+      <Deconstruct time="2" />
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="959,771,63,59" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="340,33,26,42" depth="0.6" origin="0.5,0.5" />
+      <Body width="25" height="40" density="10.05" />
+      <SuitableTreatment type="bleeding" suitability="40" />
+      <SuitableTreatment type="burn" suitability="50" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="25" />
+        <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+          <Sound file="Content/Items/Medical/Bandage1.ogg" range="500" />
+          <Sound file="Content/Items/Medical/Bandage2.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="This, Limb" Comparison="Or" duration="10.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="bleeding" amount="4" />
+          <ReduceAffliction type="burn" amount="5" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="This, Limb" Comparison="Or" duration="10.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="bleeding" amount="3" />
+          <ReduceAffliction type="burn" amount="3.75" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <SkillRequirementHint identifier="medical" level="25" />
+    </Plastiseal>
+    <!-- Name: Antibiotic Glue -->
+    <!-- Description: An antibiotic glue with hemostatic properties. Seals bleeding wounds almost immediately and treats burns very effectively. Use with care as it may cause mobile 
+  clots in the bloodstream. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <AntibioticGlue name="" identifier="antibleeding3" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer primary="medcab" secondary="medcontainer" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.3" />
+      <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.2" />
+      <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.05" />
+      <Price baseprice="140">
+        <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="10" minleveldifficulty="25" />
+      </Price>
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="45" amount="2">
+        <RequiredSkill identifier="medical" level="48" />
+        <RequiredItem identifier="stabilozine" amount="2" />
+        <RequiredItem identifier="antibiotics" amount="3" />
+        <RequiredItem identifier="elastin" amount="2" />
+      </Fabricate>
+      <Deconstruct time="20">
+        <Item identifier="antibiotics" />
+        <Item identifier="elastin" />
+      </Deconstruct>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,448,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="312,8,63,22" depth="0.6" origin="0.5,0.5" />
+      <Body width="60" height="20" density="12" />
+      <SuitableTreatment type="bleeding" suitability="100" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="55" />
+        <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+          <Sound file="Content/Items/Medical/Bandage1.ogg" range="500" />
+          <Sound file="Content/Items/Medical/Bandage2.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="This, Limb, UseTarget" Comparison="Or" duration="1.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="bleeding" amount="100" />
+          <ReduceAffliction type="burn" amount="100" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="This, Limb, UseTarget" Comparison="Or" duration="1.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="bleeding" amount="75" />
+          <ReduceAffliction type="burn" amount="75" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="This, Limb, UseTarget" Comparison="Or" duration="5.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <Affliction identifier="organdamage" amount="1.25" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <SkillRequirementHint identifier="medical" level="55" />
+    </AntibioticGlue>
+    <!-- Name: Morphine -->
+    <!-- Description: A powerful opiate for treating pain associated with internal injuries, but will cause shortness of breath and eventual dependency with overuse. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Morphine name="" identifier="antidama1" aliases="Corrigodone" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer secondary="supplycab" minamount="1" maxamount="2" spawnprobability="0.5" notcampaign="true" />
+      <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.3" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab,piratemedcab" minamount="1" maxamount="2" spawnprobability="0.8" />
+      <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="3" spawnprobability="0.5" />
+      <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.2" />
+      <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.1" />
+      <PreferredContainer secondary="researchcontainer" spawnprobability="0.02" />
+      <PreferredContainer primary="medcab" secondary="medcontainer" />
+      <Price baseprice="100" minavailable="12">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" />
+        <Price storeidentifier="merchantmine" />
+        <Price storeidentifier="merchantmedical" multiplier="0.9" />
+      </Price>
+      <SuitableTreatment type="damage" suitability="40" />
+      <SuitableTreatment identifier="opiatewithdrawal" suitability="5" />
+      <SuitableTreatment identifier="opiateoverdose" suitability="-20" />
+      <SuitableTreatment identifier="opiateaddiction" suitability="-20" />
+      <SuitableTreatment identifier="oxygenlow" suitability="-20" />
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="30">
+        <RequiredSkill identifier="medical" level="18" />
+        <RequiredItem identifier="opium" amount="2" />
+      </Fabricate>
+      <Deconstruct time="20">
+        <Item identifier="opium" />
+      </Deconstruct>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,448,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="0,0,37,69" depth="0.6" origin="0.5,0.5" />
+      <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="50" />
+        <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" Comparison="Or" duration="20">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="2.0" />
+          <ReduceAffliction type="burn" amount="0.1" />
+          <Affliction identifier="oxygenlow" amount="1.0" />
+          <Affliction identifier="opiateaddiction" amount="1.0" />
+          <Affliction identifier="opiateoverdose" amount="1.0" />
+          <ReduceAffliction identifier="opiatewithdrawal" amount="3.75" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" Comparison="Or" duration="20">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="1.25" />
+          <ReduceAffliction type="burn" amount="0.05" />
+          <Affliction identifier="oxygenlow" amount="1.5" />
+          <Affliction identifier="opiateaddiction" amount="2.0" />
+          <Affliction identifier="opiateoverdose" amount="1.5" />
+          <ReduceAffliction identifier="opiatewithdrawal" amount="3.75" />
+        </StatusEffect>
+        <StatusEffect type="OnSuccess" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnFailure" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnImpact" target="UseTarget" multiplyafflictionsbymaxvitality="true" AllowWhenBroken="true">
+          <Affliction identifier="stun" amount="0.1" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
+      <SkillRequirementHint identifier="medical" level="50" />
+    </Morphine>
+    <!-- Name: Fentanyl -->
+    <!-- Description: A powerful opiate for treating pain associated with internal injuries, but will cause shortness of breath and eventual dependency with overuse. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Fentanyl name="" identifier="antidama2" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer primary="medcab" secondary="medcontainer" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab,piratemedcab" minamount="1" maxamount="2" spawnprobability="0.4" />
+      <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="3" spawnprobability="0.3" />
+      <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.1" />
+      <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.05" />
+      <PreferredContainer secondary="researchcontainer" spawnprobability="0.02" />
+      <Price baseprice="190" minavailable="1">
+        <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="12" />
+      </Price>
+      <SuitableTreatment type="damage" suitability="75" />
+      <SuitableTreatment identifier="opiateoverdose" suitability="-50" />
+      <SuitableTreatment identifier="opiateaddiction" suitability="-20" />
+      <SuitableTreatment identifier="oxygenlow" suitability="-30" />
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="45">
+        <RequiredSkill identifier="medical" level="50" />
+        <RequiredItem identifier="opium" />
+        <RequiredItem identifier="adrenaline" />
+        <RequiredItem identifier="ethanol" />
+      </Fabricate>
+      <Deconstruct time="20">
+        <Item identifier="opium" mincondition="0.9" />
+        <Item identifier="adrenaline" mincondition="0.9" />
+      </Deconstruct>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,448,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="37,0,38,69" depth="0.6" origin="0.5,0.5" />
+      <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="72" />
+        <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect tags="medical" type="OnSuccess" Comparison="Or" target="UseTarget" duration="5">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="15" />
+          <ReduceAffliction type="burn" amount="1" />
+          <Affliction identifier="oxygenlow" amount="5" />
+          <Affliction identifier="opiateoverdose" amount="5" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" Comparison="Or" target="UseTarget" duration="5">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="10" />
+          <ReduceAffliction type="burn" amount="0.75" />
+          <Affliction identifier="oxygenlow" amount="7.5" />
+          <Affliction identifier="opiateoverdose" amount="8" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="25">
+          <Affliction identifier="opiateaddiction" amount="1" />
+          <ReduceAffliction identifier="opiatewithdrawal" amount="4" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="25">
+          <Affliction identifier="opiateaddiction" amount="3" />
+          <ReduceAffliction identifier="opiatewithdrawal" amount="4" />
+        </StatusEffect>
+        <StatusEffect type="OnSuccess" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnFailure" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnImpact" target="UseTarget" multiplyafflictionsbymaxvitality="true" AllowWhenBroken="true">
+          <Affliction identifier="stun" amount="0.1" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
+      <SkillRequirementHint identifier="medical" level="72" />
+    </Fentanyl>
+    <!-- Name: Pomegrenade Extract -->
+    <!-- Description: A crappy but non lethal alternative to opiods, made from pomegrenades.-->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <pomegrenadeextract name="" identifier="pomegrenadeextract" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer primary="medcab" minamount="2" maxamount="4" spawnprobability="0.5" notcampaign="true" />
+      <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.1" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab,piratemedcab" minamount="1" maxamount="2" spawnprobability="0.2" />
+      <PreferredContainer secondary="medcontainer" />
+      <Price baseprice="80" minavailable="4">
+        <Price storeidentifier="merchantoutpost" sold="false" />
+        <Price storeidentifier="merchantcity" multiplier="1.2" />
+        <Price storeidentifier="merchantresearch" multiplier="0.9" />
+        <Price storeidentifier="merchantmilitary" multiplier="1.2" />
+        <Price storeidentifier="merchantmine" multiplier="0.75" />
+      </Price>
+      <SuitableTreatment type="damage" suitability="8" />
+      <SuitableTreatment type="burn" suitability="8" />
+      <SuitableTreatment identifier="oxygenlow" suitability="-25" />
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="15">
+        <RequiredSkill identifier="medical" level="20" />
+        <RequiredItem identifier="creepingorange" amount="3" />
+      </Fabricate>
+      <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="115" fabricationlimitmin="0" fabricationlimitmax="10" />
+      <Deconstruct time="30">
+        <Item identifier="creepingorange" amount="2" />
+      </Deconstruct>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="0,384,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="228,379,37,69" depth="0.6" origin="0.5,0.5" />
+      <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="25" />
+        <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="1">
+          <Affliction identifier="oxygenlow" amount="20" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" Comparison="Or" target="UseTarget" duration="25">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="0.32" />
+          <ReduceAffliction type="burn" amount="0.32" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="1">
+          <Affliction identifier="oxygenlow" amount="20" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" Comparison="Or" target="UseTarget" duration="25">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="0.16" />
+          <ReduceAffliction type="burn" amount="0.16" />
+        </StatusEffect>
+        <StatusEffect type="OnSuccess" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnFailure" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnImpact" target="UseTarget" multiplyafflictionsbymaxvitality="true" AllowWhenBroken="true">
+          <Affliction identifier="stun" amount="0.1" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
+      <SkillRequirementHint identifier="medical" level="25" />
+    </pomegrenadeextract>
+    <!-- Name: Deusizine -->
+    <!-- Description: A highly potent stimulant effective in the treatment of internal damage, oxygen deprivation, blood loss and, to a lesser extent, bleeding. Produces mild burns as a side 
+  effect. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Deusizine name="" identifier="deusizine" aliases="Auxiliriozine" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab,piratemedcab" minamount="1" maxamount="2" spawnprobability="0.2" />
+      <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.02" />
+      <PreferredContainer primary="medcab" secondary="medcontainer" />
+      <Price baseprice="500">
+        <Price storeidentifier="merchantmedical" multiplier="0.9" minleveldifficulty="50" />
+      </Price>
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="60">
+        <RequiredSkill identifier="medical" level="70" />
+        <RequiredItem identifier="antibleeding3" />
+        <RequiredItem identifier="antidama2" />
+        <RequiredItem identifier="liquidoxygenite" />
+      </Fabricate>
+      <Deconstruct time="20">
+        <Item identifier="antibleeding3" />
+        <Item identifier="opium" />
+        <Item identifier="liquidoxygenite" />
+      </Deconstruct>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,704,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="226,306,38,72" depth="0.6" origin="0.5,0.5" />
+      <SuitableTreatment type="burn" suitability="-4" />
+      <SuitableTreatment type="damage" suitability="60" />
+      <SuitableTreatment type="internaldamage" suitability="20" />
+      <SuitableTreatment type="infection" suitability="25" />
+      <SuitableTreatment identifier="oxygenlow" suitability="100" />
+      <SuitableTreatment type="bloodloss" suitability="50" />
+      <SuitableTreatment type="bleeding" suitability="20" />
+      <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="72" />
+        <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect tags="medical" type="OnSuccess" Comparison="Or" target="UseTarget" duration="20" delay="1">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <Affliction identifier="burn" amount="0.2" />
+          <ReduceAffliction type="damage" amount="3" />
+          <ReduceAffliction identifier="bloodloss" amount="2.5" />
+          <ReduceAffliction identifier="bleeding" amount="1" />
+          <ReduceAffliction identifier="internaldamage" amount="1" />
+          <ReduceAffliction identifier="infection" amount="1.25" />
+          <ReduceAffliction identifier="stun" amount="0.3" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" disabledeltatime="true">
+          <Affliction identifier="strengthen" amount="200" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" Comparison="Or" target="UseTarget" duration="20" delay="1">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <Affliction identifier="burn" amount="1" />
+          <ReduceAffliction type="damage" amount="2" />
+          <ReduceAffliction identifier="bloodloss" amount="1.25" />
+          <ReduceAffliction identifier="bleeding" amount="0.5" />
+          <ReduceAffliction identifier="internaldamage" amount="0.5" />
+          <ReduceAffliction identifier="infection" amount="0.5" />
+          <ReduceAffliction identifier="stun" amount="0.15" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" disabledeltatime="true">
+          <Affliction identifier="strengthen" amount="200" />
+        </StatusEffect>
+        <!--Similar effects as from liquid oxygenite, but lasts shorter. Reduces the oxygen low more.-->
+        <!--First increases the oxygen more and then the effect fades-->
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="20" delay="1">
+          <ReduceAffliction identifier="oxygenlow" amount="2.5" />
+        </StatusEffect>
+        <!--Stabilizes-->
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="20" delay="3">
+          <ReduceAffliction identifier="oxygenlow" amount="2.5" />
+        </StatusEffect>
+        <!--Slowly Heals-->
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="10" delay="2">
+          <ReduceAffliction identifier="oxygenlow" amount="2.5" />
+        </StatusEffect>
+        <!--Failure effects:-->
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="5" delay="1">
+          <ReduceAffliction identifier="oxygenlow" amount="2.5" />
+        </StatusEffect>
+        <!--Stabilizes-->
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="4" delay="3">
+          <ReduceAffliction identifier="oxygenlow" amount="2.5" />
+        </StatusEffect>
+        <!--Slowly heals. Intentionally the same effect as OnSuccess, so that you can't immediately tell whether the treatment was successful.-->
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="5" delay="2">
+          <ReduceAffliction identifier="oxygenlow" amount="2.5" />
+        </StatusEffect>
+        <StatusEffect type="OnSuccess" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnFailure" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnImpact" target="UseTarget" multiplyafflictionsbymaxvitality="true" AllowWhenBroken="true">
+          <Affliction identifier="stun" amount="0.1" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
+      <SkillRequirementHint identifier="medical" level="72" />
+    </Deusizine>
+    <!-- Name: Opium -->
+    <!-- A relatively mild opioid obtained from aquatic poppy. Most commonly used to manufacture morphine and fentanyl. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Opium name="" identifier="opium" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,chem" description="" cargocontaineridentifier="mediccrate" scale="0.5" useinhealthinterface="true" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer secondary="abandonedmedcab,piratemedcab,wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
+      <PreferredContainer primary="medfabcab" secondary="medcontainer" />
+      <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.2" />
+      <Price baseprice="40">
+        <Price storeidentifier="merchantoutpost" minavailable="4" />
+        <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="6" />
+        <Price storeidentifier="merchantresearch" multiplier="0.9" minavailable="8" />
+        <Price storeidentifier="merchantmilitary" sold="false" multiplier="1.1" />
+        <Price storeidentifier="merchantmine" sold="false" multiplier="1.1" />
+        <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="8" />
+      </Price>
+      <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="60" fabricationlimitmin="5" fabricationlimitmax="10" />
+      <SuitableTreatment type="damage" suitability="20" />
+      <SuitableTreatment identifier="opiateaddiction" suitability="-25" />
+      <SuitableTreatment identifier="opiateoverdose" suitability="-25" />
+      <SuitableTreatment identifier="oxygenlow" suitability="-17.5" />
+      <SuitableTreatment identifier="opiatewithdrawal" suitability="2" />
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,768,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="406,452,29,58" depth="0.6" origin="0.5,0.5" />
+      <Body width="35" height="55" density="15" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="40" />
+        <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" Comparison="Or" duration="25">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="0.8" />
+          <ReduceAffliction type="burn" amount="0.2" />
+          <Affliction identifier="opiateaddiction" amount="1" />
+          <Affliction identifier="opiateoverdose" amount="1" />
+          <Affliction identifier="oxygenlow" amount="0.7" />
+          <ReduceAffliction identifier="opiatewithdrawal" amount="1.4" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" Comparison="Or" duration="25">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="0.65" />
+          <ReduceAffliction type="burn" amount="0.15" />
+          <Affliction identifier="opiateaddiction" amount="1.75" />
+          <Affliction identifier="opiateoverdose" amount="1.5" />
+          <Affliction identifier="oxygenlow" amount="1.2" />
+          <ReduceAffliction identifier="opiatewithdrawal" amount="1.4" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <SkillRequirementHint identifier="medical" level="60" />
+    </Opium>
+    <!-- Name: Broad-spectrum Antibiotics -->
+    <!-- An antibiotic that acts against a wide range of disease-causing bacteria, though with the side effect of internal damage and Alcohol Sensitivity. Used as an ingredient in many medical compounds. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Antibiotics name="" identifier="antibiotics" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,chem,medical,syringe" description="" cargocontaineridentifier="mediccrate" scale="0.5" useinhealthinterface="true" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer secondary="abandonedmedcab,piratemedcab,wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
+      <PreferredContainer primary="medfabcab" secondary="medcontainer" />
+      <Price baseprice="40">
+        <Price storeidentifier="merchantoutpost" minavailable="6" />
+        <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="12" />
+        <Price storeidentifier="merchantresearch" multiplier="0.9" minavailable="10" />
+        <Price storeidentifier="merchantmilitary" sold="false" multiplier="1.1" />
+        <Price storeidentifier="merchantmine" sold="false" multiplier="1.1" />
+        <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="10" />
+        <Price storeidentifier="merchanthusk" minavailable="0" maxavailable="2" />
+      </Price>
+      <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="60" fabricationlimitmin="5" fabricationlimitmax="10" />
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,704,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="263,142,36,68" depth="0.6" origin="0.5,0.5" />
+      <SuitableTreatment type="damage" suitability="-33" />
+      <SuitableTreatment identifier="huskinfection" suitability="30" />
+      <SuitableTreatment type="infection" suitability="90" />
+      <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <RequiredSkill identifier="medical" level="25" />
+        <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect type="OnFailure" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="60.0">
+          <Conditional huskinfection="lt 75.0" />
+          <ReduceAffliction identifier="huskinfection" amount="0.5" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="Limb" Comparison="Or" duration="60.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <Affliction identifier="organdamage" amount="0.55" />
+        </StatusEffect>
+        <StatusEffect type="OnSuccess" target="UseTarget" disabledeltatime="true">
+          <Affliction identifier="huskinfectionresistance" amount="600" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="60.0">
+          <Conditional huskinfection="lt 75.0" />
+          <ReduceAffliction identifier="huskinfection" amount="0.25" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="Limb" Comparison="Or" duration="60.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <Affliction identifier="organdamage" amount="1.0" />
+        </StatusEffect>
+        <StatusEffect type="OnFailure" target="UseTarget" disabledeltatime="true">
+          <Affliction identifier="huskinfectionresistance" amount="300" />
+        </StatusEffect>
+        <StatusEffect type="OnSuccess" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnFailure" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnImpact" target="UseTarget" multiplyafflictionsbymaxvitality="true" AllowWhenBroken="true">
+          <Affliction identifier="stun" amount="0.1" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="Limb" duration="60">
+          <ReduceAffliction identifier="infection" amount="1.5" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="Limb" duration="60">
+          <ReduceAffliction identifier="infection" amount="1" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="5">
+          <ReduceAffliction identifier="drunkweakness" amount="10" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="5">
+          <ReduceAffliction identifier="drunkweakness" amount="20" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
+      <SkillRequirementHint identifier="medical" level="25" />
+    </Antibiotics>
+    <!-- Name: Tonic Liquid  -->
+    <!-- Description: A medical solution that's mildly effective as a treatment for internal damage, but is more commonly used to increase the duration of performance enhancing drugs. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <TonicLiquid name="" identifier="tonicliquid" category="Medical,Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer primary="medfabcab" secondary="medcontainer" />
+      <PreferredContainer secondary="wreckmedcab,abandonedmedcab,piratemedcab" minamount="1" maxamount="2" spawnprobability="0.1" />
+      <SuitableTreatment type="damage" suitability="1" />
+      <SuitableTreatment type="burn" suitability="-10" />
+      <SuitableTreatment identifier="opiateoverdose" suitability="-10" />
+      <SuitableTreatment identifier="oxygenlow" suitability="-10" />
+      <SuitableTreatment identifier="opiatewithdrawal" suitability="-10" />
+      <Price baseprice="75" minavailable="3">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="7" />
+        <Price storeidentifier="merchantresearch" multiplier="0.9" minavailable="10" />
+        <Price storeidentifier="merchantmilitary" multiplier="1.1" minavailable="8" />
+        <Price storeidentifier="merchantmine" multiplier="1.1" />
+      </Price>
+      <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="100" fabricationlimitmin="5" fabricationlimitmax="10" />
+      <Fabricate suitablefabricators="medicalfabricator" requiredtime="20" amount="2">
+        <RequiredSkill identifier="medical" level="5" />
+        <RequiredItem identifier="calcium" amount="3" />
+        <RequiredItem identifier="zinc" amount="3" />
+        <RequiredItem identifier="potassium" amount="3" />
+      </Fabricate>
+      <Deconstruct time="20">
+        <Item identifier="calcium" />
+        <Item identifier="potassium" />
+        <Item identifier="zinc" />
+      </Deconstruct>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,704,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="383,5,33,87" depth="0.6" origin="0.5,0.5" />
+      <Body width="30" height="80" density="11" waterdragcoefficient="1" />
+      <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="26,28" holdangle="0" aimangle="120" aimable="false" msg="ItemMsgPickUpSelect">
+        <StatusEffect type="OnSecondaryUse" target="This" Condition="-30.0" />
+        <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+          <Conditional Condition="lte 1" />
+          <Use />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This" Condition="0.0" setvalue="true" />
+        <StatusEffect tags="medical" type="OnUse" target="UseTarget" disabledeltatime="true" allowwhenbroken="true">
+          <Affliction identifier="durationincrease" amount="300" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnUse" target="UseTarget" Comparison="Or" duration="120.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <ReduceAffliction type="damage" amount="0.1" />
+        </StatusEffect>
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </Holdable>
+    </TonicLiquid>
+    <!-- Name: Adrenaline -->
+    <!-- A naturally occurring hormone, useful as short-term treatment and prevention for stun, while also keeping the patient from falling to life-threatening unconsciousness. Can be used to manufacture medicine or combat stimulants. -->
+    <!-- *************************************************************************************************************************************************************************** -->
+    <Adrenaline name="" identifier="adrenaline" category="Medical,Material" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <PreferredContainer primary="medfabcab" secondary="medcontainer" />
+      <PreferredContainer secondary="abandonedmedcab,piratemedcab,wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
+      <Price baseprice="60">
+        <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.25" />
+        <Price storeidentifier="merchantcity" sold="false" multiplier="1.25" />
+        <Price storeidentifier="merchantresearch" multiplier="0.9" minavailable="4" />
+        <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="2" />
+        <Price storeidentifier="merchantmine" sold="false" multiplier="1.1" />
+        <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="4" />
+      </Price>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="129,448,62,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="301,209,37,72" depth="0.6" origin="0.5,0.5" />
+      <Body width="25" height="55" density="10.2" waterdragcoefficient="1" />
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <StatusEffect type="OnSuccess" target="This" Condition="-100.0" setvalue="true" />
+        <StatusEffect type="OnSuccess" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        </StatusEffect>
+        <StatusEffect type="OnImpact" target="UseTarget" multiplyafflictionsbymaxvitality="true" AllowWhenBroken="true">
+          <Affliction identifier="stun" amount="0.1" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" disabledeltatime="true" Comparison="Or" allowwhenbroken="true">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <Affliction identifier="adrenalinerush" amount="8" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnSuccess" delay="8" target="UseTarget" Comparison="Or" duration="10.0">
+          <Conditional ismale="true" />
+          <Conditional isfemale="true" />
+          <Affliction identifier="nausea" amount="4.0" />
+          <Affliction identifier="organdamage" amount="2.0" />
+        </StatusEffect>
+        <!-- Remove the item when fully used -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </MeleeWeapon>
+      <Projectile characterusable="false" launchimpulse="18.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
+    </Adrenaline>
+  </Override>
+</Items>

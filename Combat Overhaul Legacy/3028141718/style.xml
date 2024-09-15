@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <style>
+    <co_guide1 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble1" texture="%ModDir%/guidebook1.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide1>
+    <co_guide2 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble2" texture="%ModDir%/guidebook2.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide2>
+    <co_guide3 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble3" texture="%ModDir%/guidebook3.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide3>
+    <co_guide4 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble4" texture="%ModDir%/guidebook4.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide4>
+    <co_guide5 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble5" texture="%ModDir%/guidebook5.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide5>
+    <co_guide6 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble6" texture="%ModDir%/guidebook6.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide6>
+    <co_guide7 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble7" texture="%ModDir%/guidebook7.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide7>
+    <co_guide8 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="scribble8" texture="%ModDir%/guidebook8.png" sourcerect="0,0,752,1024" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_guide8>
+    <co_cultist1 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="firescribble1" texture="%ModDir%/book1.png" sourcerect="0,0,620,820" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_cultist1>
+    <co_cultist2 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="firescribble2" texture="%ModDir%/book2.png" sourcerect="0,0,620,820" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_cultist2>
+    <co_cultist3 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="firescribble3" texture="%ModDir%/book3.png" sourcerect="0,0,620,820" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_cultist3>
+    <co_cultist4 color="255,255,255,242" textcolor="0,0,0,255">
+      <Sprite name="firescribble4" texture="%ModDir%/book4.png" sourcerect="0,0,620,820" maintainaspectratio="true" tile="false" origin="0.5,0.5" compress="true" />
+    </co_cultist4>
+    <MainMenuVignette color="255,255,255,255">
+      <Sprite name="MainMenuVignette" texture="%ModDir%/MainMenuVignette.png" sourcerect="0,0,1752,2160" origin="0.5,0.5" />
+    </MainMenuVignette>
+    <TitleText color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" pressedcolor="255,255,255,255">
+      <Sprite texture="%ModDir%/titleText.png" sourcerect="0,520,1024,328" tile="false" maintainaspectratio="true">
+        <override language="Traditional Chinese" texture="%ModDir%/titleText.png" sourcerect="0,176,1024,343" />
+        <override language="Simplified Chinese" texture="%ModDir%/titleText.png" sourcerect="0,176,1024,343" />
+      </Sprite>
+    </TitleText>
+    <MainMenuBackground color="255,255,255,255">
+      <Sprite texture="%ModDir%/COBackground1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+      <Sprite texture="%ModDir%/COBackground2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    </MainMenuBackground>
+  </style>
+</Override>

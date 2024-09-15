@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Ragdoll type="coinshot" canentersubmarine="true" canwalk="False" limbscale="0.2" jointscale="0.2" texture="%ModDir%/CO_spritelist2.png" spritesheetorientation="0" texturescale="0.2" colliderheightfromfloor="255" draggable="False">
+  <collider radius="30" name="Main Collider" height="0" width="0" />
+  <!-- head -->
+  <limb id="0" radius="5" type="Head" steerforce="1" name="Body" spriteorientation="NaN" flip="False" mirrorvertically="False" mirrorhorizontally="False" hide="False" attackpriority="1" height="60" width="0" density="30" ignorecollisions="False" angulardamping="20" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" notes="" healthindex="0" friction="0.3" restitution="0.05">
+    <sprite texture="%ModDir%/CO_spritelist2.png" sourcerect="56,293,24,24" depth="0.04" origin="0.5,0.5" />
+    <attack Context="Any" TargetType="Character" TargetLimbType="Head" HitDetectionType="Distance" AfterAttack="IdleUntilCanAttack" AfterAttackDelay="0" Reverse="False" Retreat="False" Range="10000" DamageRange="10000" MinRange="0" Duration="0.03" CoolDown="0.001" SecondaryCoolDown="0" CoolDownRandomFactor="0" FullSpeedAfterAttack="True" StructureDamage="0" EmitStructureDamageParticles="True" ItemDamage="0" Penetration="0" LevelWallDamage="0" Ranged="True" AvoidFriendlyFire="False" RequiredAngle="360" RequiredAngleToShoot="0" AimRotationTorque="0" RotationLimbIndex="0" SwayAmount="0" SwayFrequency="5" Stun="0" OnlyHumans="False" ApplyForceOnLimbs="" Force="0" RootForceWorldStart="0,0" RootForceWorldMiddle="0,0" RootForceWorldEnd="0,0" RootTransitionEasing="Linear" Torque="0" ApplyForcesOnlyOnce="False" TargetImpulse="0" TargetImpulseWorld="0,0" TargetForce="0" TargetForceWorld="0,0" SubmarineImpactMultiplier="1" SeverLimbsProbability="0" Priority="0" Blink="False">
+      <StatusEffect type="OnFailure" target="UseTarget">
+        <SpawnItem identifier="coiprojectile" spawnposition="This" count="1" aimspread="0" rotationtype="Target" rotation="0" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" targetlimb="Head" disabledeltatime="true">
+        <ParticleEmitter particle="muzzleflashnucleargun" anglemin="0" anglemax="360" particleamount="3" velocitymin="0" lifetimemultiplier="0.5" scalemin="1" scalemax="1.0" colormultiplier="255,255,0,255" />
+        <Affliction identifier="internaldamage" strength="4000" />
+        <Affliction identifier="burn" strength="4000" />
+      </StatusEffect>
+    </attack>
+  </limb>
+</Ragdoll>

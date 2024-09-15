@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Immersive Sonar UI - A Real Sonar Add-On" modversion="1.0.4" corepackage="False" steamworkshopid="3172965454" gameversion="1.2.8.0" expectedhash="E815D721BD1CD67E279A0F3DE35B10CB">
+  <Item file="%ModDir%/Content/Items/Command/command.xml" />
+  <Other file="%ModDir%/Lua/Autorun/init.lua" />
+  <Other file="%ModDir%/Lua/Scripts/Client/gunner_overlay.lua" />
+</contentpackage>

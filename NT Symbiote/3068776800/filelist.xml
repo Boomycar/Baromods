@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="NT Symbiote" modversion="A1.0.0h1" corepackage="False" gameversion="1.1.19.3" expectedhash="00A18D7A32D1424691C5E752D60E1BC9">
+  <Other file="%ModDir%/Images/AfflictionIcons.png" />
+  <Afflictions file="%ModDir%/Xml/Afflictions.xml" />
+  <Item file="%ModDir%/Xml/items.xml" />
+  <Text file="%ModDir%/Localization/English/English.xml" />
+  <Other file="%ModDir%/Lua/Autorun/init.lua" />
+  <Other file="%ModDir%/Lua/Scripts/humanupdate.lua" />
+  <Other file="%ModDir%/Lua/Scripts/helperfunctions.lua" />
+  <Other file="%ModDir%/Lua/Scripts/items.lua" />
+  <Other file="%ModDir%/Lua/Scripts/testing.lua" />
+</contentpackage>

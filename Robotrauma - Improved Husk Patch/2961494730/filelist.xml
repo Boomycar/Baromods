@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Robotrauma - Improved Husk Patch" modversion="0.8" corepackage="False" steamworkshopid="2961494730" gameversion="1.0.21.0" expectedhash="7ACCE30E9E0D98AD93A1CF8263E8F752">
+  <Character file="%ModDir%/Characters/Human/Human.xml" />
+</contentpackage>

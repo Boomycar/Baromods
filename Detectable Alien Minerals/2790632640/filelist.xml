@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Detectable Alien Minerals" modversion="1.0.10" corepackage="False" steamworkshopid="2790632640" gameversion="1.0.8.0" expectedhash="7CE6161C86077CABD62D06ECA9E9BBBD">
+  <Item file="%ModDir%/materials-override.xml" />
+  <Item file="%ModDir%/artifacts-override.xml" />
+</contentpackage>

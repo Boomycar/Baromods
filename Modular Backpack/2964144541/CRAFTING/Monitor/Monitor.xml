@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item name="Monitor" identifier="monitorMBMOD" tags="smallitem" category="Equipement" maxstacksize="1" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" allowdroppingonswap="true">
+  <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  <Deconstruct time="10">
+    <Item identifier="handheldstatusmonitor" amount="1" />
+    <Item identifier="handheldsonar" amount="1" />
+    <Item identifier="fpgacircuit" amount="4" />
+    <Item identifier="regexcomponent" amount="2" />
+    <Item identifier="memorycomponent" amount="2" />
+  </Deconstruct>
+  <Fabricate suitablefabricators="fabricator">
+    <RequiredItem identifier="handheldstatusmonitor" amount="1" />
+    <RequiredItem identifier="handheldsonar" amount="1" />
+    <RequiredItem identifier="fpgacircuit" amount="4" />
+    <RequiredItem identifier="regexcomponent" amount="2" />
+    <RequiredItem identifier="memorycomponent" amount="2" />
+  </Fabricate>
+  <InventoryIcon texture="%ModDir%/CRAFTING/Monitor/Monitor.png" sourcerect="0,0,70,111" origin="0.5,0.5" />
+  <Sprite texture="%ModDir%/CRAFTING/Monitor/Monitor.png" depth="0.55" sourcerect="0,0,70,111" origin="0.5,0.5" />
+  <Body width="70" height="111" density="10" />
+  <Holdable canbecombined="false" slots="RightHand,LeftHand,Any" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true"></Holdable>
+</Item>

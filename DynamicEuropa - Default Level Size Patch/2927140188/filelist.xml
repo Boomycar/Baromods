@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="DynamicEuropa - Default Level Size Patch" modversion="1.1.23" corepackage="False" steamworkshopid="2927140188" gameversion="1.0.7.0" expectedhash="51C586838850CC48B0247BA82CC51ADE">
+  <LevelGenerationParameters file="%ModDir%/Biomes/Biomes.xml" />
+  <LevelGenerationParameters file="%ModDir%/Biomes/AphoticPlateau.xml" />
+  <LevelGenerationParameters file="%ModDir%/Biomes/CaveGenerationParameters.xml" />
+  <LevelGenerationParameters file="%ModDir%/Biomes/ColdCaverns.xml" />
+  <LevelGenerationParameters file="%ModDir%/Biomes/EuropanRidge.xml" />
+  <LevelGenerationParameters file="%ModDir%/Biomes/HydrothermalWastes.xml" />
+  <LevelGenerationParameters file="%ModDir%/Biomes/TheGreatSea.xml" />
+</contentpackage>

@@ -27,9 +27,9 @@
     <ContainedSprite name="Diving Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/suitinlocker.png" sourcerect="12,30,77,209" depth="0.55" origin="-0.12,-0.13" />
     <ContainedSprite name="Diving Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/suitlocker.png" sourcerect="134,134,248,59" depth="0.55" origin="0.58,0.5" />
     <Body radius="45" width="34" density="15" />
-    <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
+    <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select" armorvalue="15.0" >
       <sprite texture="%ModDir%/suitlocker.png" limb="Head" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" sourcerect="254,0,104,96" origin="0.55,0.6" scale="0.4">
-        <LightComponent range="300.0" lightcolor="100,255,0,255" powerconsumption="10" IsOn="true" allowingameediting="false">
+        <LightComponent range="350.0" lightcolor="100,255,0,255" powerconsumption="10" IsOn="true" allowingameediting="false">
           <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" setvalue="true">
             <Conditional IsDead="false" />
           </StatusEffect>
@@ -52,7 +52,7 @@
       <sprite texture="%ModDir%/suitbody.png" limb="LeftFoot" sound="footstep_armor_heavy" inheritlimbdepth="true" hidelimb="true" hideotherwearables="true" inherittexturescale="false" origin="0.6,0.45" sourcerect="10,260,58,105" scale="0.4" rotation="90" />
       <StatusEffect type="OnWearing" target="Character" OxygenAvailable="-100.0" UseHullOxygen="false" />
       <StatusEffect type="OnWearing" target="Character" OxygenAvailable="30.0" UseHullOxygen="true" />
-      <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVisionAmount="0.3" PressureProtection="6000.0" SpeedMultiplier="0.8" LowPassMultiplier="0.2" setvalue="true" disabledeltatime="true">
+      <StatusEffect type="OnWearing" target="Character" UseHullOxygen="true" HideFace="true" ObstructVisionAmount="0.3" PressureProtection="6000.0" SpeedMultiplier="0.8" LowPassMultiplier="0.2" setvalue="true" disabledeltatime="true">
         <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
         <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
       </StatusEffect>
@@ -61,10 +61,27 @@
         <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
         <RequiredItem items="refillableoxygensource" type="Contained" excludebroken="false" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.3" comparison="Or" targetslot="0">
-        <Conditional IsDead="false" />
-        <RequiredItem items="oxygentank" type="Contained" />
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" comparison="And" targetslot="0">
+        <RequiredItem items="oxygensource,oxygentank" type="Contained" />
       </StatusEffect>
+      <!-- consume oxygen if not in water and there's not enough oxygen in the hull -->
+      <StatusEffect type="OnWearing" target="Contained" UseHullOxygen="false" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" HullOxygenPercentage="lt 50" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="false" />        
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+      <!-- consume oxygen if in water -->
+      <StatusEffect type="OnWearing" target="Contained" UseHullOxygen="false" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygensource" type="Contained" />
+      </StatusEffect>
+	  <!-- Chip and tank effects -->
       <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-20.0" Condition="-0.5" targetslot="0">
         <Conditional IsDead="false" />
         <RequiredItem items="weldingfueltank" type="Contained" />
@@ -112,16 +129,32 @@
         <RequiredItem items="radiationresistanceitem" type="Contained" />
         <Affliction identifier="radiationresistanceaffliction" amount="100" />
       </StatusEffect>
+	   <!-- Chip and tank effects -->
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.65" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.00" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.05" damagesound="" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.5" probabilitymultiplier="0.5" damagesound="LimbArmor" />
+	  <damagemodifier afflictionidentifiers="progressivestun,incrementalstun,stun,concussion" armorsector="0.0,360.0" damagemultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
       <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse" />
     </Holdable>
     <ItemContainer capacity="0" maxstacksize="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable items="none" />
+	   <ItemComponent IsActiveConditionalComparison="Or">
+        <IsActive HullOxygenPercentage="lt 50" />
+        <IsActive InWater="eq true" />
+			<StatusEffect type="OnWearing" target="Contained" targetslot="0">
+				<RequiredItem items="oxygensource" type="Contained" />
+				<Conditional condition="lt 5.0" />
+			<Sound file="Content/Items/WarningBeepSlow.ogg" range="500" />
+			</StatusEffect>
+			<StatusEffect type="OnWearing" target="Contained" playsoundonrequireditemfailure="true" targetslot="0">
+				<RequiredItem items="oxygensource" type="Contained" matchonempty="true" />
+				<Conditional condition="lte 0.0" />
+				<Sound file="Content/Items/WarningBeep.ogg" range="500" />
+			</StatusEffect>
+      </ItemComponent>
       <StatusEffect type="OnWearing" target="Contained" targetslot="0">
         <RequiredItem items="oxygensource" type="Contained" />
         <Conditional condition="lt 5.0" />

@@ -9,12 +9,8 @@
     <Effect minstrength="0" maxstrength="100" strengthchange="-50">
       <StatusEffect target="Character">
         <ReduceAffliction type="damage"         amount="0.2"  />
-        <ReduceAffliction type="bleeding"       amount="0.25"  />
-        <ReduceAffliction type="traumaticshock" amount="0.35" />
-        <ReduceAffliction type="burn"           amount="0.25"  />
-        <ReduceAffliction type="burn_deg1"      amount="0.15" />
-        <ReduceAffliction type="burn_deg2"      amount="0.25" />
-        <ReduceAffliction type="burn_deg3"      amount="0.35" />
+        <ReduceAffliction type="bleeding"       amount="0.25" />
+        <ReduceAffliction type="burn"           amount="0.25" />
         <ReduceAffliction type="bloodloss"      amount="0.15" />
         <ReduceAffliction type="bitewounds"     amount="0.35" />
 	    	<ReduceAffliction type="lacerations"    amount="0.15" />

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Modular Suit Upgraded (Updated)" modversion="1.0.8" corepackage="False"  gameversion="0.19.14.0">
+  <Item file="%ModDir%/items.xml" />
+  <Other file="%ModDir%/containerindicator.png" />
+  <Other file="%ModDir%/suitbody.png" />
+  <Other file="%ModDir%/suitinlocker.png" />
+  <Other file="%ModDir%/suitlocker.png" />
+  <Other file="%ModDir%/modules.png" />
+  <Afflictions file="%ModDir%/afflictions.xml" />
+</contentpackage>

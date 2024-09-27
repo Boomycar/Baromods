@@ -17,8 +17,8 @@
         <ReduceAffliction type="burn_deg3"      amount="0.35" />
         <ReduceAffliction type="bloodloss"      amount="0.15" />
         <ReduceAffliction type="bitewounds"     amount="0.35" />
-	    	<ReduceAffliction type="lacerations"    amount="0.15" />
-	    	<ReduceAffliction type="gunshotwound"   amount="0.35" />
+	    <ReduceAffliction type="lacerations"    amount="0.15" />
+	    <ReduceAffliction type="gunshotwound"   amount="0.35" />
       </StatusEffect>
     </Effect>
     <Icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,896,128,128" color="10,193,114,255" origin="0,0" />

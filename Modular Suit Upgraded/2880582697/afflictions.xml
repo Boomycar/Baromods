@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Afflictions>
   <Affliction name="Defense Module" identifier="defensemoduleaffliction" description="The suit is more durable, allowing it to take more of the damage for you." type="resistance" isbuff="true" healableinmedicalclinic="false" limbspecific="false" maxstrength="100" showiconthreshold="1" showinhealthscannerthreshold="500">
-    <Effect minstrength="0" maxstrength="100" strengthchange="-50" resistancefor="damage,bleeding" minresistance="0.2" maxresistance="0.2" />
-	  <Effect minstrength="0" maxstrength="100" strengthchange="-50" resistancefor="progressivestun,incrementalstun,concussion,stun" minresistance="0.55" maxresistance="0.55" />
+    <Effect minstrength="0" maxstrength="50" strengthchange="-50" resistancefor="damage,bleeding" minresistance="0.2" maxresistance="0.2" />
+	  <Effect minstrength="51" maxstrength="100" strengthchange="-50" resistancefor="progressivestun,incrementalstun,concussion,stun" minresistance="0.55" maxresistance="0.55" />
     <Icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
   <Affliction name="Healing Module" identifier="healingmoduleaffliction" description="An advanced medical system is slowly healing your wounds over time." type="geneticmaterialbuff" isbuff="true" limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" showinhealthscannerthreshold="500" healableinmedicalclinic="false" maxstrength="100">

@@ -24,8 +24,7 @@
     <Icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,896,128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
   <Affliction name="Speed Module" identifier="speedmoduleaffliction" description="The suit feels lighter, allowing you to move at faster speeds." type="haste" isbuff="true" healableinmedicalclinic="false" limbspecific="false" showiconthreshold="1" showinhealthscannerthreshold="500" maxstrength="100">
-    <Effect minstrength="0" maxstrength="100" strengthchange="-50" minspeedmultiplier="1.2" maxspeedmultiplier="1.2">
-      <StatValue stattype="SwimmingSpeed" minvalue="0.2" maxvalue="0.2" />
+    <Effect minstrength="0" maxstrength="100" strengthchange="-50" minspeedmultiplier="1" maxspeedmultiplier="1.3">
     </Effect>
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,896,128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>

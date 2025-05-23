@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Extract It! Neurotrauma Patch" steamworkshopid="2936086408" corepackage="false" modversion="1.0.3" gameversion="0.21.6.0" installtime="1676853038" altnames="Extract It! Neurotrauma Patch" expectedhash="567396CFB6556AA117C89367019649B6">
+  <Item file="%ModDir%/items.xml" />
+</contentpackage>

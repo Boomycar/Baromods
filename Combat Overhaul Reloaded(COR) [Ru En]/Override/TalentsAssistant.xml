@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Talents>
+    <Talent identifier="graduationceremony">
+      <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,5" sheetelementsize="128,128" />
+      <Description tag="talentdescription.unlockapprenticeshiptalents" />
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.powersword" color="gui.orange" />
+      </Description>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Conditions>
+          <AbilityConditionHasPermanentStat statidentifier="graduationceremony" min="1" invert="true" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityUnlockApprenticeshipTalentTree />
+          <CharacterAbilityGivePermanentStat statidentifier="graduationceremony" value="1" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="ceremonialsword" />
+    </Talent>
+    <Talent identifier="waterprankster">
+      <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,5" sheetelementsize="128,128" />
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.clowndivingmask" color="gui.orange" />
+      </Description>
+      <Description tag="talentdescription.clownpowerbenefits" />
+      <Description tag="talentdescription.additionalstattype">
+        <Replace tag="[amount]" value="15" color="gui.green" />
+        <Replace tag="[stattype]" value="stattypenames.swimmingspeed" color="gui.orange" />
+      </Description>
+      <AbilityGroupInterval>
+        <Conditions>
+          <AbilityConditionHasAffliction afflictionidentifier="clownpower" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyStat stattype="SwimmingSpeed" value="0.15" />
+        </Abilities>
+      </AbilityGroupInterval>
+      <AddedRecipe itemidentifier="clowndivingmask" />
+    </Talent>
+    <Talent identifier="psychoclown">
+      <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="7,5" sheetelementsize="128,128" />
+      <Description tag="talentdescription.psychoclown">
+        <Replace tag="[afflictionname]" value="afflictionname.clownpower" color="gui.orange" />
+        <Replace tag="[maxattackspeed]" value="150" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.bikehorn_919" color="gui.orange" />
+      </Description>
+      <AddedRecipe itemidentifier="madmanshorn" />
+      <AddedRecipe itemidentifier="bikehorn_919" />
+      <AbilityGroupInterval>
+        <Conditions>
+          <AbilityConditionHasAffliction afflictionidentifier="clownpower" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityPsychoClown stattype="MeleeAttackSpeed" maxvalue="1.5" afflictionidentifier="psychosis" />
+        </Abilities>
+      </AbilityGroupInterval>
+    </Talent>
+    <Talent identifier="truepotential">
+      <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="1,6" sheetelementsize="128,128" />
+      <Description tag="talentdescription.truepotentialtemporary">
+        <Replace tag="[affliction]" value="afflictionname.combatstimulant" color="gui.orange" />
+        <Replace tag="[duration]" value="5" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.clownexosuit, entityname.clowndivingmaskunique" color="gui.orange" />
+      </Description>
+      <AbilityGroupInterval interval="1">
+        <Abilities>
+          <CharacterAbilityApplyStatusEffects>
+            <StatusEffects>
+              <StatusEffect type="OnAbility" target="This" multiplyafflictionsbymaxvitality="true" disabledeltatime="true">
+                <Affliction identifier="Praiseherlove" amount="1.0" />
+              </StatusEffect>
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffects>
+        </Abilities>
+      </AbilityGroupInterval>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionHasAffliction afflictionidentifier="Praiseherlove" minimumpercentage="1.0" />
+          <AbilityConditionAttackData ignorenonharmfulattacks="true" ignoreOwnAttacks="true" weapontype="NoWeapon,Melee" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyAttackData addeddamagemultiplier="-0.8" />
+          <CharacterAbilityApplyStatusEffectsToAttacker>
+            <StatusEffects>
+              <StatusEffect type="OnAbility" target="Character" targetlimb="Torso" delay="0.1" disabledeltatime="true">
+                <Affliction identifier="stun" amount="4.0" />
+                <ParticleEmitter particle="ElectricShock" distancemin="0" distancemax="50" particleamount="5" anglemin="0" anglemax="360" scalemin="0.1" scalemax="0.2" />
+                <sound file="Content/Items/Weapons/WEAPONS_electricalDischarge1.ogg" range="500" />
+              </StatusEffect>
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffectsToAttacker>
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="OnAttackedResult">
+        <Abilities>
+          <CharacterAbilityApplyStatusEffects>
+            <StatusEffects>
+              <StatusEffect type="OnAbility" target="This">
+                <ReduceAffliction identifier="Praiseherlove" strength="10.0" />
+              </StatusEffect>
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffects>
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupInterval interval="1">
+        <Conditions>
+          <AbilityConditionHasItem tags="clowngearunique,clownmaskunique" requireall="true" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityApplyStatusEffects>
+            <StatusEffects>
+              <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+                <Affliction identifier="mothersblessing" amount="5.0" />
+                <Affliction identifier="Praiseherlove" amount="1.0" />
+              </StatusEffect>
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffects>
+        </Abilities>
+      </AbilityGroupInterval>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionCharacterUnconcious />
+          <AbilityConditionHasItem tags="clowngearunique,clownmaskunique" requireall="true" />
+          <AbilityConditionAttackData itemidentifier="toyhammer" />
+          <AbilityConditionHasAffliction afflictionidentifier="Praiseherlove" minimumpercentage="60" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityGiveAffliction identifier="mothersblessing" amount="5" />
+          <CharacterAbilityGiveReputation identifier="clowns" amount="1" />
+          <ReduceAffliction identifier="Praiseherlove" strength="60.0" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionCharacterUnconcious />
+          <AbilityConditionAttackData itemidentifier="toyhammer" />
+          <AbilityConditionHasAffliction afflictionidentifier="clownpower" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityGiveAffliction affliction="combatstimulant" strength="5" setvalue="true" />
+          <CharacterAbilityReduceAffliction affliction="oxygenlow" amount="200" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="clownexosuit" />
+      <AddedRecipe itemidentifier="clowndivingmaskunique" />
+    </Talent>
+  </Talents>
+</Override>

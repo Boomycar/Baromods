@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="" identifier="ow" healableinmedicalclinic="false" description="You are dead, stupid." limbspecific="false" indicatorlimb="Torso" maxstrength="1" affectmachines="false">
+    <Effect minstrength="0" maxstrength="1" multiplybymaxvitality="true" minvitalitydecrease="200" maxvitalitydecrease="300"></Effect>
+  </Affliction>
+  <Affliction name="FATAL ERROR" identifier="roboterror" healableinmedicalclinic="false" description="NULL REFERENCE EXCEPTION" limbspecific="false" indicatorlimb="Torso" maxstrength="1" affectmachines="false">
+    <Effect minstrength="0" maxstrength="1" multiplybymaxvitality="true">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+      </StatusEffect>
+    </Effect>
+  </Affliction>
+  <Affliction name="Robitified" identifier="robotspawned" healableinmedicalclinic="false" description="You are now a robot!" limbspecific="false" indicatorlimb="Torso" maxstrength="1" affectmachines="false" showinhealthscannerthreshold="100" showiconthreshold="100"></Affliction>
+  <Affliction name="Robotspawn" identifier="robotspawn" type="stun" healableinmedicalclinic="false" limbspecific="false" indicatorlimb="Torso" maxstrength="100" affectmachines="false" showinhealthscannerthreshold="1000" showiconthreshold="1000">
+    <Effect minstrength="0" maxstrength="100" minvitalitydecrease="0" maxvitalitydecrease="0">
+      <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0" interval="0.2">
+        <Affliction identifier="brainremoved" amount="100" />
+        <ReduceAffliction identifier="robotspawn" amount="20" />
+      </StatusEffect>
+      <StatusEffect target="Character" setvalue="true">
+        <Conditional robotspawn="lte 50" />
+        <Affliction identifier="stun" amount="10" />
+        <ReduceAffliction identifier="paralysis" amount="100" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,640,128,128" color="195,177,60,255" origin="0,0" />
+  </Affliction>
+  <Override>
+    <Affliction name="" identifier="artificialbrain" description="" targets="human" healableinmedicalclinic="false" limbspecific="false" indicatorlimb="Head" showiconthreshold="1" showinhealthscannerthreshold="1" type="gaze" isbuff="false" causeofdeathdescription="Died of missing a brain" selfcauseofdeathdescription="Your brain got removed." iconcolors="127,127,127,255;127,127,127,255" maxstrength="2">
+      <icon texture="%ModDir:3190189044%/Images/AfflictionIcons.png" sheetindex="4,5" sheetelementsize="128,128" origin="0,0" />
+    </Affliction>
+    <!-- Triage tags -->
+    <Affliction name="" identifier="triagetag_green" description="" targets="human" healableinmedicalclinic="false" limbspecific="false" indicatorlimb="LeftLeg" showiconthreshold="1" showinhealthscannerthreshold="100" type="triagetag" isbuff="true" iconcolors="0,145,14,255;0,145,14,255" maxstrength="2">
+      <icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="5,1" sheetelementsize="128,128" origin="0,0" />
+    </Affliction>
+    <Affliction name="" identifier="triagetag_yellow" description="" targets="human" healableinmedicalclinic="false" limbspecific="false" indicatorlimb="LeftLeg" showiconthreshold="1" showinhealthscannerthreshold="100" type="triagetag" isbuff="true" iconcolors="224,193,38,255;224,193,38,255" maxstrength="2">
+      <icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="5,1" sheetelementsize="128,128" origin="0,0" />
+    </Affliction>
+    <Affliction name="" identifier="triagetag_red" description="" targets="human" healableinmedicalclinic="false" limbspecific="false" indicatorlimb="LeftLeg" showiconthreshold="1" showinhealthscannerthreshold="100" type="triagetag" isbuff="true" iconcolors="188,26,26,255;188,26,26,255" maxstrength="2">
+      <icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="5,1" sheetelementsize="128,128" origin="0,0" />
+    </Affliction>
+    <Affliction name="" identifier="triagetag_black" description="" targets="human" healableinmedicalclinic="false" limbspecific="false" indicatorlimb="LeftLeg" showiconthreshold="1" showinhealthscannerthreshold="100" type="triagetag" isbuff="true" iconcolors="64,64,64,255;64,64,64,255" maxstrength="2">
+      <icon texture="%ModDir%/Images/MainAtlas.png" sheetindex="5,1" sheetelementsize="128,128" origin="0,0" />
+    </Affliction>
+  </Override>
+</Afflictions>

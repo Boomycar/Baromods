@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <Opbg nameidentifier="opbg_shop4" identifier="co_opbg_shop4" allowattachitems="true" width="191" height="208" resizehorizontal="false" resizevertical="false" texturescale="0.5,0.5" category="Decorative" subcategory="backgroundwall" hideinmenus="true">
+    <sprite texture="%ModDir%/Img/Walls.png" sourcerect="0,0,383,415" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+</prefabs>

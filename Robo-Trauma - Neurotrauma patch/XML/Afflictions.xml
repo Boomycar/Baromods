@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="" identifier="ow" healableinmedicalclinic="false" description="You are dead, stupid." limbspecific="false" indicatorlimb="Torso" maxstrength="1" affectmachines="false">
+    <Effect minstrength="0" maxstrength="1" multiplybymaxvitality="true" minvitalitydecrease="200" maxvitalitydecrease="300"></Effect>
+  </Affliction>
+  <Affliction name="FATAL ERROR" identifier="roboterror" healableinmedicalclinic="false" description="NULL REFERENCE EXCEPTION" limbspecific="false" indicatorlimb="Torso" maxstrength="1" affectmachines="false">
+    <Effect minstrength="0" maxstrength="1" multiplybymaxvitality="true">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+      </StatusEffect>
+    </Effect>
+  </Affliction>
+  <Affliction name="Robitified" identifier="robotspawned" healableinmedicalclinic="false" description="You are now a robot!" limbspecific="false" indicatorlimb="Torso" maxstrength="1" affectmachines="false" showinhealthscannerthreshold="100" showiconthreshold="100"></Affliction>
+</Afflictions>

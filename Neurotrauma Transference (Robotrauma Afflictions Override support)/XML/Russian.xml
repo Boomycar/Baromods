@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <Override>
+    <entityname.cyberbodyassistant>Кибернетическое тело (Помощник)</entityname.cyberbodyassistant>
+    <entityname.cyberbodycaptain>Кибернетическое тело (Капитан)</entityname.cyberbodycaptain>
+    <entityname.cyberbodymedic>Кибернетическое тело (Медик)</entityname.cyberbodymedic>
+    <entityname.cyberbodymechanic>Кибернетическое тело (Механик)</entityname.cyberbodymechanic>
+    <entityname.cyberbodysecurity>Кибернетическое тело (Офицер охраны)</entityname.cyberbodysecurity>
+    <entityname.cyberbodyengineer>Кибернетическое тело (Инженер)</entityname.cyberbodyengineer>
+    <entitydescription.cyberbodyassistant>Искусственное тело, полностью состоящее из металла.</entitydescription.cyberbodyassistant>
+    <entitydescription.cyberbodycaptain>Искусственное тело, полностью состоящее из металла.</entitydescription.cyberbodycaptain>
+    <entitydescription.cyberbodymedic>Искусственное тело, полностью состоящее из металла.</entitydescription.cyberbodymedic>
+    <entitydescription.cyberbodymechanic>Искусственное тело, полностью состоящее из металла.</entitydescription.cyberbodymechanic>
+    <entitydescription.cyberbodysecurity>Искусственное тело, полностью состоящее из металла.</entitydescription.cyberbodysecurity>
+    <entitydescription.cyberbodyengineer>Искусственное тело, полностью состоящее из металла.</entitydescription.cyberbodyengineer>
+    <entityname.cybercoreassistant>Кибернетическое ядро (Помощник)</entityname.cybercoreassistant>
+    <entityname.cybercorecaptain>Кибернетическое ядро (Капитан)</entityname.cybercorecaptain>
+    <entityname.cybercoremedic>Кибернетическое ядро (Медик)</entityname.cybercoremedic>
+    <entityname.cybercoremechanic>Кибернетическое ядро (Механик)</entityname.cybercoremechanic>
+    <entityname.cybercoresecurity>Кибернетическое ядро (Офицер охраны)</entityname.cybercoresecurity>
+    <entityname.cybercoreengineer>Кибернетическое ядро (Инженер)</entityname.cybercoreengineer>
+    <entitydescription.cybercoreassistant>Неполный металлический корпус. Кажется, что излучает ауру несостоятельности.</entitydescription.cybercoreassistant>
+    <entitydescription.cybercorecaptain>Неполный металлический корпус. Украшенный гербом адмирала, в этой пустой оболочке есть странное чувство власти.</entitydescription.cybercorecaptain>
+    <entitydescription.cybercoremedic>Неполный металлический корпус. Присутствует слабый запах крови, едва скрытый стерильными химикатами.</entitydescription.cybercoremedic>
+    <entitydescription.cybercoremechanic>Неполный металлический корпус. Едва слышно звучит скрип шестеренок изнутри.</entitydescription.cybercoremechanic>
+    <entitydescription.cybercoresecurity>Неполный металлический корпус. Спорадические ударные волны пронизывают холодную, твердую сталь.</entitydescription.cybercoresecurity>
+    <entitydescription.cybercoreengineer>Неполный металлический корпус. Вы можете почувствовать резкие удары электричества, пронизывающие его.</entitydescription.cybercoreengineer>
+    <charactername.cyberassistant>Кибернетический Помощник</charactername.cyberassistant>
+    <charactername.cybercaptain>Кибернетический Капитан</charactername.cybercaptain>
+    <charactername.cybermedic>Кибернетический Медик</charactername.cybermedic>
+    <charactername.cybermechanic>Кибернетический Механик</charactername.cybermechanic>
+    <charactername.cybersecurity>Кибернетический Офицер охраны</charactername.cybersecurity>
+    <charactername.cyberengineer>Кибернетический Инженер</charactername.cyberengineer>
+    <entityname.mannitolplus>Маннитол плюс</entityname.mannitolplus>
+    <entitydescription.mannitolplus>Улучшенная версия маннитола. Используется для быстрого лечения нейротравм.</entitydescription.mannitolplus>
+    <entityname.artificialbrain>Искусственный мозг</entityname.artificialbrain>
+    <entitydescription.artificialbrain>Искусственный мозг, удерживающий тело живым при отсутствии оригинального мозга.</entitydescription.artificialbrain>
+    <entityname.brainjar>Сосуд для мозга</entityname.brainjar>
+    <entitydescription.brainjar>Контейнер для долговременного хранения мозга.</entitydescription.brainjar>
+    <afflictionname.artificialbrain>Искусственный мозг</afflictionname.artificialbrain>
+    <afflictiondescription.artificialbrain>Тело пациента поддерживается живым, несмотря на отсутствие настоящего мозга.</afflictiondescription.artificialbrain>
+    <afflictionname.triagetag_green>Отмечено как “Незначительное”</afflictionname.triagetag_green>
+    <afflictiondescription.triagetag_green>Пациенту присвоен тег триажа “отложенное”. Травмы не угрожают жизни.</afflictiondescription.triagetag_green>
+    <afflictionname.triagetag_yellow>Отмечено как “Отложенное”</afflictionname.triagetag_yellow>
+    <afflictiondescription.triagetag_yellow>The patient has been gived the "delayed" triage tag. Their injuries are not life-threatening.</afflictiondescription.triagetag_yellow>
+    <afflictionname.triagetag_red>Отмечено как “Неотложное”</afflictionname.triagetag_red>
+    <afflictiondescription.triagetag_red>Пациенту присвоен тег триажа “неотложное”. Требуется немедленное лечение.</afflictiondescription.triagetag_red>
+    <afflictionname.triagetag_black>Отмечено как “Умерший”</afflictionname.triagetag_black>
+    <afflictiondescription.triagetag_black>Пациенту присвоен тег триажа “умерший”. Медицинское внимание лучше направить в другое место. Их можно считать погибшими.</afflictiondescription.triagetag_black>
+    <entityname.triagetag>Первичная медицинская карточка (автоматическая)</entityname.triagetag>
+    <entitydescription.triagetag>Ярлык, используемый для быстрого определения типа и срочности медицинской помощи, необходимой пациенту в случае массовых жертв.</entitydescription.triagetag>
+    <entityname.manualtriagetag>Первичная медицинская карточка (вручную)</entityname.manualtriagetag>
+    <entitydescription.manualtriagetag>Ярлык ручного распределения. При применении к ногам - зеленый цвет, к рукам — желтый, к туловищу — красный, к голове — черный.</entitydescription.manualtriagetag>
+    <entityname.experimentaltreatment>Экспериментальный препарат</entityname.experimentaltreatment>
+    <entitydescription.experimentaltreatment>В высшей степени экспериментальный реагент, который может причинить как мало, так и много хорошего или плохого.</entitydescription.experimentaltreatment>
+  </Override>
+</infotexts>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="omni_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entitydescription.blueprint_omni" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="shotgun_water_unique2" />
+    <AddedRecipe itemidentifier="5.7mm_round_hp" />
+    <AddedRecipe itemidentifier="divingknife_thermal" />
+    <AddedRecipe itemidentifier="divingknife_m" />
+    <AddedRecipe itemidentifier="co_mace" />
+    <AddedRecipe itemidentifier="co_shootunderwater" />
+    <AddedRecipe itemidentifier="44_round" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="9x39mm_round" />
+    <AddedRecipe itemidentifier="9x39mm_round_hs" />
+    <AddedRecipe itemidentifier="38_round" />
+    <AddedRecipe itemidentifier="5.7mm_round" />
+    <AddedRecipe itemidentifier="45_round" />
+    <AddedRecipe itemidentifier="mg_round" />
+    <AddedRecipe itemidentifier="556_ar_burst" />
+    <AddedRecipe itemidentifier="5.45mm_round" />
+    <AddedRecipe itemidentifier="5.45mm_round_sb" />
+    <AddedRecipe itemidentifier="smground" />
+    <AddedRecipe itemidentifier="7.62mm_round" />
+    <AddedRecipe itemidentifier="7.62mm_round_light" />
+    <AddedRecipe itemidentifier="5.56mm_round" />
+    <AddedRecipe itemidentifier="45_smg_uw" />
+    <AddedRecipe itemidentifier="9mm_smg_blueprint" />
+    <AddedRecipe itemidentifier="7.62mm_round" />
+    <AddedRecipe itemidentifier="7.62mm_round_light" />
+    <AddedRecipe itemidentifier="762_rifle_s" />
+    <AddedRecipe itemidentifier="545_ar_burst" />
+    <AddedRecipe itemidentifier="lasergun_co" />
+    <AddedRecipe itemidentifier="HMG" />
+    <AddedRecipe itemidentifier="762_rifle_s" />
+    <AddedRecipe itemidentifier="45_pistol_uw2" />
+    <AddedRecipe itemidentifier="powersword" />
+    <AddedRecipe itemidentifier="bikehorn_919" />
+    <AddedRecipe itemidentifier="57_pistol_tallent" />
+    <AddedRecipe itemidentifier="5.7mm_round" />
+    <AddedRecipe itemidentifier="5.7mm_round_lb" />
+    <AddedRecipe itemidentifier="38_round" />
+    <AddedRecipe itemidentifier="revolver_38_talent" />
+    <AddedRecipe itemidentifier="44_round_explosive" />
+    <AddedRecipe itemidentifier="38_round_explosive" />
+    <AddedRecipe itemidentifier="45_round_explosive" />
+    <AddedRecipe itemidentifier="revolver_762" />
+    <AddedRecipe itemidentifier="flamer_co" />
+    <AddedRecipe itemidentifier="556_compensator" />
+    <AddedRecipe itemidentifier="545_compensator" />
+    <AddedRecipe itemidentifier="44_compensator" />
+    <AddedRecipe itemidentifier="45_compensator" />
+    <AddedRecipe itemidentifier="9x19_compensator" />
+    <AddedRecipe itemidentifier="57_compensator" />
+    <AddedRecipe itemidentifier="38_compensator" />
+    <AddedRecipe itemidentifier="kurz_compensator" />
+    <AddedRecipe itemidentifier="939_compensator" />
+    <AddedRecipe itemidentifier="pyrogenrifle" />
+    <AddedRecipe itemidentifier="pyrogentank" />
+    <AddedRecipe itemidentifier="depletedfuel" />
+    <AddedRecipe itemidentifier="guidedgrenade" />
+    <AddedRecipe itemidentifier="coilgunammoboxdepletedfuel" />
+    <AddedRecipe itemidentifier="chaingunammobox_depletedfuel" />
+    <AddedRecipe itemidentifier="7.62mm_round_df" />
+    <AddedRecipe itemidentifier="38_round_df" />
+    <AddedRecipe itemidentifier="44_round_df" />
+    <AddedRecipe itemidentifier="9x39mm_round_df" />
+    <AddedRecipe itemidentifier="5.7mm_round_piercing" />
+    <AddedRecipe itemidentifier="co_shotgunslug" />
+    <AddedRecipe itemidentifier="nucleargun_alt" />
+    <AddedRecipe itemidentifier="nucleargun_magazine" />
+    <AddedRecipe itemidentifier="5.56mm_round_homing" />
+    <AddedRecipe itemidentifier="9x39mm_round_homing" />
+    <AddedRecipe itemidentifier="44_round_homing" />
+    <AddedRecipe itemidentifier="exoskeleton" />
+    <AddedRecipe itemidentifier="exoskeleton2" />
+    <AddedRecipe itemidentifier="proximitymine_50" />
+    <AddedRecipe itemidentifier="proximitymine_50_monster" />
+    <AddedRecipe itemidentifier="proximityminelauncher" />
+    <AddedRecipe itemidentifier="co_iceax" />
+    <AddedRecipe itemidentifier="co_crossbow" />
+    <AddedRecipe itemidentifier="makeshiftarmor" />
+    <AddedRecipe itemidentifier="advancedsyringegun" />
+    <AddedRecipe itemidentifier="carbine_medic" />
+    <AddedRecipe itemidentifier="co_bulletpouch_large" />
+    <AddedRecipe itemidentifier="co_magazinepouch_large" />
+    <AddedRecipe itemidentifier="sturmfaust" />
+    <AddedRecipe itemidentifier="sturmfaustrocket" />
+    <AddedRecipe itemidentifier="545_carbine" />
+    <AddedRecipe itemidentifier="mg_round_hp" />
+    <AddedRecipe itemidentifier="5.56mm_round_hp" />
+    <AddedRecipe itemidentifier="5.45mm_round_hp" />
+    <AddedRecipe itemidentifier="shotgun_assalt" />
+    <AddedRecipe itemidentifier="stungundartfulgurium" />
+    <AddedRecipe itemidentifier="riotshield" />
+    <AddedRecipe itemidentifier="thermalgoggles" />
+    <AddedRecipe itemidentifier="boardingaxe" />
+    <AddedRecipe itemidentifier="harpooncoilrifle" />
+    <AddedRecipe itemidentifier="bandolier" />
+    <AddedRecipe itemidentifier="shotgunslugexplosive" />
+    <AddedRecipe itemidentifier="45_carbine" />
+    <AddedRecipe itemidentifier="co_riflegrenade" />
+    <AddedRecipe itemidentifier="grenadelauncher_m500" />
+    <AddedRecipe itemidentifier="939_ar_tallent" />
+    <AddedRecipe itemidentifier="shotgun_talent" />
+    <AddedRecipe itemidentifier="rifle_co" />
+    <AddedRecipe itemidentifier="7.62mm_round_incendiary" />
+    <AddedRecipe itemidentifier="5.45mm_round_incendiary" />
+    <AddedRecipe itemidentifier="45_round" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="38_magazine_extended" />
+    <AddedRecipe itemidentifier="57_magazine_extended" />
+    <AddedRecipe itemidentifier="7.62_magazine_extended" />
+    <AddedRecipe itemidentifier="smg45_magazine_extended" />
+    <AddedRecipe itemidentifier="smg9mm_magazine_extended" />
+    <AddedRecipe itemidentifier="pistol45_magazine_extended" />
+    <AddedRecipe itemidentifier="pistol9mm_magazine_extended" />
+    <AddedRecipe itemidentifier="9x39_magazine_extended" />
+    <AddedRecipe itemidentifier="5.45mm_magazine_extended" />
+    <AddedRecipe itemidentifier="5.56_magazine_extended" />
+    <AddedRecipe itemidentifier="45_round_rifle" />
+  </Talent>
+  <Talent identifier="scst_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.scst_craft" />
+    <AddedRecipe itemidentifier="pyrogenrifle" />
+    <AddedRecipe itemidentifier="pyrogentank" />
+  </Talent>
+  <Talent identifier="melee_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.divingknife_thermal" color="gui.orange" />
+      <Replace tag="[itemname]" value="entityname.divingknife_m" color="gui.orange" />
+      <Replace tag="[itemname]" value="entityname.co_mace" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="divingknife_thermal" />
+    <AddedRecipe itemidentifier="divingknife_m" />
+    <AddedRecipe itemidentifier="co_mace" />
+  </Talent>
+  <Talent identifier="cps_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.co_shootunderwater" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="co_shootunderwater" />
+  </Talent>
+  <Talent identifier="44_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.44_round" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="44_round" />
+  </Talent>
+  <Talent identifier="12_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.shotgunshell" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="shotgunshell" />
+  </Talent>
+  <Talent identifier="939_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.9x39mm_round" color="gui.orange" />
+      <Replace tag="[itemname]" value="entityname.9x39mm_round_hs" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="9x39mm_round" />
+    <AddedRecipe itemidentifier="9x39mm_round_hs" />
+  </Talent>
+  <Talent identifier="38_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.38_round" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="38_round" />
+  </Talent>
+  <Talent identifier="57_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.5.7mm_round" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="5.7mm_round" />
+  </Talent>
+  <Talent identifier="45_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.5.45_round" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="45_round" />
+  </Talent>
+  <Talent identifier="kurz_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.mg_round" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="mg_round" />
+  </Talent>
+  <Talent identifier="ar556_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.556_ar_burst" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="556_ar_burst" />
+  </Talent>
+  <Talent identifier="5.45_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.5.45mm_round" color="gui.orange" />
+      <Replace tag="[itemname]" value="entityname.5.45mm_round_sb" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="5.45mm_round" />
+    <AddedRecipe itemidentifier="5.45mm_round_sb" />
+  </Talent>
+  <Talent identifier="9x19_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.9mm_round" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="smground" />
+  </Talent>
+  <Talent identifier="556_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.5.56mm_round" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="5.56mm_round" />
+  </Talent>
+  <Talent identifier="pdw_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.45_smg_uw" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="45_smg_uw" />
+  </Talent>
+  <Talent identifier="pdw9_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.9mm_smg_blueprint" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="9mm_smg_blueprint" />
+  </Talent>
+  <Talent identifier="762_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.7.62mm_round" color="gui.orange" />
+      <Replace tag="[itemname]" value="entityname.7.62mm_round_light" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="7.62mm_round" />
+    <AddedRecipe itemidentifier="7.62mm_round_light" />
+  </Talent>
+  <Talent identifier="rifle_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.762_rifle_s" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="762_rifle_s" />
+  </Talent>
+  <Talent identifier="shotgun_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.shotgun_water_unique2" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="shotgun_water_unique2" />
+  </Talent>
+  <Talent identifier="pistol_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.45_pistol_uw2" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="45_pistol_uw2" />
+  </Talent>
+  <Talent identifier="exo_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.exoskeleton" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="exoskeleton" />
+  </Talent>
+  <Talent identifier="mg_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.HMG" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="HMG" />
+  </Talent>
+  <Talent identifier="laser_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.lasergun_co" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="lasergun_co" />
+  </Talent>
+  <Talent identifier="ak_craft">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.545_ar_burst" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="545_ar_burst" />
+  </Talent>
+</Talents>

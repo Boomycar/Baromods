@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TraitorMissions>
+  <TraitorMission identifier="enginetrap">
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="0,0,256,256" color="200,0,0,255" />
+    <StartInfoText id="traitormissionstartmessage_trap" />
+    <Objective>
+      <EndMessageFailure id="traitormissionfailuremessage" />
+      <EndMessageSuccess id="traitormissionsuccessmessage" />
+      <StartMessage id="traitorobjectivemessage_trap2" />
+      <Goal type="killtarget">
+        <InfoText id="traitorgoalinfos_trap2" />
+      </Goal>
+    </Objective>
+  </TraitorMission>
+</TraitorMissions>

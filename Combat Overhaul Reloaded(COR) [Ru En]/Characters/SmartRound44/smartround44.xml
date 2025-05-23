@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character inherit="smartround" speciesname="smartround44" humanoid="False" group="Human" husk="False" needsair="False" canspeak="False" noise="250" blooddecal="">
+  <ragdolls folder="default" />
+</Character>

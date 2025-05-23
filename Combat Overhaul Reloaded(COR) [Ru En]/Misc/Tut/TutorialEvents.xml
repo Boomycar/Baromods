@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+  <EventSprites>
+    <Sprite identifier="escapee" texture="%ModDir%/Img/Tut_pic.png" sourcerect="559,6,165,240" origin="0.5,0.5" />
+  </EventSprites>
+  <EventPrefabs>
+    <!-- Stage 1: -->
+    <ScriptedEvent identifier="tutorial_wakeup_1">
+      <WaitAction time="1" />
+      <SpawnAction npcsetidentifier="outpostnpcs1" npcidentifier="watchman" targettag="prisoner_wakeup" spawnlocation="Outpost" spawnpointtag="wingman_spawn" offset="0" />
+      <GodModeAction targettag="prisoner_wakeup" enabled="true" />
+      <TagAction criteria="player" tag="player" />
+      <TagAction criteria="itemtag:tutorialvent" tag="vent" />
+      <TriggerAction target1tag="player" target2tag="vent" radius="40" />
+      <TutorialHighlightAction targettag="vent" />
+      <NPCWaitAction npctag="prisoner_wakeup" wait="true" />
+      <ConversationAction targettag="player" text="tutorial.gunrange.message.1" eventsprite="escapee">
+        <Option text="tutorial.gunrange.message.1_player">
+          <ConversationAction targettag="player" text="tutorial.gunrange.message.2">
+            <Option text="tutorial.gunrange.message.2_player">
+              <ConversationAction targettag="player" text="tutorial.gunrange.message.3">
+                <Option text="tutorial.gunrange.message.3_player">
+                  <ConversationAction targettag="player" text="tutorial.gunrange.message.4">
+                    <Option text="tutorial.continue" endconversation="true">
+                      <TriggerEventAction identifier="tutorial_wakeup_2" />
+                    </Option>
+                  </ConversationAction>
+                </Option>
+              </ConversationAction>
+            </Option>
+          </ConversationAction>
+        </Option>
+      </ConversationAction>
+    </ScriptedEvent>
+    <!-- Stage 2:-->
+    <ScriptedEvent identifier="tutorial_wakeup_2">
+      <!-- Check if door has been broken open -->
+      <TagAction criteria="player" tag="player" />
+      <TagAction criteria="itemtag:firstdoor" tag="door" />
+      <Label name="wakeupcheck2" />
+      <WaitAction time="3" />
+      <CheckConditionalAction targettag="door" ConditionPercentage="eq 0">
+        <Success>
+          <ConversationAction targettag="player" text="tutorial.gunrange.doormessage.1" eventsprite="escapee">
+            <Option text="tutorial.gunrange.doormessage.1_player">
+              <ConversationAction targettag="player" text="tutorial.gunrange.doormessage.2">
+                <Option text="tutorial.gunrange.doormessage.2_player" endconversation="true">
+                  <TriggerEventAction identifier="tutorial_wakeup_3" />
+                </Option>
+              </ConversationAction>
+            </Option>
+          </ConversationAction>
+        </Success>
+        <Failure>
+          <GoTo name="wakeupcheck2" />
+        </Failure>
+      </CheckConditionalAction>
+    </ScriptedEvent>
+    <!-- Room 3: -->
+    <ScriptedEvent identifier="tutorial_wakeup_3">
+      <!-- Check if we are undocked -->
+      <TagAction criteria="player" tag="player" />
+      <TagAction criteria="itemtag:tutorialescapepodbutton" tag="button" />
+      <TagAction criteria="itemtag:escapepodhatch" tag="hatch" />
+      <MessageBoxAction text="tutorial.gunrange.escape" iconstyle="GUINotificationButton" tag="closepressbutton" />
+      <TriggerAction target1tag="player" target2tag="button" radius="40" />
+      <TutorialHighlightAction targettag="button" />
+      <Label name="wakeupcheck3" />
+      <WaitAction time="0.5" />
+      <CheckConditionalAction targettag="hatch" targetitemcomponent="hatch" Docked="false">
+        <Success>
+          <ConversationAction targettag="player" text="tutorial.gunrange.completed" eventsprite="escapee" endconversation="true" />
+        </Success>
+        <Failure>
+          <GoTo name="wakeupcheck3" />
+        </Failure>
+      </CheckConditionalAction>
+    </ScriptedEvent>
+  </EventPrefabs>
+</Randomevents>

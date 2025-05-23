@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.cyberbodyassistant>Cybernetic Body (Assistant)</entityname.cyberbodyassistant>
+  <entityname.cyberbodycaptain>Cybernetic Body (Captain)</entityname.cyberbodycaptain>
+  <entityname.cyberbodymedic>Cybernetic Body (Medic)</entityname.cyberbodymedic>
+  <entityname.cyberbodymechanic>Cybernetic Body (Mechanic)</entityname.cyberbodymechanic>
+  <entityname.cyberbodysecurity>Cybernetic Body (Security Officer)</entityname.cyberbodysecurity>
+  <entityname.cyberbodyengineer>Cybernetic Body (Engineer)</entityname.cyberbodyengineer>
+  <entitydescription.cyberbodyassistant>An artificial body made entirely from metal.</entitydescription.cyberbodyassistant>
+  <entitydescription.cyberbodycaptain>An artificial body made entirely from metal.</entitydescription.cyberbodycaptain>
+  <entitydescription.cyberbodymedic>An artificial body made entirely from metal.</entitydescription.cyberbodymedic>
+  <entitydescription.cyberbodymechanic>An artificial body made entirely from metal.</entitydescription.cyberbodymechanic>
+  <entitydescription.cyberbodysecurity>An artificial body made entirely from metal.</entitydescription.cyberbodysecurity>
+  <entitydescription.cyberbodyengineer>An artificial body made entirely from metal.</entitydescription.cyberbodyengineer>
+  <entityname.cybercoreassistant>Cybernetic Core (Assistant)</entityname.cybercoreassistant>
+  <entityname.cybercorecaptain>Cybernetic Core (Captain)</entityname.cybercorecaptain>
+  <entityname.cybercoremedic>Cybernetic Core (Medic)</entityname.cybercoremedic>
+  <entityname.cybercoremechanic>Cybernetic Core (Mechanic)</entityname.cybercoremechanic>
+  <entityname.cybercoresecurity>Cybernetic Core (Security Officer)</entityname.cybercoresecurity>
+  <entityname.cybercoreengineer>Cybernetic Core (Engineer)</entityname.cybercoreengineer>
+  <entitydescription.cybercoreassistant>An incomplete metallic chassis. It seems to emanate an aura of incompetence.</entitydescription.cybercoreassistant>
+  <entitydescription.cybercorecaptain>An incomplete metallic chassis. Adorned with an admiral's crest, there is a strange sense of authority commanded by this vacant shell.</entitydescription.cybercorecaptain>
+  <entitydescription.cybercoremedic>An incomplete metallic chassis. A sickly aroma of blood is present, thinly veiled by sterile chemicals.</entitydescription.cybercoremedic>
+  <entitydescription.cybercoremechanic>An incomplete metallic chassis. The faint sound of gears grinding can be heard from within.</entitydescription.cybercoremechanic>
+  <entitydescription.cybercoresecurity>An incomplete metallic chassis. Sporadic shockwaves shoot through the cold, hard, steel.</entitydescription.cybercoresecurity>
+  <entitydescription.cybercoreengineer>An incomplete metallic chassis. You can feel sharp jolts of electicity running through it.</entitydescription.cybercoreengineer>
+  <charactername.cyberassistant>Cyber-Assistant</charactername.cyberassistant>
+  <charactername.cybercaptain>Cyber-Captain</charactername.cybercaptain>
+  <charactername.cybermedic>Cyber-Medic</charactername.cybermedic>
+  <charactername.cybermechanic>Cyber-Mechanic</charactername.cybermechanic>
+  <charactername.cybersecurity>Cyber-Officer</charactername.cybersecurity>
+  <charactername.cyberengineer>Cyber-Engineer</charactername.cyberengineer>
+  <!-- ITEMS -->
+  <entityname.mannitolplus>Mannitol plus</entityname.mannitolplus>
+  <entitydescription.mannitolplus>An improved version of mannitol. It is used to quickly treat neurotrauma.</entitydescription.mannitolplus>
+  <entityname.artificialbrain>Artificial brain</entityname.artificialbrain>
+  <entitydescription.artificialbrain>An artificial brain transplant that keeps a body alive when the original brain is removed.</entitydescription.artificialbrain>
+  <entityname.brainjar>Brain jar</entityname.brainjar>
+  <entitydescription.brainjar>A container to hold brain transplants indefinitely</entitydescription.brainjar>
+  <!-- AFFLICTIONS -->
+  <afflictionname.artificialbrain>Artificial brain</afflictionname.artificialbrain>
+  <afflictiondescription.artificialbrain>The patient is permanently unconscious, but the body remains alive.</afflictiondescription.artificialbrain>
+  <afflictionname.triagetag_green>Tagged: Minor</afflictionname.triagetag_green>
+  <afflictiondescription.triagetag_green>The patient has been gived the "minor" triage tag. They don't require treatment.</afflictiondescription.triagetag_green>
+  <afflictionname.triagetag_yellow>Tagged: Delayed</afflictionname.triagetag_yellow>
+  <afflictiondescription.triagetag_yellow>The patient has been gived the "delayed" triage tag. Their injuries are not life-threatening.</afflictiondescription.triagetag_yellow>
+  <afflictionname.triagetag_red>Tagged: Immediate</afflictionname.triagetag_red>
+  <afflictiondescription.triagetag_red>The patient has been gived the "immediate" triage tag. They require immediate treatment.</afflictiondescription.triagetag_red>
+  <afflictionname.triagetag_black>Tagged: Deceased</afflictionname.triagetag_black>
+  <afflictiondescription.triagetag_black>The patient has been gived the "deceased" triage tag. Medical attention is better spent elsewhere. They are as good as gone.</afflictiondescription.triagetag_black>
+  <!--A1.1-->
+  <entityname.triagetag>Primary Medical Card (Automatic)</entityname.triagetag>
+  <entitydescription.triagetag>A label used for quick identification of the type and urgency of medical assistance required by a patient in the event of mass casualties.</entitydescription.triagetag>
+  <entityname.manualtriagetag>Primary Medical Card (Manual)</entityname.manualtriagetag>
+  <entitydescription.manualtriagetag>A manual distribution label. When applied to legs - green color, to arms - yellow, to torso - red, to head - black.</entitydescription.manualtriagetag>
+  <entityname.experimentaltreatment>Experimental Drug</entityname.experimentaltreatment>
+  <entitydescription.experimentaltreatment>A highly experimental reagent that may cause as little or as much good or bad.</entitydescription.experimentaltreatment>
+</infotexts>

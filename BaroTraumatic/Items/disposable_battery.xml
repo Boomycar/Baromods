@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Disposable Battery" description="" identifier="batterycelldisposable" category="Equipment,Electrical" maxstacksize="8" health="50" tags="smallitem,mobilebattery,loadable" scale="0.3" cargocontaineridentifier="metalcrate" fireproof="false" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="drillsaw" spawnprobability="0.5" amount="1" />
+    <PreferredContainer primary="trimmer" spawnprobability="0.5" amount="1" />
+    <PreferredContainer primary="clownsawcutter" spawnprobability="1.0" amount="1" />
+    <PreferredContainer primary="headset" spawnprobability="1.0" amount="1" />
+    <Deconstruct time="2" />
+    <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="30" fabricationlimitmin="3" fabricationlimitmax="15" quality="0" />
+    <Sprite texture="%ModDir%/Items/LeadAcidBattery.png" sourcerect="0,0,59,35" depth="0.55" />
+    <Body width="54" height="30" density="30" />
+    <Throwable characterusable="true" canBeCombined="false" slots="Any,RightHand,LeftHand" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="this">
+        <Sound file="Content/Items/Weapons/Emp.ogg" range="75" volume="0.3" dontmuffle="true" />
+        <Explosion range="15.0" structuredamage="1" ballastfloradamage="50" itemdamage="0" force="15.0" severlimbsprobability="0.0" flames="false">
+          <Affliction identifier="acidburn" strength="15" />
+          <Affliction identifier="burn" strength="5" />
+          <Sound file="Content/Items/Weapons/ExplosionDebris1.ogg" range="150" volume="0.5" selectionmode="Random" />
+          <Sound file="Content/Items/Weapons/ExplosionDebris2.ogg" range="150" volume="0.5" selectionmode="Random" />
+          <Sound file="Content/Items/Weapons/ExplosionDebris3.ogg" range="150" volume="0.5" selectionmode="Random" />
+          <Sound file="Content/Items/Weapons/ExplosionDebris4.ogg" range="150" volume="0.5" selectionmode="Random" />
+          <Sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="150" volume="0.5" selectionmode="Random" />
+        </Explosion>
+        <Remove />
+      </StatusEffect>
+      <!-- <StatusEffect type="Always" target="this" condition="-0.005" disabledeltatime="true" /> -->
+      <StatusEffect type="Always" target="this" condition="-0.02">
+        <Conditional condition="lteq 10" />
+        <ParticleEmitter particle="damagebubbles" particlespersecond="2" scalemin="0.5" scalemax="1.5" anglemax="360" velocitymin="-10" velocitymax="10" mincondition="0.0" maxcondition="50.0" />
+        <ParticleEmitter particle="MistSmoke" particlespersecond="35" anglemin="0" anglemax="360" distancemin="0" distancemax="30" velocitymin="0" velocitymax="20" mincondition="0.0" maxcondition="50.0" />
+      </StatusEffect>
+      <!-- Use projectile component -->
+      <StatusEffect type="OnSecondaryUse" target="This" delay="0.01">
+        <Use />
+      </StatusEffect>
+    </Throwable>
+    <Projectile characterusable="false" launchimpulse="0" impulsespread="0.0" hitscan="false" removeonhit="false">
+      <StatusEffect type="OnImpact" target="This" Condition="-16" disabledeltatime="true" />
+      <Attack targetimpulse="15" severlimbsprobability="0.01" itemdamage="2" structuredamage="1" structuresoundtype="StructureSlash">
+        <Affliction identifier="blunttrauma" strength="6" />
+      </Attack>
+    </Projectile>
+  </Item>
+  <Item name="Assistant Shirt" identifier="clownexosuitwastes" category="Equipment" tags="hidden,identitycard" fireproof="false" hideinmenus="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Deconstruct time="1">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <!--<Fabricate suitablefabricators="fabricator" requiredtime="1">
+      <Item identifier="organicfiber" amount="3" />
+    </Fabricate>-->
+    <InventoryIcon name="Assistant Clothes Icon" texture="Content/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="6,363,124,67" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Assistant's Uniform Torso" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Right Hand" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Left Hand" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Left Lower Arm" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Right Lower Arm" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Left Upper Arm" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Right Upper Arm" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Waist" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Right Thigh" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Left Thigh" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Right Leg" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Left Leg" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Right Shoe" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Assistant's Uniform Left Shoe" texture="Content/Items/Jobgear/Assistant/Assistant.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />--&gt;
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.95" /><damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds, blunttrauma" damagemultiplier="0.9" /><!--<StatusEffect type="OnWearing" target="Character" OxygenAvailable="-100.0" UseHullOxygen="false" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="true" PressureProtection="10000.0" SpeedMultiplier="0.6" LowPassMultiplier="0.2" setvalue="true" disabledeltatime="true">
+        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
+        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnContained" target="Contained" Condition="1.0">
+        <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
+        <RequiredItem items="oxygentank" type="Contained" excludebroken="false" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1600.0" Condition="-0.2" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1600.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygeniteshard" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.7" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygeniteshard" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.7" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="+0.2" comparison="Or">
+        <Conditional decreasedoxygenconsumption="gt 99" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="+0.2" comparison="Or">
+        <Conditional huskinfection="gt 88" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="+0.1" comparison="Or">
+        <Conditional decreasedoxygenconsumption="gt 99" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="+0.1" comparison="Or">
+        <Conditional huskinfection="gt 88" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="+0.1" comparison="Or">
+        <Conditional decreasedoxygenconsumption="gt 99" />
+        <RequiredItem items="oxygeniteshard" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="+0.1" comparison="Or">
+        <Conditional huskinfection="gt 88" />
+        <RequiredItem items="oxygeniteshard" type="Contained" />
+      </StatusEffect>--><StatusEffect type="Always" target="This" comparison="and"><Conditional healthpercentage="lte 25" /><Affliction identifier="concealed" strength="5" /></StatusEffect><!-- OXYGENITE TANK OR SOMETHING ELSE? AND HAVE BATTERY IN SLOT--><StatusEffect type="OnWearing" target="Character"><ReduceAffliction identifier="Paralysis" amount="100" /><ReduceAffliction identifier="Morbusinepoisoning" amount="100" /><ReduceAffliction identifier="Sufforinpoisoning" amount="100" /><ReduceAffliction identifier="Cyanidepoisoning" amount="100" /><ReduceAffliction identifier="huskinfection" amount="100" /><ReduceAffliction identifier="radiationsickness" amount="200" /><ReduceAffliction identifier="chemaddiction" amount="200" /><ReduceAffliction identifier="chemwithdrawal" amount="200" /><Affliction identifier="regeneration" strength="1" /><Affliction identifier="powerattack" strength="1" /></StatusEffect></Wearable>
+    <Holdable slots="RightHand,LeftHand,Any" holdpos="40,-30" handle1="0,0" handle2="0,0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+  </Item>
+</Items>

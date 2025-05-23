@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.damagedshotgun>Damaged Shotgun</entityname.damagedshotgun>
+  <entityname.assaultriflebroken>Damaged Assault Rifle</entityname.assaultriflebroken>
+  <entityname.revolverbroken>Damaged Pistol</entityname.revolverbroken>
+  <entityname.damagedrifle>Damaged Rifle</entityname.damagedrifle>
+  <entityname.smgbroken>Ruined Rifle</entityname.smgbroken>
+  <entityname.shotgunbroken>Ruined Shotgun</entityname.shotgunbroken>
+  <entityname.machinepistolbroken>Ruined Pistol</entityname.machinepistolbroken>
+  <entityname.ruinedassaultrifle>Ruined Assault Rifle</entityname.ruinedassaultrifle>
+  <entitydescription.damagedgun>Sustained serious damage. May still have some ‖color:gui.orange‖inner parts‖end‖ intact.</entitydescription.damagedgun>
+  <entitydescription.ruinedgun>Reduced to a pile of scrap, can be salvaged for ‖color:gui.orange‖raw materials‖end‖.</entitydescription.ruinedgun>
+</infotexts>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+  <npcset identifier="cor_npcs">
+    <npc identifier="honkfather" faction="clowns" job="assistant" moduleflags="none" behavior="Passive" tags="clown">
+      <Character speciesname="human" tags="head6,male" experiencepoints="10000" additionaltalentpoints="0" beardindex="13" hairindex="15" moustacheindex="0" faceattachmentindex="0" skincolor="165,124,83,255" haircolor="70,140,92,255" facialhaircolor="216,186,133,255" startitemsgiven="false" ragdoll="" personality="joker" missionscompletedsincedeath="0">
+        <job identifier="assistant">
+          <skill identifier="medical" level="50" />
+          <skill identifier="mechanical" level="100" />
+          <skill identifier="electrical" level="100" />
+          <skill identifier="helm" level="25" />
+          <skill identifier="weapons" level="25" />
+        </job>
+        <talents>
+          <talent identifier="enrollintoclowncollege" />
+          <talent identifier="waterprankster" />
+          <talent identifier="chonkyhonks" />
+          <talent identifier="psychoclown" />
+          <talent identifier="truepotential" />
+          <talent identifier="inspirationalleader" />
+          <talent identifier="inspiringpresence" />
+          <talent identifier="steadytune" />
+          <talent identifier="thewaitinglist" />
+          <talent identifier="nonthreatening" />
+        </talents>
+      </Character>
+      <ItemSet commonness="1">
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="clownsuitunique_ruined" equip="true" />
+        <Item identifier="clownmaskunique" equip="true" />
+        <Item identifier="clowndivingmaskunique" />
+      </ItemSet>
+    </npc>
+  </npcset>
+</npcsets>

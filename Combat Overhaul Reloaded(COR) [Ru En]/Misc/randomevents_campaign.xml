@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+  <!-- CAMPAIGN INTEGRATED TUTORIAL  -->
+  <!-- This event set will be selected based on the location type -->
+  <EventSet identifier="outpostevent.starteroutpost" leveltype="Outpost" locationtype="CampaignStartOutpost" chooserandom="false" allowatstart="true" campaign="true" ignoreintensity="true">
+    <ScriptedEvent identifier="escortthehonkfather" />
+  </EventSet>
+  <!-- Define flavor sprites that appear top left of the message box here, identifier is required -->
+  <EventSprites>
+    <Sprite identifier="HonkFather" texture="Content/Map/Outposts/Art/Event_pic3.png" sourcerect="256,256,256,256" origin="0.5,0.5" />
+  </EventSprites>
+  <EventPrefabs>
+    <ScriptedEvent identifier="escortthehonkfather" commonness="0.1">
+      <TagAction criteria="player" tag="player" />
+      <SpawnAction npcsetidentifier="customnpcs1" npcidentifier="clownmessenger" targettag="clown" spawnlocation="Outpost" targetmoduletags="airlock" />
+      <NPCWaitAction npctag="clown" wait="true" />
+      <TriggerAction target1tag="player" target2tag="clown" applytotarget1="triggerer_player" waitforinteraction="true" />
+      <CheckDataAction identifier="honkfather_missionreceived" condition="eq false">
+        <Success>
+          <CheckReputationAction targettype="faction" identifier="clowns" condition="gte -25">
+            <Success>
+              <ConversationAction text="EventText.honkfather1.c1" targettag="triggerer_player" eventsprite="HonkFather">
+                <Option text="EventText.honkfather1.o1">
+                  <ConversationAction text="EventText.honkfather1.o1.c1" targettag="triggerer_player">
+                    <Label name="correctanswer" />
+                    <Option text="EventText.honkfather1.o1.o1">
+                      <ConversationAction text="EventText.honkfather1.o1.o1.c1" targettag="triggerer_player">
+                        <Option text="EventText.honkfather1.takeonboard">
+                          <MissionAction missionidentifier="escorthonkfather" />
+                          <MoneyAction amount="1000" />
+                          <ConversationAction text="EventText.honkfather1.great" targettag="triggerer_player" />
+                        </Option>
+                        <Option text="EventText.honkfather.refuse">
+                          <!--END-->
+                        </Option>
+                      </ConversationAction>
+                    </Option>
+                  </ConversationAction>
+                </Option>
+                <Option text="EventText.honkfather.ignore">
+                  <Label name="wronganswer" />
+                  <ConversationAction text="EventText.honkfather.ignore.c2" targettag="triggerer_player" />
+                  <!--END-->
+                </Option>
+              </ConversationAction>
+              <SetDataAction identifier="honkfather_missionreceived" value="true" />
+            </Success>
+            <Failure>
+              <ConversationAction text="EventText.honkfather1.low" targettag="triggerer_player" eventsprite="HonkFather">
+                <Option text="EventText.honkfather1.low.o1">
+                  <ConversationAction text="EventText.honkfather1.low.o1.c1" targettag="triggerer_player" eventsprite="HonkFather" />
+                  <GoTo name="correctanswer" />
+                </Option>
+                <Option text="EventText.honkfather1.low.o2">
+                  <GoTo name="wronganswer" />
+                </Option>
+                <Option text="EventText.honkfather1.low.o3">
+                  <Label name="wronganswer" />
+                  <ConversationAction text="EventText.honkfather1.low.o2.c1" targettag="triggerer_player" eventsprite="HonkFather" endconversation="true" />
+                </Option>
+              </ConversationAction>
+            </Failure>
+          </CheckReputationAction>
+        </Success>
+        <Failure>
+          <!--Don't repeat-->
+        </Failure>
+      </CheckDataAction>
+    </ScriptedEvent>
+    <!--PART 2-->
+    <ScriptedEvent identifier="honkfather2" commonness="0">
+      <TagAction criteria="player" tag="player" />
+      <TagAction criteria="humanprefabidentifier:clownmessenger" tag="clown" />
+      <TriggerAction target1tag="player" target2tag="clown" applytotarget1="triggerer_player" waitforinteraction="true" />
+      <ConversationAction text="EventText.honkfather2.c1" targettag="triggerer_player">
+        <Option text="EventText.honkfather2.o1">
+          <SpawnAction npcsetidentifier="cor_npcs" npcidentifier="honkfather" spawnpointtag="clown" targettag="hf" />
+          <SpawnAction itemidentifier="clowncrate_ruined" spawnpointtag="clown" />
+          <SpawnAction itemidentifier="petnametag" targetinventory="hf" targettag="clownnametag" />
+          <StatusEffectAction targettag="clownnametag">
+            <StatusEffect writtenname="The Honk Father" />
+          </StatusEffectAction>
+          <ConversationAction text="EventText.honkfather2.o1.c1" targettag="triggerer_player" />
+        </Option>
+      </ConversationAction>
+      <ConversationAction text="EventText.honkfather2.music" speakertag="clown" endeventifinterrupted="false" dialogtype="Small" />
+    </ScriptedEvent>
+  </EventPrefabs>
+</Randomevents>

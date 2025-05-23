@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="" description="" identifier="radslow" type="geneticmaterialdebuff" limbspecific="false" indicatorlimb="RightLeg" hideiconafterdelay="true" showiconthreshold="1000" showicontoothersthreshold="1000" treatmentthreshold="100" maxstrength="20" iconcolors="94,54,95;163,73,164;200,191,231">
+    <Effect minstrength="0" maxstrength="20" strengthchange="-1" minspeedmultiplier="0.95" maxspeedmultiplier="0.35" />
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="5,0" sheetelementsize="128,128" color="163,73,764,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="co_weakness" type="resistance" limbspecific="false" maxstrength="25" affectmachines="false">
+    <Effect minstrength="0" maxstrength="25" strengthchange="-0.8" resistancefor="damage" minresistance="-0.15" maxresistance="-0.25" minspeedmultiplier="1" maxspeedmultiplier="0.75" />
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="130,765,128,128" color="195,136,60,255" origin="0,0" />
+  </Affliction>
+  <Affliction identifier="mothersblessing" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" maxstrength="1" duration="1" iconcolors="21,221,221">
+    <Effect minstrength="0" maxstrength="100" minresistance="0.05" maxresistance="0.05">
+      <AbilityFlag flagtype="ImmuneToPressure" />
+    </Effect>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,7" sheetelementsize="128,128" origin="0,0" />
+  </Affliction>
+  <Affliction identifier="Praiseherlove" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" showiconthreshold="10" maxstrength="10" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="60" strengthchange="0" />
+    <!--Timer-->
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,7" sheetelementsize="128,128" origin="0,0" />
+  </Affliction>
+  <Affliction name="Accuracy Stim" identifier="accuraccystim" type="visionbuff" isbuff="true" limbspecific="false" maxstrength="600" MedicalSkillGain="0.01">
+    <Effect minstrength="0" maxstrength="600" strengthchange="-1" ThermalOverlayRange="1500" ThermalOverlayColor="134,182,253,150" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction nameidentifier="outsideinfluence" identifier="a1stcor" type="geneticmaterialdebuff" limbspecific="false" indicatorlimb="Head" hideiconafterdelay="true" showiconthreshold="100000" treatmentthreshold="1000" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <Effect minstrength="0" maxstrength="100">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="psychosis" amount="0.05" />
+      </StatusEffect>
+      <Effect minstrength="0" maxstrength="20">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.01" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="20" maxstrength="40">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.035" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="40" maxstrength="60">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.05" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="60" maxstrength="80">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.065" />
+        </StatusEffect>
+      </Effect>
+      <Effect minstrength="80" maxstrength="100">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+          <ReduceAffliction type="damage" amount="0.075" />
+        </StatusEffect>
+      </Effect>
+    </Effect>
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="5,0" sheetelementsize="128,128" color="163,73,764,255" origin="0,0" />
+  </Affliction>
+  <Affliction nameidentifier="talentname.mule" identifier="COR_Mule" type="geneticmaterialbuff" limbspecific="false" indicatorlimb="Head" hideiconafterdelay="true" showiconthreshold="100000" treatmentthreshold="10" maxstrength="100" iconcolors="94,54,95;163,73,164;200,191,231">
+    <Effect minstrength="0" maxstrength="2">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <StatValue stattype="InventoryExtraStackSize" value="5" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/TalentsIcons3.png" sheetindex="5,0" sheetelementsize="128,128" color="163,73,764,255" origin="0,0" />
+  </Affliction>
+  <!--Deaths-->
+  <Affliction name="" description="" causeofdeathdescription="" selfcauseofdeathdescription="" identifier="dmind" type="poison" limbspecific="false" indicatorlimb="Head" activationthreshold="20" maxstrength="100">
+    <!-- Low level of drunkenness decreases vitality and speed slightly -->
+    <Effect minstrength="10" maxstrength="40" minvitalitydecrease="0" maxvitalitydecrease="10" minscreendistort="0" maxscreendistort="0.1" strengthchange="-0.2">
+      <StatusEffect target="Character" SpeedMultiplier="0.6" setvalue="true" />
+    </Effect>
+    <!-- Heavier drunkenness decreases vitality and speed more -->
+    <Effect minstrength="40" maxstrength="100" minvitalitydecrease="10" maxvitalitydecrease="30" minscreendistort="0.1" maxscreendistort="1.0" minscreenblur="0.1" maxscreenblur="1.0" strengthchange="-0.4" minradialdistort="0.0" maxradialdistort="5.0" dialogflag="Dminds">
+      <StatusEffect target="Character" SpeedMultiplier="0.5" setvalue="true" />
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,640,128,128" color="170,194,147,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" causeofdeathdescription="causeofdeathdescription.burn" selfcauseofdeathdescription="self_causeofdeathdescription.burn" identifier="co_burning" type="burn" limbspecific="true" activationthreshold="1.0" showiconthreshold="1000" maxstrength="15">
+    <Effect minstrength="1" maxstrength="10" minvitalitydecrease="0" maxvitalitydecrease="0" strengthchange="-2.5">
+      <StatusEffect target="Limb">
+        <Affliction identifier="burn" amount="4" />
+      </StatusEffect>
+      <StatusEffect target="Limb">
+        <ParticleEmitter particle="flamethrower_co" particlespersecond="6" scalemin="0.2" scalemax="0.3" distancemin="0" distancemax="30" />
+        <ParticleEmitter particle="smoke" particlespersecond="6" scalemin="2" scalemax="2.5" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0" />
+  </Affliction>
+  <Affliction nameidentifier="afflictionname.co_burning" descriptionidentifier="afflictionname.co_burning" causeofdeathdescription="causeofdeathdescription.burn" selfcauseofdeathdescription="self_causeofdeathdescription.burn" identifier="co_burning_hhfc" translationoverride="co_burning" type="burn" limbspecific="true" activationthreshold="1.0" showiconthreshold="1000" maxstrength="10">
+    <Effect minstrength="1" maxstrength="10" minvitalitydecrease="0" maxvitalitydecrease="0" strengthchange="-2">
+      <StatusEffect target="Limb">
+        <Affliction identifier="burn" amount="1" />
+      </StatusEffect>
+      <StatusEffect target="Limb">
+        <ParticleEmitter particle="flamethrower_co" particlespersecond="6" scalemin="0.2" scalemax="0.3" distancemin="0" distancemax="30" />
+        <ParticleEmitter particle="smoke" particlespersecond="6" scalemin="2" scalemax="2.5" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0" />
+  </Affliction>
+  <!--Buffs-->
+  <Affliction name="" description="" identifier="aimresist" type="immunity" isbuff="true" limbspecific="false" showiconthreshold="100" maxstrength="2">
+    <Effect minstrength="0" maxstrength="1" strengthchange="-1000" resistancefor="damage" minresistance="0.2" maxresistance="0.2" />
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="646,765,128,128" color="205,77,0,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="stab" type="immunity" isbuff="true" limbspecific="true" showiconthreshold="100" maxstrength="2">
+    <Effect minstrength="0" maxstrength="1" strengthchange="-1000">
+      <StatValue stattype="RangedSpreadReduction" minvalue="0.4" maxvalue="0.4" />
+    </Effect>
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="646,765,128,128" color="205,77,0,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="crit" type="immunity" isbuff="true" limbspecific="true" showiconthreshold="100" maxstrength="2">
+    <Effect minstrength="0" maxstrength="2" strengthchange="-1" />
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="646,765,128,128" color="205,77,0,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="co_dangerdead" indicatorlimb="Head" type="resistance" isbuff="false" limbspecific="false" maxstrength="400">
+    <Effect minstrength="0" maxstrength="400" strengthchange="-100" minscreendistort="0.1" maxscreendistort="0.1">
+      <StatusEffect target="Character" targetlimbs="Head">
+        <Affliction identifier="burn" strength="0.070" />
+        <Affliction identifier="psychosis" strength="1" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="388,765,129,127" color="205,77,0,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="co_danger" indicatorlimb="Head" type="resistance" isbuff="true" limbspecific="false" maxstrength="1">
+    <Effect minstrength="0" maxstrength="1" strengthchange="-1" minskillmultiplier="0.9" maxskillmultiplier="0.9" />
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="517,765,128,128" color="205,77,0,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="co_nearbydanger" indicatorlimb="Head" type="resistance" isbuff="false" limbspecific="false" maxstrength="400">
+    <Effect minstrength="0" maxstrength="400" strengthchange="-100" resistancefor="damage" minresistance="0.0" maxresistance="0.1" minspeedmultiplier="1" maxspeedmultiplier="1.1">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.05" maxvalue="0.05" />
+      <StatValue stattype="MeleeAttackMultiplier" value="0.05" />
+      <StatusEffect target="Character" targetlimbs="Torso">
+        <Affliction identifier="burn" strength="0.01" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="646,765,128,128" color="205,77,0,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="co_accuraccybuff" type="resistance" isbuff="true" limbspecific="false" maxstrength="400">
+    <Effect minstrength="0" maxstrength="400" strengthchange="-1" resistancefor="damage" minresistance="0.0" maxresistance="-0.05">
+      <StatValue stattype="RangedSpreadReduction" minvalue="0.15" maxvalue="0.35" />
+    </Effect>
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="259,765,128,128" color="165,165,235,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="co_adrenalinerush" type="resistance" isbuff="true" limbspecific="false" maxstrength="600">
+    <Effect minstrength="0" maxstrength="600" strengthchange="-1" resistancefor="stun" minresistance="0.1" maxresistance="0.2" minspeedmultiplier="1.02" maxspeedmultiplier="1.07">
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0.00" maxvalue="0.05" />
+      <StatValue stattype="RangedSpreadReduction" minvalue="0.00" maxvalue="0.1" />
+    </Effect>
+    <icon texture="%ModDir%/Img/magazineicons.png" sourcerect="1,765,128,128" color="165,165,235,255" origin="0,0" />
+  </Affliction>
+  <!--Overlays-->
+  <Affliction name="" description="" identifier="marksmansuit" type="none" limbspecific="false" indicatorlimb="Head" maxstrength="200" damageoverlayalpha="0" showiconthreshold="1000" showicontoothersthreshold="1000" afflictionoverlayalphaislinear="true">
+    <Effect minstrength="0" maxstrength="200" multiplybymaxvitality="true" strengthchange="-200" minvitalitydecrease="0" maxvitalitydecrease="0" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,768,128,128" color="195,136,60,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="" description="" identifier="aasoverlay" type="none" limbspecific="false" indicatorlimb="Head" maxstrength="200" damageoverlayalpha="1" showiconthreshold="1000" showicontoothersthreshold="1000" afflictionoverlayalphaislinear="true">
+    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true" strengthchange="-200" minvitalitydecrease="0" maxvitalitydecrease="0" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,768,128,128" color="195,136,60,255" origin="0,0" />
+    <AfflictionOverlay texture="%ModDir%/Img/aasoverlay.png" color="255,255,255,128" />
+  </Affliction>
+  <Affliction name="" description="" identifier="nvgoverlay" type="none" limbspecific="false" indicatorlimb="Head" hideiconafterdelay="true" maxstrength="1" duration="1" damageoverlayalpha="1" showiconthreshold="1000" showicontoothersthreshold="1000" afflictionoverlayalphaislinear="true">
+    <Effect minstrength="0" maxstrength="1" graincolor="0,0,0,255" mingrainstrength="2.5" maxgrainstrength="3.0" minscreenblur="0.1" maxscreenblur="0.3" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,768,128,128" color="195,136,60,255" origin="0,0" />
+    <AfflictionOverlay texture="%ModDir%/Img/nvgoverlay.png" color="255,255,255,64" />
+  </Affliction>
+  <Affliction name="" description="" identifier="exocarry" type="none" limbspecific="false" indicatorlimb="Head" maxstrength="200" damageoverlayalpha="0" showiconthreshold="1000" showicontoothersthreshold="1000" afflictionoverlayalphaislinear="true">
+    <Effect minstrength="0" maxstrength="200" multiplybymaxvitality="true" strengthchange="-200" minvitalitydecrease="0" maxvitalitydecrease="0" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,768,128,128" color="195,136,60,255" origin="0,0" />
+  </Affliction>
+  <Override>
+    <Affliction identifier="hallucinating" limbspecific="false" indicatorlimb="Head" activationthreshold="0" showiconthreshold="1000" showicontoothersthreshold="1000" karmachangeonapplied="-1" maxstrength="100" affectmachines="false">
+      <Description textidentifier="afflictiondescription.hallucinating.low" target="Self" minstrength="0" maxstrength="50" />
+      <Description textidentifier="afflictiondescription.hallucinating" target="Self" minstrength="50" maxstrength="100" />
+      <Effect minstrength="0" maxstrength="30" strengthchange="-1.0" />
+      <Effect minstrength="30" maxstrength="100" minscreendistort="0.0" maxscreendistort="5.0" minscreenblur="0.0" maxscreenblur="0.0" minradialdistort="0" maxradialdistort="2" minchromaticaberration="0" maxchromaticaberration="15" strengthchange="-1.0" />
+      <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,640,128,128" color="150,26,26,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="revengesquad" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="60" duration="60" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Effect minstrength="0" maxstrength="60" strengthchange="-1" resistancefor="damage" minresistance="0.1" maxresistance="0.1" />
+      <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="0,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="berserker" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="1" duration="1" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Effect minstrength="0" maxstrength="1">
+        <StatValue stattype="MeleeAttackMultiplier" value="0.1" />
+      </Effect>
+      <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="7,1" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="foolhardy" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="1" duration="1" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Effect minstrength="0" maxstrength="1" resistancefor="damage" minresistance="0.1" maxresistance="0.1" />
+      <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="0,1" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="lonewolf" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" showiconthreshold="1" maxstrength="1" duration="1" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Effect minstrength="0" maxstrength="1" resistancefor="damage,stun" minresistance="0.1" maxresistance="0.1">
+        <StatValue stattype="MeleeAttackMultiplier" value="0.2" />
+      </Effect>
+      <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="2,1" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="powerattack" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="1.5" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Effect minstrength="0" maxstrength="1.5" strengthchange="-1">
+        <StatValue stattype="MeleeAttackMultiplier" minvalue="0" maxvalue="0.7" />
+      </Effect>
+      <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="3,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="stonewall" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="4" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Effect minstrength="0" maxstrength="4" strengthchange="-1" resistancefor="damage,stun" minresistance="0.10" maxresistance="0.10" />
+      <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="1,0" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="strengthen" type="resistance" isbuff="true" limbspecific="false" maxstrength="600">
+      <Effect minstrength="0" maxstrength="600" strengthchange="-1" resistancefor="damage" minresistance="0.2" maxresistance="0.2">
+        <StatValue stattype="MeleeAttackMultiplier" minvalue="0" maxvalue="0.25" />
+      </Effect>
+      <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,896,128,128" color="10,193,114,10" origin="0,0" />
+    </Affliction>
+  </Override>
+</Afflictions>

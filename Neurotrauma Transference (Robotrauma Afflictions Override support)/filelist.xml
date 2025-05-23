@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Neurotrauma Transference (Robotrauma Afflictions Override support)" steamworkshopid="3227819564" corepackage="false" modversion="1.0.19" gameversion="1.6.19.1" installtime="1732096831" expectedhash="">
+  <Character file="%ModDir%/XML/Characters/Human/Human.xml" />
+  <Other file="%ModDir%/XML/Characters/Human/Ragdolls/HumanDefaultRagdoll.xml" />
+  <Item file="%ModDir%/XML/Items/items.xml" />
+  <Other file="%ModDir%/Images/Human/Human_female_mask.png" />
+  <Other file="%ModDir%/Images/Human/Human_male_mask.png" />
+  <Other file="%ModDir%/Images/Human/Human_female.png" />
+  <Other file="%ModDir%/Images/Human/Human_male.png" />
+  <Other file="%ModDir%/Lua/Autorun/init.lua" />
+  <Other file="%ModDir%/Lua/Scripts/humanupdate.lua" />
+  <Other file="%ModDir%/Lua/Scripts/items.lua" />
+  <Other file="%ModDir%/XML/Items/dentfixer.png" />
+  <Afflictions file="%ModDir%/XML/Afflictions.xml" />
+  <RandomEvents file="%ModDir%/XML/Events.xml" />
+  <NPCSets file="%ModDir%/XML/NPCs.xml" />
+  <Text file="%ModDir%/XML/English.xml" />
+  <Text file="%ModDir%/XML/Russian.xml" />
+</contentpackage>

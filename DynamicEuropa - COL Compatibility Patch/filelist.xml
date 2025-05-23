@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="DynamicEuropa - COL Compatibility Patch" steamworkshopid="2984452754" corepackage="false" modversion="3.1" gameversion="1.7.7.0" installtime="1734973641" expectedhash="12AB1E333A75F17F553BABF7A305DB44">
+  <NPCSets file="%ModDir%/NPCPrefabs/CombatMissionNpcs.xml" />
+  <NPCSets file="%ModDir%/NPCPrefabs/OutpostNpcs.xml" />
+  <NPCSets file="%ModDir%/NPCPrefabs/SpecialNpcs.xml" />
+  <Text file="%ModDir%/Texts/English.xml" />
+  <Text file="%ModDir%/Texts/Russian.xml" />
+  <Item file="%Moddir%/Items/Factions/soldier_gear.xml" />
+  <Missions file="%ModDir%/Events/Missions.xml" />
+  <RandomEvents file="%ModDir%/Events/MissionEvents.xml" />
+  <RandomEvents file="%ModDir%/Events/EventOverrides.xml" />
+  <RandomEvents file="%ModDir%/Events/EventSets.xml" />
+</contentpackage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character inherit="smartround" speciesname="smartgrenade" humanoid="False" group="Human" husk="False" needsair="False" canspeak="False" noise="250" blooddecal="">
+  <ragdolls folder="default" />
+  <StatusEffect type="OnDeath" target="This" targetlimb="Head">
+    <sound file="Content/Items/Weapons/ExplosionMedium1.ogg" type="OnBroken" range="10000" selectionmode="All" />
+    <sound file="Content/Items/Weapons/ExplosionDebris1.ogg" type="OnBroken" range="10000" />
+    <Explosion range="280.0" structuredamage="50" stun="5" force="20.0" severlimbsprobability="0.8">
+      <Affliction identifier="explosiondamage" strength="120" />
+      <Affliction identifier="internaldamage" strength="75" />
+      <Affliction identifier="bleeding" strength="100" />
+    </Explosion>
+  </StatusEffect>
+  <StatusEffect type="OnDeath" target="This" disabledeltatime="true" stackable="false">
+    <RemoveCharacter />
+  </StatusEffect>
+</Character>

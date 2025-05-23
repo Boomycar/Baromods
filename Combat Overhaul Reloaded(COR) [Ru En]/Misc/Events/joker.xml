@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="BroodMother's Honkers" identifier="COR_April1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft" hideconditionbar="true" hideconditionintooltip="false" allowsellingwhenbroken="true" hideinmenus="true" useinhealthinterface="true" maxstacksize="8" maxstacksizecharacterinventory="1">
+    <Deconstruct time="10">
+      <Item identifier="reaperstaxeffectemitter" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/Genetic/Genetic.png" sourcerect="244,62,76,65" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/Genetic/Genetic.png" depth="0.6" sourcerect="67,85,73,35" origin="0.5,0.5" />
+    <Body width="50" height="34" density="9.8" />
+    <Holdable slots="Any" holdpos="40,-30" handle1="0,0" handle2="0,0" msg="ItemMsgPickUpSelect" />
+    <Wearable slots="HealthInterface" limbtype="Torso" msg="ItemMsgPickUpSelect" autoequipwhenfull="false">
+      <sprite name="Wearable" texture="%ModDir%/Misc/Events/crawlerboobmother.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" scale="0.1" sourcerect="0,0,256,256" origin="-0.1,0.8" depthlimb="Waist" />
+    </Wearable>
+    <ItemContainer hideitems="true" capacity="1" autoinject="true" autoinjectthreshold="Infinity" allowswappingcontaineditems="false" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="false" SpawnWithId="co_huskscreamer" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="">
+      <Containable items="co_huskscreamer" />
+    </ItemContainer>
+  </Item>
+  <Item name="Husk Caller" identifier="co_huskscreamer" nameidentifier="geneticmaterial" category="Material" maxstacksize="1" tags="smallitem,geneticmaterial" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_metal_light" hideconditionbar="true" hideconditionintooltip="false" allowsellingwhenbroken="true" hideinmenus="true">
+    <GeneticMaterial nameidentifier="character.Watcher" effect="a1stcor" tooltipvaluemin="6" tooltipvaluemax="45">
+      <StatusEffect type="OnSevered" target="Character" duration="0.0">
+        <Sound file="%ModDir%/Misc/Events/huskspawnfar.ogg" range="1000" />
+      </StatusEffect>
+    </GeneticMaterial>
+    <Sprite texture="Content/Items/Genetic/Genetic.png" sheetindex="11,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <Body width="23" height="31" density="20" />
+    <Holdable handle1="0,0" slots="Any" />
+  </Item>
+  <Item name="Strange Lantern" identifier="reaperstaxeffectemitter" Scale="0.3" tags="smallitem" sonarsize="20" hideinmenus="true">
+    <Body width="23" height="31" density="20" />
+    <sprite texture="Content/Map/Outposts/Art/ArmoryColonyModule.png" sourcerect="928,369,42,84" depth="0.96" premultiplyalpha="false" origin="0.5,0.5" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="70,-70" handle1="-5,10" holdangle="0" aimpos="30,-30" msg="ItemMsgPickUpSelect" />
+    <ItemComponent>
+      <!-- reduce condition to remove the emitter after 10 seconds -->
+      <StatusEffect type="Always" target="This" condition="-10" />
+      <!-- remove Reapers Tax to nearby characters -->
+      <StatusEffect type="Always" target="NearbyCharacters" range="100">
+        <Affliction identifier="reaperstax" strength="-1" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </ItemComponent>
+  </Item>
+</Items>

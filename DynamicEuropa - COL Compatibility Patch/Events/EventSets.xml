@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+  <!-- 
+    ///BIOME DIFFICULTY VALUES\\\
+    
+    Cold Caverns: 0-15
+    Europan Ridge: 15-35
+    The Aphotic Plateau: 35-50
+    The Great Sea: 50-65
+    Hydrothermal Wastes: 65-80
+
+  -->
+  <!--OUTPOST EVENTS-->
+  <Override>
+    <EventSet identifier="outpostevents.industrial.randomevents_col" additive="true" selectalways="true" minleveldifficulty="0" maxleveldifficulty="100" locationtype="factory,shipyard" allowatstart="true" chooserandom="true" eventcount="1" onceperoutpost="false">
+      <ScriptedEvent identifier="malfunctioningdefensebot" commonness="100" probability="0.4" />
+      <ScriptedEvent identifier="malfunctioningdefensebot2" commonness="100" probability="0.4" />
+    </EventSet>
+  </Override>
+</Randomevents>

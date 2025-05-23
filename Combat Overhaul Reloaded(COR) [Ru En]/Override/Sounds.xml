@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sounds>
+  <Override>
+    <music file="%ModDir%/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true" volume="2" />
+    <exoimpact file="%ModDir%/Sounds/exoimpact1.ogg" range="500" volume="1" />
+    <exoimpact file="%ModDir%/Sounds/exoimpact2.ogg" range="500" volume="1" />
+    <exostep file="%ModDir%/Sounds/exostep1.ogg" range="500" volume="0.55" />
+    <exostep file="%ModDir%/Sounds/exostep2.ogg" range="500" volume="0.55" />
+    <exostep file="%ModDir%/Sounds/exostep3.ogg" range="500" volume="0.55" />
+    <exostep file="%ModDir%/Sounds/exostep4.ogg" range="500" volume="0.55" />
+  </Override>
+  <unknown_impact file="%ModDir%/Sounds/Impact/impact1.ogg" range="500" volume="1" />
+  <unknown_impact file="%ModDir%/Sounds/Impact/impact2.ogg" range="500" volume="1" />
+  <unknown_impact file="%ModDir%/Sounds/Impact/impact3.ogg" range="500" volume="1" />
+  <unknown_impact file="%ModDir%/Sounds/Impact/impact4.ogg" range="500" volume="1" />
+  <magimpact file="%ModDir%/Sounds/Impact/magimpact1.ogg" range="500" volume="1" />
+  <magimpact file="%ModDir%/Sounds/Impact/magimpact2.ogg" range="500" volume="1" />
+  <magimpact file="%ModDir%/Sounds/Impact/magimpact3.ogg" range="500" volume="1" />
+  <magimpact file="%ModDir%/Sounds/Impact/magimpact4.ogg" range="500" volume="1" />
+  <magimpact file="%ModDir%/Sounds/Impact/magimpact5.ogg" range="500" volume="1" />
+  <mag_impact_small file="%ModDir%/Sounds/Impact/mag_impact_small1.ogg" range="500" volume="1" />
+  <mag_impact_small file="%ModDir%/Sounds/Impact/mag_impact_small2.ogg" range="500" volume="1" />
+  <mag_impact_small file="%ModDir%/Sounds/Impact/mag_impact_small3.ogg" range="500" volume="1" />
+  <mag_impact_small file="%ModDir%/Sounds/Impact/mag_impact_small4.ogg" range="500" volume="1" />
+  <smallwepimpact file="%ModDir%/Sounds/Impact/smallwepimpact1.ogg" range="500" volume="1" />
+  <smallwepimpact file="%ModDir%/Sounds/Impact/smallwepimpact2.ogg" range="500" volume="1" />
+  <smallwepimpact file="%ModDir%/Sounds/Impact/smallwepimpact3.ogg" range="500" volume="1" />
+  <mediumwepimpact file="%ModDir%/Sounds/Impact/mediumwepimpact1.ogg" range="500" volume="1" />
+  <mediumwepimpact file="%ModDir%/Sounds/Impact/mediumwepimpact2.ogg" range="500" volume="1" />
+  <mediumwepimpact file="%ModDir%/Sounds/Impact/mediumwepimpact3.ogg" range="500" volume="1" />
+  <bigwepimpact file="%ModDir%/Sounds/Impact/bigwepimpact1.ogg" range="500" volume="1" />
+  <bigwepimpact file="%ModDir%/Sounds/Impact/bigwepimpact2.ogg" range="500" volume="1" />
+  <bigwepimpact file="%ModDir%/Sounds/Impact/bigwepimpact3.ogg" range="500" volume="1" />
+  <bigwepimpact file="%ModDir%/Sounds/Impact/bigwepimpact4.ogg" range="500" volume="1" />
+  <bullet_small_impact file="%ModDir%/Sounds/Impact/bulletcase1.ogg" range="500" volume="2" />
+  <bullet_small_impact file="%ModDir%/Sounds/Impact/bulletcase2.ogg" range="500" volume="2" />
+  <bullet_small_impact file="%ModDir%/Sounds/Impact/bulletcase3.ogg" range="500" volume="2" />
+  <bullet_small_impact file="%ModDir%/Sounds/Impact/bulletcase4.ogg" range="500" volume="2" />
+  <shotgun_shell_impact file="%ModDir%/Sounds/Impact/shotgun_shell1.ogg" range="500" volume="1" />
+  <shotgun_shell_impact file="%ModDir%/Sounds/Impact/shotgun_shell2.ogg" range="500" volume="1" />
+  <shotgun_shell_impact file="%ModDir%/Sounds/Impact/shotgun_shell3.ogg" range="500" volume="1" />
+  <bullet_large_impact file="%ModDir%/Sounds/Impact/bulletcase_big1.ogg" range="500" volume="1" />
+</sounds>

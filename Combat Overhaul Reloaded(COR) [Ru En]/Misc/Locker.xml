@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemAssembly name="Locker" description="Suit locker for testing our displayed items" hideinmenus="false">
+  <Item name="" identifier="divingsuitlocker2" ID="7" rect="-80,112,148,202" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.6" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="container,divingsuitcontainer,divingsuitcontainerhorizontal" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.84" HiddenInGame="False" conditionpercentage="100">
+    <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="ItemMsgInteractSelect" contained="8,9,10,11,12" />
+  </Item>
+  <Item name="" identifier="exoskeleton4" ID="8" rect="314,122,75,57" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="divingsuit,deepdiving,exo,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" hideinassemblypreview="true">
+    <Sonar UseTransducers="False" CenterOnTransducers="False" HasMineralScanner="True" MinVoltage="0.5" PowerConsumption="10" IsActive="True" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" />
+    <LightComponent Range="380" CastShadows="True" DrawBehindSubs="False" IsOn="True" Flicker="0.02" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="127,127,127,255" IsActive="True" MinVoltage="0.5" PowerConsumption="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="False" Msg="" />
+    <Wearable PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+    <CustomInterface Labels="Lights" Signals="1" ElementStates="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" />
+    <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" contained="," />
+    <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+  </Item>
+  <Item name="" identifier="exoskeleton3" ID="9" rect="314,83,75,57" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="divingsuit,deepdiving,exo,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" hideinassemblypreview="true">
+    <Turret HudTint="95,135,90,25" Reload="5" ShotsPerBurst="1" DelayBetweenBursts="0" RetractionDurationMultiplier="1" RecoilTime="0.1" RetractionDelay="0" RotationLimits="0,0" SpringStiffnessLowSkill="5" SpringStiffnessHighSkill="2" SpringDampingLowSkill="50" SpringDampingHighSkill="10" RotationSpeedLowSkill="1" RotationSpeedHighSkill="5" AutoOperate="False" RandomAimAmount="0" RandomAimMinTime="0" RandomAimMaxTime="0" RandomMovement="False" AimDelay="False" TargetCharacters="True" TargetMonsters="True" TargetHumans="True" TargetSubmarines="True" TargetItems="True" FriendlyTag="" MinVoltage="0" PowerConsumption="0" IsActive="True" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" />
+    <CustomInterface Labels="Lights" Signals="1" ElementStates="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" />
+    <LightComponent Range="380" CastShadows="True" DrawBehindSubs="False" IsOn="True" Flicker="0.02" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="127,127,127,255" IsActive="True" MinVoltage="0.5" PowerConsumption="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="False" Msg="" />
+    <Wearable PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+    <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" contained=",," />
+    <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+  </Item>
+  <Item name="" identifier="exoskeleton2" ID="10" rect="314,44,75,57" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="divingsuit,deepdiving,exo,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" hideinassemblypreview="true">
+    <LightComponent Range="380" CastShadows="True" DrawBehindSubs="False" IsOn="True" Flicker="0.02" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="127,127,127,255" IsActive="True" MinVoltage="0.5" PowerConsumption="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="False" Msg="" />
+    <Wearable PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+    <CustomInterface Labels="Lights" Signals="1" ElementStates="False" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" />
+    <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" contained="," />
+    <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+  </Item>
+  <Item name="" identifier="exoskeleton" ID="11" rect="314,5,75,57" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,deepdiving,exo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" hideinassemblypreview="true">
+    <Wearable PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+    <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" contained="" />
+    <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+  </Item>
+  <Item name="" identifier="exoskeleton_unarmored" ID="12" rect="324,-46,55,34" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="divingsuit,mediumitem,deepdiving,exo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" hideinassemblypreview="true">
+    <Wearable PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+    <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" AllowInGameEditing="True" Msg="" contained="" />
+    <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+  </Item>
+</ItemAssembly>

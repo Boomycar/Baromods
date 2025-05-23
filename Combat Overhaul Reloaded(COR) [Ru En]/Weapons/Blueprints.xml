@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" description="" identifier="corporalcoin" aliases="shotgun_com,revolver_919,smg9mm_com,9mm_pistol_smg,38pipegun" category="weapon" subcategory="Blueprints" Tags="smallitem" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft" hideinmenus="true">
+    <InventoryIcon texture="%ModDir%/Img/headgears.png" sourcerect="172,253,313,288" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Img/headgears.png" sourcerect="321,174,38,37" depth="0.55" origin="0.5,0.5" />
+    <Body width="28" height="36" density="120" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-25.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo giverandom="true" talentidentifiers="939_craft,57_craft,12_craft,44_craft,45_craft,38_craft,melee_craft,g14_craft,ak_craft,laser_craft,mg_craft,exo_craft,pistol_craft,shotgun_craft,rifle_craft,pdw_9_craft,762_craft,pdw_craft,556_craft,kurz_craft,919p_craft,545" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" disabledeltatime="true" delay="2" stackable="false">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" description="" identifier="blueprint_omni" category="weapon" subcategory="Blueprints" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Deconstruct time="20">
+      <Item identifier="carbon" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Img/CO_spritelist.png" sourcerect="975,639,34,95" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Img/CO_spritelist.png" sourcerect="975,639,34,95" depth="0.6" origin="0.5,0.5" />
+    <Body width="28" height="36" density="20" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-25.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="omni_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item Name="" description="" identifier="skillbookscst" category="Misc" hideinmenus="true" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="1" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckengcab,wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.01" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.01" />
+    <Deconstruct time="20">
+      <Item identifier="incendium" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Img/CO_spritelist_mod3.png" sourcerect="967,66,39,56" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Img/CO_spritelist_mod3.png" sourcerect="970,13,34,39" depth="0.6" origin="0.5,0.5" />
+    <Body width="28" height="36" density="20" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" holdangle="260" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-5.0" />
+      <StatusEffect type="OnBroken" target="This" disabledeltatime="true" delay="0.1">
+        <Explosion range="300" ballastfloradamage="100" itemdamage="2" force="0.1" smoke="true">
+          <Affliction identifier="acidburn" strength="5" />
+          <Affliction identifier="Stun" strength="4" />
+          <Affliction identifier="Psychosis" strength="200" />
+        </Explosion>
+        <Fire size="1.0" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="scst_craft" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item Name="" description="" identifier="tomebook" category="Misc" hideinmenus="true" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="1" Scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wreckengcab,wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.01" />
+    <Deconstruct time="20">
+      <Item identifier="incendium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" hidefornontraitors="true" requiredtime="10">
+      <RequiredSkill identifier="helm" level="10" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem tag="skillbook" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Img/CO_spritelist_mod3.png" sourcerect="967,66,39,56" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Img/CO_spritelist_mod3.png" sourcerect="970,13,34,39" depth="0.6" origin="0.5,0.5" />
+    <Body width="28" height="36" density="20" />
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" holdangle="260" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-5.0" />
+      <StatusEffect type="OnBroken" target="This" disabledeltatime="true" delay="0.1">
+        <Explosion range="300" ballastfloradamage="100" itemdamage="2" force="0.1" smoke="true">
+          <Affliction identifier="acidburn" strength="5" />
+          <Affliction identifier="Stun" strength="4" />
+          <Affliction identifier="Psychosis" strength="200" />
+        </Explosion>
+        <Fire size="1.0" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="scst_craft" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" description="" identifier="blueprint_cps" category="weapon" subcategory="Blueprints" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab,abandonedcrewcab,wreckcrewcab,wrecmedcab,wreckstoragecab,abandonedarmcab,abandonedsecarmcab,abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.01" />
+    <Deconstruct time="20">
+      <Item identifier="carbon" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Img/CO_spritelist.png" sourcerect="851,764,68,71" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Img/CO_spritelist.png" sourcerect="975,639,34,95" depth="0.6" origin="0.5,0.5" />
+    <Body width="28" height="36" density="20" />
+    <Price baseprice="405" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="50">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="cps_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_939" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="425" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="60">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="939_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_57" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="405" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="60">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="57_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_12" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="227" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="30">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="12_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_44" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="250" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="30">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="44_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_45" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="235" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="40">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="45_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_38" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="210" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="20">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="38_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_melee" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="190" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="melee_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_g14" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="725" minleveldifficulty="55" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="ar556_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_ak" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab,abandonedcrewcab,wreckcrewcab,wrecmedcab,wreckstoragecab,abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedsecarmcab,abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.01" />
+    <Price baseprice="725" minleveldifficulty="55" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="ak_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_laser" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab,abandonedcrewcab,wreckcrewcab,wrecmedcab,wreckstoragecab,abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedsecarmcab,abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.01" />
+    <Price baseprice="770" minleveldifficulty="25" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="laser_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_mg" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab,abandonedcrewcab,wreckcrewcab,wrecmedcab,wreckstoragecab,abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedsecarmcab,abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.01" />
+    <Price baseprice="765" minleveldifficulty="55" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="mg_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_exo" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="1400" minleveldifficulty="60" soldeverywhere="false" buyimgpricemultiplier="6">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="exo_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_pistol" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="abandonedcrewcab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="wreckcrewcab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="wrecmedcab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <Price baseprice="225" minleveldifficulty="15" soldeverywhere="false" buyingpricemultiplier="7">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="pistol_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_shotgun" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="850" minleveldifficulty="60" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="shotgun_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_rifle" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <Price baseprice="640" minleveldifficulty="50" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="rifle_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_pdw_9" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" scale="0.46" impactsoundtag="impact_soft">
+    <Price baseprice="390" minleveldifficulty="45" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="pdw9_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint762" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedcrewcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="wreckcrewcab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="wrecmedcab" minamount="0" maxamount="1" spawnprobability="0.04" />
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <Price baseprice="306" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="35">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="762_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_pdw" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedcrewcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="wreckcrewcab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="wrecmedcab" minamount="0" maxamount="1" spawnprobability="0.04" />
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <Price baseprice="390" minleveldifficulty="25" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="pdw_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint556" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <Price baseprice="430" minleveldifficulty="40" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="556_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_kurz" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <PreferredContainer primary="abandonedcrewcab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="wreckcrewcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="wrecmedcab" minamount="0" maxamount="1" spawnprobability="0.04" />
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.03" />
+    <Price baseprice="310" soldeverywhere="false" buyingpricemultiplier="8" minleveldifficulty="40">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="kurz_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint919p" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="abandonedcrewcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="wreckcrewcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="wrecmedcab" minamount="0" maxamount="1" spawnprobability="0.08" />
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <PreferredContainer primary="abandonedarmcab" minamount="0" maxamount="1" spawnprobability="0.05" />
+    <Price baseprice="230" buyingpricemultiplier="8" minleveldifficulty="25">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" minavailable="1" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="9x19_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" descriptionidentifier="blueprint_weapon" identifier="blueprint_545" aliases="blueprint 545" category="weapon" subcategory="Blueprints" variantof="blueprint_cps" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" Scale="0.45" impactsoundtag="impact_soft">
+    <PreferredContainer primary="storagecab,crewcab" />
+    <PreferredContainer primary="wreckcrewcab" minamount="0" maxamount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="wrecengcab" minamount="0" maxamount="1" spawnprobability="0.06" />
+    <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.02" />
+    <Price baseprice="406" minleveldifficulty="40" soldeverywhere="false" buyingpricemultiplier="8">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantarmory" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="-4,0" holdangle="80" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-15.0" />
+      <StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
+        <Conditional Condition="lte 0" />
+        <GiveTalentInfo talentidentifiers="5.45_craft" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+</Items>

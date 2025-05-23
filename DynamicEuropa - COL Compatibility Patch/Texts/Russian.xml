@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Russian">
+  <entityname.damagedshotgun>Поврежденный Дробовик</entityname.damagedshotgun>
+  <entityname.assaultriflebroken>Поврежденная Штурмовая Винтовка</entityname.assaultriflebroken>
+  <entityname.revolverbroken>Поврежденный Пистолет</entityname.revolverbroken>
+  <entityname.damagedrifle>Поврежденная Винтовка</entityname.damagedrifle>
+  <entityname.smgbroken>Обломки Винтовки</entityname.smgbroken>
+  <entityname.shotgunbroken>Обломки Дробовика</entityname.shotgunbroken>
+  <entityname.machinepistolbroken>Обломки Пистолета</entityname.machinepistolbroken>
+  <entityname.ruinedassaultrifle>Обломки Штурмовой Винтовки</entityname.ruinedassaultrifle>
+  <entitydescription.damagedgun>Оружие получило значительне повреждения, но некоторые внутренние компоненты еще возможно уцелели.</entitydescription.damagedgun>
+  <entitydescription.ruinedgun>Все механизмы оружия уничтожены и не подлежат починке.</entitydescription.ruinedgun>
+</infotexts>

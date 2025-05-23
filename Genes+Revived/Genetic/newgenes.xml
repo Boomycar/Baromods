@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- id does not work
+     add them no file that overrides vanilla genes
+     add status effects and thing in genetic material item that you removed -->
+<Items>
+  <Item name="Genetic Material (Watcher)" identifier="geneticmaterialwatcher" variantof="geneticmaterialcrawler">
+    <Deconstruct time="5" requireddeconstructor="geneticresearchstation">
+      <Item identifier="geneticmaterialwatcher" requiredotheritem="geneticmaterial" activatebuttontext="researchstation.combine" infotext="researchstation.combine.infotext" infotextonotheritemmissing="researchstation.refine.missingitem" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="2,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="2,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.watcher" effect="eyeball" conditionincreaseoncombinemin="5.0" conditionincreaseoncombinemax="8.0" tooltipvaluemin="10" tooltipvaluemax="50">
+      <RequiredSkill identifier="medical" level="30" />
+      <StatusEffect type="OnWearing" target="Character" duration="0.0">
+        <Sound file="Content/Sounds/Damage/Gore1.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore2.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore3.ogg" type="OnUse" range="500" />
+        <ParticleEmitter particle="bloodsplash" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" velocitymax="0" scalemin="0.3" scalemax="0.75" />
+      </StatusEffect>
+      <StatusEffect type="OnSevered" target="Character" duration="0.0">
+        <Sound file="Content/Sounds/Damage/Gore1.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore2.ogg" type="OnUse" range="500" />
+        <Sound file="Content/Sounds/Damage/Gore3.ogg" type="OnUse" range="500" />
+        <ParticleEmitter particle="bloodsplash" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" velocitymax="0" scalemin="0.5" scalemax="1.0" />
+        <Affliction identifier="organdamage" amount="10" />
+        <Affliction identifier="stun" amount="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnSevered" target="This" duration="0.0"></StatusEffect>
+      <StatusEffect type="OnActive" target="NearbyCharacters" range="500">
+        <Affliction identifier="watchersgazefrendly" strength="5" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="NearbyCharacters" range="150">
+        <Affliction identifier="watchersgazefrendly" strength="20" />
+      </StatusEffect>
+    </GeneticMaterial>
+  </Item>
+  <Item name="Genetic Material (Fractal Guardian)" identifier="geneticmaterialfractalguardian" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialfractalguardian" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="1,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="1,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.fractalguardian" effect="fractallyenhanced" />
+  </Item>
+  <Item name="Genetic Material (Psilotoad)" identifier="geneticmaterialpsilotoad" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialpsilotoad" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="3,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="3,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.psilotoad" effect="psilobiotic" />
+  </Item>
+  <Item name="Genetic Material (Golden Hammerhead)" identifier="geneticmaterialhammerheadgold" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialhammerheadgold" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.hammerheadgold" effect="goldenhammerheadeffect" />
+  </Item>
+  <!-- New genes as of 03.02.2023 -->
+  <Item name="Genetic Material (Crawler Broodmother)" identifier="geneticmaterialcrawlerbroodmother" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialcrawlerbroodmother" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.crawlerbroodmother" effect="crawlerbroodmothereffect" />
+  </Item>
+  <Item name="Genetic Material (Baby Moloch)" identifier="geneticmaterialmolochbaby" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialmolochbaby" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.molochbaby" effect="molochbabyeffect">
+      <statuseffect type="always" target="this" Noise="500" setvalue="false" delay="1" duration="1" stackable="false" checkconditionalalways="true" comparison="and">
+        <conditional isdead="false" />
+        <conditional isunconscious="false" />
+        <conditional healthpercentage="lt 99" />
+        <particleemitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
+        <sound file="Content/Characters/Molochbaby/BABYMOLOCH_alarm1.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="Content/Characters/Molochbaby/BABYMOLOCH_alarm2.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="Content/Characters/Molochbaby/BABYMOLOCH_alarm3.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="Content/Characters/Molochbaby/BABYMOLOCH_alarm4.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="Content/Characters/Molochbaby/BABYMOLOCH_alarm5.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
+      </statuseffect>
+      <statuseffect type="ondamaged" target="this" delay="1" Noise="2000" setvalue="false" duration="1" stackable="false" checkconditionalalways="true" comparison="and" requiredafflictions="damage,bleeding,burn">
+        <conditional isdead="false" />
+        <particleemitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
+      </statuseffect>
+      <statuseffect type="ondamaged" target="this" delay="1.05" stackable="false" checkconditionalalways="true" comparison="and" requiredafflictions="damage,bleeding,burn">
+        <conditional isdead="false" />
+        <particleemitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
+      </statuseffect>
+      <statuseffect type="ondamaged" target="this" delay="1.1" stackable="false" checkconditionalalways="true" comparison="and" requiredafflictions="damage,bleeding,burn">
+        <conditional isdead="false" />
+        <particleemitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
+      </statuseffect>
+      <statuseffect type="ondamaged" target="this" delay="1.15" stackable="false" checkconditionalalways="true" comparison="and" requiredafflictions="damage,bleeding,burn">
+        <conditional isdead="false" />
+        <particleemitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
+      </statuseffect>
+      <statuseffect type="ondamaged" target="this" delay="1.2" stackable="false" checkconditionalalways="true" comparison="and" requiredafflictions="damage,bleeding,burn">
+        <conditional isdead="false" />
+        <particleemitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
+      </statuseffect>
+      <statuseffect type="ondamaged" target="this" delay="1.25" stackable="false" checkconditionalalways="true" comparison="and" requiredafflictions="damage,bleeding,burn">
+        <conditional isdead="false" />
+        <particleemitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
+      </statuseffect>
+    </GeneticMaterial>
+  </Item>
+  <Item name="Genetic Material (Black Moloch)" identifier="geneticmaterialmolochblack" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialmolochblack" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.molochblack" effect="blackmolochemp" />
+  </Item>
+  <Item name="Genetic Material (Mudraptor veteran)" identifier="geneticmaterialmudraptorveteran" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialmudraptorveteran" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.mudraptorveteran" effect="mudratorveteranbeak" />
+  </Item>
+  <Item name="Genetic Material (Spineling gigant)" identifier="geneticmaterialspineling_gigant" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialspineling_gigant" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.spineling_gigant" effect="Spineling_gigantspine" />
+  </Item>
+  <Item name="Genetic Material (Bone Thresher)" identifier="geneticmaterialbonethresher" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialbonethresher" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.bonethresher" effect="bonethreshereffect" />
+  </Item>
+  <Item name="Genetic Material (Swam feeder)" identifier="geneticmaterialswamfeeder" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialfractalguardian" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.swamfeeder" effect="swamfeedereffect" />
+  </Item>
+  <Item name="Genetic Material (Thamallus)" identifier="geneticmaterialfractalthamallus" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialfractalguardian" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.thamallus" effect="thamalluseffect" />
+  </Item>
+  <Item name="Genetic Material (Latcher)" identifier="geneticmaterialfractallatcher" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialfractalguardian" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.latcher" effect="latchereffect" />
+  </Item>
+  <Item name="Genetic Material (Charybdys)" identifier="geneticmaterialcharybdys" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialfractalguardian" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.charybdys" effect="charybdyseffect" />
+  </Item>
+  <Item name="Genetic Material (Endworm)" identifier="geneticmaterialendworm" variantof="geneticmaterialcrawler">
+    <Deconstruct>
+      <Item identifier="geneticmaterialfractalguardian" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Textures/Genetic.png" sheetindex="0,2" sheetelementsize="64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Textures/Genetic.png" sheetindex="0,0" sheetelementsize="32,32" depth="0.6" origin="0.5,0.5" />
+    <GeneticMaterial nameidentifier="character.endworm" effect="endwormeffect" />
+  </Item>
+</Items>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Override>
+    <Item name="" descriptionidentifier="damagedgun" identifier="revolverbroken" variantof="damagedpistol" hideconditionbar="true" spritecolor="240,180,140,255" InventoryIconColor="240,180,140,255">
+      <Sprite texture="%ModDir:3028141718%/CO_spritelist_anims3.png" sourcerect="105,279,73,46" depth="0.55" origin="0.5,0.5" />
+    </Item>
+    <Item name="" descriptionidentifier="damagedgun" identifier="smgbroken" variantof="damagedrifle" hideconditionbar="true" spritecolor="240,180,140,255" InventoryIconColor="240,180,140,255">
+      <Sprite texture="%ModDir:3028141718%/CO_spritelist_anims3.png" sourcerect="11,401,216,54" depth="0.55" origin="0.5,0.5" />
+    </Item>
+    <Item name="" descriptionidentifier="damagedgun" identifier="shotgunbroken" variantof="damagedshotgun" hideconditionbar="true" spritecolor="240,180,140,255" InventoryIconColor="240,180,140,255">
+      <Sprite texture="%ModDir:3028141718%/CO_spritelist_anims3.png" sourcerect="13,459,239,52" depth="0.55" origin="0.5,0.5" />
+    </Item>
+    <Item name="" descriptionidentifier="damagedgun" identifier="assaultriflebroken" variantof="damagedassaultrifle" hideconditionbar="true" spritecolor="240,180,140,255" InventoryIconColor="240,180,140,255">
+      <Sprite texture="%ModDir:3028141718%/CO_spritelist_anims3.png" sourcerect="19,528,183,67" depth="0.55" origin="0.5,0.5" />
+    </Item>
+    <Item name="" descriptionidentifier="ruinedgun" identifier="machinepistolbroken" variantof="ruinedpistol" hideconditionbar="true" spritecolor="240,180,140,255" InventoryIconColor="240,180,140,255">
+      <Sprite texture="%ModDir:3028141718%/CO_spritelist_anims3.png" sourcerect="23,278,63,41" depth="0.55" origin="0.5,0.5" />
+    </Item>
+  </Override>
+</Items>

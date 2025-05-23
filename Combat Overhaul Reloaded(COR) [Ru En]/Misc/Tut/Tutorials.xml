@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tutorials>
+  <Tutorial identifier="gunrange" order="1" outpostpath="%ModDir%/Misc/Shooting Range.sub" submarinepath="Content/Submarines/Selkie.sub">
+    <CharacterInfo jobidentifier="assistant" startingitemtags="clothing,mobileradio,identitycard">
+      <Skill identifier="medical" level="25" />
+      <Skill identifier="weapons" level="25" />
+      <Skill identifier="mechanical" level="25" />
+      <Skill identifier="electrical" level="25" />
+      <Skill identifier="helm" level="25" />
+    </CharacterInfo>
+    <ScriptedEvent identifier="tutorial_wakeup_1" />
+    <Banner texture="%ModDir%/Img/GunnerTutorialBanner.png" />
+    <EndMessage type="restart" />
+  </Tutorial>
+  <Tutorial identifier="showcase" order="1" outpostpath="%ModDir%/Misc/COR Test Platform.sub">
+    <CharacterInfo jobidentifier="securityofficer" startingitemtags="clothing,mobileradio,identitycard">
+      <Skill identifier="medical" level="100" />
+      <Skill identifier="weapons" level="100" />
+      <Skill identifier="mechanical" level="100" />
+      <Skill identifier="electrical" level="100" />
+      <Skill identifier="helm" level="100" />
+    </CharacterInfo>
+    <Banner texture="%ModDir%/Img/GunnerTutorialBanner.png" />
+    <EndMessage type="restart" />
+  </Tutorial>
+</Tutorials>

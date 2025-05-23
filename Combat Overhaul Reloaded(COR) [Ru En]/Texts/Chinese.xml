@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
+  <!-- 12g.xml -->
+  <entityname.shotgun_db>双管M3</entityname.shotgun_db>
+  <entitydescription.shotgun_db>一款简易的双管霰弹枪，由中国殖民者制造。所有使用12g弹头中最便宜的武器，但不能在水下射击。</entitydescription.shotgun_db>
+  <entityname.shotgun_assalt>M12 突击霰弹枪</entityname.shotgun_assalt>
+  <entitydescription.shotgun_assalt>一款短型战斗霰弹枪能够进行猛烈射击。 在狭窄的区域进行突破行动的完美武器，但在准确度方面几乎都输给了其他霰弹枪。</entitydescription.shotgun_assalt>
+  <entityname.pipegun12>铁管霰弹枪</entityname.pipegun12>
+  <entitydescription.pipegun12>自制的霰弹枪，由管子和损坏的工具零件制成。与其它用铁管搓出来的简易武器一样，这个武器在射击时有卡壳的风险，也不能在水下射击。</entitydescription.pipegun12>
+  <entityname.shotgun_water_unique>弗兰基SFS-12</entityname.shotgun_water_unique>
+  <entitydescription.shotgun_water_unique>声名显赫的霰弹枪。射速和准确度极其出众，还能在水下射击，是在狭窄的船体和洞穴中作战的理想武器。但是只有少数几把被带到欧罗巴，而且这种武器从未大规模生产过。</entitydescription.shotgun_water_unique>
+  <entityname.shotgun_water>TOZ-208 战锤</entityname.shotgun_water>
+  <entitydescription.shotgun_water>一款值得信赖的霰弹枪，在猎人和突击兵中已有超过225年的使用历史。 这种改装型配备了折叠式枪托，并且能够在水下射击。</entitydescription.shotgun_water>
+  <entityname.shotgun_water2>M-820 突击队</entityname.shotgun_water2>
+  <entitydescription.shotgun_water2>这是一款轻型霰弹枪，为狭窄走廊和密闭空间而开发。 被联盟的警察和特工广泛使用，因为毫不留情的突击行动中的毁灭性表现而声名大噪。可以在水下射击。</entitydescription.shotgun_water2>
+  <entityname.shotgun_water_unique2>塞伽 A18</entityname.shotgun_water_unique2>
+  <entitydescription.shotgun_water_unique2>基于AK步枪为基础制作的重型自动霰弹枪。不同于大部分的塞伽霰弹枪，这款霰弹枪不使用可拆卸的弹匣，而是使用其自身底部的弹夹。其制造需要用到另一把霰弹枪TOZ-208的部件。</entitydescription.shotgun_water_unique2>
+  <entityname.shotgun_talent>TSG-88</entityname.shotgun_talent>
+  <entitydescription.shotgun_talent>一款半自动战斗霰弹枪，能够以惊人的速度射击。曾是地球上的特种部队的常见武器，但只有少数被运到欧罗巴。</entitydescription.shotgun_talent>
+  <entityname.shotgun_toz>TOZ 撒旦</entityname.shotgun_toz>
+  <entitydescription.shotgun_toz>这款身份不明的双管霰弹枪，是由俄罗斯殖民者走私到欧罗巴。 它不是为了在水下使用而设计，但出于某种原因能在水下设计。在枪托上有一则铭文，写着：Djahnem？</entitydescription.shotgun_toz>
+  <entityname.shotgun_air>M600 警用霰弹枪</entityname.shotgun_air>
+  <entitydescription.shotgun_air>莫斯伯格在欧罗巴最著名的武器。最常见于前哨站安全官配备的警用霰弹枪，这把枪很难说是可靠的狩猎工具，因为它并不是为水下使用而制造的。</entitydescription.shotgun_air>
+  <!-- 9x39.xml -->
+  <entityname.939_ar_un>SR-22 凯曼</entityname.939_ar_un>
+  <entitydescription.939_ar_un>高精度的半自动9x39步枪，后坐力相对较低。一把可靠的射手步枪，使用亚音速弹药，专为联盟特种部队设计</entitydescription.939_ar_un>
+  <entityname.939_ar>A219-E</entityname.939_ar>
+  <entitydescription.939_ar>主要由特种任务部队使用。这把俄罗斯设计的原型武器拥有同类武器顶尖的压制力、精准度和射速。使用标准的9x39弹匣。</entitydescription.939_ar>
+  <entityname.groza9>OTSE-GK(9x39)</entityname.groza9>
+  <entitydescription.groza9>一款特殊的突击步枪，只要一套零件和一个军用加工台就可以重新组装。不管在水下还是水上都表现完美。配备的下挂式榴弹发射器可以发射40毫米榴弹。</entitydescription.groza9>
+  <entityname.939_ar_tallent>SR-14</entityname.939_ar_tallent>
+  <entitydescription.939_ar_tallent>一把非常罕见的武器，只有极少的蓝图被俄罗斯殖民者带到欧罗巴，然而这种步枪再也没有被制造出来。</entitydescription.939_ar_tallent>
+  <!-- 9x19.xml -->
+  <entityname.9mm_pistol_un>众神之怒</entityname.9mm_pistol_un>
+  <entitydescription.9mm_pistol_un>只为毁灭而生的武器，可以释放烈焰真正的力量。高耐热的容器内是被金属包裹的烈焰碎片</entitydescription.9mm_pistol_un>
+  <entityname.smg9mm>MP-22K</entityname.smg9mm>
+  <entitydescription.smg9mm>曾为地球上的警察设计的9x19口径冲锋枪。尽管并非为水下使用而设计，但是在木卫二被广泛用于其他状况</entitydescription.smg9mm>
+  <entityname.9mm_carbine>MK-51 战术卡宾</entityname.9mm_carbine>
+  <entitydescription.9mm_carbine>三连发的9x19卡宾枪，远距离非常致命，但由于射速较慢在近距离并没有很大优势。</entitydescription.9mm_carbine>
+  <entityname.9mm_smg_blueprint>CZE-900 野人</entityname.9mm_smg_blueprint>
+  <entitydescription.9mm_smg_blueprint>为水下使用而研制的高射速、高精确的9x19冲锋枪。但很快就被联盟视为不人道的武器而禁止使用。它唯一的缺点就是尺寸和重量较大。</entitydescription.9mm_smg_blueprint>
+  <entityname.9_smg_un>HKE MP-19SD</entityname.9_smg_un>
+  <entitydescription.9_smg_un>高射速的消音微型冲锋枪，被广泛用于欧洲各地的雇佣兵，使用标准9x19子弹。小巧的体型和水下射击的能力使它成为中近距离作战的最佳选择之一</entitydescription.9_smg_un>
+  <entityname.9mm_smg_alt>贝瑞塔M36</entityname.9mm_smg_alt>
+  <entitydescription.9mm_smg_alt>高射速的紧凑型冲锋枪，精度不佳，子弹消耗快……去他妈的，射速高就行了，火力压制能力较强。使用标准9x19微型冲锋枪弹匣。</entitydescription.9mm_smg_alt>
+  <entityname.9mm_smg_water>贝瑞塔M87</entityname.9mm_smg_water>
+  <entitydescription.9mm_smg_water>简约的9x19冲锋枪，专为水下射击而制造。尽管射速略低，但是可以水下使用的优势使得M87成为一种抢手的武器</entitydescription.9mm_smg_water>
+  <entityname.9mm_pistol_water2>M71手抢</entityname.9mm_pistol_water2>
+  <entitydescription.9mm_pistol_water2>轻型连射手抢，可以在近距离造成大量伤害。后坐力略高，精度略低。</entitydescription.9mm_pistol_water2>
+  <entityname.9mm_pistol_water>MP-681 黑鸟</entityname.9mm_pistol_water>
+  <entitydescription.9mm_pistol_water>专为特种部队射击的一款轻便的9x19口径手抢，被其前主人送到木卫二。由于能够水下射击的能力和精准度而受到欢迎</entitydescription.9mm_pistol_water>
+  <entityname.9pipegun>自制9x19微冲</entityname.9pipegun>
+  <entitydescription.9pipegun>用锈铁管和废料手搓的简易开栓冲锋枪，与其他自制武器一样，这种武器在射击时可能会卡壳且无法在水下射击</entitydescription.9pipegun>
+  <entityname.9mm_pistol>P-8 前航者</entityname.9mm_pistol>
+  <entitydescription.9mm_pistol>全木卫二最常见的武器，这把9x19口径手枪不仅便宜还好用，已经成为了每一位船员的必备武器。无法在水下射击</entitydescription.9mm_pistol>
+  <!-- 7.62x55.xml -->
+  <entityname.762_rifle_obrez>雷明顿 Mod9-17(短管版)</entityname.762_rifle_obrez>
+  <entitydescription.762_rifle_obrez>短管步枪的制作传统已经有数百年历史，甚至传到了木卫二。这一把截短了枪管和枪托的步枪，可以作为随身武器。</entitydescription.762_rifle_obrez>
+  <entityname.rifle_co>多凯拉57式</entityname.rifle_co>
+  <entitydescription.rifle_co>一把老式复古日式步枪，枪管挂在的榴弹发射器可以发射40mm榴弹。在远距离很不错的效果。</entitydescription.rifle_co>
+  <entityname.762pipegun>铁管步枪(7.62x55)</entityname.762pipegun>
+  <entitydescription.762pipegun>简单的武器，由铁管和破损的工具零件制成。与所有临时武器一样，这种武器在发射时有可能卡壳，而且无法在水下射击。</entitydescription.762pipegun>
+  <entityname.762_rifle_unique>SVD-55ME</entityname.762_rifle_unique>
+  <entitydescription.762_rifle_unique>重型半自动步枪，发射7.62x55口径子弹，由德拉古诺夫公司制造。其中的一部分被运往木卫二用作远程狙击步枪。使用自带的 7.62x55 弹匣。</entitydescription.762_rifle_unique>
+  <entityname.revolver_762>R-100重型左轮</entityname.revolver_762>
+  <entitydescription.revolver_762>笨重的左轮手枪，专为水下狩猎设计。弹鼓可容纳 3 发 7.62x55 子弹。作为木卫二上最笨重的手枪之一，它的名字由此而来。</entitydescription.revolver_762>
+  <entityname.762_rifle>雷明顿 Mod9-17</entityname.762_rifle>
+  <entitydescription.762_rifle>栓动式 7.62x55 步枪。通常用作狩猎武器，但该子弹的穿透力使其成为对抗装甲人员的理想武器。</entitydescription.762_rifle>
+  <entityname.762_rifle_s>DVL-16E东道主</entityname.762_rifle_s>
+  <entitydescription.762_rifle_s>具有消音功能的 7.62x55 精确步枪，是为地球上的俄罗斯破坏者小分队研制的。它已经成为了无声摧毁任何目标的理想武器。</entitydescription.762_rifle_s>
+  <entityname.762_rifle_sonar>A7猛禽</entityname.762_rifle_sonar>
+  <entitydescription.762_rifle_sonar>一把 7.62x55 口径的半自动步枪，拥有内置弹匣。这把武器最独特亮眼的地方是顶部硬装的声纳瞄准镜，使使用者无需直接看到目标即可与之交战。</entitydescription.762_rifle_sonar>
+  <entityname.762_rifle_2>SVU-39M</entityname.762_rifle_2>
+  <entitydescription.762_rifle_2>重型 7.62x55 步枪，作为 SVD-55ME 的替代品研制。无托式设计使该枪在封闭空间内更加灵活且易于操作，但也导致了后坐力与稳定性略差。使用 7.62x55 弹匣。</entitydescription.762_rifle_2>
+  <!-- 7.62 Kurz.xml -->
+  <entityname.machinegun>MG3ME</entityname.machinegun>
+  <entitydescription.machinegun>一把由意大利殖民者带到木卫二的重机枪。它庞大的体积使其无法通过普通的制造机进行复制，这意味着 MG3ME 只能作为孤品武器。无法进行武器自定义，使用 7.62 Kurz子弹。</entitydescription.machinegun>
+  <entityname.machinegun_air>M21轻机枪</entityname.machinegun_air>
+  <entitydescription.machinegun_air>一款使用 7.62 Kurz 弹药的轻机枪，一般作为警察和特种部队在前哨战点和潜艇内使用。简单的结构和可靠性使 M21 成为近距离作战的首选。然而很可惜，这种机枪不能在水下射击。</entitydescription.machinegun_air>
+  <entityname.machinegun_alt>M54链锯轻机枪</entityname.machinegun_alt>
+  <entitydescription.machinegun_alt>一把外形方正的机枪，由联盟设计，使用 7.62 Kurz 子弹。作为突击队的强力压制和火力支援武器有着令人震惊的重量，这估计是你用过的最沉的一批的枪了。</entitydescription.machinegun_alt>
+  <entityname.machinegun_unique>A102轻机枪</entityname.machinegun_unique>
+  <entitydescription.machinegun_unique>一款紧凑型轻机枪，作为俄罗斯与北约联合武器计划的部分研究成果。这把武器使用 7.62 Kurz 弹药，可在封闭区域内提供强大火力，防水抗压的特点意味着在适应其后座的人手中能成为可靠的武器。</entitydescription.machinegun_unique>
+  <!-- 5.56x45.xml -->
+  <entityname.556_lever>MH-61杠杆步枪</entityname.556_lever>
+  <entitydescription.556_lever>杠杆式单动 5.56x45 步枪，使用者可直接将子弹装入枪膛。这种步枪曾在某个年代广泛流传，甚至其蓝图一度成为了军用制造标准配方之一。</entitydescription.556_lever>
+  <entityname.556_carbine>M53突击卡宾</entityname.556_carbine>
+  <entitydescription.556_carbine>类似AR外观的卡宾枪，射速快、精度高。使用标准 5.56x45 弹匣。无法在水下射击。</entitydescription.556_carbine>
+  <entityname.556_ar_com>M4-29突击队</entityname.556_ar_com>
+  <entitydescription.556_ar_com>M4-29 的改良型号。配有下挂式榴弹发射器，改良型枪口和战术照明灯。与标准版不同的是内部核心零件由异星材料制成</entitydescription.556_ar_com>
+  <entityname.556_smg>HKE-90</entityname.556_smg>
+  <entitydescription.556_smg>简单而有效的 5.56x45 突击步枪。曾经在地球上作为北约士兵的标准武器如今摇身一变成为了在木卫二上对付暴乱分子和恐怖分子的重型警用武器。在水下会导致卡壳。</entitydescription.556_smg>
+  <entityname.556_ar>M4-29突击步枪</entityname.556_ar>
+  <entitydescription.556_ar>标准军用步枪，以其可靠性和准确性著称。对于有一定水平的枪手来说是个不错的选择，口径为 5.56x45。</entitydescription.556_ar>
+  <entityname.556_ar_b>TARE-56</entityname.556_ar_b>
+  <entitydescription.556_ar_b>一把试验阶段 5.56x45 口径的突击步枪。高精度和水下射击能力使其在木卫二上成为了任何情况下进行中距离战斗的完美选择</entitydescription.556_ar_b>
+  <entityname.556_dmr>FNE-456帕拉</entityname.556_dmr>
+  <entitydescription.556_dmr>5.56x45 口径半自动步枪。精度超高、块头还大，被联盟的特战部队用作前哨战点和艇外探索的远程武器。</entitydescription.556_dmr>
+  <entityname.556_ar_spec>HKE X-56</entityname.556_ar_spec>
+  <entitydescription.556_ar_spec>致命而精确的 5.56x45 突击步枪，强大的可靠性和精确度使其在雇佣兵当中盛名远扬。搭配的原厂手电筒不管是水上还是水下都可为枪手提供强大的火力。</entitydescription.556_ar_spec>
+  <entityname.556_ar_burst>G-14K突击卡宾</entityname.556_ar_burst>
+  <entitydescription.556_ar_burst>具有速射能力的卡宾枪，可在一次开火中快速发射 3 发 5.56x45 子弹，是近距离作战的可靠武器。</entitydescription.556_ar_burst>
+  <entityname.carbine_medic>M7A5医疗兵</entityname.carbine_medic>
+  <entitydescription.carbine_medic>精确的 5.56x45 口径卡宾枪，专为战斗医护人员研制。搭载的集成式健康扫描仪和下挂式注射器发射器让该枪在任何情况下都能完美地保护小队的生命安全，同时还能对抗任何威胁。无法安装消音器或进行任何改装。</entitydescription.carbine_medic>
+  <!-- 5.45x39.xml -->
+  <entityname.545_carbine>SKV-25卡宾枪</entityname.545_carbine>
+  <entitydescription.545_carbine>自装填沃尔科夫卡宾枪（SKV）是一种精确的 5.45x39 口径步枪，自带了可以装在8发子弹的整合弹匣。它可能不是射速最快的枪支，但肯定是最精准的枪支之一。由于枪口制动器的结构缺陷，无法配备榴弹发射器。</entitydescription.545_carbine>
+  <entityname.545_ar>AK-27MSU警用步枪</entityname.545_ar>
+  <entitydescription.545_ar>S将枪托改为折叠式的AK-27短款版。曾经是为坦克的机组人员制造的，但在木卫二殖民初期被用作警用武器。无法在水下射击。使用 5.45x39弹匣。</entitydescription.545_ar>
+  <entityname.545_ar_uw>特制AEK-22</entityname.545_ar_uw>
+  <entitydescription.545_ar_uw>现代突击步枪，用来对标 M4-29 。高射速和高精度使其成为近距离作战的最佳选择，再加上折叠式的枪托，让这款步枪被认为是木卫二上最好的 5.45 口径武器之一。</entitydescription.545_ar_uw>
+  <entityname.545_ar_uw_un>AEK-22突击队</entityname.545_ar_uw_un>
+  <entitydescription.545_ar_uw_un>AEK-22的改良版本，配有准直瞄准镜、新型聚合物枪托、战术手电筒和刺刀。一些内部零件也变成了使用异星材料制作的款式，使这把武器更轻更耐用。使用 5.45x39 弹匣。</entitydescription.545_ar_uw_un>
+  <entityname.545_aru>AK-27ME维拉斯</entityname.545_aru>
+  <entitydescription.545_aru>一款半自动步枪，被称为最精确的弹匣式武器之一，也是AK式步枪中最致命的远程武器。使用标准 5.45x39 弹匣。</entitydescription.545_aru>
+  <entityname.groza45>OTSE-GK(5.45x39口径)</entityname.groza45>
+  <entitydescription.groza45>一款不同寻常的突击步枪，只需一套零件和一台制造机就能重新组装。在水下和水上都能发挥完美的性能。配备的下挂式榴弹发射器可发射 40 毫米碎片榴弹。使用 5.45x39 口径弹药</entitydescription.groza45>
+  <entityname.545_pipe_ar>铁管突击步枪（5.45x39)</entityname.545_pipe_ar>
+  <entitydescription.545_pipe_ar>一把由废料、金属管和工具零件制成的手搓突击步枪，与所有手搓武器一样，这种枪在射击时有可能卡壳，而且无法在水下射击。</entitydescription.545_pipe_ar>
+  <entityname.545_ar_burst>AK-32MSU佩伦</entityname.545_ar_burst>
+  <entitydescription.545_ar_burst>是新一代 AK 步枪，以前专为欧洲严酷的环境而设计，现在则是联盟特种部队专用的消音精确步枪。致命的2连发射击可以让子弹几乎落在同一位置。使用标准 5.45x39 弹匣。</entitydescription.545_ar_burst>
+  <entityname.545_ar_alt>ACE-72女武神</entityname.545_ar_alt>
+  <entitydescription.545_ar_alt>一款 5.45x39 口径的精确步枪，是同口径武器之间的折中选择。虽然射速不如 AEK-22，精度不如 AK-27 Veles，但怎么说也是一把可靠且值得信赖的武器。</entitydescription.545_ar_alt>
+  <entityname.545_ar_bandit>A-905风暴</entityname.545_ar_bandit>
+  <entitydescription.545_ar_bandit>速射型 5.45x39 突击步枪，专为 CQC（近距离作战） 而开发。由于强大的后坐力导致的低精度让这把武器的有效杀伤力越远越差。</entitydescription.545_ar_bandit>
+  <!-- 5.7x28.xml -->
+  <entityname.57_pistol>紧凑型FNE手抢</entityname.57_pistol>
+  <entitydescription.57_pistol>枪膛口径为标准 5.7x28 的轻型手抢。这把枪发射的子弹具有惊人的穿透力和水下射击效果，是自卫的可靠选择。</entitydescription.57_pistol>
+  <entityname.57_pistol_tallent>M50实验型手抢</entityname.57_pistol_tallent>
+  <entitydescription.57_pistol_tallent>实验型自动手枪，枪膛口径为标准 5.7 毫米。所有核心部件完全由异星材料制成。</entitydescription.57_pistol_tallent>
+  <entityname.57_smg>MP-57KT</entityname.57_smg>
+  <entitydescription.57_smg>一款高射速的微型冲锋枪，使用 5.7x28 口径弹药。在近距离相当致命，但精度和子弹威力都较差。可在水下可能卡壳。</entitydescription.57_smg>
+  <entityname.57_pistol_tact>FNE-SO X8</entityname.57_pistol_tact>
+  <entitydescription.57_pistol_tact>先进的 5.7x28 口径手枪，曾专为地球上的侦察队设计。随着前主人来到木卫二，以其射击时的可靠性和便捷性而闻名。</entitydescription.57_pistol_tact>
+  <!-- .45.xml -->
+  <entityname.45_smg_micro>特制MS-45 </entityname.45_smg_micro>
+  <entitydescription.45_smg_micro>这是一种为特种部队研制的紧凑型 .45 冲锋枪。作为同口径中最轻的枪支之一，它只需单手就能轻松操控，但代价则是高后坐力和较低的精度。</entitydescription.45_smg_micro>
+  <entityname.45_pistol_uw>M24柯尔特阔剑</entityname.45_pistol_uw>
+  <entitydescription.45_pistol_uw>现代 .45 手枪，曾被木卫二上的许多特种部队用作贴身武器。柯尔特 "阔剑 "手枪结构紧凑、性能可靠、杀伤力强，无论在水中还是在陆地上都能对任何胆敢尝试冒犯你的生物造成巨大震慑。不幸的是，这种手枪的制造随着 SC 特种部队的解体而停工，现在运气好的话也许能在沉船里淘到几把。</entitydescription.45_pistol_uw>
+  <entityname.45_pistol_uw2>M19军制</entityname.45_pistol_uw2>
+  <entitydescription.45_pistol_uw2>专为军事用途设计的现代 .45 手枪。射速高，子弹威力大使其成为一把可靠的武器。</entitydescription.45_pistol_uw2>
+  <entityname.45pipegun>铁管微冲(.45)</entityname.45pipegun>
+  <entitydescription.45pipegun>用锈铁管和废料制作的简易开栓冲锋枪。与所有手搓武器一样，这种武器在发射时有可能卡壳，而且无法在水下射击。</entitydescription.45pipegun>
+  <entityname.45_carbine>C-7卡宾</entityname.45_carbine>
+  <entitydescription.45_carbine>专为水下使用而制造的.45卡宾枪。使用标准 .45 手枪弹匣供弹。由于半手工的性质，这把武器实际造成的伤害可能只有理论的90%。</entitydescription.45_carbine>
+  <entityname.45_smg_uw2>Mk-117战术冲锋枪</entityname.45_smg_uw2>
+  <entitydescription.45_smg_uw2>一种为联盟突击队研发的连发式 .45 冲锋枪。高射速，高消耗。尽管如此，它的精度由于采用了独特的接收器系统而相对较高。</entitydescription.45_smg_uw2>
+  <entityname.45_smg_uw>PDW-323E</entityname.45_smg_uw>
+  <entitydescription.45_smg_uw>.45 口径个人防卫冲锋枪，专为水下使用而设计。高精确度和低后坐弥补了相对较低的射速。</entitydescription.45_smg_uw>
+  <entityname.45_pistol>M18柯尔特欧罗巴</entityname.45_pistol>
+  <entitydescription.45_pistol>常见的 .45 手枪，以火力强大和精准著称。在水下可能卡壳。</entitydescription.45_pistol>
+  <entityname.45_smg>警用HKE-95</entityname.45_smg>
+  <entitydescription.45_smg> .45 口径的重型冲锋枪，以 HK-90 突击步枪为基础。是潜艇和前哨战点内近距离作战的可靠武器，但不能在水下射击。</entitydescription.45_smg>
+  <!-- .44.xml -->
+  <entityname.revolver_44_com>RKX-5突击队</entityname.revolver_44_com>
+  <entitydescription.revolver_44_com>标准 RKX-5 左轮手枪的改进型。配有消音器、红点瞄准镜和激光指示器。内部零件用异星材料制成。</entitydescription.revolver_44_com>
+  <entityname.revolver_44>RKX-5左轮手抢</entityname.revolver_44>
+  <entitydescription.revolver_44>用来出口太空的第五代左轮手枪。可能这不是最有名的毛子武器，但肯定是最好的武器之一。这款左轮手枪的口径为 .44，是追求火力和可靠性的理想选择。</entitydescription.revolver_44>
+  <entityname.44pipegun>铁管左轮手抢(.44)</entityname.44pipegun>
+  <entitydescription.44pipegun>用铁管临时手搓的左轮手枪。与所有手搓武器一样，这种武器在发射时有可能卡壳，而且无法在水下射击。</entitydescription.44pipegun>
+  <entityname.revolver_44_auto>奇亚帕 44 型自动左轮手枪</entityname.revolver_44_auto>
+  <entitydescription.revolver_44_auto>力大砖飞的标准 .44 左轮手枪。射速较快，是近距离内最致命的左轮手枪，但该型号缺乏准确性。</entitydescription.revolver_44_auto>
+  <entityname.44_rifle_lever>M-144杠杆步枪</entityname.44_rifle_lever>
+  <entitydescription.44_rifle_lever>简单有效的杠杆式 .44 步枪，专为水下狩猎设计，但也可用作快速射击战斗步枪，具有极高的精度和低成本的弹药。</entitydescription.44_rifle_lever>
+  <!-- .38.xml -->
+  <entityname.revolver_38_talent>RKX-16左轮手枪</entityname.revolver_38_talent>
+  <entitydescription.revolver_38_talent>一款构造简单的 .38 左轮手枪，弹鼓可装填 4 发子弹。与工厂生产的其他枪支相比，该枪的平衡性较差，加之是临时制作的，因此感觉相当笨重。</entitydescription.revolver_38_talent>
+  <entityname.revolver_38>R-23左路手抢</entityname.revolver_38>
+  <entitydescription.revolver_38>廉价，广泛。无法在水下射击。</entitydescription.revolver_38>
+  <entityname.38_carbine>TCC-38卡宾枪</entityname.38_carbine>
+  <entitydescription.38_carbine>最初只是一种实验品的武器，后来因其体积小、精度高而在矿工中广为流传。它是在木卫二的洞穴甚至海洋深处对抗无装甲物种的最佳武器。使用 .38 特制弹夹。</entitydescription.38_carbine>
+  <entityname.silencer_38>特制72式</entityname.silencer_38>
+  <entitydescription.silencer_38>这是一款自带消音器的简易手枪，能准确发射 .38 子弹。很久以前为地球上的中国特种部队而研制，因此在任何条件下都表现出色。但由于其成本低廉且隐蔽性强，现在则罪犯中广为流传。</entitydescription.silencer_38>
+  <entityname.revolver_38_uw>R-43自动左轮手抢</entityname.revolver_38_uw>
+  <entitydescription.revolver_38_uw>高射速的 .38 左轮手枪，可在水下射击。可一次装填 7 发子弹。&gt;高射速的 .38 左轮手枪，可在水下射击。可一次装填 7 发子弹。</entitydescription.revolver_38_uw>
+  <entityname.38_carbine_2>K-12双子星</entityname.38_carbine_2>
+  <entitydescription.38_carbine_2>自带弹匣的独特双管 .38 步枪，最多可容纳 10 发子弹。两支枪管同时开火形成两连精准的致命打击。</entitydescription.38_carbine_2>
+  <!--Ammo-->
+  <!--.44-->
+  <entityname.44_round_noff>.44 智能子弹</entityname.44_round_noff>
+  <entityname.44_round>.44 子弹</entityname.44_round>
+  <entitydescription.44_round>威力强大的穿甲弹。可对付各种威胁。</entitydescription.44_round>
+  <entityname.44_round_explosive>.44 爆破子弹</entityname.44_round_explosive>
+  <entitydescription.44_round_explosive>增加了爆炸弹头的.44子弹。其作用就像一枚小型榴霰弹，可在较大半径范围内造成巨大伤害。</entitydescription.44_round_explosive>
+  <entityname.44_round_df>.44 贫化子弹</entityname.44_round_df>
+  <entitydescription.44_round_df>将弹头改装成贫化燃料制的.44子弹。最多可穿透 2 个目标。</entitydescription.44_round_df>
+  <entityname.44_round_homing>.44 追踪子弹</entityname.44_round_homing>
+  <entitydescription.44_round_homing>这是一种装药量极低的弹药，但它有一个小型鱼雷引擎和导向鳍。在水下使用时，它就像一枚小型热追踪火箭，瞄准距离最近的非人类敌人。</entitydescription.44_round_homing>
+  <entityname.44_round_hs>.44 亚音速子弹</entityname.44_round_hs>
+  <entitydescription.44_round_hs>这些 .44 子弹经过改装成为了更重的子弹，依靠自身的重量来造成伤害。这种子弹不会留下任何发射痕迹，对付软目标效果更好，但穿甲能力明显较弱。</entitydescription.44_round_hs>
+  <!-- 9x39 -->
+  <entityname.9x39_magazine_extended>9x39 扩容弹匣</entityname.9x39_magazine_extended>
+  <entityname.9x39_magazine>9x39 弹匣</entityname.9x39_magazine>
+  <entitydescription.9x39_magazine>木卫二最好的突击步枪使用的标准弹匣。可容纳 20 发子弹。</entitydescription.9x39_magazine>
+  <entitydescription.9x39_magazine_df>9x39 贫化弹的弹匣，作用类似于次口径子弹。可穿透多个表面。</entitydescription.9x39_magazine_df>
+  <entityname.9x39mm_round_noff>9x39 智能子弹</entityname.9x39mm_round_noff>
+  <entityname.9x39mm_round>9x39 子弹</entityname.9x39mm_round>
+  <entitydescription.9x39mm_round>一种大口径子弹，主要依靠自身重量而非初速度造成伤害。这种子弹装有穿甲镀层，是一种真正意义上的不可阻挡的力量。</entitydescription.9x39mm_round>
+  <entityname.9x39mm_round_hs>9x39 亚音速子弹</entityname.9x39mm_round_hs>
+  <entitydescription.9x39mm_round_hs>重型亚音速子弹，旨在对非装甲目标造成可怕的伤害。留给曳光弹。</entitydescription.9x39mm_round_hs>
+  <entityname.9x39mm_round_homing>9x39 追踪子弹</entityname.9x39mm_round_homing>
+  <entitydescription.9x39mm_round_homing>这是一种装药量极低的弹药，但它有一个小型鱼雷引擎和导向鳍。在水下使用时，它就像一枚小型热追踪火箭，瞄准距离最近的非人类敌人。</entitydescription.9x39mm_round_homing>
+  <entityname.9x39mm_round_df>9x39 贫化子弹(Depleted fuel)</entityname.9x39mm_round_df>
+  <entitydescription.9x39mm_round_df>9x39 口径子弹，作用类似于次口径子弹。可穿透多个表面。</entitydescription.9x39mm_round_df>
+  <!-- SMG .45 -->
+  <entityname.smg45_magazine_extended>.45 冲锋枪扩容弹夹匣</entityname.smg45_magazine_extended>
+  <entityname.smg45_magazine>.45 冲锋枪弹匣</entityname.smg45_magazine>
+  <entitydescription.smg45_magazine>用于标准 SMG 的 11.5 毫米弹匣。</entitydescription.smg45_magazine>
+  <entitydescription.45_round_rifle>威力堪比步枪的 11.5 毫米弹夹。可从步枪手天赋中获得额外伤害。</entitydescription.45_round_rifle>
+  <entityname.45_round_noff>.45 智能子弹</entityname.45_round_noff>
+  <entityname.45_round_ap>.45 穿甲子弹</entityname.45_round_ap>
+  <entitydescription.45_round_ap>带有穿甲镀层的11.5mm 子弹</entitydescription.45_round_ap>
+  <entityname.45_round>.45 子弹</entityname.45_round>
+  <entitydescription.45_round>标准的 11.5 毫米子弹。常见的自卫武器口径，在民用弹药中具有最高的制止力。</entitydescription.45_round>
+  <entityname.45_round_rifle>.45 增压子弹</entityname.45_round_rifle>
+  <entitydescription.45_round_rifle>威力堪比步枪子弹的11.5mm子弹。从步枪手天赋中获得额外伤害让它变的跟狙一样。</entitydescription.45_round_rifle>
+  <entityname.45_round_explosive>.45 高爆子弹</entityname.45_round_explosive>
+  <entitydescription.45_round_explosive>带爆炸弹头的 11.5mm 子弹。</entitydescription.45_round_explosive>
+  <!-- pistol .45 -->
+  <entityname.pistol45_magazine_extended>.45 手抢扩容弹匣</entityname.pistol45_magazine_extended>
+  <entityname.pistol45_magazine>.45 手抢弹匣</entityname.pistol45_magazine>
+  <entitydescription.pistol45_magazine>11.5 毫米口径弹匣，适合标准手枪使用。</entitydescription.pistol45_magazine>
+  <!-- 9x19 SMG -->
+  <entityname.smg9mm_magazine_extended>9x19 冲锋枪扩容弹匣</entityname.smg9mm_magazine_extended>
+  <entitydescription.smg9mm_magazine_extended>加长型 9x19 冲锋枪弹匣。可容纳 30 发子弹。</entitydescription.smg9mm_magazine_extended>
+  <entityname.smg9mm_magazine>9x19 冲锋枪弹匣</entityname.smg9mm_magazine>
+  <entitydescription.smg9mm_magazine>标准 9x19 冲锋枪弹匣，可容纳25发子弹</entitydescription.smg9mm_magazine>
+  <entityname.9mm_round_noff>9x19 智能子弹</entityname.9mm_round_noff>
+  <entityname.9mm_round>9x19 子弹</entityname.9mm_round>
+  <entitydescription.9mm_round>标准 9x19 子弹。手枪和其他个人防卫武器最常用的口径。</entitydescription.9mm_round>
+  <entityname.9mm_round_ap>9x19 穿甲子弹</entityname.9mm_round_ap>
+  <entitydescription.9mm_round_ap>具有更强穿甲能力的 9x19 子弹</entitydescription.9mm_round_ap>
+  <entityname.9mm_round_ripper>9x19 撕裂子弹</entityname.9mm_round_ripper>
+  <entitydescription.9mm_round_ripper>经过改装的9x19 子弹，可对暴露的组织造成尽可能大的伤害。对装甲的威力明显降低，无法从模组中获得特殊加成。</entitydescription.9mm_round_ripper>
+  <entityname.9mm_round_hs>9x19 亚音速子弹</entityname.9mm_round_hs>
+  <entitydescription.9mm_round_hs>伤害略高，没有射击痕迹。是隐秘行动的理想选择。</entitydescription.9mm_round_hs>
+  <!-- 9x19 Pistol -->
+  <entityname.pistol9mm_magazine_extended>9x19 手抢扩容弹匣</entityname.pistol9mm_magazine_extended>
+  <entitydescription.pistol9mm_magazine_extended>加长型 9x19 手抢弹匣。可容纳 15 发子弹。</entitydescription.pistol9mm_magazine_extended>
+  <entityname.pistol9mm_magazine>9x19 手抢弹匣</entityname.pistol9mm_magazine>
+  <entitydescription.pistol9mm_magazine>标准 9x19 手枪弹匣。可装 10 发子弹。</entitydescription.pistol9mm_magazine>
+  <!-- 5.45x39 -->
+  <entityname.5.45mm_magazine_extended>5.45x39 扩容弹匣</entityname.5.45mm_magazine_extended>
+  <entitydescription.5.45mm_magazine_extended>适用于大多数类ak武器的加长型弹匣。可容纳 30 发子弹。</entitydescription.5.45mm_magazine_extended>
+  <entityname.5.45mm_magazine>5.45x39 弹匣</entityname.5.45mm_magazine>
+  <entitydescription.5.45mm_magazine>大多数类ak武器的标准弹夹。可容纳 25 发子弹。</entitydescription.5.45mm_magazine>
+  <entityname.5.45mm_round_noff>5.45x39 智能子弹</entityname.5.45mm_round_noff>
+  <entityname.5.45mm_round_incendiary>5.45x39 燃烧子弹</entityname.5.45mm_round_incendiary>
+  <entitydescription.5.45mm_round_incendiary>带燃素弹头的 5.45 子弹。可造成额外的燃烧伤害。</entitydescription.5.45mm_round_incendiary>
+  <entityname.5.45mm_round_hp>5.45x39 空尖子弹</entityname.5.45mm_round_hp>
+  <entitydescription.5.45mm_round_hp>经改装后的5.45x39 空尖弹，可对非装甲目标造成更大伤害并造成严重出血，并。然而，它的穿透能力却大打折扣。</entitydescription.5.45mm_round_hp>
+  <entityname.5.45mm_round>5.45x39 子弹</entityname.5.45mm_round>
+  <entitydescription.5.45mm_round>一种拥有钛合金穿甲镀层的高速子弹。用于大多数 AK 型武器，对装甲有效.</entitydescription.5.45mm_round>
+  <entityname.5.45mm_round_sb>5.45x39 钢制子弹</entityname.5.45mm_round_sb>
+  <entitydescription.5.45mm_round_sb>标准 5.45x39 子弹的下位替代品。这种子弹的制动力较低，对装甲的杀伤力也明显较差。</entitydescription.5.45mm_round_sb>
+  <!-- 5.7x28 -->
+  <entityname.57_magazine_extended>5.7x28 扩容弹匣</entityname.57_magazine_extended>
+  <entitydescription.57_magazine_extended>加长型 5.7x28 弹匣。可容纳 20 发子弹。</entitydescription.57_magazine_extended>
+  <entityname.57_magazine>5.7x28 弹匣</entityname.57_magazine>
+  <entitydescription.57_magazine>标准 5.7x28 弹匣。可装 15 发子弹。</entitydescription.57_magazine>
+  <entitydescription.57_magazine>标准 5.7x28 弹匣。可装 15 发子弹。</entitydescription.57_magazine>
+  <entityname.5.7mm_round_noff>5.7x28 智能子弹</entityname.5.7mm_round_noff>
+  <entityname.5.7mm_round>5.7x28 子弹</entityname.5.7mm_round>
+  <entitydescription.5.7mm_round>这种子弹的初速极高，几乎可以无视大多数标准防弹背心和生物外壳。不过，它的阻停能力相对较低，容易过穿。</entitydescription.5.7mm_round>
+  <entityname.5.7mm_round_lb>5.7x28 轻型子弹</entityname.5.7mm_round_lb>
+  <entitydescription.5.7mm_round_lb>标准 5.7x28 子弹的低成本替代品。在伤害和穿透力方面性能明显较差。</entitydescription.5.7mm_round_lb>
+  <entityname.5.7mm_round_hp>5.7x28 空尖子弹</entityname.5.7mm_round_hp>
+  <entitydescription.5.7mm_round_hp>一种经过改装的 5.7x28 子弹，以穿透力为代价获得更好的阻停力。难道其他的手抢口径子弹不香了吗……</entitydescription.5.7mm_round_hp>
+  <entityname.5.7mm_round_piercing>5.7x28 贫化子弹</entityname.5.7mm_round_piercing>
+  <entitydescription.5.7mm_round_piercing> 5.7x28 子弹的极致进化。具有次口径弹药一样极高的初速度。</entitydescription.5.7mm_round_piercing>
+  <!-- 5.56x45 -->
+  <entityname.5.56_magazine_extended>5.56x45 扩容弹匣</entityname.5.56_magazine_extended>
+  <entitydescription.5.56_magazine_extended>用于突击步枪的加长型弹匣。可容纳 30 发子弹。</entitydescription.5.56_magazine_extended>
+  <entityname.5.56_magazine>5.56x45 弹匣</entityname.5.56_magazine>
+  <entitydescription.5.56_magazine>突击步枪的标准弹匣。可装 25 发子弹。</entitydescription.5.56_magazine>
+  <entityname.5.56mm_round_noff>5.56x45 智能子弹</entityname.5.56mm_round_noff>
+  <entityname.5.56mm_round>5.56x45 子弹</entityname.5.56mm_round>
+  <entitydescription.5.56mm_round>一种致命的军用子弹，弹头为高穿透性钛合金弹头。对装甲和装甲后的物体均有效。</entitydescription.5.56mm_round>
+  <entityname.5.56mm_round_hp>5.56x45 空尖子弹</entityname.5.56mm_round_hp>
+  <entitydescription.5.56mm_round_hp>改装成空尖弹头的 5.56 子弹。对暴露的弱点和无装甲的肢体有效。</entitydescription.5.56mm_round_hp>
+  <entityname.5.56mm_round_homing>5.56x45 追踪子弹</entityname.5.56mm_round_homing>
+  <entitydescription.5.56mm_round_homing>这是一种装药量极低的弹药，但它有一个小型鱼雷引擎和导向鳍。在水下使用时，它就像一枚小型热追踪火箭，瞄准距离最近的非人类敌人。</entitydescription.5.56mm_round_homing>
+  <!-- 7.62x55 -->
+  <entityname.7.62_magazine_extended>7.62x55 扩容弹匣</entityname.7.62_magazine_extended>
+  <entitydescription.7.62_magazine_extended>加长型 7.62x55 弹匣。可容纳 15 发子弹。</entitydescription.7.62_magazine_extended>
+  <entityname.7.62_magazine>7.62x55 弹匣</entityname.7.62_magazine>
+  <entitydescription.7.62_magazine>专为 SVD 步枪系列设计的弹匣。可装 10 发子弹.</entitydescription.7.62_magazine>
+  <entityname.7.62mm_round_noff>7.62x55 智能子弹</entityname.7.62mm_round_noff>
+  <entityname.7.62mm_round_incendiary>7.62x55 燃烧子弹</entityname.7.62mm_round_incendiary>
+  <entitydescription.7.62mm_round_incendiary>威力强大的燃烧弹。可造成更严重的伤害，但总的来说还是会失去一些穿甲能力。</entitydescription.7.62mm_round_incendiary>
+  <entityname.7.62mm_round_light>7.62x55 轻型子弹</entityname.7.62mm_round_light>
+  <entitydescription.7.62mm_round_light>将标准 7.62x55 子弹的弹芯由刚素替换成硬钛合金。对装甲的威力稍弱，造成的伤害稍低。</entitydescription.7.62mm_round_light>
+  <entityname.7.62mm_round>7.62x55 子弹</entityname.7.62mm_round>
+  <entitydescription.7.62mm_round>威力强大的子弹，铅制弹套内装有刚素制成的弹芯。对付重装甲目标的最佳选择。</entitydescription.7.62mm_round>
+  <entityname.7.62mm_round_df>7.62x55 贫化子弹</entityname.7.62mm_round_df>
+  <entitydescription.7.62mm_round_df>威力强大，穿透力强。是狩猎中小型木卫二动物的理想选择。</entitydescription.7.62mm_round_df>
+  <!-- .38 -->
+  <entityname.38_magazine_extended>.38 扩容弹匣</entityname.38_magazine_extended>
+  <entitydescription.38_magazine_extended>TCC-38 专用加长弹匣。可容纳 15 发子弹。</entitydescription.38_magazine_extended>
+  <entityname.38_magazine>.38 弹匣</entityname.38_magazine>
+  <entitydescription.38_magazine>TCC-38 专用弹匣。可装 10 发子弹。</entitydescription.38_magazine>
+  <entityname.38_round_noff>.38 智能子弹</entityname.38_round_noff>
+  <entityname.38_round>.38 子弹</entityname.38_round>
+  <entitydescription.38_round>标准 .38 口径子弹，穿透力低，阻击力中等。适合自卫。</entitydescription.38_round>
+  <entityname.38_round_df>.38 贫化子弹</entityname.38_round_df>
+  <entitydescription.38_round_df>将标准 .38 子弹的弹头替换为贫化燃料弹头。对装甲很有效，可击穿多层装甲。</entitydescription.38_round_df>
+  <entityname.38_round_ap>.38 穿甲子弹</entityname.38_round_ap>
+  <entitydescription.38_round_ap>穿甲版本的 .38 子弹。这种子弹的弹帽经过加固，并增加了穿甲弹芯，使其适用于对付装甲目标。</entitydescription.38_round_ap>
+  <entityname.38_round_explosive>.38 高爆子弹</entityname.38_round_explosive>
+  <entitydescription.38_round_explosive>改良型 .38 子弹，配有爆炸弹头。作用类似于微型破片手雷。</entitydescription.38_round_explosive>
+  <!-- Kurz -->
+  <entityname.mg_magazine>7.62 Kurz 弹链</entityname.mg_magazine>
+  <entitydescription.mg_magazine>装有 80 发子弹的弹链，专为 A102 和 M21 等轻机枪设计。</entitydescription.mg_magazine>
+  <entityname.mg_round_noff>7.62 Kurz 智能子弹</entityname.mg_round_noff>
+  <entityname.mg_round_ripper>7.62 Kurz 撕裂子弹</entityname.mg_round_ripper>
+  <entitydescription.mg_round_ripper>经过改装的 7.62 Kurz 子弹，可对肉体组织和内脏造成恐怖的伤害。对各种装甲的威力明显降低。</entitydescription.mg_round_ripper>
+  <entityname.mg_round_ap>7.62 Kurz 穿甲子弹</entityname.mg_round_ap>
+  <entitydescription.mg_round_ap>带穿甲效果的 7.62x32 钝头弹。在对付有护甲的敌人时效果更佳。</entitydescription.mg_round_ap>
+  <entityname.mg_round_hp>7.62 Kurz 空尖子弹</entityname.mg_round_hp>
+  <entitydescription.mg_round_hp>改良型 7.62x32 子弹，弹头为空心弹头。适合对付非装甲目标，可造成严重出血。</entitydescription.mg_round_hp>
+  <entityname.mg_round>7.62 Kurz 子弹</entityname.mg_round>
+  <entitydescription.mg_round>标准 7.62x32 口径圆头子弹。用于木卫二上的大多数机枪。可在近距离有效打击无装甲或弱装甲目标。</entitydescription.mg_round>
+  <!--Misc Ammo-->
+  <entityname.sturmfaustrocket>铁拳火箭弹</entityname.sturmfaustrocket>
+  <entitydescription.sturmfaustrocket>SFZ-12 火箭发射器的标准弹药。撞击时爆炸，可对船体和生物造成巨大伤害。</entitydescription.sturmfaustrocket>
+  <entityname.nucleargun_magazine>ARG弹匣</entityname.nucleargun_magazine>
+  <entitydescription.nucleargun_magazine>为 AGR-21 步枪开发的弹匣-电池复合装置。燃料棒在放电时往往表现不稳定，会造成轻微辐射，因此建议穿着防辐射服使用 AGR-21。可容纳 10 枚 8×45 毫米射针。</entitydescription.nucleargun_magazine>
+  <entityname.co_shotgunslug>贫化独头弹</entityname.co_shotgunslug>
+  <entitydescription.co_shotgunslug>实心的12 号独头弹。适用于中远距离，穿透力惊人。</entitydescription.co_shotgunslug>
+  <entityname.shotgundart>箭型霰弹</entityname.shotgundart>
+  <entitydescription.shotgundart>一种霰弹枪子弹，内部装有致命的箭形弹头，能够穿透装甲并撕裂藏藏在里头的东西。对任何目标都有效，唯一的缺点是弹丸数量少--普通霰弹的弹丸数量是 16 枚，而这种则只有 6 枚。</entitydescription.shotgundart>
+  <!-- Secret items -->
+  <entityname.clownsuitunique_ruined>小丑之父乐团</entityname.clownsuitunique_ruined>
+  <entitydescription.clownsuitunique_ruined>虽然这些服装已经过时和破旧，但仍能显示出 "小丑之父 "的真正威力。</entitydescription.clownsuitunique_ruined>
+  <entityname.ballistichelmet_scst>SCST突击头盔</entityname.ballistichelmet_scst>
+  <entitydescription.ballistichelmet_scst>一种坚固的钢制防护头盔，被设计用于突破行动和 CQC（近距离作战）。头盔正面的两个犄角用途不明。</entitydescription.ballistichelmet_scst>
+  <entityname.sword_murza>缪扎-M</entityname.sword_murza>
+  <entitydescription.sword_murza>血刃</entitydescription.sword_murza>
+  <entityname.nucleargun_round>AGR 弹头</entityname.nucleargun_round>
+  <entityname.lasergun_round_co>激光弹</entityname.lasergun_round_co>
+  <entityname.hhfcround>燃素燃料</entityname.hhfcround>
+  <entityname.pyroround>燃烧弹</entityname.pyroround>
+  <entityname.cklround>无限步枪子弹</entityname.cklround>
+  <entityname.M2A1>M2A1背包式喷火器</entityname.M2A1>
+  <entitydescription.M2A1>木卫二的古董武器。虽然它已经过时，而且又危险，但它还是有自己的用途——主要是清除寄生在船只上的丘脑啥的。</entitydescription.M2A1>
+  <entityname.bikehorn_919>疯子的复仇</entityname.bikehorn_919>
+  <entitydescription.bikehorn_919>悲喜只在一瞬之间</entitydescription.bikehorn_919>
+  <entityname.combatdivingsuit_god>舒弥哈萨满</entityname.combatdivingsuit_god>
+  <entitydescription.combatdivingsuit_god>这套潜水服意外的很温暖，不过穿在身上会有一种奇怪的不安感。里面还有一股怪异的硫磺味。</entitydescription.combatdivingsuit_god>
+  <entityname.guidebook>安全手册</entityname.guidebook>
+  <entitydescription.guidebook>这是一本手写的指南手册，可以帮助你了解水下战斗的基本知识，希望可以让你在木卫二的恶劣海域里没那么容易死。</entitydescription.guidebook>
+  <!-- Override item names -->
+  <entityname.shotgun>M600欧罗巴</entityname.shotgun>
+  <entitydescription.modded_smgmagazinedepletedfuel>老式 9x19 冲锋枪弹匣，带有低弹药标识。对装甲有效，可击穿多层装甲。</entitydescription.modded_smgmagazinedepletedfuel>
+  <entitydescription.modded_riflebullet>标准的步兵用 .30 口径子弹。</entitydescription.modded_riflebullet>
+  <entitydescription.modded_smgmagazine>老式 9x19 冲锋枪弹匣。可装 25 发子弹。</entitydescription.modded_smgmagazine>
+  <entityname.modded_smgrounddepletedfuel>9x19口径，具有低弹药标识</entityname.modded_smgrounddepletedfuel>
+  <entitydescription.modded_rifle>一种老式步枪，配有榴弹发射器，可发射 40 毫米榴弹。在远距离很有效。</entitydescription.modded_rifle>
+  <!-- Common Use -->
+  <entitydescription.suppressor>一种简单而有效的枪支消音装置。安装后可降低敌对生物对枪声的敏感度。</entitydescription.suppressor>
+  <entitydescription.extender>降低初始子弹扩散</entitydescription.extender>
+  <entitydescription.compensator>降低后坐力</entitydescription.compensator>
+  <entitydescription.blueprint_ammo>使用后解锁军用加工台对应的子弹或者配方</entitydescription.blueprint_ammo>
+  <entitydescription.blueprint_weapon>使用后解锁军用加工台对应的武器或者子弹配方</entitydescription.blueprint_weapon>
+  <entitydescription.round_noff>智能子弹不会与队友发生碰撞，将友军误伤的可能性降为零。</entitydescription.round_noff>
+  <entitydescription.compatibility_weapon>如果你看到这种武器，说明它在这里是兼容的。分解此武器可获得武器的 COR 版本。</entitydescription.compatibility_weapon>
+  <!--used in smg and machinepistol-->
+  <entityname.Hidden>隐藏的物品</entityname.Hidden>
+  <entitydescription.Hidden>用来隐藏的非游戏内显示物品</entitydescription.Hidden>
+  <interaction.activate>激活</interaction.activate>
+  <interaction.tlight>战术灯</interaction.tlight>
+  <interaction.tlight_toggle>战术灯（如果已装配）</interaction.tlight_toggle>
+  <interaction.next>下一页</interaction.next>
+  <interaction.remove>烧掉的书</interaction.remove>
+  <!--Blueprint-->
+  <entityname.corporalcoin>幸运硬币</entityname.corporalcoin>
+  <entitydescription.corporalcoin>投掷硬币以获得随机天赋</entitydescription.corporalcoin>
+  <entityname.blueprint_939>9x39口径弹药 蓝图</entityname.blueprint_939>
+  <entityname.blueprint_57>5.7x28口径弹药 蓝图</entityname.blueprint_57>
+  <entityname.blueprint_12>12号霰弹枪弹药 蓝图</entityname.blueprint_12>
+  <entityname.blueprint_44> .44 口径弹药 蓝图</entityname.blueprint_44>
+  <entityname.blueprint_45> .45 口径弹药 蓝图</entityname.blueprint_45>
+  <entityname.blueprint_38>.38 口径弹药 蓝图</entityname.blueprint_38>
+  <entityname.blueprint762>7.62x55口径弹药 蓝图</entityname.blueprint762>
+  <entityname.blueprint556>5.56x45口径弹药 蓝图</entityname.blueprint556>
+  <entityname.blueprint_kurz>7.62 Kurz口径弹药 蓝图</entityname.blueprint_kurz>
+  <entityname.blueprint919p>9x19口径弹药 蓝图</entityname.blueprint919p>
+  <entityname.blueprint_545>5.45x39口径弹药 蓝图</entityname.blueprint_545>
+  <entityname.blueprint_exo>DES-8军用外骨骼 蓝图</entityname.blueprint_exo>
+  <entityname.blueprint_melee>高级近战武器 蓝图</entityname.blueprint_melee>
+  <entityname.blueprint_g14>G-14K突击卡宾枪 蓝图</entityname.blueprint_g14>
+  <entityname.blueprint_ak>AK-32MSU佩伦 蓝图</entityname.blueprint_ak>
+  <entityname.blueprint_laser>LCM-301“小蟋蟀” 蓝图</entityname.blueprint_laser>
+  <entityname.blueprint_mg>M54链锯轻机枪 蓝图</entityname.blueprint_mg>
+  <entityname.blueprint_pistol>M19军制 蓝图</entityname.blueprint_pistol>
+  <entityname.blueprint_shotgun>塞伽A18蓝图</entityname.blueprint_shotgun>
+  <entityname.blueprint_rifle>DVL-16东道主 蓝图</entityname.blueprint_rifle>
+  <entityname.blueprint_pdw_9>CZE-900野人 蓝图</entityname.blueprint_pdw_9>
+  <entityname.blueprint_pdw>PDW-323E 蓝图</entityname.blueprint_pdw>
+  <entityname.blueprint_omni>超级蓝图</entityname.blueprint_omni>
+  <entitydescription.blueprint_omni>解锁全部COR配方</entitydescription.blueprint_omni>
+  <entityname.blueprint_cps>膛压稳定器 蓝图</entityname.blueprint_cps>
+  <entitydescription.blueprint_cps>使用后解锁军用加工台对应的膛压稳定器配方</entitydescription.blueprint_cps>
+  <!-- Turret Ammunition -->
+  <entityname.flakcannonammoboxstun>雷素破片弹药箱</entityname.flakcannonammoboxstun>
+  <entitydescription.flakcannonammoboxstun>一箱重型炮弹，每枚都装有雷素弹头，引爆时会产生震荡场。</entitydescription.flakcannonammoboxstun>
+  <entityname.flakcannonammoboxchemical>生化破片弹药箱</entityname.flakcannonammoboxchemical>
+  <entitydescription.flakcannonammoboxchemical>一箱装有硫酸的重型炮弹，爆炸时会产生一层酸性气体。</entitydescription.flakcannonammoboxchemical>
+  <entityname.flakcannonammoboxsolid>重型破片弹药箱</entityname.flakcannonammoboxsolid>
+  <entitydescription.flakcannonammoboxsolid>一箱不含任何炸药的重型弹。包含 33 枚炮弹，而不是 25 枚。</entitydescription.flakcannonammoboxsolid>
+  <entityname.chaingunammoboxstabilised>鳍型连射炮弹药箱</entityname.chaingunammoboxstabilised>
+  <entitydescription.chaingunammoboxstabilised>这些连射炮炮弹带有稳定鳍，因此精度和有效射程大大提升。</entitydescription.chaingunammoboxstabilised>
+  <entityname.dmindammobox>摄魂电磁枪弹药箱</entityname.dmindammobox>
+  <entitydescription.dmindammobox>一盒由摄魂矿制成的电磁枪子弹，弹头含有神经毒素，命中会造成摄魂毒剂中毒。</entitydescription.dmindammobox>
+  <entityname.chemicalammobox>生化电磁枪弹药箱</entityname.chemicalammobox>
+  <entitydescription.chemicalammobox>一盒装有硫酸的电磁枪弹药，子弹爆炸时会释放出一团致命的腐蚀性气体，可以烧穿任何目标的装甲和肉体。</entitydescription.chemicalammobox>
+  <entityname.piercinglaserbox>穿透激光物资箱</entityname.piercinglaserbox>
+  <entitydescription.piercinglaserbox>经过改进的透镜与更活跃的混合物形成了一种聚焦射线，能够在穿透船体和厚装甲的同时保持良好的威力。</entitydescription.piercinglaserbox>
+  <entityname.chaingunammobox_depletedfuel>贫化燃料连射炮弹药箱</entityname.chaingunammobox_depletedfuel>
+  <entitydescription.chaingunammobox_depletedfuel>一盒 20 毫米贫铀弹。可能是穿甲效果最好的连射炮弹药</entitydescription.chaingunammobox_depletedfuel>
+  <entityname.incendiaryammobox>爆燃电磁枪弹药箱</entityname.incendiaryammobox>
+  <entitydescription.incendiaryammobox>一盒重型电磁枪弹药，命中时会造成严重烧伤。如果在船体内部使用将会引起火灾。</entitydescription.incendiaryammobox>
+  <entityname.sulprailgunshell>生化轨道炮炮弹</entityname.sulprailgunshell>
+  <entitydescription.sulprailgunshell>这种轨道炮弹在爆炸时会释放出一团有毒的腐蚀性气体，灼烧内部的任何生命。内蕴的化学混合物在与船体和冰接触时则会发生剧烈反应。</entitydescription.sulprailgunshell>
+  <entityname.scatterammobox_coilgun>散射电磁枪弹药箱</entityname.scatterammobox_coilgun>
+  <entitydescription.scatterammobox_coilgun>这种炮弹在发射后会分裂成三个独立的弹头，对非装甲目标造成巨大伤害。</entitydescription.scatterammobox_coilgun>
+  <entityname.pulselaserminingammobox>采矿激光物资箱</entityname.pulselaserminingammobox>
+  <entitydescription.pulselaserminingammobox>这种混合物产生一串连续光束，击中后会导致明显的地质共振来将矿物从冰中分离出来，可以对船体和装甲造成巨大伤害。然而它对当地的野生动物没啥效果。</entitydescription.pulselaserminingammobox>
+  <entityname.unstablelaserbox>不稳定的激光物资箱</entityname.unstablelaserbox>
+  <entitydescription.unstablelaserbox>这种混合物中的成分反应难以预测。它通常会产生比普通激光稍弱的脉冲，但有 20% 左右的几率产生强大的能量爆炸，形成高出正常伤害 20% 的射线。R&amp;D 有人还声称，这种反应极有可能导致大量能量放电，使激光系统超负荷运转，造成三倍伤害。</entitydescription.unstablelaserbox>
+  <entityname.chaingunammoboxdementonite>摄魂连射炮弹药箱</entityname.chaingunammoboxdementonite>
+  <entitydescription.chaingunammoboxdementonite>一盒 20 毫米连射炮弹，弹头内装有固化的神经毒素，击中敌人后会使其迷失方向。不过，与标准子弹相比，它们的穿甲能力较弱。</entitydescription.chaingunammoboxdementonite>
+  <entityname.railgun_cartridge_shell>炸药轨道炮炮弹</entityname.railgun_cartridge_shell>
+  <entitydescription.railgun_cartridge_shell>这种轨道炮炮弹通过在内部装满炸药来提高速度。惊人的初速度可穿透装甲，但每次发射后都必须重新装填弹药。</entitydescription.railgun_cartridge_shell>
+  <entityname.apherailgunshell>穿甲轨道炮炮弹</entityname.apherailgunshell>
+  <entitydescription.apherailgunshell>这种炮弹具有重型装药，弹头拥有穿甲镀层。发射后会在穿透装甲后爆炸，造成巨大的内部伤害。</entitydescription.apherailgunshell>
+  <entityname.railgunshell_chitin>几丁质轨道炮炮弹</entityname.railgunshell_chitin>
+  <entitydescription.railgunshell_chitin>弹头由几丁质构成，刺穿敌人后会碎裂并产生大量的碎片。</entitydescription.railgunshell_chitin>
+  <entityname.emprailgunshell>EMP轨道炮炮弹</entityname.emprailgunshell>
+  <entitydescription.emprailgunshell>引爆时会产生巨大的电磁脉冲。可眩晕大型敌人并损坏敌方潜艇的电子设备。</entitydescription.emprailgunshell>
+  <entityname.pulselaserdischargeammobox>震波激光物资箱</entityname.pulselaserdischargeammobox>
+  <entitydescription.pulselaserdischargeammobox>这种独特的物资箱装将透镜换成了一个震荡波转换器。发射时，它会产生巨大的震荡脉冲，眩晕并伤害炮塔周围区域的敌人。</entitydescription.pulselaserdischargeammobox>
+  <entityname.pulselaserweldingammobox>焊接激光物资箱</entityname.pulselaserweldingammobox>
+  <entitydescription.pulselaserweldingammobox>这个物资箱将脉冲激光变成了一个大号焊枪。与普通脉冲激光相比，其伤害值要低一些。</entitydescription.pulselaserweldingammobox>
+  <entityname.jetammobox>喷射电磁枪弹药箱</entityname.jetammobox>
+  <entitydescription.jetammobox>每枚炮弹都由特殊弹头和鱼雷推进器组成。可有效打击快速移动或重型装甲目标。</entitydescription.jetammobox>
+  <entityname.fulguriumammobox>雷素电磁枪弹药箱</entityname.fulguriumammobox>
+  <entitydescription.fulguriumammobox>这些炮弹携带的雷素弹头能电晕命中的每一个敌人。</entitydescription.fulguriumammobox>
+  <entityname.coilgunammoboxpiercing_capped>电磁枪达姆穿甲弹药箱</entityname.coilgunammoboxpiercing_capped>
+  <entitydescription.coilgunammoboxpiercing_capped>这种带有达姆弹头的电磁枪穿甲弹药会在敌人体内分裂，造成更高的内伤。</entitydescription.coilgunammoboxpiercing_capped>
+  <entityname.coilgunammoboxflak>破片电磁枪弹药箱</entityname.coilgunammoboxflak>
+  <entitydescription.coilgunammoboxflak>这个弹药箱里装有大口径爆炸炮弹，每颗炮弹上都有一个简单的声纳雷管。发射后，它们不仅会在接触到任何物体时爆炸，而且在靠近任何物体时也会爆炸。</entitydescription.coilgunammoboxflak>
+  <entityname.chaingunammoboxexplosive>爆破连射炮弹药箱</entityname.chaingunammoboxexplosive>
+  <entitydescription.chaingunammoboxexplosive>一箱装有塑胶炸弹弹头的连射炮弹药盒。既能有效撕裂肉体目标，又能炸穿潜艇船体。</entitydescription.chaingunammoboxexplosive>
+  <entityname.chaingunammoboxscatter>散射连射炮弹药箱</entityname.chaingunammoboxscatter>
+  <entitydescription.chaingunammoboxscatter>炮弹发射后会碎裂。可有效对付成群的敌人或大型非装甲生物。</entitydescription.chaingunammoboxscatter>
+  <!-- Death -->
+  <causeofdeathdescription.dmind>死于摄魂中毒</causeofdeathdescription.dmind>
+  <self_causeofdeathdescription.dmind>你死于摄魂中毒。</self_causeofdeathdescription.dmind>
+  <!-- Weapons mods -->
+  <entityname.laser_t>战术激光指示器</entityname.laser_t>
+  <entitydescription.laser_t>一个红色激光指示器，可代替战术手电筒安装在枪支上。激活后可抵消瞄准时的减速效果。</entitydescription.laser_t>
+  <entityname.co_riflecoil>增压线圈</entityname.co_riflecoil>
+  <entitydescription.co_riflecoil>可安装在 .38、.44 和 7.62x55 枪械上。可以加速通过枪管的子弹，提高 30% 的伤害，但发射前需要一定的充能时间。</entitydescription.co_riflecoil>
+  <entityname.co_bolt>改良枪栓</entityname.co_bolt>
+  <entitydescription.co_bolt>可安装在枪栓/杠杆/枪机上。提高射速。</entitydescription.co_bolt>
+  <entityname.co_trigger>双动扳机</entityname.co_trigger>
+  <entitydescription.co_trigger>可安装在半自动左轮手枪上，大大提高射速。</entitydescription.co_trigger>
+  <entityname.co_boostercoil>榴弹枪管加速器</entityname.co_boostercoil>
+  <entitydescription.co_boostercoil>40 毫米榴弹发射器的配件。提高初速和直接伤害。</entitydescription.co_boostercoil>
+  <entityname.co_choke>霰弹枪锁喉器</entityname.co_choke>
+  <entitydescription.co_choke>用于使用12号弹头的霰弹枪。可减少弹丸扩散和准星扩散。不适用于独头弹丸。</entitydescription.co_choke>
+  <entityname.co_shootunderwater>膛压稳定器</entityname.co_shootunderwater>
+  <entitydescription.co_shootunderwater>一种复杂的枪管配件，可中和武器枪膛与外部环境之间的压差。允许以前无法进行水下射击的枪支进行水下射击，但会略微降低射速。要正确使用这个配件，首先需要在有正常压力的干燥环境中解除枪支卡壳，然后才能安装该系统，否则不会对枪支产生任何影响。</entitydescription.co_shootunderwater>
+  <entityname.medscanner_t>战术健康扫描仪</entityname.medscanner_t>
+  <entitydescription.medscanner_t>可以像战术手电筒一样安装在武器上的医用扫描仪。</entitydescription.medscanner_t>
+  <entityname.co_riflegrenade>步枪榴弹发射器</entityname.co_riflegrenade>
+  <entitydescription.co_riflegrenade>40 毫米榴弹发射装置，可安装在 5.45x39、5.56x45 和 9x39 突击步枪的枪管上。具有简单的扳机联动系统，可在枪支本身射击前发射（虽然实际上是同时激发）。</entitydescription.co_riflegrenade>
+  <entityname.thermalsight>热成像瞄准镜</entityname.thermalsight>
+  <entitydescription.thermalsight>安装好只要装备武器即可获得热成像效果。可安装在 7.62x55 步枪上。</entitydescription.thermalsight>
+  <entityname.flashlight_t>战术手电</entityname.flashlight_t>
+  <entitydescription.flashlight_t>加固过外壳的手电筒，可通过导轨安装在武器上。</entitydescription.flashlight_t>
+  <!--Attachable barrel module-->
+  <entityname.resistattachment>枪管模组(瞄准保护)</entityname.resistattachment>
+  <entitydescription.resistattachment>可安装在武器枪管前端的模组。瞄准时可减少 20% 的物理伤害。可安装在 7.62x55 枪械上。</entitydescription.resistattachment>
+  <entityname.accuraccyattachment>枪管模组(枪口稳定)</entityname.accuraccyattachment>
+  <entitydescription.accuraccyattachment>可安装在武器枪管前端的模组。可减少静止时的初始散布和后坐力。可安装在 7.62Kurz 和 .45 枪械上。</entitydescription.accuraccyattachment>
+  <entityname.critattachment>枪管模组(暴击子弹)</entityname.critattachment>
+  <entitydescription.critattachment>可安装在武器枪管前端的模组。使用该模组后，子弹有几率造成额外伤害。可安装在 9x19、7.62 Kurz、.38 和 5.7x28 枪械上。适用于任何弹药。</entitydescription.critattachment>
+  <entityname.sulpationattachment>枪管模组(酸液子弹)</entityname.sulpationattachment>
+  <entitydescription.sulpationattachment>可安装在武器枪管前端的模组。子弹在撞击物体表面或生物时，会产生一小团具有破坏性的腐蚀气体。可安装在 5.45、5.56 和 9x39 突击步枪上。不适用于引导弹药和燃料弹药。</entitydescription.sulpationattachment>
+  <entityname.fireattachment>枪管模组(地狱之火)</entityname.fireattachment>
+  <entitydescription.fireattachment>可安装在武器枪管前端的模组。可安装在霰弹枪上，仅对标准和非致命霰弹有效。弹丸会点燃目标长达 15 秒，期间目标持续受到伤害。</entitydescription.fireattachment>
+  <entityname.shockattachment>枪管模组(电磁脉冲)</entityname.shockattachment>
+  <entitydescription.shockattachment>可安装在武器枪管前端的模组。可附加到 9x19、.45、7.62 Kurz 和 5.7x28 枪械上。爆炸弹、贫化燃料弹和分裂弹等特殊弹药不会从该模组中获得额外效果。</entitydescription.shockattachment>
+  <entityname.radiationattachment>枪管模组(伽马射线)</entityname.radiationattachment>
+  <entitydescription.radiationattachment>可安装在武器枪管前端的模组。该模组会让子弹在撞击时会对目标产生微小的减速和辐射爆炸。可安装在任何武器上，但仅适用于标准弹药、燃烧弹、空尖弹、智能弹、亚音速弹、增量火药弹、穿甲弹和轻型弹药。</entitydescription.radiationattachment>
+  <!--Barrel extension-->
+  <entityname.kurz_extender>加长枪管(7,62 Kurz)</entityname.kurz_extender>
+  <entityname.57_extender>加长枪管(5.7)</entityname.57_extender>
+  <entityname.38_extender>加长枪管(.38)</entityname.38_extender>
+  <entityname.939_extender>加长枪管(9x39)</entityname.939_extender>
+  <entityname.44_extender>加长枪管(.44)</entityname.44_extender>
+  <entityname.45_extender>加长枪管(.45)</entityname.45_extender>
+  <entityname.919_extender>加长枪管(9x19)</entityname.919_extender>
+  <entityname.545_extender>加长枪管(5.45)</entityname.545_extender>
+  <entityname.556_extender>加长枪管(5.56)</entityname.556_extender>
+  <!--Compensator-->
+  <entityname.939_compensator>枪口补偿器(9x39)</entityname.939_compensator>
+  <entityname.kurz_compensator>枪口补偿器(7.62 Kurz)</entityname.kurz_compensator>
+  <entityname.57_compensator>枪口补偿器(5.7)</entityname.57_compensator>
+  <entityname.38_compensator>枪口补偿器(.38)</entityname.38_compensator>
+  <entityname.44_compensator>枪口补偿器(.44)</entityname.44_compensator>
+  <entityname.45_compensator>枪口补偿器(.45)</entityname.45_compensator>
+  <entityname.9x19_compensator>枪口补偿器(9x19)</entityname.9x19_compensator>
+  <entityname.545_compensator>枪口补偿器(5.45)</entityname.545_compensator>
+  <entityname.556_compensator>枪口补偿器(5.56)</entityname.556_compensator>
+  <!--Suppressor-->
+  <entityname.939_suppressor>消音器(9x39)</entityname.939_suppressor>
+  <entityname.12_suppressor>消音器(12g)</entityname.12_suppressor>
+  <entityname.57_suppressor>消音器(5.7)</entityname.57_suppressor>
+  <entityname.45_suppressor>消音器(.45)</entityname.45_suppressor>
+  <entityname.38_suppressor>消音器(.38)</entityname.38_suppressor>
+  <entityname.44_suppressor>消音器(.44)</entityname.44_suppressor>
+  <entityname.556_suppressor>消音器(5.56)</entityname.556_suppressor>
+  <entityname.9x19_suppressor>消音器(9x19)</entityname.9x19_suppressor>
+  <entityname.545_suppressor>消音器(5.45)</entityname.545_suppressor>
+  <!--Misc-->
+  <entityname.gunpowder>火药</entityname.gunpowder>
+  <entitydescription.gunpowder>一种挥发性爆炸混合物，通常用于制造弹药。</entitydescription.gunpowder>
+  <entityname.skillbookscst>穿甲-燃烧之卷</entityname.skillbookscst>
+  <entitydescription.skillbookscst>……然后他开始哭泣： 这是欧洲，不是欧罗巴！于是他们便独自开始完成他们的使命... </entitydescription.skillbookscst>
+  <M12>M12："我们什么时候再来一次水桶大战？“\n\n 信息发送失败</M12>
+  <govno>战斗工程师 "你他娘的在潜艇上加了什么几把东西？"\n\n 这踏马的为啥潜艇里在播动漫?</govno>
+  <!-- Mission descriptions -->
+  <missionname.abandonedoutposthumans-merc>非法雇佣</missionname.abandonedoutposthumans-merc>
+  <missiondescription.abandonedoutposthumans-merc>在这个废弃的前哨战点上发现了一群非法的雇佣兵。摧毁前哨战点的反应堆，确保将他们一网打尽！</missiondescription.abandonedoutposthumans-merc>
+  <missionname.abandonedoutposthumans_rebel>叛乱前哨</missionname.abandonedoutposthumans_rebel>
+  <missiondescription.abandonedoutposthumans_rebel>一个前哨战点在失去联系后被确认为已被叛乱分子占领。消灭叛乱分子并摧毁前哨战点的反应堆，确保他们再也不会回来</missiondescription.abandonedoutposthumans_rebel>
+  <!-- Mission infomation -->
+  <missionname.escorthonkfather>护送小丑之父</missionname.escorthonkfather>
+  <missiondescription.escorthonkfather>一个自称是 "小丑之父 "的神秘小丑要求我们护送他到一个地方，并愿意拿出他的一套服装和一些钱来作为报酬。</missiondescription.escorthonkfather>
+  <!--
+			<textidentifier="test">
+			<message header="missionheader0.test" text="missionmessage0.test"/>
+		-->
+  <!-- Mission dialog -->
+  <eventtext.honkfather1.low>一个小丑边走边用对着大厅指手画脚，当他们看到你时，他们问你： "你知道小丑圣母其实是什么吗？"</eventtext.honkfather1.low>
+  <eventtext.honkfather1.low.o1>"她是个无名之人"</eventtext.honkfather1.low.o1>
+  <eventtext.honkfather1.low.o1.c1>"你已见过我们的欢乐之柱。我愿意让你知晓发生在我身上的事"</eventtext.honkfather1.low.o1.c1>
+  <eventtext.honkfather1.low.o2>"她即是舞台"</eventtext.honkfather1.low.o2>
+  <eventtext.honkfather1.low.o3>"她是那气球内的空虚"</eventtext.honkfather1.low.o3>
+  <eventtext.honkfather1.low.o2.c1>"你也许应该倒掉圣杯里的陈酒"</eventtext.honkfather1.low.o2.c1>
+  <eventtext.honkfather1.c1>一个小丑边走边用对着大厅指手画脚，当他们看到你时，面具下的眼睛就亮了起来："你也是我们的一员对吧？"</eventtext.honkfather1.c1>
+  <eventtext.honkfather1.o1>"我是哥哥，你在干什么？"</eventtext.honkfather1.o1>
+  <eventtext.honkfather1.o1.c1>"我在等其他几个小丑 但他们因为用玩具锤敲人被捕了 我们本该去另一个站点，但现在我们被困在了一个很不受欢迎的地方。" 你无法判断小丑是否在看你，但你感觉到他们与你的目光接触不会超过几秒钟。</eventtext.honkfather1.o1.c1>
+  <eventtext.honkfather1.takeonboard>接受孤独的小丑</eventtext.honkfather1.takeonboard>
+  <eventtext.honkfather1.great>"太好了！"他们惊呼道。”我去拿我的东西！" 真是个快乐的小丑。希望他们不会惹出太多麻烦。</eventtext.honkfather1.great>
+  <eventtext.honkfather.refuse>"我其实不怎么喜欢小丑"</eventtext.honkfather.refuse>
+  <eventtext.honkfather.ignore>"很抱歉，这身衣服是我偷来的"</eventtext.honkfather.ignore>
+  <eventtext.honkfather.ignore.c2>小丑长长地叹了一口气。</eventtext.honkfather.ignore.c2>
+  <eventtext.honkfather2.c1>你正在检查潜艇时，在站点与你交谈的人从一个船舱里探出头来，他们微微掀起面罩，脸上露出灿烂的笑容。"准备好见我们的愚者了吗？" 你还没来得及回答，一个穿着极其古怪的小丑服的怪老头从箱子里爬了出来。</eventtext.honkfather2.c1>
+  <eventtext.honkfather2.o1>你惊讶地后退一步</eventtext.honkfather2.o1>
+  <eventtext.honkfather2.o1.c1>"卧槽？！" 你惊叫道。 "别担心，哥们，他虽然有点奇怪，但其实很平和的。" 小丑一边说，一边微微歪着头。</eventtext.honkfather2.o1.c1>
+  <eventtext.honkfather2.music> 小丑之父一直在放音乐，但拒绝与人对话。</eventtext.honkfather2.music>
+  <!--textidentifier="test"-->
+  <!--<message header="missionheader0.test" text="missionmessage0.test"/>-->
+  <!--Outfits-->
+  <entityname.co_headset_protective>战术耳机</entityname.co_headset_protective>
+  <entitydescription.co_headset_protective>标准耳机的轻微改良版，带有用于安装照明灯等部件的导轨。</entitydescription.co_headset_protective>
+  <entityname.militaryclothes_separatist>叛军战斗服装</entityname.militaryclothes_separatist>
+  <entitydescription.militaryclothes_separatist>主要由低阶分离主义军官和分离主义战地指挥官使用的坚固服装。它能提供一定程度的物理防护，但与装甲更厚重的装备相比就逊色多了。配有战术口袋，可放置药品和弹药。</entitydescription.militaryclothes_separatist>
+  <entityname.militaryclothes_eng>维修人员服装</entityname.militaryclothes_eng>
+  <entitydescription.militaryclothes_eng>专为战场工程师设计的防护服。虽然穿起来可能不太舒服，但其装甲足以阻挡手枪口径的子弹或防止小型生物咬穿</entitydescription.militaryclothes_eng>
+  <entityname.militaryclothes_medic>战地医生制服</entityname.militaryclothes_medic>
+  <entitydescription.militaryclothes_medic>一套坚固耐用的服装，专为在战斗中保护医务人员而设计。与普通医疗服不同的是，它带有额外的弹药袋。</entitydescription.militaryclothes_medic>
+  <entityname.ballistichelmet_bandit_balaklava>覆盖式战斗头盔</entityname.ballistichelmet_bandit_balaklava>
+  <entitydescription.ballistichelmet_bandit_balaklava>重型防弹头盔，用钢板加固。可有效抵御小口径枪械、咬伤和砍伤。</entitydescription.ballistichelmet_bandit_balaklava>
+  <entityname.light_tachelm>战术观测头盔</entityname.light_tachelm>
+  <entitydescription.light_tachelm>防弹头盔，配有全套战术 AAS 传感器和面罩。与 AAS 接口本身一样，可提高佩戴者在远程作战中的表现。</entitydescription.light_tachelm>
+  <entityname.co_riotarmor>重型防爆装甲</entityname.co_riotarmor>
+  <entitydescription.co_riotarmor>这套重型电镀装甲可为躯干提供全面的保护。主要用于联盟防暴成员，可有效抵御烧伤、爆炸、撕裂伤以及镇压叛乱时可能遇到的其他威胁。</entitydescription.co_riotarmor>
+  <entityname.co_bodyarmor_improvised>简易防弹衣</entityname.co_bodyarmor_improvised>
+  <entitydescription.co_bodyarmor_improvised>简单的防弹背心，仅用于保护穿戴者躯干最重要的部位。它由金属板和几根带子组成，就其成本而言，能提供不错的保护。</entitydescription.co_bodyarmor_improvised>
+  <entityname.divingsuit_improvisedarmor>简易装甲潜水服</entityname.divingsuit_improvisedarmor>
+  <entitydescription.divingsuit_improvisedarmor>用装甲碎片临时加固的潜水服。能更好地抵御物理伤害，但会严重降低穿戴者的行动能力</entitydescription.divingsuit_improvisedarmor>
+  <entityname.militaryclothes_clown>战斗小丑之服（CCC）</entityname.militaryclothes_clown>
+  <entitydescription.militaryclothes_clown>一切都无法阻挡你带来的快乐、破坏、破坏的快乐和快乐的破坏。</entitydescription.militaryclothes_clown>
+  <entityname.clowndivingmaskunique>母亲的面容</entityname.clowndivingmaskunique>
+  <entitydescription.clowndivingmaskunique>在母亲的注视下，一切都无所遁形。</entitydescription.clowndivingmaskunique>
+  <entityname.militaryclothes_weak>海军陆战队制式服装</entityname.militaryclothes_weak>
+  <entitydescription.militaryclothes_weak>这是一套专为水下作战行动设计的耐用服装。可提供一定程度的保护，并有一些备用口袋，可放置弹药和药品。</entitydescription.militaryclothes_weak>
+  <entityname.ballistichelmet_bandit_alt3>轻型防弹头盔（备选）</entityname.ballistichelmet_bandit_alt3>
+  <entitydescription.ballistichelmet_bandit_alt3>轻型头盔，设计用于保护潜艇人员免受碎片和弹片的伤害。对枪支的防护能力很低。</entitydescription.ballistichelmet_bandit_alt3>
+  <entityname.ballistichelmet_bandit_alt2>战斗头盔（护目镜）</entityname.ballistichelmet_bandit_alt2>
+  <entitydescription.ballistichelmet_bandit_alt2>重型防弹头盔，用钢板加固。可有效抵御低口径枪械、咬伤和砍伤。</entitydescription.ballistichelmet_bandit_alt2>
+  <entityname.ballistichelmet_bandit_alt>战斗头盔</entityname.ballistichelmet_bandit_alt>
+  <entitydescription.ballistichelmet_bandit_alt>重型防弹头盔，用钢板加固。可有效抵御低口径枪械、咬伤和砍伤。</entitydescription.ballistichelmet_bandit_alt>
+  <entityname.tachelm_alt>战术防弹头盔</entityname.tachelm_alt>
+  <entitydescription.tachelm_alt>带面罩的坚固头盔，由硬塑料和防弹纤维制成。可以很好地防止咬伤和弹片，甚至能挡住一两颗子弹。</entitydescription.tachelm_alt>
+  <entityname.maidoutfit>女仆服装</entityname.maidoutfit>
+  <entitydescription.maidoutfit>先缴枪，再清场。</entitydescription.maidoutfit>
+  <entityname.militaryclothes>军装</entityname.militaryclothes>
+  <entitydescription.militaryclothes>坚固的大衣，使用凯夫拉纤维和轻金属板加固，配有战术口袋，可放置小件物品。可提供良好的防弹保护。</entitydescription.militaryclothes>
+  <entityname.militaryclothes2>蜂群外衣</entityname.militaryclothes2>
+  <entitydescription.militaryclothes2>厚重、坚固的外衣，专为防止咬伤和撕裂伤而设计。采用轻型钛板和凯夫拉纤维缠绕加固。</entitydescription.militaryclothes2>
+  <entityname.banditclothes3>彪悍的土匪装束</entityname.banditclothes3>
+  <entitydescription.banditclothes3>自制的防护服，用弯曲的金属片和多层坚韧的纤维加固。</entitydescription.banditclothes3>
+  <entityname.ballistichelmet_bandit>轻型防弹头盔</entityname.ballistichelmet_bandit>
+  <entitydescription.ballistichelmet_bandit>轻型头盔，设计用于保护潜艇人员免受碎片和弹片的伤害。对枪支的防护能力有限。</entitydescription.ballistichelmet_bandit>
+  <entityname.tacticalhelmet>战术头盔</entityname.tacticalhelmet>
+  <entitydescription.tacticalhelmet>重型防弹头盔，专为执行特殊任务的人员设计。头盔上的刚素板可有效抵御枪支、咬伤和爆炸物。</entitydescription.tacticalhelmet>
+  <entityname.bodyarmor_m>军用防弹衣</entityname.bodyarmor_m>
+  <entitydescription.bodyarmor_m>专为军事用途设计的重型防弹背心。有一些战术口袋和多层插板。</entitydescription.bodyarmor_m>
+  <entityname.nvg>夜视仪</entityname.nvg>
+  <entitydescription.nvg>简单的夜视仪。别指望它多么牛逼，但它至少能在一定程度上让你在黑暗中没那么瞎。</entitydescription.nvg>
+  <!--exoskeleton-->
+  <entityname.exoskeleton_unarmored>DES-5 外骨骼框架</entityname.exoskeleton_unarmored>
+  <entitydescription.exoskeleton_unarmored>由电池供电的民用轻型外骨骼框架。可大大增强操作人员的体力和抗水流能力。</entitydescription.exoskeleton_unarmored>
+  <entityname.exoskeleton>DES-8 军用外骨骼</entityname.exoskeleton>
+  <entitydescription.exoskeleton>重型坚固的防护装备，利用双层外骨骼让操作员穿着这种盔甲四处走动。框架使用电池供电。提供令人难以置信的防护，可抵御枪械、咬伤、弹片、钝器和爆炸。大量增加操作员的体力，但让枪械的使用变的较为困难。</entitydescription.exoskeleton>
+  <entityname.exoskeleton2>DES-12 军用潜水外骨骼</entityname.exoskeleton2>
+  <entitydescription.exoskeleton2>重型坚固的防护装备，利用双层外骨骼让操作员穿着这种盔甲四处走动。框架使用电池供电。提供令人难以置信的防护，可抵御枪械、咬伤、弹片、钝器和爆炸。大量增加操作员的体力。但让枪械的使用变的较为困难。这个类型的外骨骼增加了全身压力保护。</entitydescription.exoskeleton2>
+  <entityname.exoskeleton3>DES-15 射手外骨骼</entityname.exoskeleton3>
+  <entitydescription.exoskeleton3>对标准 DES-12 外骨骼的深度改装，使外骨骼可以更好的使用枪械的同时保留了较高的作战机动性。虽然对物理伤害的整体防护能力有所下降，但在水上和陆地交火时，这套防护服都能提供巨大的优势。有一个可放置任何武器的武器插槽。</entitydescription.exoskeleton3>
+  <entityname.exoskeleton4>DES-10 侦察兵外骨骼</entityname.exoskeleton4>
+  <entitydescription.exoskeleton4>潜水外骨骼的轻装版本，相比于原版更侧重于探索和侦察行动，为穿戴者提供更大的机动性。集成了机载声纳和扫描复合装置。</entitydescription.exoskeleton4>
+  <!-- Craftables -->
+  <talentname.kurz_craft>你现在可以制作 7.62 Kurz 弹药了！</talentname.kurz_craft>
+  <talentname.57_craft>你现在可以制作 5.7x28 弹药了！</talentname.57_craft>
+  <talentname.939_craft>你现在可以制作 9x39 弹药了！</talentname.939_craft>
+  <talentname.12_craft>你现在可以制作12号霰弹枪弹药了！</talentname.12_craft>
+  <talentname.44_craft>你现在可以制作 .44 弹药了!</talentname.44_craft>
+  <talentname.38_craft>你现在可以制作 .38 弹药了!</talentname.38_craft>
+  <talentname.5.45_craft>你现在可以制作 5.45x39 弹药了!</talentname.5.45_craft>
+  <talentname.9x19_craft>你现在可以制作 9x19 弹药了!</talentname.9x19_craft>
+  <talentname.45_craft>你现在可以制作 .45 弹药了!</talentname.45_craft>
+  <talentname.556_craft>你现在可以制作 5.56x45 弹药了!</talentname.556_craft>
+  <talentname.pdw_craft>你现在可以制作PDW-323E 冲锋枪了!</talentname.pdw_craft>
+  <talentname.pdw9_craft>你现在可以制作 CZE-900野人 冲锋枪了!</talentname.pdw9_craft>
+  <talentname.762_craft>你现在可以制作 7.62x55 弹药了!</talentname.762_craft>
+  <talentname.rifle_craft>你现在可以制作 DVL-16东道主步枪了!</talentname.rifle_craft>
+  <talentname.shotgun_craft>你现在可以制作: Saiga A18了</talentname.shotgun_craft>
+  <talentname.pistol_craft>你现在可以制作 M19军制手枪了</talentname.pistol_craft>
+  <talentname.exo_craft>你现在可以制作 DES-8 军用外骨骼了!</talentname.exo_craft>
+  <talentname.mg_craft>你现在可以制作 M54轻机枪了!</talentname.mg_craft>
+  <talentname.laser_craft>你现在可以制作 LCM-301小蟋蟀激光枪了!</talentname.laser_craft>
+  <talentname.ak_craft>你现在可以制作 AK-32MSU佩伦步枪了!</talentname.ak_craft>
+  <talentname.ar556_craft>你现在可以制作 G-14K突击卡宾枪了!</talentname.ar556_craft>
+  <talentname.melee_craft>你现在可以制作先进近战武器了!</talentname.melee_craft>
+  <talentname.cps_craft>你现在可以制作膛压稳定器了!</talentname.cps_craft>
+  <talentname.omni_craft>你现在可以制作所有的COR物品了！</talentname.omni_craft>
+  <!-- Weapons -->
+  <entityname.co_fraggrenade>改良型破片手雷</entityname.co_fraggrenade>
+  <entitydescription.co_fraggrenade>标准破片手雷的改良版本，缩短了引信延迟时间。有效装药保持不变，但增加了一个新的抛射棒来增加抛射力，同时使手榴弹具有中性浮力。</entitydescription.co_fraggrenade>
+  <entityname.co_aps>“跳弹”主动保护系统</entityname.co_aps>
+  <entitydescription.co_aps>紧凑型 APS（主动防御系统） 套件，可为佩戴者提供 360 度全方位保护。高频红外激光可击落来袭威胁，被动雷达可识别来袭威胁。可轻松拦截鱼叉、电磁枪炮弹、旋转尖刺、40 毫米口径枪弹和可投掷手榴弹，但难以拦截更大、移动更快的目标（如轨道炮弹、自导炮弹、改进型易碎榴弹、连射炮或穿透型电磁枪炮弹）。由于某种显而易见的原因，它不能在近距离使用，但并不限制佩戴者使用可偏转的弹药。</entitydescription.co_aps>
+  <entityname.40mmgrenadeguided>40mm引导榴弹</entityname.40mmgrenadeguided>
+  <entitydescription.40mmgrenadeguided>一种 40 毫米榴弹，带有热追踪和小型鱼雷引擎。在水下发射时，会落到距离最近的非人类敌人身上。</entitydescription.40mmgrenadeguided>
+  <entityname.co_remotedet>远程引爆器</entityname.co_remotedet>
+  <entitydescription.co_remotedet>用于战斗炸药的遥控引爆器。射程为 8000 单位。一次引爆所有装药。</entitydescription.co_remotedet>
+  <entityname.co_c4charge>C-4战斗炸药</entityname.co_c4charge>
+  <entitydescription.co_c4charge>专为破坏行动设计的多用途军用炸药。可以固定在墙上或者随便丢在某个角落。如果安装在墙上，可使用与标准雷管接线相同的方法接线，在收到任何信号时引爆。如果安全或定时模式关闭（默认情况下），则可通过远程引爆器进行远距离引爆。按下重置按钮可关闭安全和定时模式。无法在背包里或任何其他容器中触发。如果安全模式处于激活状态，远程引爆器不会对装药产生任何影响，但通过线路直连接收到的信号仍会触发引爆。</entitydescription.co_c4charge>
+  <entityname.aimaasist>AAS战术面罩</entityname.aimaasist>
+  <entitydescription.aimaasist>一种复杂的战术面罩系统，通过计算子弹弹道和突出重要目标来协助操作员进行交火。大大提高了佩戴者的作战能力。</entitydescription.aimaasist>
+  <entityname.guidedgrenade>RRG-85制导手雷</entityname.guidedgrenade>
+  <entitydescription.guidedgrenade>与其说它是手榴弹，倒不如说它是鱼雷，能通过水中的热量轨迹寻找敌人。半秒启动时间，然后飞向更近的非人类目标，接近时爆炸。可在船体内把它当冲击手榴弹来用。</entitydescription.guidedgrenade>
+  <entityname.proximitymine_50_monster>50mm怪物感应地雷</entityname.proximitymine_50_monster>
+  <entitydescription.proximitymine_50_monster>发射后会粘附在任何表面甚至生物身上，稍作延迟后会作为近距离地雷工作，如果有任何东西靠近就会引爆。黏附一分钟后自动解除。对任何非人类敌对生物都会感应。</entitydescription.proximitymine_50_monster>
+  <entityname.proximitymine_50>50mm多用途感应地雷</entityname.proximitymine_50>
+  <entitydescription.proximitymine_50>发射后会粘附在任何表面甚至生物身上，稍作延迟后会作为近距离地雷工作，如果有任何东西靠近就会引爆。粘附一分钟后自动解除。对所有生物都会感应。</entitydescription.proximitymine_50>
+  <entityname.infiniterifle>CKL-X爆裂卡宾枪</entityname.infiniterifle>
+  <entitydescription.infiniterifle>一把等离子卡宾枪，似乎由一种神秘的能量晶体驱动。枪托上的标志表明它是在被称作”Hellgrat“的武器工厂生产的，但你很怀疑木卫二上是否真的有这样的地方存在。</entitydescription.infiniterifle>
+  <entityname.40mmgrenadeincendiary_co>40mm燃素榴弹</entityname.40mmgrenadeincendiary_co>
+  <entitydescription.40mmgrenadeincendiary_co>威力强大的 40 毫米榴弹，内装挥发性爆炸化合物。爆炸时会产生巨大的冲击波，并使周围的一切物体着火。</entitydescription.40mmgrenadeincendiary_co>
+  <entityname.co_ammobox_disp>一次性弹药盒</entityname.co_ammobox_disp>
+  <entitydescription.co_ammobox_disp>用来运送弹药的特殊容器。由易碎的聚酰亚胺制成，可被轻松破坏。</entitydescription.co_ammobox_disp>
+  <entityname.powersword>E832电弧剑</entityname.powersword>
+  <entitydescription.powersword>一种原型能量武器，击中任何生物目标时都会大量放电。成功放电后，会有 4 秒钟的短暂冷却时间。</entitydescription.powersword>
+  <entityname.crossbowboltpoison>剧毒弩箭</entityname.crossbowboltpoison>
+  <entitydescription.crossbowboltpoison>这种弩箭的作用类似于化学弩箭，但这种弩箭不会释放腐蚀性气体，而是产生一团化合物来使目标易伤。</entitydescription.crossbowboltpoison>
+  <entityname.concussion_round>震撼弹</entityname.concussion_round>
+  <entitydescription.concussion_round>一种特殊的 11.5x24 子弹，火药装药量低，使用非致命性爆炸子弹。开发这种子弹是为了快速”安抚“那些用电击棒和眩晕警棍都不足以解决问题的人。</entitydescription.concussion_round>
+  <entityname.concussion_carbine>XA-20震撼卡宾枪</entityname.concussion_carbine>
+  <entitydescription.concussion_carbine>非致命的 11.5x24 转轮步枪，枪鼓除了把这把枪砸开以外无法通过正常手段拆卸。联盟警察常用它作为防暴武器，可迷惑目标，但只会造成轻伤。</entitydescription.concussion_carbine>
+  <entityname.accuraccystim>鹰眼兴奋剂</entityname.accuraccystim>
+  <entitydescription.accuraccystim>它是一种战斗兴奋剂，能增强你的反应能力，降低你的心跳，消除最微小的手部颤动，大大提高远程攻击的准确性。</entitydescription.accuraccystim>
+  <entityname.crossbowboltshock>震撼弩箭</entityname.crossbowboltshock>
+  <entitydescription.crossbowboltshock>这种弩箭的弹头在撞击时会触发震撼效果，使大型生物减速，小型生物完全动弹不得。</entitydescription.crossbowboltshock>
+  <entityname.crossbowboltchem>生化弩箭</entityname.crossbowboltchem>
+  <entitydescription.crossbowboltchem>一种特殊的弩箭，内部装有一管酸液，一旦命中就会破裂，释放出一团致命的雾气，烧穿盔甲和躲在盔甲里的东西。</entitydescription.crossbowboltchem>
+  <entityname.crossbowboltlight>照明弩箭</entityname.crossbowboltlight>
+  <entitydescription.crossbowboltlight>一种特殊弩箭弹药，撞击时会产生强烈的光源。在洞穴和沉船中非常有用，能轻松照亮大片区域，但与普通照明弹不同的是，它不能用来诱捕敌对生物。</entitydescription.crossbowboltlight>
+  <entityname.crossbowboltexplosive>破墙弩箭</entityname.crossbowboltexplosive>
+  <entitydescription.crossbowboltexplosive>箭头装载了锥形炸药，非常适合炸开舱门和穿透潜艇外壳，但对肉体目标无效。</entitydescription.crossbowboltexplosive>
+  <entityname.co_crossbow>尼山卡X-14军用十字弩</entityname.co_crossbow>
+  <entitydescription.co_crossbow>一种可以发射鱼叉和弩箭的发射装置。它可能不是一种有效的武器，但拥有一些独特的功能选项，可以在战斗或探索过程中提供帮助。</entitydescription.co_crossbow>
+  <entityname.pocketflamer>Osa-L袖珍蒸汽炮</entityname.pocketflamer>
+  <entitydescription.pocketflamer>轻巧的蒸汽大炮几乎可以装进任何容器——包括你的口袋里。别看它好像不起眼，但玩具一般的迷惑外表下仍然是一种致命武器，关键时刻可能会救你一命。只有浸没在水中时才能使用。</entitydescription.pocketflamer>
+  <entityname.nucleargun_alt>ARG-21手持线圈炮</entityname.nucleargun_alt>
+  <entitydescription.nucleargun_alt>一种利用磁场加速 8x45 毫米雷素钢针的原型武器。使用自带的弹夹，在水中和空气中都能发挥完美性能。</entitydescription.nucleargun_alt>
+  <entityname.proximityminelauncher>近距离地雷布雷器</entityname.proximityminelauncher>
+  <entitydescription.proximityminelauncher>用于发射50mm粘性地雷的发射装置。装置上有一个可远程引爆大半径范围内的所有武装地雷的按钮。适用于伏击和防御行动。</entitydescription.proximityminelauncher>
+  <entityname.pyrogenrifle>X-129热能步枪</entityname.pyrogenrifle>
+  <entitydescription.pyrogenrifle>严格来说，这玩意甚至不是步枪，而是一种磁轨炮，能将高热等离子体向前推进。它使用高挥发性的热能罐，将罐内气体电离并高速发射。武器在持续发射时会迅速过热导致严重烧伤，甚至武器本身也可能爆炸。</entitydescription.pyrogenrifle>
+  <entityname.pyrogentank>热能罐</entityname.pyrogentank>
+  <entitydescription.pyrogentank>一种挥发性混合物，用作 X-129 热能步枪的弹药。使用时会产生短暂的过热等离子爆炸，威力堪比军用手榴弹。</entitydescription.pyrogentank>
+  <entityname.flamer_co>HHFC-105火球炮</entityname.flamer_co>
+  <entitydescription.flamer_co>一个自制简易发射管，一个装满燃素的燃料罐。搓合在一起，一个火球炮就诞生了。安全问题？去他妈的，还要什么自行车？</entitydescription.flamer_co>
+  <entityname.co_bulletpouch_large>加长子弹袋</entityname.co_bulletpouch_large>
+  <entitydescription.co_bulletpouch_large>可以更方便地储存和取用子弹的袋子。</entitydescription.co_bulletpouch_large>
+  <entityname.co_magazinepouch_large>加长弹匣袋</entityname.co_magazinepouch_large>
+  <entitydescription.co_magazinepouch_large>可以更方便的储存和取用弹匣</entitydescription.co_magazinepouch_large>
+  <entityname.sturmfaust>SfZ-12铁拳</entityname.sturmfaust>
+  <entitydescription.sturmfaust>使用 90 毫米高爆火箭弹的一次性发射装置。对门、重型装甲、路障和潜艇外壳有效。记得小心扑面而来的冲击波。</entitydescription.sturmfaust>
+  <entityname.co_bulletpouch>子弹袋</entityname.co_bulletpouch>
+  <entitydescription.co_bulletpouch>让你可以方便的存放和取用各类弹药。</entitydescription.co_bulletpouch>
+  <entityname.co_magazinepouch>弹匣袋</entityname.co_magazinepouch>
+  <entitydescription.co_magazinepouch>让你可以方便的存放和取用各个弹匣</entitydescription.co_magazinepouch>
+  <entityname.co_militaryfabricator>军用加工台</entityname.co_militaryfabricator>
+  <entitydescription.co_militaryfabricator>普通加工台的重型版本，用于生产军事装备、武器和弹药。耗电量明显增加。可使用撬棍拆卸。在潜艇或前哨战点内瞄准并按下 E 键即可安装。</entitydescription.co_militaryfabricator>
+  <entityname.co_ammobox>弹药盒</entityname.co_ammobox>
+  <entitydescription.co_ammobox>一个专门用于装弹药的笨重金属箱。</entitydescription.co_ammobox>
+  <entityname.flaksuit>防破片背心</entityname.flaksuit>
+  <entitydescription.flaksuit>由防弹纤维和轻金属板制成的坚固外衣，旨在保护使用者免受弹片、烧伤和爆炸的伤害。可轻易被大多数口径的子弹穿透或被生物咬穿。</entitydescription.flaksuit>
+  <entityname.divingknife_thermal>E750热能刀</entityname.divingknife_thermal>
+  <entitydescription.divingknife_thermal>重型军刀，利用高温来增加伤害。必须使用电池供电才能充分发挥功能，使用雷素电池可使刀刃温度更高。</entitydescription.divingknife_thermal>
+  <entityname.co_iceax>M10冰镐</entityname.co_iceax>
+  <entitydescription.co_iceax>设计用于切割冰块和石头的重型工具，或者在某些情况下用于切割潜艇船体。可代替等离子切割器来收集资源或者强制开门。</entitydescription.co_iceax>
+  <entityname.co_mace>M16H战锤</entityname.co_mace>
+  <entitydescription.co_mace>沉重、方正的钝金属战锤，挥舞速度慢但力度出奇的大。</entitydescription.co_mace>
+  <entityname.divingknife_m>M5战斗小刀</entityname.divingknife_m>
+  <entitydescription.divingknife_m>专门用来对付木卫二各种动物的轻型小刀，同时也是便捷的求生工具。在走投无路的时候它可能会救你一命。</entitydescription.divingknife_m>
+  <entityname.grozacase>OTSE-GK枪膛套件</entityname.grozacase>
+  <entitydescription.grozacase>一套供加工台使用的工具和武器套件。用于重新设计OTSE 步枪的膛压来使其可以使用5.45x39或者9x39子弹。</entitydescription.grozacase>
+  <entityname.laser_magazine_co>激光电池阵列</entityname.laser_magazine_co>
+  <entitydescription.laser_magazine_co>专为 LCM-301 激光枪设计的强大电容器。可作为普通动力电池使用和充电，其效率等同于雷素电池。</entitydescription.laser_magazine_co>
+  <entityname.lasergun_co>LCM-301“小蟋蟀”激光步枪</entityname.lasergun_co>
+  <entitydescription.lasergun_co>独特的武器，利用短促而强大的激光爆发。与同类产品不同的是，这种激光器不需要任何化学混合物，只需要可靠的电源，如自带的电池阵列。因其发射声音奇特而得名。</entitydescription.lasergun_co>
+  <entityname.balaklava>巴拉克拉瓦面罩</entityname.balaklava>
+  <entitydescription.balaklava>面罩，由耐用的有机纤维制成。主要与非法移民有关，但如果你喜欢当个无名氏或只是感冒了，它也能派上用场。</entitydescription.balaklava>
+  <entityname.grenadelauncher_m99>M99反步兵榴弹发射器</entityname.grenadelauncher_m99>
+  <entitydescription.grenadelauncher_m99>毁灭性武器，可连续发射 6 枚 40 毫米榴弹而不用装填。一般使用非致命弹药作为对付暴乱分子的警用武器，但一旦装填了军用榴弹，就能发挥出毁灭性的破坏力和火力。</entitydescription.grenadelauncher_m99>
+  <entityname.grenadelauncher-gp>RGM-64阿穆尔</entityname.grenadelauncher-gp>
+  <entitydescription.grenadelauncher-gp>紧凑型泵动式榴弹发射器，可一次容纳 3 枚 40 毫米榴弹。曾是罗斯卫队的基本装备，在木卫二上被用作具有水下射击能力的防暴武器。</entitydescription.grenadelauncher-gp>
+  <entityname.grenadelauncher_m500>M500榴弹发射器</entityname.grenadelauncher_m500>
+  <entitydescription.grenadelauncher_m500>曾经在地球作为军方使用的 40 毫米榴弹发射器。在木卫二上重新找到了它的新用途——成为对付大型怪物或身着高防护人类的首选重型武器。</entitydescription.grenadelauncher_m500>
+  <!--Afflictions -->
+  <afflictionname.mothersblessing>小丑圣母的护佑</afflictionname.mothersblessing>
+  <afflictiondescription.mothersblessing>小丑圣母注意到了你们的爱意，并向你们投去了温暖的怀抱。保护你不被水压伤害。</afflictiondescription.mothersblessing>
+  <afflictionname.dmind>摄魂中毒</afflictionname.dmind>
+  <afflictiondescription.dmind>病人视力模糊，剧烈头痛，难以行动和辨别方向。</afflictiondescription.dmind>
+  <afflictionname.aimresist>保护</afflictionname.aimresist>
+  <afflictiondescription.aimresist>降低所受伤害</afflictiondescription.aimresist>
+  <afflictionname.stab>稳定瞄准</afflictionname.stab>
+  <afflictiondescription.stab>提高精确度</afflictiondescription.stab>
+  <afflictionname.crit>致命一击</afflictionname.crit>
+  <afflictiondescription.crit>你的武器有可能会带来致命的一击。</afflictiondescription.crit>
+  <afflictionname.radslow>辐射侵蚀</afflictionname.radslow>
+  <afflictiondescription.radslow>受辐射影响，速度减慢。</afflictiondescription.radslow>
+  <afflictionname.co_burning>燃烧</afflictionname.co_burning>
+  <afflictiondescription.co_burning>你感觉的是灼烧感？不，那是耻辱……</afflictiondescription.co_burning>
+  <afflictionname.co_burning_hhfc>燃烧</afflictionname.co_burning_hhfc>
+  <afflictiondescription.co_burning_hhfc>你感觉的是灼烧感？不，那是耻辱……</afflictiondescription.co_burning_hhfc>
+  <!--make this one use co_burning instead? for reduced file size-->
+  <afflictionname.exocarry>已穿戴外骨骼</afflictionname.exocarry>
+  <afflictiondescription.exocarry>你已经穿上了外骨骼</afflictiondescription.exocarry>
+  <afflictionname.marksmansuit>已穿戴神射手外骨骼</afflictionname.marksmansuit>
+  <afflictiondescription.marksmansuit>你已经穿上了神射手外骨骼</afflictiondescription.marksmansuit>
+  <afflictionname.aasoverlay>AAS已激活</afflictionname.aasoverlay>
+  <afflictiondescription.aasoverlay>你的眼前出现了一个恼人的透明红色显示屏。</afflictiondescription.aasoverlay>
+  <afflictionname.nvgoverlay>夜视</afflictionname.nvgoverlay>
+  <afflictiondescription.nvgoverlay>为什么人类会有这种视觉？</afflictiondescription.nvgoverlay>
+  <afflictionname.co_danger>威胁检测</afflictionname.co_danger>
+  <afflictiondescription.co_danger>检测到威胁</afflictiondescription.co_danger>
+  <afflictionname.co_nearbydanger>来势汹汹</afflictionname.co_nearbydanger>
+  <afflictiondescription.co_nearbydanger>你有一种无力感，但这也激发了你的行动力。</afflictiondescription.co_nearbydanger>
+  <afflictionname.co_dangerdead>毁灭</afflictionname.co_dangerdead>
+  <afflictiondescription.co_dangerdead>寻找更好的宿主</afflictiondescription.co_dangerdead>
+  <afflictionname.co_weakness>易伤</afflictionname.co_weakness>
+  <afflictiondescription.co_weakness>你对伤害的抵抗能力大大降低了！</afflictiondescription.co_weakness>
+  <afflictionname.co_accuraccybuff>鹰眼</afflictionname.co_accuraccybuff>
+  <afflictiondescription.co_accuraccybuff>远程作战能力大大增强。</afflictiondescription.co_accuraccybuff>
+  <afflictionname.co_adrenalinerush>肾上腺素飙升</afflictionname.co_adrenalinerush>
+  <afflictiondescription.co_adrenalinerush>略微增加战斗能力</afflictiondescription.co_adrenalinerush>
+</infotexts>

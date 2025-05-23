@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Transferable Symbiosis" steamworkshopid="2954017397" corepackage="false" modversion="1.0.9.8" gameversion="1.0.21.0" installtime="1688565771" expectedhash="A045248F2B8542B48ED1EA2759285946">
+  <Item file="%ModDir%/Items/medical.xml" />
+  <Other file="%ModDir%/Items/InventoryIconAtlas.png" />
+  <Other file="%ModDir%/Items/smallDisplay.png" />
+</contentpackage>
